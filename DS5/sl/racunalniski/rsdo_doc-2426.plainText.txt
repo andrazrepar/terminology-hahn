@@ -1,0 +1,1065 @@
+UNIVERZA V MARIBORU EKONOMSKO-POSLOVNA FAKULTETA  MARIBOR           DIPLOMSKO DELO     AVTORIZACIJA V INFORMACIJSKEM SISTEMU SAP R/3                    Kandidat: Bogdan Slatinek Študent izrednega študija Številka indeksa: 82091396 Program: univerzitetni Študijska smer: Ekonomska informatika Mentor: prof. dr. Marjan Pivka    Maribor, april 2004     IZJAVA   Študent Bogdan Slatinek izjavljam, da sem avtor tega diplomskega dela.
+Zagotavljam, da sta tiskana in elektronska verzija istovetni.
+Kot avtor dovoljujem njegovo objavo na spletni strani fakultete.
+V Mariboru, dne 05.04.2004         Podpis ________________________         2  PREDGOVOR   Informacije in sistemi informacijske tehnologije so v današnjem času globalizacije pomembna podpora poslovanju.
+Zaupnost, neoporečnost in razpoložljivost informacij so bistvenega pomena pri ustvarjanju in ohranjanju konkurenčne prednosti.
+Elektronsko poslovanje omogoča neomejene možnosti, uporaba omrežja pa pomeni tudi priložnosti za nedovoljene dostope in razkritje zaupnih podatkov in informacij.
+Informacije v organizaciji pomenijo premoženje, ki ima svojo vrednost in ga je zato treba tudi varovati.
+Varnost, ki jo lahko dosežemo samo s tehničnimi sredstvi, je v poslovnem okolju omejena in jo je treba podpreti z ustreznim upravljanjem in postopki.
+Varovanje informacij je sestavljeno iz ustrezne množice kontrol, postopkov, programskih funkcij in podobno.
+Veliki poslovni informacijski sistemi omogočajo učinkovito poslovanje, hkrati pa predstavljajo tudi veliko tveganje glede varnosti in zaščite podatkov.
+Rešitve informacijske tehnologije so prezapletene in prekompleksne, da bi lahko vsa tveganja odpravili z nakupom programske opreme.
+Sistem za varovanje in zaščito informacij mora bit zgrajen na ciljih, ki jih podjetje želi doseči ob izbiri ustrezne strategije, ki ustreza velikosti podjetja in na načinu ter obsegu poslovanja.
+Avtorizacija uporabnikov informacijskih sistemov pomeni upravljanje in preverjanje pravic dostopov do informacij.
+Omogoča nadzor delovanja uporabnikov in je zato eden od pomembnih delov varnostne politike.
+Zaščita podatkov z avtorizacijo je zahteven in obsežen projekt, vreden posebne pozornosti tako med uvajanjem informacijskega sistema, kakor tudi v procesu vzdrževanja po njegovi implementaciji.
+Namen diplomskega dela je prikazati metodo oblikovanja in realizacije sistema avtorizacij v programski rešitvi SAP R/3, ki je nastala na osnovi številnih izkušenj pri vodenju svetovalnih projektov zaščite podatkov z avtorizacijo.
+V diplomskem delu so predstavljeni mehanizmi in lastnosti avtorizacije v informacijskem sistemu SAP R/3, ki omogoča zelo visoko stopnjo varnosti podatkov v skladu s priporočenimi kontrolami standarda ISO 17799.
+Upoštevanje navodil in priporočil standarda pripomore k povečanju zanesljivosti sistema varovanja informacij.
+3  KAZALO   1 UVOD ............................................................................................................................
+5  1.1 Opredelitev področja in opis problema ...................................................................
+5 1.2 Namen, cilji in osnovne trditve ...............................................................................
+5 1.3 Predpostavke in omejitve raziskave ........................................................................
+6 1.4 Predvidene metode raziskovanja .............................................................................
+7   2 ERP REŠITVE INFORMACIJSKIH SISTEMOV........................................................
+8  2.1 Varnost v informacijskih sistemih...........................................................................
+9 2.2 Dejavniki zaščite informacijskih virov..................................................................
+11 2.3 Zaščita informacijskih virov z avtorizacijo ...........................................................
+13 2.4 Pravila izgradnje sistema avtorizacij .....................................................................
+14   3 INFORMACIJSKI SISTEM SAP R/3 .........................................................................
+17  3.1 Podjetje SAP AG...................................................................................................
+17 3.2 Sistem SAP R/3 .....................................................................................................
+19  3.2.1 Arhitektura SAP R/3 .......................................................................................
+24 3.3 Varnost v SAP R/3 ................................................................................................
+25  3.3.1 Varnost SAP R/3 pri e-poslovanju .................................................................
+28 3.3.2 SAP Portal......................................................................................................
+29   4 SISTEM AVTORIZACIJ V SAP R/3..........................................................................
+31  4.1 Vloge uporabnikov ................................................................................................
+32 4.2 Avtorizacijski profili .............................................................................................
+33 4.3 Generator avtorizacijskih profilov.........................................................................
+33 4.4 Transakcije, avtorizacijski objekti in avtorizacije.................................................
+34 4.5 Delitev nalog v sistemski administraciji ...............................................................
+36   5 OBLIKOVANJE SISTEMA AVTORIZACIJ V SAP R/3 ..........................................
+37  5.1 Priprava projekta in okvirni pogoji .......................................................................
+37 5.2 Analiza tveganj......................................................................................................
+38 5.3 Definicija vlog v podjetju......................................................................................
+40 5.4 Izdelava matrike nalog in vlog ..............................................................................
+41 5.5 Izdelava organizacijsko vrednostne matrike .........................................................
+42 5.7 Dokumentacija sistema avtorizacij........................................................................
+44 5.8 Prenos znanja in šolanje ........................................................................................
+44   6 REALIZACIJA SISTEMA AVTORIZACIJ V SAP R/3 ............................................
+45  6.1 Realizacija .............................................................................................................
+45 6.1.1 Postavitev generatorja avtorizacijskih profilov .............................................
+45 6.1.2 Izdelava posameznih vlog in profilov.............................................................
+46 6.1.3 Izdelava zbirnih vlog ......................................................................................
+46 6.1.4 Standardne vloge v SAP R/3...........................................................................
+46 6.1.5 Uporabniški meniji .........................................................................................
+46 6.1.6 Kopiranje in izpeljava vlog ............................................................................
+47 6.1.7 Generiranje avtorizacij ..................................................................................
+47       4  6.2 Testiranje vlog.......................................................................................................
+48 6.3 Dodeljevanje avtorizacij........................................................................................
+49 6.4 Aktiviranje sistema avtorizacij ..............................................................................
+49 6.5 Vzdrževanje vlog in uporabnikov .........................................................................
+50 6.6 Reševanje kritičnih situacij ...................................................................................
+51 6.7 Nadzor sistema avtorizacij ....................................................................................
+51   7 PREVERJANJE SISTEMA AVTORIZACIJ V SAP R/3 ...........................................
+52  7.1 Audit Info System .................................................................................................
+52 7.2 Security-Audit-Log ...............................................................................................
+52   8 VARNOSTNA POLITIKA..........................................................................................
+53  8.1 Deset poglavij ISO 17799 .....................................................................................
+55 8.2 Avtorizacija v SAP R/3 in ISO 17799...................................................................
+58   9 SKLEP..........................................................................................................................
+59  10 POVZETEK / ABSTRACT .........................................................................................
+60  LITERATURA ....................................................................................................................
+62  VIRI .....................................................................................................................................
+64        5  1 UVOD   1.1 Opredelitev področja in opis problema  Večina poslovnih procesov podjetij je v veliki meri podprta z informacijsko tehnologijo.
+Informacije imajo v današnjem svetu vse bolj ključen pomen.
+To je posebej razvidno pri poslovanju, kjer informacije in upravljanje z njimi omogočajo podjetjem ustvariti konkurenčno prednost na tržišču.
+Informacije so rezultat informacijskih procesov v podjetju in ključen podjetniški dejavnik, ki ga je potrebno ustrezno načrtovati, upravljati in varovati.
+Celovite informacijske rešitve za planiranje podjetniških virov ERP (angl. Enterprise Resource Planning), združujejo informacije različnih funkcij podjetja med različnimi oddelki v enoten informacijski sistem.
+Z uporabo ERP sistema so podatki, ki so bili vneseni v okviru ene funkcije, shranjeni v skupni bazi podatkov in dostopni v vseh ostalih funkcijah podjetja.
+Nemško podjetje SAP AG (Systeme, Anwendungen, Produkte in der Datenverarbeitung) je vodilni ponudnik standardne programske opreme na področju ERP rešitev.
+Njihov izdelek SAP R/3 vsebuje komplet integriranih poslovno aplikativnih programskih modulov za poslovne funkcije, na področju poslovanja v podjetju in z njegovim okoljem.
+Veliki poslovni informacijski sistemi omogočajo učinkovito poslovanje, hkrati pa predstavljajo tudi veliko tveganje glede varnosti in zaščite podatkov.
+Zahteve po popolnem in učinkovitem varnostnem mehanizmu ter nadzoru poslovnih informacijskih sistemov v vsakodnevnem poslovanju so vedno večje.
+Avtorizacija pomeni upravljanje in preverjanje pravic dostopov do informacijskih virov.
+Omogoča nadzor delovanja uporabnikov informacijskega sistema in je zato eden od pomembnih delov politike varovanja informacij.
+Zaščita podatkov z avtorizacijo je zahteven in obsežen projekt, vreden posebne pozornosti tako med uvajanjem informacijskega sistema SAP R/3, kakor tudi v procesu vzdrževanja po njegovi implementaciji.
+1.2 Namen, cilji in osnovne trditve  Z širitvijo omrežij v podjetjih in njihovim odpiranjem v okolje, se spreminjajo tudi zahteve pri upravljanju avtorizacij uporabnikov poslovno informacijskih sistemov, v smeri vsestransko uporabnega sistema avtorizacij na osnovi vlog uporabnikov programskih rešitev.
+Namen diplomskega dela je prikazati metodo oblikovanja in realizacije sistema avtorizacij v SAP R/3, ki je nastala na osnovi številnih izkušenj pri vodenju svetovalnih projektov zaščite podatkov z avtorizacijo.
+Rešitve informacijske tehnologije so prezapletene in prekompleksne, da bi lahko vsa tveganja odpravili z nakupom programske opreme.
+Sistem za varovanje in zaščito informacij mora bit zgrajen na ciljih, ki jih podjetje želi doseči ob izbiri ustrezne strategije, ki ustreza velikosti podjetja in na načinu ter obsegu poslovanja.
+6  Osnova za njegovo izgradnjo je seznam priporočenih kontrol varovanja informacij zapisanih v standardu ISO 17799 (International Organization for Standardization), povzetem po prvem delu britanskega standarda za varovanje informacij BS 7799 (British Standards).
+Kodeks varovanja informacij BS 7799 je bil leta 1995 objavljen kot standard.
+Njegova izboljšana in prenovljena verzija (BS 7799-1) iz leta 1999 je izšla leta 2000 kot mednarodno priznani standard ISO 17799.
+Podjetje mora na osnovi svojih individualnih potreb in možnosti ugotoviti, katera priporočila mora implementirati za uspešno izvajanje varnostne politike.
+Ta postopek je opisan v standarda BS 7799-2 (drugi del) verzija 2002.
+Rezultat analize stanja in ocene tveganj je seznam priporočenih kontrol za obvladovanje varnostnih tveganj.
+Sistem in postopek varovanja in zaščite informacij mora biti definiran in dokumentiran v dokumentu politike za varovanje in zaščito informacij.
+Cilj diplomske naloge je opisati analizo, izhodišča in postopek uvajanja zaščite podatkov z avtorizacijo uporabnikov informacijskega sistema SAP R/3 in ugotoviti, katere od priporočenih kontrol standarda ISO 17799 so z uporabo sistema avtorizacij R/3 implementirane, ob osnovni trditvi, da je avtorizacija: ? samo en del verige varovanja informacij in v večini podjetij tudi njen najšibkejši člen, ? in da so z opisom postopka avtorizacije podana navodila za vzdrževalce in upravljalce,  kako izvajati določena opravila, da bo izvedba skladna s politiko varovanja in zaščito informacij.
+1.3 Predpostavke in omejitve raziskave  Zanesljivo in varno delovanje informacijskega sistema je upravičena predpostavka in zahteva tako podjetij kot zaposlenih pri njihovem vsakodnevnem delu, od katerega je odvisna njihova uspešnost in obstoj.
+Z razvojem informacijske tehnologije nastajajo globalna interna in eksterna podjetniška omrežja in povezave s kupci, dobavitelji, poslovnimi partnerji in zaposlenimi v podjetju, ki pa so brez učinkovite zaščite podatkov izpostavljeni velikim tveganjem in grožnjam pri njihovem delovanju.
+To zahteva prilagodljive in učinkovite varnostne mehanizme pri vodenju podjetja, izvajanju poslovnih procesov in nadzoru vsakodnevnega poslovanja.
+Raznovrstnost mehanizmov varovanja informacijskih virov se odraža v večplastnosti sistema varovanja informacij.
+Čeprav je avtorizacija samo en del celovite zaščite informacijskih virov, ima dovolj velik pomen, da lahko dajejo investicije v ostale mehanizme varovanja informacij, brez smiselno usklajenega sistema avtorizacij napačen občutek varnosti.
+V Slovenskih knjižnicah in knjigarnah najdemo zelo malo strokovne literature na temo SAP R/3. Na voljo je predvsem v podjetjih, ki nudijo podporo pri uvajanju sistema R/3 in podjetjih v katerih ga uporabljajo.
+Tako kot drugi ponudniki programskih rešitev za ERP sisteme, tudi podjetje SAP AG ne more dati recepta za implementacijo avtorizacije v sistemu SAP R/3, ki bi vseboval vse potrebne postopke v obliki podrobnih delovnih navodil.
+Uspeh projekta je odvisen od znanja in izkušenj uvajalcev.
+Na voljo je obsežna dokumentacija programske rešitve SAP R/3 in razna priporočila, ki so na voljo tudi na spletnih straneh podjetja SAP AG.
+7  1.4 Predvidene metode raziskovanja  Pri proučevanju zaščite podatkov z avtorizacijo uporabnikov informacijskega sistema SAP R/3 gre za deskriptivni pristop poslovne raziskave, pri kateri bodo obravnavana osnovna vprašanja: ?
+Zakaj? - Kateri so vplivni dejavniki? ?
+Kdaj? - Kdaj je najbolj ugoden trenutek za implementacijo in kaj mora biti  upoštevano pri časovnem planu projekta? ?
+Kako? - Kako pristopiti k analizi, izhodiščem in postopku uvajanja avtorizacij?
+V okviru deskriptivnega pristopa bodo upoštevane izkušnje iz prakse in uporabljene naslednje metode: ? metoda deskripcije za definicijo avtorizacije, opis dejstev za njeno uporabo, procesa  njenega delovanja in uvajanja, ? metoda klasifikacije za določitev mesta avtorizacije v sistemu zaščite informacijskih  virov, ? komparativna metoda za primerjavo avtorizacije s priporočenimi kontrolami ISO  17799 in ? metoda kompilacije za povzemanje in oblikovanje spoznanj, stališč in sklepov.
+8  2 ERP REŠITVE INFORMACIJSKIH SISTEMOV   Številna podjetja so za potrebe različnih oddelkov z leti razvila raznolike samostojne aplikacije.
+Vsak oddelek je definiral svoje podatke glede na svoje cilje in prednostne naloge.
+To se je izražalo v programski opremi, ki so jo razvijali v oddelku informatike.
+Po meri napisane programe, so s spreminjanem poslovnih zahtev izboljševali in prilagajali.
+Nastali so številni samostojni informacijski sistemi povezani z vmesniki, ki so prenašali podatke iz oddelka v oddelek.
+Zaradi različnih pogledov in potreb poslovnih oddelkov so imeli podatki s podobnimi ali istimi imeni v različnih sistemih tudi različno definicijo in pomen.
+Enterprise Resources Planing (ERP), so celovite računalniške rešitve poslovnoinformacijskih sistemov za planiranje podjetniških virov.
+Omogočajo integracijo internih in eksternih podatkov v skupni podatkovni bazi, ki vključuje računalniške zbirke podatkov vseh poslovnih področij podjetja.
+Sestavljene so iz prilagodljivih modulov, za podporo posameznih poslovnih funkcij.
+Vsak oddelek ima svojo programsko opremo, ki je med seboj povezana tako, da lahko na primer nekdo iz finančnega oddelka v programski opremi logistike vidi ali je bilo naročilo izdobavljeno.
+Uporabniki različnih oddelkov imajo dostop do istih podatkov in jih lahko tudi vzdržujejo.
+Večina ponudnikov ERP rešitev omogoča nakup in instalacijo programske opreme po posameznih modulih (Koch 2002).
+ERP rešitve vsebujejo razvojna orodja, ki so namenjena modeliranju specifičnih zahtev podjetij z različnimi poslovnimi dejavnostmi.
+Programi za podporo delovnih tokov omogočajo oblikovanje in optimiranje poslovnih procesov tako med poslovnimi funkcijami, kakor tudi med organizacijskimi enotami podjetja.
+Z nastavljanjem parametrov je mogoče določiti ali celo avtomatizirati različne delovne postopke oddelkov in jih prilagoditi različnim zahtevam poslovanja.
+To zahteva teamski pristop vseh oddelkov podjetja, kar izboljšuje storitve uporabnikov ERP in nadzor nad poslovanjem podjetja.
+Tako je lahko na primer naročilo po obdelavi v enem oddelku, avtomatično poslano v naslednji oddelek.
+Prikaz toka dokumenta prikaže celotno verigo dokumentov, od kreiranega naloga pa do zadnjega dokumenta, odvisno od stopnje obdelave poslovnega dogodka.
+Visoka stopnja integracije podatkov omogoča številne analize in preglede.
+Zaradi tega postajajo ERP rešitve nepogrešljiv vir informacij v podjetjih.
+Ponudniki programske opreme se v boju za nove kupce, pripravljajo na izdajo novih različic ERP rešitev.
+Zaradi množičnega povezovanja z internetom se je v letu 2000 pojavila druga generacija ERP rešitev z imenom ERP II.
+Nadaljnji razvoj gre v smeri splošne odprtosti, ki omogoča integracijo z drugimi rešitvami v podjetju, kakor tudi povezovanje s partnerji v poslovna omrežja (Kežmah 2002, 75).
+Prilagajanje tržnim razmeram zahteva spreminjanje načina poslovanja, kar vpliva tudi na informacijske sisteme podjetij.
+Informacijska tehnologija je postala pomemben dejavnik uspeha v konkurenčnem boju na tržišču.
+Veliko organizacij se raje odloči za nakup novih rešitev, kot pa za nadaljnji razvoj zapletenih različic starih sistemov.
+9  Nakup in uvedba ERP pogosto zahteva spremembo tehnološke infrastrukture, hkrati pa je tudi ugodna priložnost za reinženiring poslovnih procesov.
+Projekt prenove poslovnih procesov zahteva veliko strokovnega znanja na področju planiranja in vodenja projektov, poznavanja sodobnih informacijskih tehnologij, njihovih povezav, konverzij, migracij in zaščite podatkov, pa tudi poznavanja zakonodaje in različnih standardov (Krstov 2001, 7).
+2.1 Varnost v informacijskih sistemih  Tehnološki elementi varnosti so pogojeni s stopnjo uporabnikove varnosti.
+To pomeni, da je uporabnik tisti, ki mora opredeliti stopnjo varnosti oziroma nevarnosti, ki jo zanj pomeni nek sistem.
+Osnovno vprašanje, na katerega iščemo odgovor je varnost uporabniškega poslovanja in mesto sistema v tem poslovanju.
+Seveda je poleg tehnologije poslovanja pomembna tudi organiziranost poslovanja.
+Organizacijski segment varnosti je bistveno pomembnejši kot tehnološki.
+Uporabniška varnost in vloga sistema v poslovanju pogojujeta potrebne varnostne mehanizme in varnostne politike, ki jih je treba vgraditi v uporabniško naravnan sistem.
+Uporabnik je razlog, da se varnost sistemov sploh obravnava.
+Poslovanju je lahko nevaren tudi legalen, registriran uporabnik, ki izkorišča svoj status.
+Taka »korist« je lahko posledica njegovega neznanja, lahko pa svoj status »proda« in da na »razpolago« zunanjemu »sodelavcu«.
+To dejstvo je seveda dovolj močan argument za to, da je potrebno nadzorovati tudi legalne uporabnike.
+Varovanje tehnoloških virov sistema je veliko lažji in seveda tudi cenejši posel kot pa nadzor »iznajdljivih« uporabnikov.
+Tehnologije so dobro poznane in zanesljive, problematična pa je organizacija njihove pravilne uporabe.
+Zaščita sistema onemogoča izvajanje nelegalnih storitev.
+To pomeni, da je treba zagotoviti, da se v sistemu ne izvajajo storitve, za katere ta ni predviden.
+To velja za regularne in tudi za neregularne uporabnike.
+Drug vidik zaščite je preprečevanje dostopa do virov sistema neregularnim uporabnikom (Vidmar 2002, 501-506).
+Varnost in zanesljivost informacijskih sistemov je odločilnega pomena za uspeh modernega podjetja in družbe.
+Spoznanje, da mnoga področja današnjega življenja ne morejo več delovati brez informacijske tehnologije in, da se tehnološka odvisnost nenehno povečuje, daje varnosti v informacijski tehnologiji ključen pomen.
+Področje varnosti je pomembno za vse, ki imajo posredno ali neposredno opravka z informacijsko tehnologijo.
+Varnost informacijskih sistemov in opreme informacijske tehnologije razvršča Schaumüller-Bichl (1992, 15-17), z vidika različnih zornih kotov:  1. Po nameri: ? zaščita pred zlonamernimi posegi kamor prištevamo prisluškovanje, spreminjanje  in uničevanje informacij, neupravičeno spreminjanje ali uničenje naprav in manipulacijo s programsko opremo,  ? zaščita pred nepredvidenimi dogodki med katere so zajeti, napačno delovanje zaradi višje sile, tehničnih napak, vplivov okolja ali malomarnega ravnanja.
+10  2. Po vrsti ogroženih virov Vse komponente informacijske tehnologije in njene neposredne okolice, torej podatki, programi, oprema, infrastruktura, zgradbe, prostori in okolje računalniških centrov, so lahko izpostavljene nevarnostim.
+Izoblikovala so se ustrezna strokovna področja za zaščito: ? podatkov - zaščita podatkov, varnost podatkov, varovanje podatkov, ? programske opreme - zaščita programske opreme in zagotavljanje integritete  pred virusi, ? računalniške in komunikacijske opreme - zagotavljanje razpoložljivosti in  zaščita pred zlorabo, ? objektov - varovanje zgradb, prostorov in infrastrukturnih naprav (npr.  klimatizacijske naprave).
+3. Po vrsti nevarnosti  Informacijski sistemi in njihova tehnologija so izpostavljeni naslednjim osnovnim vrstam nevarnosti: ? izguba zaupnosti - nepooblaščeno razkritje ali pridobivanje informacij, ? izguba neoporečnosti - nepooblaščeno spreminjanje informacij, ? izguba razpoložljivosti - nepooblaščeno vplivanje na funkcionalnost, ? izguba originalnosti - nepooblaščeno kopiranje podatkov in programov.
+4. Po vrsti zaščite  Pri tej klasični delitvi varovanja informacijskih sistemov je upoštevana možnost njene realizacije.
+Razlikujemo naslednje štiri ukrepe varovanja: ? fizični - gradbeni ukrepi za zagotovitev varnosti informacijskih sistemov,  fizično varovanje računalniških prostorov in opreme pred nevarnostmi iz okolja, preskrba z energijo, ... (ibid., 20-21),  ? informacijsko-tehnični - dostop do računalniških storitev in podatkov, ravnanje z uporabniškim dostopom, obvladovanje omrežnih dostopov in povezav, kodiranje podatkov med prenosi in pri shranjevanju, zagotavljanje neoporečnosti informacij in programske opreme pred skritimi ukazi v programih in virusi, ... (ibid., 167-168),  ? organizacijski - izdelovanje rezervnih kopij in arhiviranje podatkov, spremljanje dostopov do sistema in njegove uporabe, preverjanje in razvoj varnostnega sistema, prevzem novih sistemov, načrt delovanja v izjemnih primerih, zavarovanje naprav in elektronskega poslovanja pri zavarovalnicah, ...  ? kadrovski - delitev odgovornosti za izvajanje ukrepov varovanja, usposabljanje uporabnikov za pravilno uporabo naprav in varovanje informacij, preverjanje pri zaposlovanju novih sodelavcev, ... (ibid., 257-276).
+Nemogoče je izdelati politiko varovanja in zaščite informacij s samo enim ukrepom varovanja.
+Učinkovit sistem za varovanje podatkov, mora upoštevati vse štiri ukrepe varovanja z vidika vrst zaščite in jih kombinirati.
+Fizični ukrepi so vedno potrebni za zagotovitev zaupnosti in dostopnosti.
+Ni namreč dovolj preprečiti tujim osebam dostop do podatkov, do njih mora biti hkrati omogočen dostop tistim osebam, ki so za to pooblaščene.
+Če so podatki dobro prikriti in so odtujeni, verjetno niso kaj prida uporabni odnašalcu, vendar pa so sila pomembni za organizacijo.
+11  Zaradi hitrega razvoja tehnologije se povečuje možnost varovanja s pomočjo tehničnih ukrepov in zato so ostali ukrepi lahko manj strogi.
+Kljub temu pa samo tehnični ukrepi niso dovolj za varnost podatkov (Brumen in Welzer 1998, 32).
+Pred leti je bilo varovanje informacij v računskih centrih v bistvu poenoteno z varovanjem tajnosti.
+Z razvojem informacijske tehnologije ter omrežij, se širijo in pojavljajo vedno nove oblike nevarnosti za informacije.
+Varnost v informacijskih sistemih obsega množico različnih vidikov.
+To je vplivalo na izoblikovanje mednarodnega standarda za uvajanje varnostne politike ISO 17799, v katerem je pojem varovanja informacij opredeljen s tremi osnovnimi značilnostmi: ? zaupnost - zaščita občutljivih informacij pred nepooblaščenim razkritjem ali  očitnim prestrezanjem, ? neoporečnost - varovanje točnosti in popolnosti informacij in računalniške  programske opreme, ? razpoložljivost - zagotavljanje, da so informacije in osnovne storitve na voljo  uporabnikom, kadar je potrebno.
+Z uporabo ERP rešitev, elektronskega poslovanja in interneta sta dostopnost in varnost podatkov postala pomembna dejavnika konkurenčne prednosti in ugleda podjetja.
+Zato je v njegovem informacijskem sistemu potrebno zagotoviti varno in pred zlorabo zaščiteno uporabo poslovnih informacij.
+2.2 Dejavniki zaščite informacijskih virov  Bistvo zaščite informacijskih virov je preprečevanje nepooblaščenega zmanjševanja vrednosti virov.
+Splošne kategorije virov, ki jih mora varnostna infrastruktura zaščititi pred zmanjševanjem vrednosti, so podatki oziroma informacije pri prenosu in hranjenju, strojna in programska oprema, uporabniki in odnosi med njimi ter dokumentacija o postopkih, strojni in programski opremi v sistemu ali omrežju.
+Uporabniki pričakujejo, da bodo storitve stalno prisotne in na voljo, zato je treba zagotoviti tudi razpoložljivost in stabilnost storitev informacijskih sistemov (Podlipnik 2003, 5).
+Varnostne zahteve je potrebno opredeliti in potrditi še pred razvijanjem sistemov informacijske tehnologije.
+Varnostni ukrepi so znatno cenejši in bolj učinkoviti, če so vgrajeni v uporabniške rešitve na stopnji specifikacije zahtev in zasnove (USM 1997, 86).
+Potrebno je ugotoviti katere informacije in procesi so za podjetje kritičnega pomena, ter določiti način njihovega varovanja v informacijskem sistemu.
+Zahteve po varovanju in varnostne zahteve naj odsevajo poslovno vrednost ustreznih informacijskih sistemov in možno poslovno škodo, ki bi lahko nastala zaradi napake v varovanju ali zaradi odsotnosti varovanja.
+Varnostne zahteve naj bi upoštevale zahteve po (ibid., 86-88): ? kontroli dostopa do informacij, ? izdelavi revizijskih sledi pomembnih dogodkov za običajen vpogled ali posebne  raziskave, ? preverjanju in ščitenju neoporečnosti ključnih podatkov, ? zaščiti zaupnih podatkov pred nepooblaščenim razkritjem, ? upoštevanju vladnih, zakonskih ali pogodbenih zahtev,       12  ? izdelavi rezervnih kopij pomembnejših poslovnih podatkov, ? vzpostavitvi po napakah, zlasti v sistemih z veliko potrebno razpoložljivostjo, ? zaščiti sistema pred nepooblaščenimi popravki ali spremembami, ? možnosti, da sistem izvajajo in zanesljivo uporabljajo tudi zaposleni, ki niso  strokovnjaki, vendar so ustrezno usposobljeni, ? zadovoljevanju potreb revizorjev, z uporabo naprav, kot so programski postopki za  vzorčenje in neodvisna programska oprema za ponavljanje ključnih preračunov.
+Informacijsko tehnološka infrastruktura poslovnega sistema zagotavlja preko strojne opreme, programske opreme in mrežnih povezav temelje za podporo operativnim procesom in podporo odločanju, večuporabniški sistem ter povezovanje ljudi in poslovnih procesov (Kovač 2003, 19).
+Za učinkovito zaščito informacijskih virov morajo varnostni ukrepi izpolnjevati potrebe varnostnih zahtev preko vseh nivojev informacijsko tehnološke infrastrukture kot to prikazuje slika 1.  Najpomembnejši varnostni ukrepi, ki omogočajo nadzor varnosti so:  ?
+Avtentikacija  Osnovna naloga avtentikacije je preverjanje identitete uporabnikov.
+Samo znani in overjeni uporabniki so upravičeni do virov informacijskega sistema.
+Sistem prijavljanja mora neupravičenim uporabnikom preprečiti prikrivanje identitete in dostop do virov informacijskega sistema.  ?
+Avtorizacija Uporabniki smejo imeti vpogled samo do tistih virov in izvajati procese za katere imajo tudi ustrezna pooblastila.
+Sistem avtorizacije izvaja preverjanje pravic uporabnika s pomočjo podatkov pridobljenih v postopku avtentikacije.
+Pri avtorizaciji gre za nadzor dostopa do določenih informacij.
+Uporabnik, ki uveljavlja dostop do informacij, se mora identificirati, da je res subjekt, ki ima pravico do teh podatkov.
+Običajno se za avtorizacijo uporablja geslo v kombinaciji z uporabniškim imenom (Lović 2002, 15).  ?
+Zagotavljanje zaupnosti Zaupne podatke in sporočila, ki potujejo preko omrežja je potrebno zaščititi pred nedovoljenimi vpogledi in nepooblaščenim razkritjem.
+Zaupnost omogoča šifriranje, ker sporočilo spremeni v neberljivo obliko.
+Prebere jo lahko le prejemnik z ustreznim dešifrirnim ključem.  ?
+Zagotavljanje neoporečnosti Neoporečnost podatkov je zagotovilo, da podatek ni bil neupravičeno, zmotno ali namerno spremenjen.
+Sistem zaščite podatkov mora delovati zanesljivo ter porabnikom zagotoviti točnost in popolnost informacij.
+Sporočilo, ki potuje preko omrežja, ne sme biti spremenjeno s strani tretje osebe, kar zagotovimo z digitalnim podpisovanjem.
+Digitalni podpis temelji na nesimetričnem šifriranju, in sicer za šifriranje uporablja pošiljateljev zasebni ključ, za dešifriranje pa njegov javni ključ (ibid., 15).  • Nezavrnitev Nezavrnitev preprečuje nepriznavanje udeleženca, da je sodeloval v komunikaciji.
+Sporočilo je lahko obvezujoče samo kadar je znan njegov avtor.
+13  Pomembna je identifikacija pošiljatelja in resničnost sporočila.
+Digitalni podpis preprečuje zanikanje vsebine sporočila in nepriznavanje udeležencev v komunikaciji, da je bilo sporočilo poslano ali prejeto.  • Nadzor Beleženje aktivnosti in dogodkov pripravlja podatkovno osnovo za nadzor.
+Določene informacije je potrebno hraniti tudi zaradi zakonskih predpisov.
+Protokoliranje in preverjanje se izvaja zaradi nadzora varnosti sistema in sledenja dogodkov.
+Pri reševanju problemov je sledenje nepogrešljiv pripomoček za analizo dogodkov.
+Slika 1: Varnostni ukrepi v informacijsko tehnološki infrastrukturi    Prirejeno po Altmeierju (2002, 6)   Na vseh nivojih informacijske arhitekture kot so omrežje, strojna in programska oprema so potrebne različne oblike varnostnih ukrepov.
+Njihova funkcionalnost se preko vseh nivojev dopolnjuje in celo prekriva.
+2.3 Zaščita informacijskih virov z avtorizacijo  Avtorizacija je sistem za varovanje in upravljanje dostopov in je z vidika zaščite podatkov namenjena: ? zaščiti zaupnih podatkov pred nepooblaščenim razkritjem, shranjevanjem,  seznanjanjem, posredovanjem in uporabo, ter zaščiti podatkov pred nepooblaščenim ali nenamernim spreminjanjem ali brisanjem,  ? zagotavljanju namenske uporabe podatkov, ? sledljivosti in namenski uporabi dostopov do osebnih podatkov.
+14  Pri avtorizaciji uporabnikov informacijskega sistema gre za pooblaščanje in nadzor upravičenosti dostopov do virov informacijskega sistema.
+Učinkovita zaščita z avtorizacijo mora notranjim in zunanjim uporabnikom informacijskega sistema, omogočiti dostop samo do tistih podatkov in informacij, za katere so upravičeni in jih pri izpolnjevanju svojih nalog tudi potrebujejo.
+Čeprav je avtorizacija samo ena izmed informacijsko tehničnih vrst zaščite informacij, je njena implementacija zahtevna in obsežna naloga.
+Implementacija avtorizacije je ena od nosilnih komponent varnostnega sistema pri informacijsko tehničnem izvajanju poslovnih procesov.
+Zaradi tega je tudi tesno povezana z varnostjo poslovnih podatkov.
+Med pomembne dejavnike, ki vplivajo na njeno planiranje in realizacijo lahko prištevamo (Hermann 2003, 13-14): ? zmanjšanje poslovnih rizikov, ? upoštevanje zakonskih zahtev in potreb podjetja glede varovanja informacij, ? zaščito integritete podatkov pred slučajnim ali zlonamernim uničenjem oz.  manipulacijo ali nenamerno zlorabo, ? zagotovitev zaupnosti internih informacij podjetja, ? osvojitev znanja pridobljenega z uvedbo ERP sistema, ? zagotovitev preglednosti sistema avtorizacij in njegovega upravljanja, ? nastavljivost sistema avtorizacij v primeru planiranih širitev ali reorganizaciji.
+Iz neustrezne zaščite podatkov z avtorizacijo izhajajo nevarnosti, ki jih je možno pojasniti na osnovi njihovih posledic.
+Primeri nevarnosti in njihovih posledic so lahko (ibid., 32): ? finančne izgube zaradi pomot, napak ali malomarnosti, ? napačne odločitve vodstva na osnovi nezanesljivih odločitvenih osnov, ? gospodarska špionaža zaradi kraje informacij, ? naklepni postopki poslovanja zaradi manipulacije s podatki.
+Sama zaščita podatkov z avtorizacijo ne zadostuje za uspešno varovanje informacij v organizaciji.
+Upoštevana morajo biti tudi ostala priporočila za ravnanje pri varovanju informacij, ki so opisana v mednarodnem standardu za uvajanje varnostne politike ISO 17799.   2.4 Pravila izgradnje sistema avtorizacij  Zaščita podatkov z avtorizacijo je individualna rešitev vsakega posameznega podjetja.
+Pri njenem razvoju in uvajanju je potrebno upoštevati naslednja temeljna pravila oz. izhodišča za izgradnjo učinkovitega sistema avtorizacij (Hermann 2003, 154-156):  1. Funkcijska usmerjenost avtorizacij  Avtorizacije morajo temeljiti na osnovi funkcij oziroma vlog, ki jih uporabniki opravljajo pri izvajanju del in nalog.
+Pri izgradnji sistema avtorizacij je potrebno posvetiti posebno pozornost definiciji vlog, ki morajo biti neodvisne od posameznikov v podjetju.
+Na ta način so uporabnikove pravice dostopov do virov informacijskega sistema odvisne od vlog, ki so mu bile dodeljene v sistemu avtorizacij.
+15  2. Selektivnost avtorizacij Uporabnik mora imeti na voljo samo tista pooblastila, ki so potrebna za izvajanje njegovih nalog.
+Generalna pooblastila za uporabo vseh programov se ne smejo podeljevati.
+Vsi uporabniki informacijskega sistema lahko imajo na voljo pooblastila za uporabo splošnih programov, kot so na primer programi za podporo pisarniškega poslovanja in elektronske pošte.
+3. Podrobnost in kompleksnost Pri določanju osnovnih izhodišč za izgradnjo sistema avtorizacij, je potrebno razlikovati med dvema nasprotnima strategijama dodeljevanja pooblastil: ?
+Tako ozko kot možno in široko kot potrebno (načelo minimalnih pooblastil).
+Implementacija avtorizacij v skladu s tem načelom zahteva podrobno izgradnjo sistema, vse do vrednosti posameznih podatkovnih polj informacijskega sistema.  ?
+Tako široko kot možno in ozko kot potrebno.
+Sistem avtorizacij je v skladu s tem načelom razdelen samo do nivoja transakcij kritičnih področij informacijskega sistema, kot so finance, kontroling, dostop do podatkov podjetja preko interneta itd.
+Po katerem načelu naj bo izgrajen sistem avtorizacij, je temeljna odločitev vseh odgovornih v podjetju.
+Pri tem je potrebno upoštevati varnostne zahteve podjetja, kulturo zaupanja med zaposlenimi, velikost podjetja, priporočila standardov in zakonske predpise.
+Podrobno omejevanje dostopov do funkcij in podatkov ter z njim povezana kompleksnost sistema avtorizacij, otežuje preglednost in vzdrževanje.
+Zaradi tega je potrebno že v času priprave projekta in določanju okvirnih pogojev sistema avtorizacij (poglavje 5.1) ugotoviti ali je zaželjena podrobnost tudi zares potrebna.
+4. Kritične avtorizacije Pravice do uporabe programov, ki so ključni za izvajanje funkcij oddelkov (osnovni podatki, kreiranje ali spreminjanje dokumentov, razne odobritve, sprostitve in podobno), je treba dodeliti samo tistim zaposlenim v oddelku, ki imajo ustrezne strokovne zadolžitve.
+Splošna pooblastila za izvajanje ključnih in kritičnih funkcij se ne smejo podeljevati.
+5. Udeležba strokovnih oddelkov Kvaliteta sistema avtorizacij je v veliki meri odvisna od pravočasne vključitve strokovnih oddelkov pri njegovi izgradnji in vložka njihovih strokovnjakov pri razumevanju poslovnih procesov in funkcij v podjetju.
+6. Ločevanje nalog Ločevanje naloge zmanjšuje nevarnost zlorabe, ki bi nastala zaradi nepazljivosti ali zaradi zlonamernih dejanj.
+Zato je potrebno nekatere izvajalske naloge ali področja odgovornosti ločiti, s čimer se zmanjša priložnost za nepooblaščeno spreminjanje ali zlorabo podatkov ali storitev (USM 1997, 45).
+Naloge vzdrževanja matičnih podatkov in izvajanja poslovnih procesov je potrebno v skladu z načelom štirih oči razdeliti na več uporabnikov.
+Z delitvijo posameznih nalog med več uporabnikov je zaradi soodvisnosti izvajalcev zagotovljena tudi njihova medsebojna kontrola.
+7. Testiranje avtorizacij Sistem avtorizacij se lahko uvede v prakso komaj takrat, ko so ga uporabniki preizkusili in potrdili njegovo sprejemljivost.
+16  8. Dokumentacija V dokumentaciji je potrebno zapisati poslovne utemeljitve za izgradnjo sistema avtorizacij.
+Posebne zahteve oddelkov podjetja in opis izvedbe projekta morajo biti dokumentirane zaradi lažjega nadzora in nadaljnjega razvoja sistema avtorizacij.
+9. Upravljanje uporabnikov in avtorizacij Upravljanje uporabnikov informacijskega sistema in sistema avtorizacij je potrebno upoštevati že pri izdelavi osnutka sistema avtorizacij.
+Pravočasna vključitev zadolženih za upravljanje uporabnikov in sistema avtorizacij v projekt njegove izgradnje, omogoča lažji prenos znanja in boljšo pripravo na prevzem nalog upravljanja po implementaciji sistema v podjetju.
+10.
+Projektni plan Projekt implementacije avtorizacij je pogosto podcenjen.
+To privede do napačne ocene potrebnega časa za njegovo izvedbo.
+Pri izgradnji projektnega plana je potrebno upoštevati in zagotoviti prisotnost tistih ključnih sodelavcev v podjetju, ki poznajo posebnosti podjetja in so nosilci ustreznih strokovnih znanj za uspešno in pravočasno izvedbo projekta.
+11.
+Smernice Pri izdelavi in nadaljnjem razvoju sistema avtorizacij je treba upoštevati okvirne pogoje sistema avtorizacij (poglavje 5.1), zakonske predpise, smernice (ISO 17799) in interna organizacijska navodila podjetja.
+17  3 INFORMACIJSKI SISTEM SAP R/3   3.1 Podjetje SAP AG  Podjetje SAP AG je bilo ustanovljeno leta 1972 v Nemčiji in je prvi ponudnik programske opreme, ki mu je uspelo povezati poslovne funkcije svetovnih koncernov v celovito računalniško rešitev.
+Leta 1979 je ponudilo prvo verzijo programske opreme z imenom SAP R/2 za velike računalniške sisteme (ang. Mainframe).
+Prevlada SAP AG na svetovnem tržišču s programsko opremo za informacijske sisteme se je začela najprej v Evropi (1980) in nadaljevala v severni Ameriki (1988).
+Kot nadaljevanje izdelka R/2, so leta 1992 predstavili sistem SAP R/3, ki deluje v okolju odjemalec/strežnik (ang. Client/Server) in sledi intenzivnemu razvoju strojne opreme, komunikacij in poslovnim usmeritvam (ITtoolbox, 2003).
+Med nadaljnje mejnike v razvoju podjetja SAP lahko štejemo: ?
+1993: Več kot 1.900 instalacij programske rešitve R/3. ?
+1996: Razvite so bile prve panožne rešitve in ASAP (AcceleratedSAP) metodologija  za hitrejšo in cenejšo vpeljavo sistema R/3. ?
+1997:  Predstavljeni so bili prvi produkti iz skupine SAP-New Dimension med katere  štejemo: • SAP BW - Business Information Warehouse (rešitev za spremljanje uspešnosti  poslovanja), • SAP Knowledge Management (rešitev za povezavo in prenos različnih znanj med  zaposlenimi v podjetju), • SAP SEM - Strategic Enterprise Management (rešitev za strateško vodenje  podjetij), • SAP CFM - Corporate Finance Management (rešitev za upravljanje finančnih  virov), • SAP SCM - Supply Chain Management (rešitev za upravljanje oskrbovalne  verige).
+Vsi novi produkti izhajajo iz podatkovne osnove programske rešitve R/3.  ?
+1999: Predstavljena rešitev mySAP.com za elektronsko poslovanje, v katero so vključeni SAP R/3, produkti skupine SAP-New Dimension, SAP CRM - Customer Relationship Management (rešitev za upravljanje s kupci) in sodelava med partnerji različnih panožnih rešitev.  ?
+2000: Več kot milijon uporabnikov rešitve mySAP.com. (Möhrlen in Kokot 2000, 62-76)  ?
+2002: SAP R/3 Enterprise je nova verzija SAP R/3 in rešitev za ERP II, pri kateri je za lahek prehod na e-poslovanje omogočeno postopno vključevanje komponent rešitve mySAP.com (SAP INFO Der Kunde hat die Wahl 2002).  ?
+2002: 12 milijonov uporabnikov v 19.300 podjetij v več kot 120 državah uporablja programske rešitve SAP.
+Podjetje je z 28.797 zaposlenimi doseglo letni promet v višini 7,4 milijard evrov (SAP AG Firmenporträt 2003, 3).  ?
+2003: Preoblikovanje rešitve mySAP.com v novo e-poslovno platformo mySAP Business Suite, ki je zgrajena na odprti in prilagodljivi arhitekturi za povezovanje SAP-jevih in ne-SAP-jevih sistemov z rešitvami iz družine mySAP Business Suite.
+18  V zadnjih letih je opaziti hitro rast trga celovitih informacijskih sistemov.
+To gre pripisati predvsem nezmožnosti starejših informacijskih sistemov pretvorbe na leto 2000, uvedbi Evra (na evropskem trgu) in povečanemu obsegu poslovanja uporabnikov celovitih rešitev (Jerina 2003, 9).
+Trg celovitih informacijskih sistemov se širi iz zahodnoevropskih držav in severne Amerike v preostale predele sveta.
+Na spodnji sliki so prikazani tržni deleži petih največjih svetovnih ponudnikov ERP sistemov v letu 2002.
+Slika 2: Tržni deleži vodilnih ponudnikov ERP sistemov    Vir: Millennium (2002)   Podjetje SAP AG je proučilo zahteve različnih podjetij z isto dejavnostjo in jih združilo z rezultati raziskav različnih ustanov.
+Ta spoznanja so postala osnova za izdelavo splošnih SAP-jevih rešitev, kot je SAP R/3 in produktov skupine SAP-New Dimension, ki so njegova nadgradnja in nadaljnji razvoj.
+V SAP AG so razvili splošne rešitve, ki se nanašajo na vse vidike poslovnega življenja in tudi posebne pakete imenovane SAP rešitve za gospodarske panoge (ang. SAP Industry Solutions).
+Podjetja lahko z uporabo le-teh dosežejo višjo raven rešitev za posebne procese.
+Panožnih rešitev je za 23 različnih gospodarskih dejavnosti in so oblikovane tako, da zraven splošnih rešitev vsebujejo še posebne funkcije, ki so značilne za dejavnost panoge.
+Ko se podjetja odločijo za uvedbo celovitega informacijskega sistema, prevladuje odločitev za nakup standardnih celovitih rešitev.
+Lasten razvoj celovitega sistema je izredno dolgotrajen in zahteven projekt, tako v tehničnem, kot tudi v časovnem pogledu.
+19  Takšen pristop v večini podjetij ni ekonomsko upravičen.
+V SAP AG so združili svoja strokovna znanja in izkušnje o poslovanju različnih panog ter skupaj s partnerji oblikovali specializirane rešitve za taka podjetja.
+Ti sistemi vsebujejo podporo poslovnim procesom, ki temeljijo na najboljši poslovni praksi (ang. Best practice).
+Ker so SAP in njegovi poslovni partnerji preko prakse že lahko identificirali možne nevarnosti delovanja poslovnih rešitev, je metodologija hitre vpeljave SAP Best Practices v veliko pomoč.
+Vključuje prednastavitve, orodja in dokumentacijo s katerimi se lahko hitro oblikuje in prilagodi nova rešitev informacijskega sistema podjetja.
+Tržni delež podjetja SAP AG in uspešnost podjetij, ki so uvedle njihove rešitve dokazuje, da je SAP AG z razvojem splošnih in panožnih rešitev, prav tako pa tudi s tehnologijo in storitvami za hitro vpeljavo in tekoče delovanje rešitev, na prvem mestu med ponudniki ERP sistemov.
+Programska rešitev SAP R/3 za ERP sisteme je sestavni del vseh rešitev ponudbenega portfelja podjetja SAP AG.
+Vsebuje zmogljive programe in orodja za informacijsko podporo vseh vidikov poslovanja, ki so prilagojeni tudi zahtevam slovenskega tržišča.
+3.2 Sistem SAP R/3  SAP R/3 je programska rešitev za integriran poslovno informacijski sistem z bogato funkcionalnostjo, za zagotavljanje urejene preglednosti nad operativnimi podatki in informacijami o poslovanju celotnega podjetja.
+Združuje operativne podatke v vodstvene informacije za podporo odločanja pri nadzoru in vodenju kritičnih dejavnikov uspeha na vseh nivojih podjetja.
+S sistemom R/3 je podjetjem zagotovljen informacijski sistem z možnostjo širitve in tudi povezovanja z drugimi rešitvami.
+S svojo obsežno funkcionalnostjo in hkrati z možnostjo njenega izbora, je SAP R/3 primerna rešitev tako za majhna, kot tudi srednja, ter velika mednarodna podjetja.
+Omogoča obvladovanje vseh poslovnih procesov tako v podjetju, kakor tudi na področju njegovega povezovanja z okoljem.
+Delo s sistemom R/3 temelji na osnovi uporabe transakcij in poročil.
+Transakcija aktivira program za dialog, ki je sestavljen iz zaporedja korakov dialoga oz. programskih modulov Dynpro (Dynamic Program).
+Vsak Dynpro vsebuje ekransko sliko in programsko logiko za obdelavo podatkov pred izpisom na ekran in po uporabnikovem vnosu.
+Sistem SAP R/3 vsebuje okoli 2600 tabel.
+Do približno 800 tabel imajo uporabniki direkten dostop.
+Obstoja več kot 43000 transakcij s katerimi je, zaradi preverjanja upravičenosti uporabe, povezanih približno 900 različnih avtorizacijskih objektov.
+R/3 vsebuje približno 120.000 programov in več kot 1000 poročil (Hermann 2003, 33).
+Programska rešitev SAP R/3 je zgrajena na osnovi prilagodljivih poslovno aplikacijskih programskih modulov, kar omogoča uvajanje po posameznih področjih in uporabo samo tistih funkcij, ki jih podjetje potrebuje.
+Pri razvoju programskih modulov je upoštevana najboljša poslovna praksa in najboljši način za izvajanje kateregakoli poslovnega procesa.
+To se odraža v raziskavah in študijah različnih podjetij.
+Številna svetovalna podjetja sledijo tem informacijam.
+Najboljša poslovna praksa se s časom spremeni.
+20  Podjetja še naprej odkrivajo boljše načine za izvajanje svojih poslov.
+Del naloge SAPovega oddelka za raziskave in razvoj je, da razvijajo nadgradnje sistema, ki temeljijo na najnovejših poslovnih praksah (Bancroft 2001, 35).
+Module sistema R/3 lahko povzamemo v tri glavne skupine: ?
+Finance, ?
+Logistika, ?
+Kadri.
+Finance Finančni segment vsebuje šest modulov, potrebnih za učinkovito finančno upravljanje in analitiko podjetja: ?
+FI - Finančno računovodstvo vključuje knjigovodstvo obveznosti, terjatev,  glavno knjigo, plačilni promet z bankami, knjigovodstvo osnovnih sredstev, upravljanje proračuna, upravljanje potnih stroškov in posebne knjige za preglede in poročanje.
+Sistem vsebuje postopke knjiženja računov, zaključevanja poslovnega meseca in leta, priprave finančnih poročil z bilanco uspeha in arhiviranje računovodskih podatkov.
+Omogoča dosledno dokumentirano povezavo od bilance do posameznega dokumenta poslovnega dogodka, ter vsebuje orodja za načrtovanje in nadzor celotnega poslovanja podjetja.
+Podatki vseh poslovnih dogodkov so knjiženi takoj in integrirani na vseh nivojih pregledov.
+Na ta način sta materialni in finančni tok podjetja usklajena ob vsakem trenutku.  ?
+TR - Zakladništvo je učinkovita rešitev za upravljanje razpoložljivih in potrebnih finančnih sredstev, ki ob njihovem dobičkonosnem strukturiranju zagotavlja likvidnost podjetja.
+Obsega upravljanje in poslovanje z denarnimi sredstvi, vrednostnimi papirji in posojili.
+Finančno poslovanje v zakladništvu vključuje naložbe oz. najem finančnih sredstev ob upoštevanju pogojev denarnih in kapitalnih trgov in analiz likvidnosti in finančnih tveganj podjetja.  ?
+CO - Kontroling pripravlja informacije za odločanje pri upravljanju podjetja.
+Služi za usklajevanje, nadzor in optimiranje poslovnih procesov, pri čemer upošteva porabo produkcijskih faktorjev in rezultate poslovanja.
+Ob spremljanju poslovanja je njegovo načrtovanje glavna naloga kontrolinga.
+Vodenje poslovnih procesov temelji na osnovi ugotovljenih odstopanj med dejanskimi in načrtovanimi stroški.
+Analiza uspešnosti in prispevka za pokritje, služita kontrolingu za ugotavljanje uspešnosti posameznih področij in tudi celotnega podjetja.  ?
+IM - Upravljanje investicij podpira načrtovanje, investiranje in financiranje procesov na področju investicij v premoženje osnovnih sredstev in tudi prihodkov od naprav lastne izdelave ali nabave, programov vzdrževanja osnovnih sredstev, investicij v raziskave in razvoj, ter projektov, pri katerih nastajajo skupni stroški, kot so izobraževanje ali pridobivanje novih trgov.
+Investiranje ni samo aktiviranje knjigovodskih in davčnih aktivnosti, saj v večini primerov povzroča najprej stroške in komaj kasneje prihodke ali druge koristi.
+Upravljanje investicij vsebuje funkcije vodenja investicijskih projektov.
+Vodenje investicij v finančne naložbe pa je urejeno v modulu zakladništva.  ?
+EC - Kontroling podjetja sestavljajo računovodstvo profitnih centrov, konsolidacija, podjetniško planiranje in direktorski informacijski sistem.
+Računovodstvo profitnih centrov je namenjeno ugotavljanju rezultatov poslovanja internih organizacijskih enot poslovanja, oz. profitnih centrov.
+21  Konsolidacija omogoča izdelavo končne bilance na osnovi prosto definiranih organizacijskih enot, ki so lahko posamezne družbe, poslovne enote, profitni centri ali posamezna področja poslovanja.
+Podjetniško planiranje, povezuje poslovne načrte posameznih organizacijskih enot v enoten poslovni načrt na najvišjem organizacijskem nivoju.
+Direktorski informacijski sistem zbira in analizira informacije iz različnih področij podjetja in njegovega okolja.  ?
+RE - Upravljanje nepremičnin je modul, ki podpira celovito poslovanje z nepremičninami.
+Vsebuje funkcije oddajanja v najem, upravljanja tujih nepremičnin, najema, vzdrževanja, knjiženja, izdelave poročil, obračuna stroškov in kontrolinga.
+Logistika je največja in najbolj zapletena skupina sestavljena iz devetih modulov: ?
+SD - Prodaja in distribucija zagotavlja vodenje interesentov in kupcev, obdelavo  prodajnih naročil, večnivojsko konfiguriranje različic izdelkov, upravljanje tržnih poti, izvoza, kontrole dobav in transporta, kakor tudi knjiženje, fakturiranje in tudi obračunavanje popustov.
+Po vnosu prodajnega naloga se samodejno vključijo pravilne informacije o vrednotenju, promocijah, razpoložljivosti in možnostih dobave.
+Obdelava naročil omogoča, da se zaloge končnih izdelkov pridrži za določene kupce, zahteva proizvodnjo vgradnih delov ali vnos naročil, ki se sklicujejo na naročilo, izdelavo po naročilu ali tehnologijo iz naročila, kakor tudi posebna prilagojena naročila (Bancroft 2001, 34-35).  ?
+MM - Materialno poslovanje je pomemben središčni modul logističnih poslovnih procesov podjetja in hkrati vezni člen s prodajnimi aplikacijami.
+Obsega vse naloge znotraj dobavne verige, vključno s planiranjem porabe, nabavo, ocenjevanjem dobaviteljev in verifikacijo računov.
+Prav tako vključuje inventurno in skladiščno poslovanje za vodenje zalog in njihovo vrednotenje (ibid., 33).  ?
+LE - Izvajanje logistike obsega funkcionalnosti skladiščenja, dobave in transporta.
+V skladiščenju je urejeno organiziranje in upravljanje skladišč, avtomatiziranje skladiščnih premikov, upravljanje zalog s hitro in enostavno obdelavo vhoda, preskladiščevanja in izdaje blaga.
+Dobava je nadaljevanje prodajnih aktivnosti, s funkcijami komisioniranja, pakiranja, terminiranja dobav in izdelave dobavne dokumentacije.
+Transport podpira nabavni in prodajni tok blaga, medtem, ko skrbita transportna dispozicija in nadzor za točnost dobav, načrtovanje transportnih poti, izbiro prevoznika, obračun transporta in obvladovanje transportnih stroškov (SAP Help Portal).  ?
+QM - Upravljanje kakovosti je modul za planiranje in izvajanje postopkov za pregled in zagotavljanje kakovosti.
+Zgrajen je na ISO 9001 standardu managementa kakovosti.
+Integriran je v nabavnih in proizvodnih procesih, tako da lahko uporabnik identificira točke pregleda vhodnih materialov in izdelkov med proizvodnim procesom.  ?
+PM - Vzdrževanje podpira dejavnosti, povezane s planiranjem in izvajanjem popravil ter preventivnim vzdrževanjem lastnih naprav.
+Na voljo so poročila o izvedbi in stroških.
+Opravljeno vzdrževanje je mogoče voditi in ovrednotiti (Bancroft 2001, 34).  ?
+CS - Servis strankam je modul za izvajanje storitev vzdrževanja vseh vrst naprav pri strankah.
+Zraven vseh funkcionalnosti povezanih s planiranjem, izvajanjem, poročanjem in zaračunavanjem, so podprte še vse aktivnosti povezane z vzdrževanjem in popravili izdelkov v garancijskem roku (Möhrlen in Kokot 2000, 851).
+22  ?
+PP - Planiranje proizvodnje podpira nepovezane in procesne proizvodne procese.
+Zagotovljena sta pristopa ponovne izdelave in izdelave po naročilu.
+V tem modulu so podprte vse faze proizvodnje.
+Omogoča normiranje zmogljivosti in planiranje potreb po materialu, vrednotenje izdelkov, eksplozije in implozije kosovnic ter tehnološki management sprememb.
+Sistem omogoča povezavo naročil za popravila s proizvodnimi urniki.
+Zagotovljeno je pridobivanje naročil iz prodajnih nalogov in zagotavljanje obljubljene razpoložljivosti (Bancroft 2001, 34).  ?
+PS - Upravljanje projektov omogoča tekoče spremljanje projektov, njihovega strukturiranja, načrta izvajanja in kontrolinga.
+Vse vrste projektov, od izgradnje naprav pa do organizacije sejmov, zahtevajo natančno načrtovanje številnih aktivnosti.
+Povezanost projektnega sistema z ostalimi komponentami R/3, omogoča dostop do ustreznih virov in finančnih sredstev potrebnih za časovno in stroškovno usklajeno izvajanje.  ?
+EHS - Upravljanje okolja je modul za podporo dejavnosti povezanih z dokumentiranjem, klasificiranjem, ravnanjem in nadzorom nad nevarnimi in okolju škodljivimi materiali.
+Podatkovna osnova modula služi izmenjavi podatkov s strankami in institucijami, raziskovalnim namenom, ter pripravi nabavne in prodajne dokumentacije (SAP Help Portal).
+Kadri Kadrovski segment sestavljen iz dveh modulov: ?
+PA - Upravljanje kadrov in obračun plač je programski modul, ki vsebuje  celotno paleto možnosti potrebnih za vodenje, terminiranje, izplačila in najemanje delovne sile.
+Vključuje plačilni seznam, obračun dodatkov, obdelavo podatkov o kandidatih za zaposlitev, upravljanje delovnega časa, obračun plač in potnih stroškov.  ?
+PD - Načrtovanje in razvoj kadrov omogoča predstavitev organizacijskih diagramov in organigramov, vključeno z organizacijskimi enotami, delom, službami, delovnimi mesti in nalogami.
+Na ta način se lahko predstavijo in planirajo matrične organizacijske strukture, razdelijo odgovornosti in ustanovijo začasne projektne skupine.
+Načrtovanje in razvoj kadrov podpira planiranje razvoja sodelavcev, načrtovanje njihove kariere in nasledstva, planiranje stroškov kadrovanja, upravljanje in analiziranje seminarjev, treningov in poslovnih dogodkov.
+Vsi moduli obsegajo večino funkcij, ki jih zahtevajo večja podjetja.
+S pomočjo internih povezav so med seboj povezani tako, da so podatki relacijskih podatkovnih baz, shranjeni samo enkrat.
+Celotni tok podatkov v R3 deluje integrirano, to pomeni, da je potrebno podatke vnesti le enkrat, sistem pa avtomatsko sproži, oziroma posodablja, druge logično povezane funkcije ali podatke.
+Podatki so takoj po vnosu na voljo vsem odvisnim informacijskim področjem sistema R/3. Naslednja slika prikazuje primer integracije poslovnega procesa prodaje.
+23  Slika 3: Integracija poslovnega procesa prodaje     Vir: Hermes Plus (2003)   Vsak aplikacijski modul ima več komponent, ki jih je možno nastavljati po potrebi.
+Komponenta vsebuje nabor funkcij, ki so obvezne ali neobvezne (izbirne).
+SAP R/3 vsebuje lasten model sistema v obliki referenčnega modela (ang. Reference Model), ki ima registrirane vse razpoložljive standardne poslovne funkcije.
+Prikazane so v nevtralni (vzorčni) obliki in se ob uvajanju sistema v konkretno podjetje preoblikujejo glede na specifičnost poslovanja podjetja.
+Čeprav je modul nameščen, ni nujno, da so vse komponente aktivne.
+Ali z drugimi besedami: ni nujno, da ima komponenta vse funkcije razpoložljive za uporabnika.
+Proces uvajanja informacijskega sistema se začne z analizo trenutnega poslovanja podjetja, nadaljuje z izbiro standardnih komponent sistema in konča z detajlnim usklajevanjem sistema, imenovanim prilagajanje po meri (Jerina 2003, 17).
+Implementacija R/3 zahteva od podjetja, da oceni in izboljša poslovne procese, ki so bistvo njegovega delovanja.
+Pred implementacijo je potrebno sprejeti številne podrobne odločitve o poslovnih procesih.
+Potrebno je proučiti poslovne procese R/3, jih primerjati s procesi podjetja in se odločiti katere prednastavljene rešitve bodo uporabljene in katere je potrebno prilagoditi zahtevam podjetja.
+Prilagajanje sistema se izvaja z vnosom parametrov v kontrolne tabele in s tem definiranje delovanja sistema.
+Parametriziranje je v veliki meri nadomestilo zamudno in drago programiranje.
+Stopnja, do katere je prilagajanje možno izvajati s konfiguracijo kontrolnih tabel, je odvisna od prilagodljivosti posameznega modula in zahtev podjetja, saj ima konfiguracija svoje meje.
+24   Razvoj funkcionalnosti, ki jih sistem ne zagotavlja, poteka v razvojnem delovnem okolju programskega jezika četrte generacije ABAP/4. Razvojno okolje zajema odlagališče, urejevalnik programskega jezika, podatkovni slovar, podatkovne tabele in orodja za testiranje, reševanje napak ter brskanje po podatkih in objektih.
+Skoraj vsa podjetja, ki so implementirala R/3 so glede na raziskave nakazala, da je potrebo razviti tudi lastna poročila.
+Ključna posebnost je ABAP/4 povpraševanje, ki omogoča uporabniku, da definira lastna poročila brez učenja programskega jezika.
+Uporabniki lahko izbirajo in razvrščajo podatke, razvijajo statistiko in kreirajo sezname (Bancroft 2001, 31).
+Projekt uvajanja programske rešitve zahteva zraven poslovnih, komunikacijskih in organizacijskih znanj, tudi poznavanje R/3 sistema.
+Zaradi tega, so v projektne skupine pogosto vključeni tudi zunanji svetovalci z ustreznimi znanji in metodami za uspešno implementacijo.
+3.2.1 Arhitektura SAP R/3  R/3 je popolnoma nov izdelek, razvit na podlagi izkušenj R/2 in ni njegovo nadaljevanje, kar bi lahko razumeli iz njunih imen.
+R/2 je deloval na dragih, glavnih računalnikih, nameščenih v klimatiziranih centrih za obdelavo podatkov.
+R/3 temelji na odjemalec/strežnik tehnologiji iz poznih 80. let in njenih funkcionalnih zmogljivostih.
+Razvoj osebnih računalnikov in njihovo povezovanje v omrežja, je porazdelil bremena obdelave podatkov in začel presegati zmožnosti glavnih računalnikov v podatkovnih centrih.
+Odjemalec/strežnik arhitektura je zgrajena iz omrežja odjemalcev in strežnikov, ki zahtevajo in dostavljajo podatke.
+Na ta način so funkcionalnosti obdelave podatkov porazdeljene na več nivojev.
+Predstavitveni nivo podpira uporabniški vmesnik SAP GUI (ang. Graphical User Interface).
+Ta posreduje vnose podatkov in zahteve uporabnikov kot strežnik aplikativnega nivoja in vrši vlogo njegovega odjemalca za prikaz zahtevanih podatkov na predstavitvenem nivoju.
+Aplikativni nivo izvršuje obdelavo podatkov z aplikacijo, ki je programska oprema za procesno logiko na aplikativnem strežniku.
+Aplikacija na zahtevo uporabniškega vmesnika v vlogi odjemalca zahteva podatke od podatkovnega strežnika.
+Po obdelavi jih kot strežnik posreduje uporabniškemu vmesniku, ali pa jih predaja podatkovnemu delu v shranjevanje.
+Podatkovni nivo predstavlja strežnik podatkovne baze z različnimi sistemi za upravljanje podatkovnih baz kot so SAP DB, Oracle, IBM DB2, Informix in Microsoft SQL-Server.
+Podatki so shranjeni v eni podatkovni bazi za celoten informacijski sistem.
+Sistemi za upravljanje podatkovnih baz ne manipulirajo z njimi, ampak jih samo predajajo, prevzemajo in shranjujejo.
+Tri nivojska arhitektura prikazana na sliki 4, omogoča razdelitev nivojev na več fizično ločenih računalnikov.
+Predstavitveni nivo se nahaja na osebnih računalnikih na delovnih mestih uporabnikov.
+Za manjše R/3 sisteme zadostuje dvonivojska arhitektura, pri kateri sta podatkovni in aplikativni nivo instalirana na enem računalniku.
+25  Večji sistemi potrebujejo skoraj vedno tri nivojsko arhitekturo, za katero je značilno, da se podatkovni nivo nahaja na močnejšem računalniku, aplikativni nivo pa je lahko razdeljen tudi na več računalnikov (Brand 1999, 33).
+Slika 4: Tri nivojska arhitektura    Vir: Brand (1999, 34)   3.3 Varnost v SAP R/3  V sistemu SAP R/3 se nahajajo ključni podatki in informacije.
+Njegovi programski moduli imajo pomembno vlogo pri izvajanju poslovnih procesov podjetja.
+Sistem mora delovati zanesljivo in varno ob vsakem trenutku.
+Varnost je osnova za uspešno delovanje sistema, ker mu omogoča zanesljivost, zmogljivost in funkcionalnost pri izvajanju uporabnikovih storitev.
+V sistemu varovanja informacij je avtorizaciji potrebno določiti ustrezno mesto, z ozirom na njene možnosti in učinkovitost.
+Končnemu uporabniku sistem zagotavlja samo in izključno določeno podporo v smislu storitev, zato je varnost identična z varnostjo uporabniških storitev.
+Zagotavljanje varnosti je zahtevna naloga, ki je zaradi e-poslovanja in z njim povezanimi nevarnostmi, postavljena pred dodatne izzive.
+Zraven osnovne in bistvene storitve povezljivosti prispeva komunikacija v informacijske sisteme celo vrsto nevarnosti, ki uporabnike in snovalce informacijskih sistemov postavljajo pred nalogo, da te nevarnosti čim bolj izključijo.
+Varnostni sistem mora delovati dosledno in brez vrzeli.
+Le na ta način je možno zunanjim ali notranjim napadalcem oziroma vdiralcem preprečiti izkoriščanje sistema.
+Predstavitveni nivoPredstavitveni nivo  Aplikativni nivo  Podatkovni nivoPodatkovni in aplikativni nivo  Podatkovni, aplikativni in predstavitveni nivo  2-nivojska arhitektura  3-nivojska arhitektura  1-nivojska arhitektura       26   Varnost v sistemu R/3 obsega funkcije varovanja omrežja, predstavitvenega, aplikativnega in podatkovnega nivoja:  Omrežje Omrežna infrastruktura je sestavljena iz fizičnega omrežja in komponent za podporo komunikacij (npr. Router – usmerjevalnik, Gateway – naprava za prevajanje med protokoli, Firewall – varnostni ali požarni zid).
+Omrežje znotraj sistema R/3 povezuje podatkovni, aplikativni in predstavitveni nivo.
+Zasnova omrežne infrastrukture sistema R/3, ki ni izolirana, temveč je lahko tudi odprta navzven (internet kot množica med seboj povezanih omrežij), zahteva skrbno načrtovanje povezav s kompleksnim informacijsko tehnološkim okoljem.
+Omrežno varnost je potrebno zagotoviti zaradi dejstva, da so viri med seboj povezani oziroma dosegljivi po omrežju.
+Vse oblike komunikacij v omrežju in njim potrebna infrastruktura, morajo biti zaščitene z ustreznim sistemom omrežne varnosti.
+Pri varovanju informacij sistema R/3, predstavlja prvo varnostno linijo zaščite.
+Preprečevati mora neavtorizirane dostope, pri tem pa ne sme ovirati komunikacijskih potreb podjetja.
+SAP podpira varnost v omrežju z mehanizmi SAProuter in Secure Network Communication (SNC): ?
+SAProuter  je programsko orodje s funkcijami filtriranja (varnostni zid - Firewall) in usmerjanja (Router) komunikacijskih protokolov.
+Za uspešno zaščito omrežja je potrebno hkrati instalirati varnostni zid in usmerjevalnik (SAProuter).
+Medtem ko varnostni zid ščiti omrežje pred nezaželjenimi dostopi in dovoljuje prehod SAP-ovih komunikacij iz določenega omrežja, dovoljuje SAProuter le komunikacijo avtoriziranih uporabnikov in jo usmerja k ustreznem strežniku (Brand 1999, 347).  ?
+Secure Network Communication (SNC) je programski sloj v katerega je možno vključiti eksterne sisteme za varno komunikacijo v omrežju, kar izboljšuje varnost sistema R/3. S SNC je možno uporabiti različne stopnje zaščite komunikacijskih povezav pri čemer vsaka višja vključuje tudi vse nižje stopnje (SAP AG 2001b, 16): 1. Avtentikacija  je najnižja stopnja zaščite.
+Pri tem gre samo za preverjanje identitete komunikacijskih partnerjev brez dejanske zaščite podatkov na komunikacijski poti.
+2. Neoporečnost podatkov je zagotovljena z odkrivanjem sprememb med prenosom od pošiljatelja do prejemnika.
+Elektronski podpis se lahko uporablja za ugotavljanje verodostojnosti tudi nekriptiranega sporočila.
+3. Zaupnost podatkov zagotavlja kriptiranje.
+Osnovni namen kriptiranja sporočila je skrivanje vsebine sporočila, ki ga lahko različni napadalci sicer prestrežejo na poti skozi omrežje ali komunikacijski sistem, tako da v primeru prestrezanja napadalec do vsebine sporočila ne bo prišel brez težav (Vidmar 2002, 551).
+SNC omogoča varnost na aplikativnem nivoju, ker zagotavlja varno komunikacijo med partnerji (npr. med predstavitvenim nivojem in aplikativnimi strežniki), ki je neodvisna od prenosnih medijev.
+27  Slika 5 prikazuje s SNC zagotovljeno varnost sistema R/3 s funkcijo varovana lokalnega omrežja - LAN (ang. Local Area Network) in omrežja velikega dosega - WAN (ang. Wide Area Network), predstavitvenega in aplikativnega nivoja.
+Pri povezavi med aplikativnimi strežniki in podatkovnim nivojem v sistemu R/3, programskega sloja SNC ni možno uporabiti.
+To povezavo je potrebno zavarovati z varnim lokalnim omrežjem.
+Predstavitveni nivo Osebni računalniki na katerih je instaliran SAP GUI, predstavljajo klasično arhitekturo predstavitvenega nivoja.
+Ti računalniki se običajno nahajajo v zaprtem računalniškem omrežju podjetja (intranet) in so zaščiteni z dostopnimi kontrolami za omrežje podjetja.
+Podjetja svojim dobaviteljem in kupcem vedno bolj omogočajo dostop do svojih informacijskih sistemov.
+Ker mora biti varnostni zid odprt za take dostope, so potrebni posebni kontrolni mehanizmi za preprečitev nepooblaščenih prijav.
+Ob dodeljevanju enoznačnih in stalnih IP-naslovov, se uporabljajo tudi mehanizmi, ki identificirajo v omrežju povezane računalnike, s pomočjo enolične identifikacije omrežnih kartic posameznih računalnikov.
+Za natančnejše postopke avtentikacije uporabnikov se uporabljajo tudi posebne kartice ali celo biometrični načini.
+Kopiranje podatkov na lokalne medije (Download) se lahko prepreči že na predstavitvenem nivoju.
+Fizična varnost na tem nivoju je omejena na običajne kontrole obiskovalcev in zaposlenih pri vhodu v prostore podjetja (Hermann 2003, 23-24).
+Aplikativni nivo Aplikativno nivo je običajno porazdeljen na več aplikativnih strežnikov, na katerih se izvajajo aplikacije sistema R/3. Ti računalniki so povezani v omrežju s podatkovnim nivojem.
+Vso komunikacijo z omrežjem predstavitvenega nivoja mora kontrolirati SAProuter.
+Aktiviranju SAP GUI na predstavitvenem nivoju sledi prijava na določen aplikativni strežnik.
+Vsak uporabnik, ki se lahko prijavi na aplikativni strežnik predstavlja možno nevarnost, da neupravičeno manipulira s programsko opremo ali podatki.
+Na računalnikih aplikativnega nivoja se izvaja nadzor dostopov do virov informacijskega sistema.
+Aplikativna varnost pomeni, da lahko uporabnik izvaja samo tiste transakcije za katere je pooblaščen.
+Z aplikativno varnostjo je določeno tudi katerih transakcij uporabnik ne sme izvajati.
+Avtorizacija sistema R/3 preverja uporabnikovo upravičenost za izvajanje določene transakcije, do katerih podatkov transakcije sme dostopati in način uporabe teh podatkov (vpogled, kreiranje, spreminjanje, brisanje).
+Zaradi tega sistem avtorizacij zagotavlja aplikativno varnost sistema R/3. Za fizično varnost aplikativnega nivoja, veljajo ista pravila kot za podatkovni nivo.
+Podatkovni nivo V arhitekturi SAP R/3 se na podatkovnem nivoju lahko nahaja eden ali več strežnikov za upravljanje in shranjevanje podatkov.
+Podatkovni strežniki so povezani s posebnim lokalnim omrežjem, ki je namenjeno izključno samo komunikaciji z aplikativnimi strežniki.
+Zaščita na podatkovnem nivoju pomeni varovanje operacijskega sistema strežnika, baze podatkov in ostalih sistemov za shranjevanje podatkov (ang. Storage Solutions).
+Samo uporabniki iz sistemske administracije smejo imeti pravico dostopa do strežnikov podatkovnega nivoja.
+28  Naprave informacijske tehnologije morajo biti nameščene v posebnih prostorih, ki morajo biti tudi fizično zaščiteni pred nepooblaščenim dostopom.
+Slika 5: Zaščita sistema SAP R/3 s SNC    Vir: SAP AG (2001b, 17)   3.3.1 Varnost SAP R/3 pri e-poslovanju  Zaradi varnosti pri elektronskem poslovanju, pri katerem je računalniško omrežje podjetja povezano z računalniškim omrežjem iz njegovega okolja (internet), je podjetje SAP AG razvilo internetni transakcijski strežnik – ITS (ang. Internet Transaction Server).
+Nahaja se med spletnim strežnikom (ang. Web Server) in R/3 aplikativnim strežnikom, ter nadzoruje tok podatkov med njima.
+V arhitekturi ITS se nahajata programa Web-Gate (spletna vrata - W-Gate) in ApplicationGate (aplikativna vrata - A-Gate).
+Program A-Gate je instaliran na posebnem računalniku (A-Gate Server), ki je povezan z omrežjem aplikativnih strežnikov R/3. Deluje kot uporabnik sistema R/3. Z aplikativnim strežnikom R/3 izmenjuje podatke v SAP GUI formatu, jih prevaja v HTML format in posreduje programu W-Gate (Brand 1999, 65).
+W-Gate je instaliran na spletnem strežniku in komunicira s spletnim brskalnikom (ang. Web Browser) na osnovi šifriranega internetnega protokola – HTTP (ang. Hypertext Transfer Protocol), ter programu A-Gate posreduje zahteve spletnega strežnika (Hermann 2003, 24).
+29  Običajno se po internetu prenašajo nešifrirani podatki.
+Kot je prikazano na naslednji sliki, je varnost sistema R/3 pri elektronskem poslovanju zagotovljena s kombinacijo ITS arhitekture, požarnimi zidovi, SAProuterji in kriptiranjem komunikacijskih povezav (SNC) med W-Gate in A-Gate ter med A-Gate in aplikativnimi strežniki.
+Slika 6: Varnost v ITS arhitekturi    Prirejeno po SAP AG (1999, 3/17–18)   3.3.2 SAP Portal  V času globalizacije potrebujejo uporabniki, neodvisno od mesta na katerem se nahajajo, informacije s področja različnih poslovnih aplikacij (SAP, PeopleSoft, Baan, IBM, Lotus, itd.), podatkovnih baz, elektronske pošte, skupnih dokumentov ter interneta.
+Na osnovi spletne tehnologije, omogoča SAP Portal potrebno okolje za povezan prikaz različnih aplikacij.
+Slika 7 prikazuje pregled različnih komponent in aplikacij, ki so lahko povezane v SAP Portal.
+30  Slika 7: SAP Portal    Vir: Armbruster (2002, 2)   Pri povezavi v portalu prikazanih sistemov v informacijsko tehnološko infrastrukturo podjetja in dostopu do sistema R/3, je potrebno vzpostaviti internetni (ITS) in portalni strežnik (Portal Server), na isti internetni domeni.
+Pomembna prednost portalne rešitve je Single Sign-On (SSO), ki omogoča prijavo v več aplikacij z enim samim uporabniškim imenom in geslom.
+To je veliko olajšanje v primerjavi s klasičnim načinom, pri katerem ima vsak uporabnik za posamezen sistem posebno uporabniško ime in geslo.
+Zaradi povezave različnih aplikacij v enovit pristop, je nastala potreba po razširitvi klasičnega sistema avtorizacij.
+Celovito rešitev problema predstavljajo Workplace uporabniške vloge.
+V njih so zajete vloge uporabnikov v posameznih sistemih in informacije o spletnih straneh do katerih lahko uporabniki dostopajo.
+Workplace vloga vsebuje avtorizacije uporabnikov za vse aplikacije SAP in ostalih rešitev, ki so združene v portalnem pristopu.
+Poseben izziv pri povezovanju drugih aplikacij v SAP-ovo portalno okolje predstavlja dejstvo, da imajo različne aplikacije tudi različne sisteme avtorizacij, za katere ni nujno, da temeljijo na osnovi vlog uporabnikov aplikacije.
+31   4 SISTEM AVTORIZACIJ V SAP R/3   Skladno z razvojem poslovnih procesov programske rešitve SAP R/3, je bil razvit tudi sistem avtorizacij, primeren za implementacijo na aplikativnem nivoju.
+Uporabniki transakcij in poročil ne morejo dostopati do vseh podatkov, ki se v določeni transakciji ali poročilu nahajajo.
+Upravičenost njihovih dostopov je odvisna od organizacijskih enot podjetja, od pravil v podjetju in nenazadnje tudi od zakonskih predpisov.
+Avtorizacija v sistemu R/3 temelji na organizacijski strukturi in poslovnih procesih, ki jih podjetje izvaja.
+Zaradi tega je pomembno, da so podatki organizacijske strukture podjetja, na voljo pred izdelavo sistema avtorizacij.
+Cilj oblikovanja avtorizacij v sistemu R/3, je zadostiti zahtevam varnosti, zaupnosti in integritete podatkov.
+Sistem mora biti zasnovan tako, da so na stroškovno ugoden način doseženi naslednji varnostni cilji: ? zadovoljitev zakonskih in internih zahtev podjetja, glede varnosti informacij  informacijskega sistema R/3, ? zaščita podatkov pred naključnim ali namernim uničenjem ali manipulacijo, ? zaščita integritete podatkov pred namerno ali nenamerno zlorabo, ? zagotovitev zaupnosti internih in občutljivih informacij podjetja.
+Viri in stroški, ki so potrebni za izdelavo sistema avtorizacij, so pogosto podcenjeni.
+V okviru projekta uvajanja sistema R/3 je začetek izdelave sistema avtorizacij v mnogih primerih prepozno načrtovan.
+Prednost sistema avtorizacij SAP R/3, je ob doseganju varnostnih ciljev, tudi v znižanju razvojnih, implementacijskih in tekočih stroškov uporabe, ter dejstvo, da ima podjetje po implementaciji jasno definiran in standardiziran nivo varnosti informacij.
+Orodja sistema R/3 in prednastavljene rešitve običajno zadostujejo za ureditev sistema avtorizacij.
+Dodelava in širitev standardnih rešitev je v večini primerov povezana z velikimi stroški realizacije in kasnejšega vzdrževanja.
+Zaradi tega so za vse vrste dodelav predvidenih elementov sistema avtorizacij, potrebni utemeljeni in neizogibni razlogi.
+Ob sistemu avtorizacij je potrebno upoštevati tudi druge ukrepe varovanja informacij, s katerimi je možno zagotoviti varnost informacijskem sistemu SAP R/3 (poglavje 3.3).
+Pri izgradnji sistema avtorizacij mora biti pri dostopih do podatkov v sistemu R/3, upoštevano načelo »tako široko kot je mogoče in tako ozko kot je potrebno«.
+Nepooblaščeni ne smejo imeti dostopa do kritičnih podatkov.
+Ocena tveganj mora pokazati, kateri podatki so kritični in če je podrobnejša omejitev dostopov v skladu s cilji podjetja, ne da bi po nepotrebnem ovirala vsakodnevnega dela zaposlenih.
+Kot zaščita pred namernimi in napačnimi spremembami se lahko omejitev kreiranja in spreminjanja uporabi tako pri kritičnih, kakor tudi pri nekritičnih podatkih podjetja.
+Dostope do podatkov je možno nastaviti na osnovi dveh izhodišč za dodeljevanje avtorizacij: 1. Optimistično – uporabnik lahko izvaja, razen nekaterih izjem, skoraj vse aktivnosti  oziroma transakcije v sistemu.
+2. Pesimistično – uporabnik sme izvajati samo naloge, ki pripadajo njegovemu  delokrogu in nič drugega.
+32  Način dodeljevanja avtorizacij uporabnikom informacijskega sistema je odvisen od odločitev posameznega podjetja, ki uvaja sistem SAP R/3.  Izdelava sistema avtorizacij ni tehnično opravilo v sklopu nalog sistemske administracije, ampak je odvisna od vložka strokovnih oddelkov podjetja in sodelavcev projektne skupine za izgradnjo sistema avtorizacij.
+Vse transakcije, ki jih podjetje uporablja, morajo biti vključene v vloge uporabnikov informacijskega sistema.
+Pri vsaki transakciji je potrebno preveriti možnost in potrebnost omejevanja na uporabo v različnih organizacijskih enotah.
+Programska rešitev R/3 vsebuje 43000 transakcij.
+Izdelava sistema avtorizacij je zahteven in obsežen projekt.
+Pogosto je obsežna izgradnja sistema avtorizacij cilj neupravičenih kritik.
+Posamezni scenariji avtorizacij in njihova implementacija v R/3 lahko postane zelo zapletena naloga.
+Običajno so sistemi avtorizacij in njihova sestava bolj pregledni v majhnih in srednje velikih podjetjih.
+V takih primerih zadošča izgradnja sistema na nivoju transakcij.
+V večjih podjetjih in globalno delujočih koncernih, pa izgradnja in omejitve zahtevajo podrobnejša izhodišča od nivoja transakcij.
+Omejitev mora izhajati iz organizacijskih enot kot so šifre podjetij, obrati, prodajne organizacije itd.   4.1 Vloge uporabnikov  Vloga je seznam transakcij, ki jih uporabnik pri svojem delu izvaja v informacijskem sistemu R/3. Uporabniku je lahko dodeljenih več vlog in tudi vloga je lahko dodeljena več uporabnikom.
+Z dodelitvijo vloge uporabniku, se pri njegovi prijavi v sistem R/3 avtomatično prikaže tudi ustrezen meni, ki vsebuje v vlogi zajete transakcije.
+Varnostni in avtorizacijski sistem R/3 temelji na vlogah, ki so ključnega pomena pri dodeljevanju avtorizacij uporabnikom in oblikovanju uporabniških menijev.
+Sistem R/3 razlikuje med posameznimi in zbirnimi vlogami (Hermann 2003, 52): ?
+Posamezne vloge  V skladu z nalogami uporabnikov in ob upoštevanju ločevanja nalog so transakcije, ki so potrebne za njihovo izvajanje, združene v vloge.
+Posamezna vloga predstavlja smiselno združitev oziroma sveženj transakcij z ustreznimi objekti zaščite in uporabniškim menijem.  ?
+Zbirne vloge Zaradi preglednejšega strukturiranja vlog se lahko posamezne vloge združujejo v skupine vlog oziroma zbirne vloge.
+Zbirna vloga predstavlja delovno mesto z ustreznimi nalogami in odgovornostmi.
+Vsebuje lahko tudi samo eno posamezno vlogo.
+Uporaba zbirnih vlog omogoča lažje upravljanje.
+Uporabniku ni potrebno dodeljevati vsake posamezne vloge posebej, ampak se mu dodeli zbirno vlogo v katero so posamezne vloge že združene.
+Pri definiciji vlog je potrebno upoštevati podrobnost organizacijske strukture in integriranost sistema R/3. Uskladitev teh dveh nasprotnih interesov zahteva tesno sodelavo projektne skupine za implementacijo avtorizacij in strokovnih oddelkov podjetja.
+Z dodelitvijo vloge pridobi uporabnik tudi vlogi pripadajoč avtorizacijski profil.
+33  4.2 Avtorizacijski profili  Avtorizacija uporabnika je zapisana v matičnem zapisu uporabnika v obliki avtorizacijskega profila dodeljene vloge.
+Avtorizacijski profil je seznam objektov s pomočjo katerih se izvaja kontrola upravičenosti dostopov uporabnika vloge do podatkov informacijskega sistem R/3. Z avtorizacijskim profilom je določen obseg dovoljenih aktivnosti uporabnika vloge.
+Preverjanje avtorizacij uporabnikov ne poteka preko njihovih vlog, ampak na osnovi vrednosti avtorizacijskih polj v avtorizacijskih objektih, ki se nahajajo v avtorizacijskem profilu vloge.
+Spremembe pravic v določenem profilu veljajo za vse uporabnike oziroma matične zapise uporabnikov, s katerimi je povezan spremenjeni avtorizacijski profil.
+4.3 Generator avtorizacijskih profilov  Generator avtorizacijskih profilov je orodje, namenjeno definiciji vlog in avtorizacijskih profilov, kakor tudi dodeljevanju obeh uporabnikom sistema R/3. Z generatorjem je potrebno izbrati transakcije ali veje oziroma področja standardnega menija, ki jih uporabnik potrebuje pri izvajanju svojih nalog.
+Na ta način se avtomatično kreira vloga, meni vloge in avtorizacijski profil vloge, v katerem so zajeti vsi avtorizacijski objekti z izhodiščnimi vrednostmi avtorizacijskih polj, preko katerih se izvaja nadzor upravičenosti uporabnika vloge.
+V skladu s potrebami avtorizacije je potrebno avtorizacijska polja dopolniti, spremeniti ali pustiti nespremenjena.
+Postopek izdelave avtorizacije se zaključi z dodelitvijo vloge in njenega avtorizacijskega profila uporabnikom sistema R/3.  Generator avtorizacijskih profilov omogoča povezanost objektno in transakcijsko usmerjenih sistemov avtorizacij.
+Za objektni sistem je značilno, da je dostop do funkcij R/3 nadzorovan s pomočjo avtorizacijskih objektov, ki so vključeni v programsko kodo posameznih transakcij.
+Prednost tega sistema je v povezanosti funkcijskega in podatkovnega nadzora pravic dostopov do informacijskih virov.
+Primer za to je delitev dostopov do podatkov prodajnega naloga na osnovi podatkov, kot so vrsta prodajnega naloga, prodajni program, prodajna organizacija itd.
+Objektni sistem ne vsebuje nadzora pravic dostopov na nivoju transakcij.
+Pomanjkljivost te metode je v preglednosti sistema avtorizacij, saj ni možno ugotoviti kdo lahko aktivira določene transakcije.
+Uporaba avtorizacijskega objekta za kontrolo aktiviranja dovoljenih transakcij (S_TCODE – Dovoljene transakcije), omogoča nadzor pravic uporabnikov za izvajanje transakcij.
+Na ta način je nadzor pravic dostopov do funkcij sistema R/3 urejen s pomočjo avtorizacijskih objektov objektne metode in hkrati tudi na nivoju šifer transakcij transakcijske metode.
+Ta povezanost omogoča pregled uporabnikov in njihovih pravic do uporabe transakcij (Hermann 2003, 105).
+34  4.4 Transakcije, avtorizacijski objekti in avtorizacije  Avtorizacija v sistemu R/3 se izvaja s pomočjo avtorizacijskih profilov vlog, ki so zapisani v matičnem zapisu uporabnika.
+Temelji na transakcijskih in avtorizacijskih objektih oz. na povezavi med tema dvema enotama.
+Transakcije Transakcija aktivira program za dialog, ki je sestavljen iz programskih modulov (Dynpro – Dynamic Program) z ekranskimi slikami in programsko logiko za obdelavo podatkov pred izpisom na ekran (PBO – Process before Output) in po uporabnikovem vnosu (PAI – Process after Input).
+V avtorizacijskem objektu S_TCODE – Dovoljene transakcije, so zapisane šifre transakcij, ki jih uporabnik sme aktivirati.
+Predvidenih je več možnosti nastavitev dostopov do transakcij: ? vse vrste dostopov se lahko deaktivirajo, ? dodelitev pravic uporabe izbranim uporabnikom, ? nadzor dostopov s pomočjo kreiranja dodatnih avtorizacijskih objektov.
+Navedene možnosti omogočajo uresničitev vseh vrst zahtev, pri izdelavi nadzora pravic dostopov do transakcij.
+Avtorizacijski objekti Avtorizacija uporabnika vloge, se izvaja s pomočjo avtorizacijskih objektov in vrednosti v njihovih avtorizacijskih poljih.
+Za vsako posamezno kontrolo je predviden en avtorizacijski objekt.
+Različni objekti lahko nadzorujejo dostope do enega področja sistema R/3 in en objekt lahko nadzoruje dostope do različnih področij sistema R/3. V R/3 je približno 900 različnih avtorizacijskih objektov, ki omogočajo zapletena in z več pogoji povezana preverjanja avtorizacij uporabnikov.
+Zaradi boljše preglednosti in lažjega upravljanja, so avtorizacijski objekti v odvisnosti od njihovih funkcij, združeni v približno 40 skupin, kot sta na primer FINAČNO RAČUNOVODSTVO ali ČLOVEŠKI VIRI (slika 8).
+Avtorizacijski objekt lahko vsebuje eno in največ deset avtorizacijskih polj, ki jih je potrebno izpolniti z dovoljenimi vrednostmi ali vrednostnimi območji.
+Avtorizacije Pooblastilo za izvajanje določene aktivnosti v sistemu R/3 temelji na osnovi zapisa vrednosti posameznih polj avtorizacijskega objekta.
+V bistvu je avtorizacija sestavljena iz treh nivojev, avtorizacijskega objekta, avtorizacijskih polj in njihovih vrednosti.
+Izvajanje transakcij se lahko omeji z vrednostmi avtorizacijskih polj.
+Preverjanje avtorizacije poteka v IN povezavi avtorizacijskih polj.
+To pomeni, da mora imeti preverjanje avtorizacijskih polj uspešen izid, za dostop do objekta R/3, za katerega se izvaja preverjanje upravičenosti.
+Avtorizacija uporabnika je zapisana v obliki avtorizacijskega profila, v njegovem matičnem zapisu.
+Slika 8 prikazuje elemente sistema avtorizacij SAP R/3 in njihove povezave.
+35  Slika 8: Elementi sistema avtorizacij SAP R/3    Vir: SAP Help Portal   Sistem R/3 izvede pri aktiviranju transakcije različne kontrole, s katerimi se ugotavlja upravičenost uporabnika za njeno izvajanje: ?
+Ali je šifra transakcije veljavna? ?
+Ali je transakcija zaprta za uporabo? ?
+Ali je uporabnik upravičen za aktiviranje transakcije?
+Šifra transakcije se mora nahajati v avtorizacijskem polju uporabnikovega avtorizacijskega objekta S_TCODE – Dovoljene transakcije.  ?
+Ali je transakciji dodeljen avtorizacijski objekt?
+Če je, se preveri ali je uporabnik avtoriziran za ta avtorizacijski objekt.
+Če je ena od z.o. kontrol neuspešna, se transakcija ne aktivira.
+Na ekranu se izpiše ustrezno sporočilo (SAP Help Portal).
+Po aktiviranju transakcije, se v klicanih programskih modulih izvajajo posamezna preverjanja avtorizacije uporabnika z ukazom AUTHORITY-CHECK, ki primerja programske vrednosti, z vrednostmi polj avtorizacijskega objekta, namenjenega določeni kontroli.
+Z ukazom AUTHORITY-CHECK podani avtorizacijski objekt se mora nahajati v avtorizacijskem profilu matičnega zapisa uporabnika.
+Kontrola avtorizacije je uspešna, kadar se podane vrednosti ujemajo z vrednostmi iskanega avtorizacijskega objekta.
+36  4.5 Delitev nalog v sistemski administraciji  Naloge upravljanja avtorizacij in matičnih zapisov uporabnikov morajo biti v oddelku sistemske administracije razdeljene na več upravljalcev.
+Ob medsebojni odvisnosti administratorjev pri izvajanju nalog upravljanja je zagotovljen tudi njihov medsebojni nadzor.
+Funkcijsko ločevanje nalog upravljanja uporabnikov in njihovih avtorizacij v sistemski administraciji, je organizacijski ukrep zaščite informacijskega sistema.
+Medsebojna odvisnost upravljalcev pri izvajanju nalog zagotavlja nadzor in preglednost sistema upravljanja uporabnikov in njihovih avtorizacij.
+V skladu z načelom funkcijskega ločevanja nalog priporoča SAP AG delitev nalog na tri področja (Hermann 2003, 209): ?
+Upravljalec uporabnikov kreira in vzdržuje matične zapise uporabnikov.
+Uporabnikom dodeljuje vloge in avtorizacijske profile.
+Nima pooblastil za kreiranje in vzdrževanje vlog ali avtorizacijskih profilov.  ?
+Upravljalec avtorizacij kreira vloge, uporabniške menije in avtorizacijske podatke vlog.
+Nima pooblastil za kreiranje avtorizacijskih profilov in vzdrževanje uporabnikov.  ?
+Upravljalec avtorizacijskih profilov iz vlog kreira avtorizacijske profile.
+Nima pooblastil za vzdrževanje uporabnikov in vlog.
+V manjših podjetjih je priporočena delitev nalog težko uresničljiva, ker ena oseba izvaja več različnih nalog.
+V takih primerih je sprejemljiva tudi delitev nalog na dve področji.
+Pri tem se naloge upravljalca avtorizacij in upravljalca avtorizacijskih profilov združijo, ostane pa delitev med nalogami upravljalca uporabnikov in upravljalca avtorizacij.
+37  5 OBLIKOVANJE SISTEMA AVTORIZACIJ V SAP R/3   Na osnovi dolgoletnih izkušenj s številnimi projekti zaščite podatkov z avtorizacijo, se je izoblikoval enoten in strukturiran postopek zasnove, izdelave in realizacije sistema avtorizacij na osnovi vlog uporabnikov R/3.  Pomemben in odločujoč dejavnik uspeha, je zgodnja vključitev sodelavcev podjetja, zaradi pravočasnega: ? posredovanja pomena projekta, ? informiranja o bodočih nalogah in ? izbora oddelkov in uporabnikov za prenos znanja.
+Sistem avtorizacij v SAP R/3 je zasnovan tako, da je možno začeti s projektom uvajanja tudi takrat, ko informacijski sistem R/3 že deluje.
+Najbolj ugoden trenutek njegovega začetka je med uvajanjem programske rešitve R/3, ko so funkcionalnosti novega informacijskega sistema že definirane.
+Člani projektne skupine za uvajanje sistema avtorizacij so pristojni za celosten oz. medmodularni vpliv avtorizacij.
+Pri nastavitvah kontrol procesov znotraj posameznega modula potrebujejo podporo odgovornih svetovalcev.
+Uspešnost in učinkovitost sodelave projektnih skupin se preveri v integracijskem testu vlog.
+5.1 Priprava projekta in okvirni pogoji  V pripravi projekta mora upoštevati interese podjetja, priporočila standardov in zakonske predpise, ter jih določiti v obliki okvirnih pogojev sistema avtorizacij.
+Izhodišče za pripravo projekta in okvirnih pogojev predstavlja analiza tveganj.
+Njena izvedba potrebuje vire iz različnih področij in znanj.
+Tako morajo biti že ob začetku upoštevane vse interne in eksterne smernice, ki lahko vplivajo na strukturo in podrobnost sistema avtorizacij.
+Preveriti je potrebno interne smernice podjetja in ugotoviti njihovo veljavnost.
+Možno je, da se uveljavljene interne kontrole nadomestijo z novimi in učinkovitejšimi orodji sistema avtorizacij kot so: ? pravila podpisovanja z ozirom na vrednostne meje količinskih podatkov, ? postopki potrjevanja med izvajanjem poslovnih procesov (prodajni nalog, odpremni  nalog, izdobava, transportni nalog, ...), ? ločevanje med varovanjem informacij in nadzorom zaposlenih, ? upravljanje z osebnimi podatki zaposlenih, ? predpisi kontrole kvalitete in organizacijska ali tehnična navodila varovanja, ? ločevanje nalog pri izvajanju poslovnih procesov (prodajni oddelek – prodajni nalog,  skladišče – odpremni nalog).
+Osnova za eksterne smernice so zakonski predpisi (npr. Zakon o varovanju osebnih podatkov) in kodeks varovanja informacij BS 7799 1. in 2. del, ter njegova izpeljanka ISO 17799.       38  Okvirni pogoji projekta so temelj za pripravo osnovnih pravil in izhodišč sistema avtorizacij.
+Vsebovati morajo naslednje vidike (Hermann 2003, 156): ? cilje, osnove in veljavnost okvirnih pogojev, ? organizacijsko strukturo podjetja z dejanskim in planiranim sistemskim okoljem R/3, ? podrobnost sistema avtorizacij, ? opis vlog, ? opis delitve nalog v oddelkih in med funkcijami podjetja, ? definicijo pravil določanja imen oz. poimenovanja vlog, profilov, skupin uporabnikov  in identifikacije uporabnikov, ? definicijo načina dokumentiranja sistema avtorizacij, ? izjave o tehnični varnosti, ki lahko vpliva na sistem avtorizacij, ? prikaz implementiranih omejitev na modularnem in objektnem nivoju sistema R/3, ter  opis željenih funkcionalnosti.
+Okvirni pogoji morajo biti usklajeni z nosilci odločitev v podjetji in so osnova za nadaljnjo projektno delo.
+V času izvajanja projekta lahko pride tudi do sprememb in prilagoditev okvirnih pogojev.
+Vzroki so lahko v spremenjenem okolju ali v tehničnih in administrativnih omejitvah, ki v začetku projekta niso bile prepoznane v polnem obsegu.
+Pri spremembi okvirnih pogojev je potrebno že implementirane dele sistema avtorizacij uskladiti z novim stanjem.
+V fazi priprave projekta morajo biti definirani vsi postopki in področja nalog upravljanja uporabnikov in avtorizacij.
+Njihovo delo se v največji meri razlikuje od uporabnikov poslovnih procesov sistema R/3.  Rezultat priprave projekta je lista predlogov s področji v katerih je delitev nalog in pristojnosti v podjetju smiselna in tudi potrebnih kontrol v informacijskem sistemu R/3. Osnovne odločitve se sicer lahko podprejo z najboljšo prakso svetovalcev, vendar mora kontrole in njihovo podrobnost določiti podjetje samo.
+5.2 Analiza tveganj  Analiza tveganj in njen rezultat je izhodišče za pripravo projekta in okvirnih pogojev sistema avtorizacij.
+Njena izvedba temelji na ciljih, ki jih podjetje želi doseči ob izbiri ustrezne strategije, ki ustreza velikosti podjetja in načinu ter obsegu poslovanja.
+Učinkovit pripomoček, je seznam priporočenih varnostnih kontrol zapisanih v standardu ISO 17799, povzetem po prvem delu britanskega standarda za varovanje informacij BS 7799.
+Analiza stanja Na osnovi potreb podjetja in možnosti je potrebno ugotoviti, katere kontrole so že implementirane in katere od priporočil standarda (ISO 17799 ali BS 7799 1. del), še morajo biti uvedene v informacijski sistem.
+Ta postopek je opisan v drugem delu standarda BS 7799.
+V standardu je približno 130 priporočenih kontrol.
+Rezultat analize je prikaz že uvedenih oziroma manjkajočih kontrol.
+Lotiti se je treba predvsem tistih področij informacijskega sistema, v katerih priporočene kontrole še niso implementirane.
+39  Ocena tveganj Rezultat ocene tveganj je ugotovitev, ali že obstoječe kontrole zadostujejo in katere od priporočenih je treba še uvesti.
+V tem postopku je potrebno oceniti tveganja, katerim so informacijski viri izpostavljeni in utemeljiti razloge za implementacijo dodatnih varnostnih kontrol.
+Varnost je blago in ima svojo ceno.
+Varovanje informacij dostikrat zahteva izboljšanje ali spremembo postopkov, kar omogoča standardna programska rešitev R/3 z možnostjo njenega parametriziranja.
+Za posamezen informacijski vir ali skupino je treba ugotoviti tveganje s proučitvijo odnosa med grožnjami, ki viru pretijo, ranljivostmi, ki so v viru navzoče, in vrednostjo oziroma pomembnostjo vira za podjetje.
+Ocene tveganj je najenostavneje izraziti kvalitativno v obliki velikostnih razredov.
+Po oceni tveganj, je treba sprejeti odločitev, katera tveganja so za podjetje spremenljiva, katera pa je treba znižati.
+Tveganje je odvisno od vrednosti (pomembnosti) vira, grožnje in ranljivosti.
+Če grožnje ni ali vir nima opaznih ranljivosti, potem tudi tveganja ni.
+Večja ko je grožnja, pomembnejši je vir, in večja ko je ranljivost, večje je tveganje.
+Grožnje je zelo težko ali skoraj nemogoče odpraviti ali zmanjšati.
+Z uvedbo ustrezne varnostne kontrole se zmanjša ranljivost vira in tveganje (Šalej 2003, 10).
+Pri uvedbi ustrezne varnostne kontrole je treba upoštevati možnost njene realizacije.
+Ukrepi varovanja z vidika vrste zaščite: fizični, informacijsko-tehnični (aplikativna varnost s pomočjo sistema avtorizacij), organizacijski in kadrovski, so opisani v četrti točki poglavja 2.1.
+Slika 9 prikazuje postopek zmanjševanja tveganj.
+Slika 9: Postopek zmanjševanja tveganj   Vir: Šalej (2003, 10)         40  Pri izbiri ustreznih varnostnih kontrol je poleg ogroženosti virov, treba upoštevati še: ? zakonske in pogodbene obveznosti ter standarde, katerim je podrejeno podjetje, in ? organizacijske predpise, ki odsevajo način in kulturo poslovanja podjetja.
+Rezultat ocene tveganj je seznam priporočenih kontrol, ki evidentirana tveganja zmanjša na sprejemljiv nivo.
+V priporočilu se navede čas, v katerem je treba kontrole implementirati.
+Seznam se preda poslovnim lastnikom, ki odločijo, katere kontrole se bo implementiralo in kdaj, saj je njihova implementacija povezana tako s finančnimi sredstvi kot s potrebnimi resursi zanjo.
+Če so določene kontrole povezane z visokimi finančnimi sredstvi, je priporočljivo podati tudi alternativne kontrole.
+Na ta način bodo implementirane vsaj alternativne kontrole, čeprav tveganje ne bo popolnoma odpravljeno.
+Skratka, odločitev o implementaciji priporočenih kontrol je v rokah poslovnih lastnikov in ne informatikov.
+Ocena tveganj je izredno pomembno orodje, saj omogoča ukrepe za varovanje informacij postaviti na skupni imenovalec, to je vzpostaviti ravnotežje med varnostnimi ukrepi po vsej organizaciji (ibid., 10).
+Z vidika oblikovanja sistema avtorizacij v SAP R/3 je potrebno pri analizi in oceni tveganj ugotoviti, katere kontrole iz seznama priporočenih, je potrebno s sistemom avtorizacij R/3 implementirati.
+5.3 Definicija vlog v podjetju  V tej fazi se s pomočjo intervjujev in delovnih sestankov s strokovnjaki posameznih oddelkov analizirajo in opišejo funkcije oz. vloge v podjetju.
+Intervjuje in delovne sestanke je treba organizirati ločeno po posameznih področjih (finančno računovodstvo, kontroling, nabava, skladiščenje, proizvodnja, prodaja itd).
+Dokumentacija procesov in opisi delovnih mest so lahko pri tem koristen pripomoček.
+Posebno pozornost je potrebno nameniti ustrezni delitvi nalog med posameznimi oddelki v podjetju.
+Vloge morajo biti definirane neodvisno od posameznih uporabnikov.
+Sistem avtorizacij v SAP R/3 temelji na osnovi vlog in ne na osnovi uporabnikov informacijskega sistema.
+To pomeni, da je uporabnike potrebno združevati v skupine na osnovi izvajanja njihovih nalog oz. vlog v sistemu R/3.  Pravice dostopov v sistemu avtorizacij SAP R/3 se ne dodeljujejo posameznim uporabnikom direktno, ampak posredno preko vlog, ki pa so lahko dodeljene tudi večjemu številu uporabnikov.
+V izjemnih primerih in v podjetjih z malim številom uporabnikov, je število definiranih vlog v primerjavi s številom uporabnikov v razmerju 1:1.
+Običajno izvaja iste naloge več uporabnikov, zato je število definiranih vlog mnogo manjše od števila uporabnikov sistema R/3.  Rezultat definicije vlog, je seznam in opis vlog v sistemu R/3, ki je osnova za izdelavo matrike nalog in vlog.
+41  5.4 Izdelava matrike nalog in vlog  Za vsako vlogo je potrebno identificirati transakcije, ki so potrebne za njeno izvajanje.
+To se izvede z usklajevanjem in sodelavo strokovnjakov iz posameznih oddelkov in svetovalcev posameznih modulov R/3. Svetovalci lahko prispevajo informacije o možnostih posameznih nastavitev ali omejitev, in na ta način pomagajo pri odločitvah o posameznih podrobnostih pri oblikovanju sistema avtorizacij.
+Izkušnje iz prakse so pokazale, da je usklajevanje treba omejiti na naloge, ki so potrebne za delitev vlog znotraj modulov R/3. Omejitev nalog na posamezne module ima prednost, ker so za njihovo izvajanje potrebni samo avtorizacijski objekti določenega modula.
+Na ta način se je možno izogniti multiplikativnemu učinku, ki nastane zaradi kombinacij z avtorizacijskimi objekti ostalih področij.
+Z vidika sistema avtorizacij v R/3 lahko nalogo opredelimo kot poslovno logično skupino transakcij, ki je strukturirana v skladu s standardnim menijem R/3. Pri izdelavi vlog so funkcije implementirane v obliki zbirnih vlog in njihove naloge, kot posamezne vloge.
+V tej fazi morajo biti funkcije čimbolj celovito definirane tako preko področij, kakor tudi preko modulov.
+Željeni cilj je, da bi avtorizacija, ki je potrebna za izvajanje nalog funkcije, bila zajeta v ustrezni vlogi tako, da bi lahko uporabnik z eno posamezno vlogo izvajal vse svoje naloge.
+V praksi je to težko izvedljivo.
+V predhodni fazi pripravljeni seznam vlog je osnova za izdelavo matrike nalog in vlog.
+V njej so zajete vse funkcije s pripadajočimi transakcijami na nivoju nalog.
+V fazi realizacije sistema avtorizacij služi za izdelavo vlog v sistemu R/3.  Na sliki 10 je prikazan del matrike nalog in vlog.
+Levi stolpec vsebuje drevesno strukturo standardnega menija R/3. Vozlišča menija so ekspandirana do četrtega nivoja, ali pa do posamezne transakcije, odvisno od željene podrobnosti ali potrebnih varnostnih zahtev.
+V zgornji vrstici matrike so navedene posamezne vloge.
+Na presečiščih matrike je označeno katera vozlišča menija oz. transakcije vsebuje posamezna vloga in tudi stopnja njene avtorizacije (Hermann 2003, 144): ?
+VSE  Vloga ima neomejen dostop do transakcij vrstice oz. vseh transakcij vozlišča menija ?
+PRI  Vloga ima samo pravico prikaza podatkov ustrezne transakcije.
+V vlogi ni transakcij, ki jih ni možno omejiti na prikaz podatkov.  ?
+V01 do VXX in P01 do PXX itd Razen neomejenega dostopa in prikaza podatkov so včasih potrebne tudi druge možnosti, ki morajo biti ustrezno označene.
+Opis ustrezne variante (VXX kot varianta; PXX kot prikaz), se mora nahajati v dokumentaciji matrike.
+Varianta je lahko na primer omejitev na prikaz in spremembo podatkov, pri čemer njihovo brisanje ali kreiranje nista dovoljena.
+Izdelava te matrike je pomemben mejnik pri projektu uvajanja sistema avtorizacij v SAP R/3. Rezultate te faze mora potrditi in prevzeti naročnik projekta.
+42  Slika 10: Matrika nalog in vlog    Prirejeno po Hermannu (2003, 143)   5.5 Izdelava organizacijsko vrednostne matrike  Zaradi uskladitve vlog z organizacijskimi zahtevami podjetja, je potrebno definirati njihove omejitve s pomočjo vrednosti polj, ki označujejo organizacijske enote podjetja.
+Cilj te faze projekta je zaščita občutljivih podatkov za vsako posamezno vlogo in istočasen dostop do podatkov drugih organizacijskih enot, ki so potrebni za izpolnitev njenih nalog.
+Pri tem mora biti upoštevan tudi stroškovno upravičljiv obseg razvoja sistema avtorizacij oziroma vlog, ki morajo biti v skladu z varnostnimi zahtevami podjetja.
+Organizacijsko vrednostna matrika prikazuje podrobnost sistema avtorizacij in s tem tudi obseg njegovega razvoja.
+V njej so določeni vsi dostopi do podatkov podjetja ob upoštevanju načela lastništva podatkov in funkcij.
+Poskrbljeno mora biti za njeno potrditev v strokovnih oddelkih in prevzem naročnika projekta.
+Lastništvo podatkov je možno definirati na nivoju organizacijskih enot oz. polj kot sta na primer šifra podjetja ali distribucijski kanal.
+Idealna rešitev za vsa podjetja ne more biti v naprej določena.
+43  Tako je mogoče bolje določiti vrednostna območja organizacijskih enot za vsako posamezno vlogo ali za vsak modul (npr. finance).
+Slika 11 prikazuje primer organizacijsko vrednostne matrike.
+Slika 11: Organizacijsko vrednostna matrika    Prirejeno po Hermannu (2003, 146)   Po implementaciji sistema avtorizacij služi organizacijsko vrednostna matrika kot pripomoček upravljalcu avtorizacij pri vzdrževanju in izdelavi novih vlog.
+Vzdrževati jo je treba ob organizacijskih spremembah v podjetju, saj je osnova za vnos organizacijskih polj pri upravljanju avtorizacij.
+44  5.7 Dokumentacija sistema avtorizacij  Postopki zahtev, odobritev in vnosov sprememb v sistem avtorizacij morajo biti opisani v dokumentaciji sistema avtorizacij.
+Zaradi revizije in sledljivosti dogodkov je potrebno v dokumentacijo sistema avtorizacij vključiti tudi vse zahtevke za kreiranje in spremembe avtorizacij.
+Dokumentacijo je potrebno hraniti v zakonsko predpisanem, ali v skladu s SAP AG priporočenem roku desetih let.
+Na osnovi izkušenj uvajanja sistema avtorizacij v različnih podjetjih, se je izoblikovalo priporočilo, da naj dokumentacija sistema avtorizacij vsebuje naslednje elemente: ? okvirne pogoje sistema avtorizacij, ? organizacijsko strukturo strokovnih oddelkov podjetja, vključno z oddelkom sistemske  administracije in podpore uporabnikom, ? pregled uporabnikov in njihovih uporabniških imen, ? opis vlog in zbirnih vlog z dodeljenimi transakcijami in avtorizacijskimi profili zaradi  usklajevanja uporabnikov z izvajanjem funkcij oziroma nalog v sistemu R/3, ? matriko nalog in vlog, ? organizacijsko vrednostno matriko.
+Dokumentiranju vlog je v generatorju avtorizacijskih profilov namenjena posebna ekranska slika z vnosnim poljem za opis vloge.
+5.8 Prenos znanja in šolanje  Pravočasna vključitev članov sistemske administracije in podpore sistema v projektno skupino za implementacijo sistema avtorizacij omogoča, ob izvajanju nalog projekta in delovnih sestankov, šolanje in prenos znanja zunanjih sodelavcev oz. svetovalcev na upravljalce uporabnikov in avtorizacij v podjetju.
+45  6 REALIZACIJA SISTEMA AVTORIZACIJ V SAP R/3   V prejšnjem poglavju opisana priprava projekta in oblikovanje sistema avtorizacij v R/3, temelji na tesni sodelavi projektne skupine z zaposlenimi v podjetju.
+Osnovni dokumenti, kot sta matrika nalog in vlog in organizacijsko vrednostna matrika, so pripravljeni in usklajeni, zato lahko velik del realizacije sistema avtorizacij izvedejo člani projektne skupine sami.
+Pred aktiviranjem sistema avtorizacij morajo biti vloge pretestirane in potrjene v strokovnih oddelkih podjetja.
+Istočasno testiranje vlog in nastavitev aplikativnih modulov moti analizo napak v različnih projektnih skupinah za module in avtorizacijo, ter podaljšuje čas trajanja projekta implementacije informacijskega sistema R/3. Testiranje vlog je potrebno načrtovati po koncu nastavitev aplikativnih modulov.
+6.1 Realizacija   6.1.1 Postavitev generatorja avtorizacijskih profilov  Osnovno orodje za implementacijo avtorizacij v SAP R/3 je generator avtorizacijskih profilov.
+Z njim se med drugim izdelajo tudi posamezne vloge in zbirne vloge.
+Razlika med njimi je v tem, da so zbirne vloge sestavljene iz posameznih vlog.
+Tudi zbirni avtorizacijski profili so povezava profilov vlog, ki so združene v zbirni vlogi (Hermann 2003, 180).
+Tudi na področju avtorizacij vsebuje programska rešitev R/3 prednastavljene rešitve v obliki standardnih vlog in tudi povezav med transakcijami in avtorizacijskimi objekti.
+Za vsako transakcijo je s povezavami definirano, katere avtorizacijske objekte bo generator avtorizacijskih profilov vpisal v avtorizacijskih profil vloge, ki to transakcijo vsebuje.
+Te povezave in predlagane vrednosti avtorizacijskih polj je potrebno prevzeti kot izhodiščne vrednosti tabel na osnovi katerih deluje generator avtorizacijskih profilov.
+Na ta način je ob vsakem trenutku možna primerjava med v standardni rešitvi R/3 predvidenimi in potrebam podjetja prilagojenimi nastavitvami.
+Parametriziranje avtorizacij zahteva obsežno strokovno znanje pri spremembah in dopolnitvah avtorizacijskih vrednosti, ki jih generator avtorizacijskih profilov pripravi na osnovi izdelanih vlog.
+Slepo prevzemanje predlaganih vrednosti generatorja povzroča pomanjkljivosti oz. luknje v sistemu avtorizacij, ker avtomatično pripravljeni profili običajno vsebujejo preobsežne avtorizacije, kot je bilo sicer v matriki nalog in vlog predvideno.
+Testiranje vlog se lahko po nepotrebnem tudi zavleče, če pri izdelavi profilov niso bile upoštevane vse predvidene kontrole izvajanja transakcij.
+46  6.1.2 Izdelava posameznih vlog in profilov  Pri izdelavi vlog in profilov je potrebno upoštevati v okvirnih pogojih projekta definirano pravilo določanja njihovih imen.
+Izdelava vlog z generatorjem avtorizacijskih profilov, je tehnično opravilo sestavljeno iz dveh korakov: 1. Po kreiranju vloge in vnosu opisnih polj, je potrebno najprej definirati meni vloge oz.  uporabniški meni.
+Pri oblikovanju menija se v skladu z matriko nalog in vlog določijo transakcije, ki se bodo z vlogo izvajale.
+Posamezne transakcije ali vozlišča menija z več transakcijami je možno vnesti ročno ali pa prevzeti iz standardnega menija in tudi menijev drugih vlog.
+2. Po izdelavi menija je potrebno aktivirati generiranje avtorizacijskega profila vloge.
+Generator pripravi avtorizacijski profil z avtorizacijskimi objekti, na osnovi v meniju zajetih transakcij in zapisov tabel v katerih so definirane povezave med transakcijami in avtorizacijskimi objekti.
+Generirane vrednosti polj avtorizacijskih objektov je potrebno uskladiti z dovoljenimi aktivnostmi iz matrike nalog in vlog (neomejen dostop, samo prikaz podatkov itd.) in omejiti na organizacijske enote organizacijsko vrednostne matrike.
+6.1.3 Izdelava zbirnih vlog  Na osnovi podatkov matrike nalog in vlog, se zbirne vloge kreirajo v generatorju avtorizacijskih profilov z združevanjem posameznih vlog, njihovih menijev in avtorizacijskih profilov.
+Meni zbirne vloge je sestavljen iz menijev posameznih vlog.
+Možno ga je sicer preoblikovati, toda dodajanje novih transakcij ni dovoljeno.
+Avtorizacijo zbirne vloge določajo avtorizacije združenih posameznih vlog.
+6.1.4 Standardne vloge v SAP R/3  Programska rešitev SAP R/3 vsebuje veliko število prednastavljenih standardnih vlog, ki jih je možno pri implementaciji sistema avtorizacij tudi uporabiti.
+Izkušnje so pokazale, da so poslovni procesi in delitev nalog v podjetjih toliko različni, da ni možno realizirati sistema avtorizacij izključno na osnovi standardnih vlog sistema R/3. Zaradi tega je priporočljivo te vloge upoštevati samo kot vzorec in ne kot osnovo za izdelavo sistema avtorizacij.
+6.1.5 Uporabniški meniji  Uporabniki lahko uporabljajo standardni meni SAP R/3, ali pa svoje uporabniške menije.
+Prednost uporabniških menijev je v tem, da so na ekranu prikazane samo tiste transakcije, ki so sestavni del uporabnikove vloge.
+Na ta način je prihranjeno zamudno navigiranje do željene transakcije, skozi zapleteno drevesno strukturo standardnega menija.
+47  Meni uporabnika se kreira ob izdelavi vloge z generatorjem avtorizacijskih profilov.
+Pri tem je potrebno upoštevati naslednja priporočila: ?
+Transakcija se naj ne pojavlja na več različnih mestih menija, razen takrat, ko z  drugimi transakcijami tvori logično zaključeno celoto. ?
+Mesto transakcije v uporabniških menijih različnih vlog, mora biti v vseh menijih  standardizirano.
+Na ta način lahko uporabnik lažje najde transakcijo tudi po spremembi njegovega menija zaradi dodelitve drugih vlog.  ?
+Vsebinsko povezane transakcije določenega področja se morajo nahajati v skupnem vozlišču menija.
+6.1.6 Kopiranje in izpeljava vlog  Odvisno od organizacijske razdelitve podjetja so potrebne tudi vloge, ki imajo isto funkcionalnost in dostop do podatkov različnih organizacijskih enot podjetja.
+Za izdelavo takih vlog sta na voljo dva različna postopka.
+Kopiranje vlog Z generatorjem avtorizacijskih profilov se lahko vloge tudi kopirajo.
+Po kopiranju ni nobene povezave med izhodiščno vlogo in njeno kopijo.
+Vrednosti avtorizacijskih polj nove vloge je potrebno spremeniti tako, da se ohrani funkcionalnost in vzpostavi dostop do podatkov drugih organizacijskih enot podjetja.
+Če je vloge potrebno kdaj spremeniti, je potrebno spreminjati vsako vlogo posebej.
+V sistemu R/3 ni mogoče ugotoviti katere vloge so bile kreirane s postopkom kopiranja.
+Zaradi enotnega in lažjega vzdrževanja vlog z isto funkcionalnostjo, je potrebno evidenco o kopiranju dokumentirati v dokumentaciji vlog.
+Izpeljava vlog Na osnovi vloge, ki vsebuje zahtevano funkcionalnost, se lahko v generatorju avtorizacijskih profilov s funkcijo »izpeljava vloge« generira nova vloga.
+Vlogi sta med seboj povezani.
+Ob spremembi menija izhodiščne vloge se avtomatično spremeni tudi meni njene izpeljanke.
+Vse spremembe avtorizacijskih podatkov referenčne vloge, razen vrednosti polj organizacijske strukture, se tudi prenašajo v njene izpeljanke.
+Vrednosti polj, ki označujejo organizacijske enote, je potrebno v izpeljankah ročno vnesti.
+6.1.7 Generiranje avtorizacij  Po izdelavi menija vloge ali po spremembi avtorizacijskih podatkov je potrebno generirati avtorizacijski profil vloge.
+Generator avtorizacijskih profilov generira avtorizacije, ki so potrebne za izvajanje transakcij menija vloge.
+Vrednosti avtorizacijskih polj po generiranju niso v celoti in pravilno izpolnjene.
+Na osnovi organizacijsko vrednostne matrike je potrebno vnesti organizacijske omejitve vlog, ter dopolniti ali prirediti vrednosti avtorizacijskih polj, ki jih je pripravil generator avtorizacijskih profilov.
+Vnesene vrednosti morajo biti v skladu z okvirnimi pogoji, ter matriko nalog in vlog, kakor tudi organizacijsko vrednostno matriko.
+48  Pri spreminjanju podatkov, je s posebnim statusom posamezne avtorizacije prikazano kateri avtorizacijski objekti in polja so že bili spremenjeni in v katerih je potrebno dopolnitve ali spremembe še vnesti.
+Po opravljenem vnosu vseh avtorizacij vloge, je potrebno generirati avtorizacijski profil.
+Sistem predlaga ime profila, ki ga je možno spremeniti.
+Na osnovi izkušenj je priporočljivo spremeniti ime profila v skladu z imenom vloge tako, da je v matičnem zapisu uporabnika razvidna povezava med dodeljenimi vlogami in avtorizacijskimi profili.
+6.2 Testiranje vlog  Po fazi implementacije, je testiranje vlog neobhodno potrebno.
+Testiranje mora biti usklajeno z drugimi razvojnimi in implementacijskimi fazami sistema R/3. Istočasno testiranje nastavitev aplikativnih modulov in vlog ni priporočljivo, ker pri velikem številu sporočil napak na prvi pogled ni takoj razvidno ali gre za napake nastavitev ali pa avtorizacije.
+Prvi testi nastavitev poslovnih procesov morajo biti izvedeni s posebnimi uporabniškimi imeni za testiranje z vsemi dovoljenji (SAP_ALL).
+Na ta način so izključene napake zaradi možnih problemov z avtorizacijo.
+Komaj po uspešnem testu celotne funkcionalnosti sistema R/3, je možno pričeti s testiranjem vlog.
+Pred testiranjem vlog se izdela plan testiranja z vsemi vlogami, ki jih je potrebno preveriti.
+Iz opisov vlog in transakcij matrike nalog in vlog, je razvidna funkcionalnost vloge, ki jo je potrebno preveriti.
+Testiranje avtorizacij se deli na pozitivni in negativni test: ?
+Pozitivni test, s katerim se testira možnost aktiviranja transakcij vloge in dostopnost  do potrebnih podatkov. ?
+Negativni test, ugotavlja možnost aktiviranja transakcij, ki v vlogi niso predvidene in  dostop do podatkov zunaj dovoljenega področja vloge.
+Negativnega testa ni mogoče izvesti za vse možne transakcije in podatke, ki v vlogi niso predvideni, zato ga je treba omejiti samo na kritične transakcije in podatke.
+Prav tako je potrebno preveriti dovoljene aktivnosti transakcij (npr. samo prikaz podatkov), v skladu z matriko nalog in vlog.
+Testiranje avtorizacij je potrebno izvesti s tremi koraki: 1. Test vlog  Cilj prve stopnje testiranja je preverjanje funkcionalnosti vlog in njihova uskladitev z zahtevami matrike nalog in vlog.
+Ta stopnja je priprava na integracijski test vlog in jo lahko izvedejo člani projektne skupine sami.
+V tej fazi se odpravijo prve in očitne napake, s čemer se olajša kasnejši integracijski test.
+Pri testu vlog se izvaja pozitivni test, s katerim se preverja izvedljivost transakcije vloge.
+Izvedljivost izključenih in kritičnih transakcij, je del integracijskega testa.
+49  2. Integracijski test Po zaključku prve faze testiranja, so vloge pripravljene za integracijski test, ki se nanaša tako na pričakovane rezultate na podatkovnem nivoju, kakor tudi na integrativni vidik vlog.
+Izvajati ga morajo člani širše projektne skupine.
+To so nekateri posebej usposobljeni sodelavci strokovnih oddelkov podjetja (ključni uporabniki), ki poznajo potek poslovnih procesov podjetja v sistemu R/3. Integracijski test vsebuje pozitivni in negativni način testiranja.
+Preverja se izvedljivost transakcij, obdelava podatkov, prikaz rezultatov, omejitev dostopov do podatkov in možnost izvajanja transakcij, ki v vlogah niso predvidene.
+Poglavitna naloge te faze je test integriranosti vlog, to pomeni vzajemno delovanje različnih vlog v poteku poslovnih procesov.
+Če je bilo v predlogu rešitve (Business Blueprint) predvideno, da se posamezni koraki poslovnih procesov izvajajo z različnimi vlogami, se mora ta zahteva odražati tudi v testni dokumentaciji integracijskega testa.
+3. Test sprejemljivosti V zadnji fazi imajo nekateri končni uporabniki sistema R/3 (zaposleni v podjetju, ki niso člani projektne skupine), možnost spoznati vloge sistema avtorizacij pred njegovim aktiviranjem in izraziti eventualne želje po spremembah, kot so lahko na primer: spremembe strukture menijev ali dodajanje transakcij, poročil ali prikazov tabel.
+Spremembe, ki so bile realizirane v fazi testiranja vlog morajo biti tudi vnesene v dokumentacijo sistema avtorizacij.
+Potrditev vlog v strokovnih oddelkih podjetja je predpogoj za dodeljevanje avtorizacij v matične zapise uporabnikov.
+6.3 Dodeljevanje avtorizacij  Pred aktiviranjem sistema avtorizacij je potrebno uporabnikom dodeliti pripadajoče avtorizacije.
+Povezava med uporabnikom in njegovo avtorizacijo je vzpostavljena z vnosom vloge in avtorizacijskega profila v matični zapis uporabnika.
+Ob prijavi se uporabnikove avtorizacije naložijo iz avtorizacijskega profila v delovni pomnilnik.
+Vsa preverjanja upravičenosti dostopov se izvajajo na osnovi avtorizacij, ki so med prijavo shranjene v delovnem pomnilniku.
+Spremembe avtorizacij uporabnika so veljavne šele po ponovni prijavi v sistem R/3.   6.4 Aktiviranje sistema avtorizacij  Po zaključenih testih vlog in njihovi dodelitvi uporabnikom je vse pripravljeno za aktiviranje sistema avtorizacij.
+V prvih tednih uporabe se kljub predhodnim testom pojavljajo nekatere napake.
+Aktiviranje sistema avtorizacij pomeni tudi začetek intenzivnega nadzora in podpore sistema, ki običajno traja od štiri do šest tednov.
+V tem obdobju se pojavljajo napake manjkajočih avtorizacij in tudi želje uporabnikov po določenih spremembah.
+Nepogrešljiva je prisotnost in podpora svetovalcev tudi v tem začetnem obdobju.
+50  Njihove naloge v obdobju po aktiviranju sistema avtorizacije so: ? hitra lokalizacija in odprava napak, ? presoja in po potrebi tudi realizacija zahtev uporabnikov, ? podpora upravljalcev uporabnikov in upravljalcev avtorizacij pri njihovem uvajanju v  vsakodnevno delo, ? dokumentiranje sprememb.
+6.5 Vzdrževanje vlog in uporabnikov  Implementirani sistem avtorizacij je dinamičen proces, ki ga je potrebno nenehno prilagajati spremembam v strukturi in poslovanju podjetja.
+Zaradi fluktuacije, reorganizacije in premestitev zaposlenih, se pojavljajo zahteve po spremembah obstoječih matičnih zapisov uporabnikov in njihovih avtorizacij.
+Sistem avtorizacij je potrebno preverjati in po potrebi prilagajati tudi novim verzijam programske rešitve R/3. Iz opisanih vzrokov je potrebno vzpostaviti postopek vzdrževanja vlog in uporabnikov, z definiranimi in dokumentiranimi postopki in odgovornostmi.
+Na področju vzdrževanja uporabnikov se izvajajo naslednje aktivnosti: ? kreiranje novega uporabnika R/3 z ustreznimi avtorizacijami, ? spremembe matičnega zapisa uporabnika brez sprememb njegovih avtorizacij, ? nove dodelitve ali spremembe avtorizacij v matičnih zapisih uporabnikov, ? aktiviranje ali deaktiviranje uporabnikov, ? brisanje matičnih zapisov uporabnikov.
+Vzdrževanje vlog obsega: ? širitev avtorizacij z novimi transakcijami ali vrednostmi avtorizacijskih polj v  obstoječih vlogah, ? kreiranje novih posameznih ali zbirnih vlog, ? dodajanje posameznih vlog v zbirno vlogo.
+Izvajanje vzdrževanja vlog in uporabnikov je potrebno organizirati po naslednjih korakih: 1. Pisno zahtevo za spremembo vloge ali uporabnika preda vodja ustrezne organizacijske  enote podjetja, skupini za podporo informacijskega sistema R/3. 2. Upravljalec uporabnikov in upravljalec avtorizacij morata oceniti obseg potrebnih  sprememb, jih uskladiti z ostalimi vlogami oz. vodji oddelkov in pridobiti odobritev lastnikov podatkov.
+3. Po realizaciji je potrebno izvedene spremembe dokumentirati v dokumentaciji sistema avtorizacij.
+Postopek vzdrževanja vlog in uporabnikov mora bit znan vsem udeležencem pred aktiviranjem sistema avtorizacij, zaradi preprečevanja nepotrebnih zapletov pri delovanju sistema R/3.         51  6.6 Reševanje kritičnih situacij  Za zagotavljanje neprekinjenega delovanja sistema R/3, je z vidika avtorizacij potrebno predvideti reševanje kritičnih situacij, z direktnim posegom v sistem.
+Le na osnovi predhodne opredelitve kritičnih situacij v sistemu R/3, se lahko izdelajo tudi avtorizacije za njihovo obvladovanje.
+Da bi preprečili uporabo vseobsegajočih avtorizacij že ob pojavu najmanjših težav, je potrebno predvideti večstopenjski sistem reševanja kritičnih situacij: 1. Pri neustreznih vrednostih avtorizacijskih ali organizacijskih polj v sistemu avtorizacij  je potrebno uporabniku dodeliti vseobsegajočo avtorizacijo (SAP_ALL), ki omogoča izvajanje transakcij njegove vloge, brez omejitev.
+Avtorizacijska ali organizacijska polja uporabnikove vloge je potrebno dopolniti z vrednostmi, ki so povzročile izjemno situacijo.
+Po dodelitvi spremenjene avtorizacije, je uporabniku potrebno odvzeti SAP_ALL avtorizacijo.
+2. V primeru manjkajoče transakcije uporabnik ne more izvesti določene naloge ali procesa.
+Za čas reševanja problema je potrebno uporabniku dodeliti področno vlogo za reševanje kritičnih situacij.
+To so vnaprej pripravljene vloge, z vsemi transakcijami standardnega menija za posamezno področje (npr. finančno računovodstvo, prodaja in distribucija, materialno poslovanje itd.) in vseobsegajočo avtorizacijo.
+Manjkajočo transakcijo je potrebno dodati vlogi uporabnika.
+Po ponovni dodelitvi dopolnjene vloge, je uporabniku potrebno področno vlogo odvzeti.
+6.7 Nadzor sistema avtorizacij  Sistem avtorizacij SAP R/3 presega rešitve avtorizacij v primerljivih ERP sistemih, ker ga je med drugim mogoče tudi konfigurirati v skladu z izvajanjem poslovnih procesov in avtorizacijskih objektov iz različnih modulov (Hermann 2003, 219).
+Uporabniki različnih področij sistema R/3, imajo zaradi njegove integriranosti dostop do istih informacijskih virov, pri čemer je v sistemu avtorizacij uspešno rešeno ločevanje funkcij in nalog uporabnikov.
+Implementirani sistemi avtorizacij različnih podjetij se zelo razlikujejo, čeprav so zgrajeni iz istih elementov, ki so opisani v poglavju 4.4.
+Zaradi različnih sistemov ni mogoče izdelati enotnega spiska kontrol za preverjanje avtorizacij v različnih podjetjih.
+V veliko pomoč pri njegovi izdelavi v posameznem podjetju, je seznam priporočenih varnostnih kontrol zapisanih v standardu ISO 17799.
+Nadzor sistema avtorizacij z velikim številom uporabnikov je zahtevna in obsežna naloga.
+V sistemu R/3 so na voljo že pripravljena poročila in orodja, ki olajšajo nadzor sistema avtorizacij.
+52  7 PREVERJANJE SISTEMA AVTORIZACIJ V SAP R/3   Hranjenje določenih informacij je potrebno zaradi zakonskih predpisov, nadzora varnosti sistema in sledenja dogodkov v primeru napak.
+Sistem R/3 vsebuje številne protokole za pomoč pri upravljanju sistema, nadzoru, preverjanju in odpravljanju napak.
+Audit Info System in Security-Audit-Log sta orodji sistema R/3, ki omogočata tudi preverjanje sistema avtorizacij (SAP AG 1999, 3/15).
+7.1 Audit Info System  Za potrebe interne in eksterne revizije so analize in poročila različnih področij sistema R/3 (prodajni informacijski sistem, logistični informacijski sistem, računovodski informacijski sistem itd.) združene v Audit Info Sistem (AIS).
+Na ta način so na enem mestu in z enotnim dostopom pripravljene vse informacije za preverjanje poslovanja (npr. davčno revizijo) in tudi preverjanje delovanja sistema R/3 (System Audit), kamor spada med ostalim tudi preverjanje uporabnikov in sistema avtorizacij.
+Prednost AIS je v smiselni povezanosti in strukturi analiz in poročil, vključno s potrebnimi avtorizacijami revizorjev za njihovo izvajanje.
+Standardna poročila za preverjanje sistema avtorizacij omogočajo preglede uporabnikov, avtorizacijskih profilov, avtorizacijskih objektov, vlog in transakcij po različnih kriterijih izbora.
+S pomočjo navedenih poročil je možno pridobiti tudi informacije o uporabi in nosilcih avtorizacij, za izvajanje posebnih oz. kritičnih procesov v sistemu R/3, kot so na primer: obdelave v ozadju (BATCH), spremembe programov, direkten dostop do operacijskega sistema strežnika ali podatkovnega nivoja, upravljanje uporabnikov in avtorizacij, finančne transakcije (izplačila, knjiženja), dostop do obračuna plač, itd.   7.2 Security-Audit-Log  Security-Audit-Log je orodje za spremljanje dogodkov povezanih z varnostjo sistema R/3, kot so na primer spremembe matičnih zapisov uporabnikov ali neuspeli poskusi prijav.
+Namenjeno je revizorjem in upravljalcem sistema za spremljanje in analizo dogodkov.
+Z aktiviranjem Security-Audit-Log se določijo aktivnosti, ki jih mora sistem protokolirati.
+To so lahko (SAP AG 1999, 3/16): ? uspešne in neuspešne prijave (tudi preko omrežja), ? spremembe matičnih zapisov uporabnikov, ? aktiviranja dovoljenih in poizkusi aktiviranja nedovoljenih transakcij, ? spremembe Audit nastavitev.
+Security-Audit-Log omogoča spremljanje vseh aktivnosti uporabnika v sistemu R/3. Zaradi ugotavljanja odgovornosti je uporabnike potrebno seznaniti z njihovimi odgovornostmi glede ravnanja oz. zaupnostjo gesel.
+53  8 VARNOSTNA POLITIKA   Politika varovanja in zaščite informacij (PVZI) ali varnostna politika, opredeljuje usmeritev glede varnostnih nalog, odgovornosti in varnostnih postopkov za zagotavljanje zaupnosti, neoporečnosti in razpoložljivosti informacij, kar je bistveno za vzdrževanje konkurenčnosti, finančnih tokov, donosnosti, zakonitosti in ugleda podjetja.
+Sestavni del varnostne politike so varnostni načrti, ki določijo, kako se v podjetjih izvaja varstvo zaupnih in kritičnih poslovnih informacij.
+Varnostna politika je nujna, ker opredeli dovoljene in nedovoljene akcije (denimo pregledovanje spletnih strani s seksualno vsebino ipd.).
+Namen politike varovanja informacij je zagotoviti varno poslovanje in sledljive postopke, to pa zagotavlja učinkovitejše poslovanje ter možnost objektivnejšega revidiranja notranjih in zunanjih revizijskih služb (Loborec 2001, 75).
+V pisnem dokumentu politike za varovanje in zaščito informacij, ki mora biti na voljo vsem zaposlenim, je določen in dokumentiran postopek sistema za varovanje in zaščito informacij.
+V njem so definirani tudi postopki upravljanja informacij in njihovih uporabnikov.
+Vsebovati mora naslednja navodila (USM 1997, 15): ? opredelitev varovanja informacij, njegovih splošnih ciljev, obsega in pomena z vidika  omogočanja dostopa do informacij, ? ugotovitev namenov poslovodstva glede podpore smotrom in načelo varovanja  informacij, ? pojasnilo posebnih varnostnih usmeritev, načel, standardov in zakonskih zahtev, to je:  • usklajenost z zakonskimi in pogodbenimi zahtevami, • potreb po varnostnem izobraževanju, • politike preprečevanja in ugotavljanja virusov, • načrtovanja neprekinjenega poslovanja,  ? opredelitev splošnih in posebnih odgovornosti za vse vidike varovanja informacij, ? pojasnilo postopkov poročanja ob sumu varnostnih incidentov.
+Po potrebi ga je primerno dopolniti s podrobnejšim notranjim pravilnikom za posamezne položaje, sisteme in storitve, ki naj jasno opredeljuje odgovornosti za posamezna sredstva (v fizičnem in informacijskem pogledu) in varnostne postopke.
+Lastniki informacijskih sistemov so odgovorni za njihovo varovanje.
+Za ukrepanje lahko pooblastijo posamezne uporabniške vodje ali izvajalce računalniških storitev (ibid., 18).
+Dokument PVZI v praksi predstavlja skupek pravil, ki jih podjetje določi po temeljiti analizi stanja in tveganj.
+Sestavljajo ga varnostni načrti, s katerimi je določeno upravljanje zaupnih in kritičnih poslovnih informacij.
+Cilji so dolgoročni in niso vezani na trenutno obdobje.
+Tehnologija, ki je na voljo za varovanje informacijskih virov pa se s časom spreminja.
+Priporočljivo je, da je dokument PVZI večnivojski.
+Na najvišjem nivoju so posamezne police in pod njimi pripadajoči interni standardi, postopki in obrazci.
+Nivoji omogočajo prehod od ciljev in mehanizmov do opisa konkretnih postopkov in tehnologij, ki se uporabljajo za izpolnitev zastavljenih ciljev.
+Če se pojavi nova tehnologija, ki omogoča doseganje zastavljenih ciljev, se lahko vključi v dokument na ustreznem nivoju, brez spreminjanja polic, spremeni se le ustrezen interni standard.
+54  Dokument PVZI se mora s časom spreminjati, seveda ne v celoti, ampak le tisti del, na katerega se sprememba nanaša.
+To se doseže veliko lažje, če je dokument ustrezno razdeljen na nivoje: ?
+Police so visokonivojski dokumenti, ki podajajo cilje in smernice, kako te cilje doseči.
+Ne nanašajo se na konkretno tehnologijo, ki se uporablja v podjetju, ampak podajajo mehanizme, ki jih je treba uporabiti, da se cilji dosežejo.
+Vsebujejo tudi odgovornosti in sankcije ob morebitnih kršitvah.  ?
+Interni standardi opisujejo konkretno opremo in konfiguracijo opreme, s katero so v policah opisani mehanizmi izvedeni.
+To so tehnični dokumenti, ki se spreminjajo skladno s tehnologijo, ki se uporablja v podjetju.  ?
+Postopki so konkretna navodila za vzdrževalce, upravljalce, poslovne lastnike, uporabnike in ostale, ki opisujejo, kako je treba izvesti določena opravila, da bo izvedba skladna s politiko.
+Takšna izvedba dokumenta omogoča oblikovanje priročnikov, ki so namenjeni določenim ciljnim skupinam.
+Celoten dokument PVZI vsebuje informacije zaupne narave, ki niso namenjene vsem.
+S formiranjem priročnikov je dokument razdeljen na vsebine, ki so namenjene določenim ciljnim skupinam, kot so uporabniki, vzdrževalci strojne opreme, sistemska administracija, razvoj itd.
+Na ta način ima vsakdo dostop do tistega dela dokumenta PVZI, ki ga potrebuje za varovanje in zaščito informacij pri opravljanju svojega dela (Šalej 2003, 11).
+Uvedba politike varovanja informacij je prepuščena vsakemu posameznemu podjetju.
+Način vpeljevanja politike varovanja informacij v poslovanje je odvisen od velikosti podjetja.
+V ta namen lahko najame storitve drugega podjetja, ki se ukvarja s to dejavnostjo, zaposli lahko človeka ali organizira ustrezno službo.
+Uprava in vodstvo morata z upoštevanjem pravil PVZI pokazati, da veljajo za vse, ne glede na položaj v podjetju.
+Vsi vpleteni morajo biti seznanjeni s cilji, pravili in postopki za ustrezno varovanje in zaščito informacij.
+Potrebno je poskrbeti za izobraževanje in usposabljanje vseh skupin uporabnikov.
+Podjetje in okolje v katerem se podjetje nahaja je v nenehnem spreminjanju, zato je izjemnega pomena zaznavanje sprememb, ter pravočasno in učinkovito ukrepanje.
+Po uvedbi PVZI je potrebno vzpostaviti postopek uvajanja sprememb in izboljšav, ter izvajanje dnevnega, tedenskega in mesečnega nadzora sistema.
+V slovenskih podjetjih temelji uvajanje PVZI na mednarodnem standardu ISO 17799, ki izhaja iz britanskega standarda BS 7799.
+Je svetovno znan in razširjen varnostni standard, sestavljen iz dveh delov.
+V prvem je opisana praksa, katere postopki niso zavezujoči, v drugem (ta še ni sprejet kot ISO standard), pa so določene zahteve pri vzpostavitvi, izvedbi in dokumentiranju upravljavskega sistema za varovanje informacij.
+Standard ISO 17799 so pri nas dolžne upoštevati poslovne banke.
+Za njegovo vzpostavitev si prizadeva tudi vse več slovenskih podjetij.
+Zavedajo se, da je dostopnost, pravočasnost, jasnost in verodostojnost informacij, eden od temeljev uspešnega poslovanja.
+Podjetja, ki imajo standard uveden, lahko pridobijo ustrezen certifikat in s tem priporočilo o varnosti informacij in informacijskih sistemov.
+55  Na ta način se lahko brez strahu pred zlorabo informacij povežejo z drugimi organizacijami, saj so ob zlorabi določene tudi sankcije v skladu z disciplinskim pravilnikom podjetja.
+8.1 Deset poglavij ISO 17799  Mednarodni standard ISO 17799 objavljen leta 2000, izhaja iz standarda BS 7799-1:1999, ki ga je razvil Britisch Standards Institution in prvič objavil kot standard že leta 1995.
+Danes je BS 7799 v dveh delih, ISO/IEC 17799:2000 (prvi del) in BS 7799-2 (drugi del).
+Prvi del je kodeks varovanja informacij, ki podaja organizaciji osnovne smernice informacijskih kontrol, katere lahko organizacija implementira za varovanje svojih virov.
+Zadnja verzija drugega dela (BS 7799-2) je bila izdana leta 2002.
+Vsebuje podrobnejše specifikacije za sistem upravljanja in varovanja informacij.
+Te specifikacije vodijo podjetje skozi korake, ki so potrebni pri uvajanju PVZI in zajema ljudi, informacijske sisteme in procese.
+Potek uvajanja varnostne politike skladno s standardom ISO 17799 mora potekati v naslednjih korakih: 1. Delavnica s predstavitvijo standarda za zaposlene 2. Priprava krovnega dokumenta informacijske varnosti 3. Izdelava ocene tveganj in kreiranje dokumenta SoA (Statement of Aplicability) 4. Definiranje ISMS (Information Security Management System) 5. Implementacija ISMS 6. Predpresoja 7. Presoja 8. Certificiranje  Informacije je potrebno prevesti v finančne okvire.
+Na ta način se upraviči pomembnost njihove zaščite.
+Komaj, ko je vrednost informacij denarno ocenjena, postanejo lastniki zaskrbljeni glede njihovega varovanja.
+Standard ISO 17799 predstavlja osnovo za varnostne standarde v mnogih organizacijah, velikih, srednjih in majhnih, uporabljajo ga tako v industriji, kakor tudi v trgovini.
+Kot kodeks ravnanja ima ta standard obliko navodila in priporočil, zato ga ni priporočljivo navajati kot predpisano specifikacijo.
+Ponuja praktične in hitro izvedljive pravne, organizacijske in tehnološke ukrepe za zmanjševanje tveganj, ki jih je potrebno za vsako podjetje posebej izdelati in prilagoditi glede na določene posebnosti.
+Namen varovanja informacij, ki nastopajo v različnih oblikah, je zagotavljanje neprekinjenega poslovnega procesa in omejevanje škode na najmanjšo možno mero Primarna naloga standarda je vzpostavljanje primerne varnostne politike pri razvoju produktov.
+Standard obravnava varnost informacijskega sistema na različnih področjih.
+Med najbolj zahtevna sodi področje človeških virov, saj so ravno zaposleni tisti, ki morajo navodila varnostne politike vsakodnevno upoštevati pri svojem delu.
+Popisani morajo biti npr. postopki izobraževanja uporabnikov informacijskega sistema, dodeljevanja gesel in registracije.
+Prav tako je potrebno opredeliti in popisati opremo informacijskega sistem, njegov razvoj, vzdrževanje in podobno.
+56  Standard je razdeljen na deset poglavij, ki pokrivajo različna področja informacijske varnosti.
+Poglavja nudijo širok splet varnostnih kontrol, ki temeljijo na pomembnih varnostnih ukrepih.
+Nekatere kontrole niso uporabne v vsakem okolju in jih je potrebno uporabljati premišljeno, glede na konkretne okoliščine.
+Izkušene organizacije priznavajo večino kontrol kot priporočeno dobro prakso za vse primere, ob upoštevanju omejitvenih dejavnikov kot sta npr. okolje in tehnologija.
+Splošno priznane kontrole se pogosto imenujejo standardne kontrole varovanja, ker opredeljujejo skupno osnovo za dobro izvajanje varovanja informacij (USM 1997, 7).
+Politika varovanja Poslovodstvo mora izdelati in objaviti krovni dokument, v katerem opredeli usmeritev, podporo in zavzetost za varovanje informacij, ki mora biti na voljo vsem zaposlenim, odgovornim za varovanje informacij.
+Dokument vsebuje opis varnostne politike, ter poglede glede varnosti informacijskega sistema (fizične in tehnološke kakor tudi skladnosti z zakonskimi predpisi).
+V dokumentu je potrebno opredeliti in določiti tudi postopke nadaljnjega poslovanja, v primeru varnostne okvare informacijskega sistema.
+Organiziranost varovanja Varovanje informacij je del odgovornosti celotnega poslovodstva, zato je potrebno poskrbeti za pravilno gospodarjenje s podatki in upravljanje z informacijsko varnostjo.
+Priporočljiva je ustanovitev in določitev varnostnega foruma organizacije, za zagotavljanje jasne usmeritve in vidne podpore za uvajanje varovanja, ter določitev smernic varnostne politike, kakor tudi smernic razvoja informacijskega sistema organizacije.
+Predvsem v velikih in večjih organizacijah je potrebno usklajevanje in vzdrževanje zaščite in varnosti informacij iz različnih področij, zato je smiselno uvesti mešani forum, katerega naloge so med drugim vodenje in predvsem vzdrževanje ravni varnostne politike v organizaciji.
+Opredeliti je potrebno odgovornosti za zaščito informacijskega sistema.
+Po potrebi je potrebno izdelati podrobnejši notranji pravilnik za posamezne položaje, sisteme in storitve, ter ga dopolniti z določili pravilnika disciplinske komisije, glede kršitev uporabnikov informacijskega sistema.
+Razvrstitev in kontrola sredstev Podane morajo biti smernice, za vzdrževanje primarne zaščite sredstev v organizaciji, za katere je potrebno določiti odgovornosti in lastništvo.
+Osnovna odgovornost mora ostati pri formalnem lastniku sredstev, medtem ko se lahko odgovornost za uvajanje varnostnih ukrepov prenese tudi na druge.
+Premoženje (predvsem informacijsko), je neprecenljive vrednosti za organizacijo.
+Zaradi tega mora imeti zagotovljeno visoko stopnjo varovanosti in zaščite.
+Premoženje se razvrsti v skupine virov.
+Na osnovi tega se izdela spisek, ki omogoča boljšo sledljivost in nadzor nad opremo za lažje določanje odgovornosti za elemente informacijskega sistema.
+Varovanje v zvezi z osebjem Varnostno politiko je potrebno opredeliti glede na uporabnike sistema, zaradi zmanjševanja človeških napak, tatvin in prevar.
+Uporabnike je potrebno usposobiti in predvsem poučiti o grožnjah, ki pretijo sistemu in jih seznaniti z varnostno politiko podjetja.
+57  Zagotoviti je potrebno ustrezne opise dela, ki vsebujejo tudi vse pomembne varnostne odgovornosti.
+Priporočljivo je, da uporabniki naprav informacijske tehnologije podpišejo ustrezno izjavo o zaupnosti.
+Potrebno je kontinuirano spremljanje posameznikov, kakor tudi ustrezno preverjanje novo zaposlenih že v fazi izbora kandidatov in voditi postopke izobraževanja, seznanjanja in izvajanja izobraževanja uporabnikov informacijskega sistema, ter postopke odobritve dostopa do storitev informacijskega sistema.
+Fizično in okolno varovanje se znatno razlikujeta od organizacije do organizacije, pa vendar je cilj vseh preprečevanje neavtoriziranih dostopov, poškodb, motenj, ter varovanje informacij pred krajo, ter nezaželjeno odtujitvijo.
+Natančneje obravnava fizično varnost temeljev informacijskega sistema in varnost samega okolja organizacije.
+Obravnava tudi obseg fizične varnosti, glede na vrednost opreme, kontrole fizičnega vstopa, varovanje podatkovnih središč in prostorov s ključnimi gradniki informacijskega sistema.
+Opredeljuje območja za dostavo in prejem pošiljk, ter iznos opreme ter njeno varovanje.
+Izvesti je potrebno natančen popis izvorov energije, prenosnikov podatkov in popis opreme, ki je neposredno v stiku z napravami informacijskega sistema organizacije.
+Izdelajo se ocene tveganja, ki so smernice za uvedbo dodatnih varoval (nadzora), dostopov do občutljivih področij.
+Ravnanje z računalniki in omrežjem obravnava varnost računalniškega omrežja in nanj priključenih računalnikov.
+Priporoča uporabo načela ločevanja nalog uporabnikov poslovnega sistema, predvsem za računalnike, ki podpirajo finančne uporabniške rešitve, z namenom zmanjševanja tveganja namerne ali nenamerne zlorabe sistema.
+Pri tem je pomembno tudi ločevanje razvojnih in obratovalnih naprav.
+V tem poglavju je obravnavana pravilna uporaba tehnologije in naprav, zagotavljanje varnosti operacij, minimiziranje nevarnosti pred zrušitvijo sistema, upravljanje in varovanje podatkovnih nosilcev in postopkov glede izmenjave podatkov in programske opreme.
+Definirani morajo biti postopki načrtovanja in sprejemljivosti sistema, upravljanja informacijskega sistema ter računalnikov in postopki zaščite pred škodljivo programsko opremo in virusi, preprečevanje izgube, modifikacije in nepravilne uporabe informacij, ki se pretakajo med organizacijami.
+Obvladovanje dostopa do sistema Poslovne zahteve za obvladovanje dostopov morajo biti jasno opisane.
+Tako opredeljen opis politike dostopa, s katerim so opredeljene pravice dostopa za vsakega uporabnika ali skupine uporabnikov bi moral vzdrževati vsak lastnik informacij.
+Določa tudi politiko dodeljevanja gesel, postopke registracije in dolžnosti uporabnikov.
+Pomemben del tega poglavja je izvajanje nadzora nad dostopi v računalniško omrežje, dostop do posameznih računalnikov, aplikacijske opreme in sistema kot celote.
+Razvijanje in vzdrževanje sistema utemeljuje pomembnost vgrajevanja varovanja v informacijski sistem, kot del skupne poslovne utemeljitve informacijskega sistema.
+Varnostne zahteve je potrebno opredeliti že v projektni fazi opredelitve zahtev.
+58  Obravnava razvoj in vzdrževanje informacijskega sistema, ter posebej obdela varnostne zahteve sistemov, varovanje aplikacijskih sistemov in njihovih datotek, pa tudi varovanje razvojnega in pomožnih okolij.
+Načrtovanje neprekinjenega poslovanja Za primere resnih prekinitev poslovanja npr. naravne katastrofe, nezgode, napake v opremi, prenehanje zunanjih storitev, ipd., je potrebno razvijati in vzdrževati ustrezne načrte za hitro ponovno vzpostavljanje in nadaljevanje poslovanja z vsemi poslovnimi procesi podjetja.
+Usklajenost Sistem mora biti usklajen in v skladu z internimi predpisi in varnostno politiko organizacije.
+Vse pomembne zakonske in pogodbene zahteve, kakor tudi zahteve po dokumentiranju posebnih kontrol, protiukrepov in posameznih odgovornosti, morajo biti izrecno ugotovljene in dokumentirane.
+8.2 Avtorizacija v SAP R/3 in ISO 17799  Varnost v sistemu R/3 s funkcijami varovanja omrežja, predstavitvenega, aplikativnega in podatkovnega nivoja (poglavje 3.3) omogoča celovito rešitev problema varovanja informacij v skladu s priporočenimi varnostnimi kontrolami mednarodnega standarda ISO 17799.
+Osnovni namen in mesto avtorizacij v sistemu varovanja informacij je zagotavljanje varnosti aplikacije s pomočjo ločevanja funkcij in nadzorom dostopov do poslovnih informacij.
+V diplomski nalogi opisana metoda oblikovanja in realizacija sistema avtorizacij v SAP R/3 omogoča implementacijo priporočenih kontrole standarda ISO 17799 iz poglavja o obvladovanju dostopov do sistema.
+59  9 SKLEP   V diplomskem delu so predstavljeni mehanizmi in lastnosti avtorizacije v informacijskem sistemu SAP R/3, ki omogoča zelo visoko stopnjo varnosti podatkov v skladu s priporočenimi kontrolami standarda ISO 17799 iz poglavja o obvladovanju dostopov do sistema.
+V današnjem času globalizacije in tehničnega napredka, je na področju informacijske varnosti zaznati naraščajoč pomen zaupnosti, neoporečnosti, in razpoložljivosti informacij zaradi izboljševanja kakovosti poslovanja in konkurenčnosti podjetij.
+Podatki predstavljajo pomemben del lastnine in jih je potrebno temu primerno tudi varovati.
+Organizacije in podjetja posvečajo vedno več pozornosti in sredstev za zaščito in varovanje zaupnih informacij.
+Pomembno je, da sta število in učinkovitost varnostnih mehanizmov sorazmerna z vrednostjo informacij za podjetje.
+Upravljanje in varovanje informacij je zbir organizacijskih, osebnih, infrastrukturnih in tehničnih ukrepov, ki morajo biti usklajeno povezani za doseganje in vzdrževanje nivoja varnosti informacij v podjetju.
+Varnost v sistemu R/3 se lahko doseže samo z uglašenostjo v podjetju implementiranega sistema upravljanja in varovanja informacij.
+Varnost in zaščita informacijskih virov ni za vselej doseženo stanje, ampak je dinamičen proces, ki zahteva stalno analizo varnosti, preverjanja sistemov zaščite in podporo revizije.
+Iniciativa za uvedbo varnostnega procesa mora izhajati od vodstva, kar se odraža v varnostni politiki podjetja.
+Brez podpore vodstva podjetja se varnostnih ciljev ne da doseči.
+Varnost v informacijskem sistemu SAP R/3 tvori skupek pravil delovanja sistema, dostopov do virov in sredstev ter upravljanje uporabnikov.
+Rešitev mora upoštevati vse zahteve za zagotovitev uspešnega varovanja in omogočati izvajanje poslovnih procesov ter nemoteno delo uporabnikov.
+Potrebna so določena prilagajanja, da lahko podjetje zadosti ciljem varnostne politike.
+Sistem avtorizacij in ostala v diplomski nalogi opisana orodja in sredstva, ki jih je potrebno upoštevati pri vzpostavitvi celovite zaščite informacijskih virov to vsekakor omogočajo.
+Od načina in metod njihove implementacije,  pa je odvisna učinkovita in uspešna zaščita virov informacijskega sistema SAP R/3.  Upoštevanje navodil in priporočil standarda ISO 17799 pripomore k povečanju zanesljivosti sistema varovanja informacij.
+60  10 POVZETEK / ABSTRACT   Informacijsko tehnološka infrastruktura zagotavlja preko strojne opreme, programske opreme in mrežnih povezav temelje za povezovanje ljudi in izvajanje poslovnih procesov.
+Z uporabo ERP rešitev, elektronskega poslovanja in interneta sta dostopnost in varnost podatkov postala pomembna dejavnika konkurenčne prednosti in ugleda podjetja.
+Potrebno je ugotoviti katere informacije in procesi so za podjetje kritičnega pomena, ter določiti način njihovega varovanja.
+Učinkovit pripomoček za zmanjševanje tveganj so navodila in priporočila mednarodnega standarda varovanje informacij ISO 17799.
+Zaščita podatkov v informacijskem sistemu mora upoštevati vse zahteve za zagotovitev uspešnega varovanja, hkrati pa mora omogočati izvajanje poslovnih procesov in nemoteno delo uporabnikov.
+Avtorizacija mora notranjim in zunanjim uporabnikom informacijskega sistema, omogočiti dostop do samo tistih podatkov in informacij, do katerih so upravičeni in jih pri izpolnjevanju svojih nalog tudi potrebujejo.
+Varnost v sistemu R/3 s funkcijami varovanja omrežja, predstavitvenega, aplikativnega in podatkovnega nivoja omogoča celovito rešitev problema varovanja informacij v skladu z priporočenimi varnostnimi kontrolami mednarodnega standarda ISO 17799.
+Sistem avtorizacij zagotavlja varnost aplikacije z ločevanjem nalog in nadzorom dostopov do informacij.
+Omogoča implementacijo priporočenih kontrol standarda ISO 17799, ki se nahajajo v poglavju o obvladovanju dostopov do sistema.
+Ključne besede: aplikativna varnost / avtorizacija / ERP / informacijski sistem / ISO 17799 / SAP R/3 / varnostna politika / vloge uporabnikov / zaščita podatkov.
+ABSTRACT   IT-infrastructure enables through hardware, software and network connections basis for connecting people and execution of business processes.
+With the use of ERP solutions, electronic business and internet have become accessibility and information security important factors for competitive advantage and reputation of company.
+It is necessary to establish which information and processes are critical for the company and to define manners of their protecting.
+Efficient manual for reducing of risks are instructions and recommendations in international standard for information security ISO 17799.
+Data protection in information system must consider all demands to ensure successful protection and to enable the execution of business processes for undisturbed work of users.
+The authorization must enable to inner and outside users of information system access to only the data and information, whom they are entitled and need them for fulfilment of their own tasks.
+Safety in system R/3 with functions for network protecting, demo level, application and data level enables completely solution for protecting of information in accordance with recommended security controls of international standard ISO 17799.       61  The authorization ensures application security with segregation of duties and access control to the information.
+It enables implementation of recommended controls from standard ISO 17799, which are is the chapter about managing of system access control.
+Key words: application security / authorization / ERP / information system / ISO 17799 / SAP R/3 / security policy / user roles / data security        62  LITERATURA   Altmeier, Jörg 2002.
+Applikationssicherheit am Beispiel von SAP R/3. Luzern: Institut für Wirtschaftrinformatik.
+Armbruster, Martina.
+2002.
+Sicherheit und Benutzerverwaltung im Unternehmensportal.
+Walldorf: SAP AG  Bancroft H. Nancy, Henning Seip, Andrea Sprengel.
+2001.
+Implementing SAP R/3. Greenwich, Maning Publications Co.
+Brand, Hartwig.
+1999.
+SAP R/3 - Einführung mit ASAP.
+Bonn: Addison Wesley Longman Verlag GmbH.
+Brumen, Boštjan, in Tatjana, Welzer.
+1998.
+Dostopnost in zaščita podatkov pri relacijski podatkovni bazi Oracle.
+Uporabna informatika 2: 31-39  Hermann, Michael.
+2003.
+SAP Berechtigungswesen.
+Bonn: Galileo Press GmbH.
+Jerina, Miha.
+2003.
+Uvedba celovitega informacijskega sistema SAP R/3 v skupini Istrabenz.
+Ljubljana: Ekonomska fakulteta.
+Kežmah, Boštjan.
+2002.
+Spletne storitve v poslovnih omrežjih.
+Zbornik prispevkov 2. konference študentov podiplomskega študija Ekonomsko-poslovne fakultete v Mariboru: 73-81.
+Koch, Christopher.
+2002.
+The ABCs of ERP [online].
+Enterprise Resource Planning Research Center – CIO.
+Available: http://www.cio.com/research/erp/edit/erpbasics.html [23.03.2003].
+Kovač, Nataša.
+2003.
+Organizacijski vidik vzpostavitve in razvoj EOINET informacijskega omrežja v Sloveniji.
+Ljubljana: Ekonomska fakulteta.
+Krstov, Ljupčo.
+2001.
+Naloge notranje revizije pri nakupu in uvedbi ERP sistemov.
+Dnevi slovenske informatike 2001, VIII.
+Mednarodno posvetovanje, Portorož 18.-21.4.2001.
+Loborec, Igor.
+2001.
+Zagotavljanje kakovosti poslovanja s preverjanjem skladnosti po PSIST BS 7799.
+Ljubljana: Fakulteta za strojništvo.
+Lović, Vladanka.
+2002.
+Primerjalna analiza varnosti uporabe sodobnih plačilnih instrumentov.
+Ljubljana: Ekonomska fakulteta.
+Möhrlen, Regine, in Friedrich Kokot.
+2000.
+SAP R/3 - Kompendium.
+München: Markt+Technik Verlag.
+63  Podlipnik, David.
+2003.
+Analiza uporabnosti spletnih uporabniških vmesnikov v elektronskem bančništvu in predlogi za njihovo nadgradnjo.
+Ljubljana: Ekonomska fakulteta.
+Schaumüller-Bichl, Ingrid.
+1992.
+Sicherheitsmanagement: Risikobewältigung in informationstechnologischen Systemen.
+Mannheim: BI-Wissenschaftsverlag.
+Šalej, Andrej.
+2003.
+Kako vzpostaviti sistem za uspešno in učinkovito varovanje in zaščito informacij? infosrc.si 35: 9-11  Vidmar, Tone.
+2002.
+Informacijsko-komunikacijski sistem.
+Ljubljana: Pasadena.
+64  VIRI   ITtoolbox – Information Technology Toolbox, Inc. 2003.
+SAP Overview [online].
+Available: http://sap.ittoolbox.com/pub/sap_overview.htm [01.04.2003].
+Millennium. (2002).
+2002 European ERP Salary and Fee Survey Results.
+URL: http://www.millenniumbt.co.uk/about/survey.asp [23. 11. 2002].
+SAP AG.
+1999.
+R/3 Sicherheitsleitfaden: BAND I. Walldorf: SAP AG.
+SAP AG.
+2001a. CA940 SAP R/3 Application Security Concept.
+Walldorf: SAP AG.
+SAP AG.
+2001b. R/3 Sicherheitsleitfaden: BAND II.
+Netzwerkinfrastruktur.
+Walldorf: SAP AG.
+SAP AG.
+2003.
+Firmenporträt [online].
+Available: http://www.sap.com/germany/search/downcenter.asp?page=1&first=0&sstring=&mcid=0 &dtype=2&dtype=5 [10.03.2003].
+SAP Help Portal [online].
+Available: http://help.sap.com  SAP INFO (10.05.2002).
+Der Kunde hat die Wahl.
+SAP INFO [online].
+Available: http://www.sapinfo.net/public/de/search.php4/start/t/SAP$20R$2F3$20Enterprise/cat/0/1/2 /3/4/5/6/page/0/article/Article-101803cdbb0134b58d/de [02.04.2003].
+SIST – Slovenski inštitut za standardizacijo.
+Information technology – Code of practice for information security management, International standard ISO/IEC 17799, First edition 2000-12-01.
+Ljubljana: Slovenski inštitut za standardizacijo.
+USM – Urad Republike Slovenije za standardizacijo in meroslovje pri Ministrstvu za znanost in tehnologijo.
+1997.
+Slovenski standard PSIST BS 7799 - Kodeks varovanja informacij.
+Ljubljana: Urad Republike Slovenije za standardizacijo in meroslovje pri Ministrstvu za znanost in tehnologijo.

@@ -1,0 +1,1057 @@
+UNIVERZA V MARIBORU EKONOMSKO-POSLOVNA FAKULTETA                DIPLOMSKO DELO Uporaba plačilnih kartic v internetu              Kandidatka: Katarina Ambrožič Študentka izrednega študija Številka indeksa: 82153874 Program: Univerzitetni VIP 85 Študijska smer: Denarništvo in finance Mentor: Prof. dr. Dušan Bobek       Bled, november 2003    2  PREDGOVOR  Motiv za izbiro teme Uporaba plačilnih kartic v internetu se mi zdi zanimiva tema, saj se število e-trgovin iz leta v leto povečuje in njihov promet močno narašča.
+Diplomsko delo obsega problematiko plačevanja  v internetu, prednosti in pomanjkljivosti e-trgovin in možne zlorabe.
+V prihodnosti bo naraščala tovrstna prodaja prav s pomočjo tehnologije.
+Pomemben korak v tem razvoju bodo pametne kartice, ki vsebujejo vedno več podatkov, ki jih ni mogoče ponarediti.
+Osnovna trditev V diplomskem delu želim dokazati, da  se uporaba plačilnih kartic v internetu povečuje in postaja vedno bolj varna.
+Prav tako se bo v prihodnosti povečala ponudba plačilnih kartic in dodatne ugodnosti, ki bodo vezane na plačilne kartice.
+Pomembno je, da se kupec drži osnovnih pravil varnega nakupovanja: pred odločitvijo o nakupu mora preveriti podatke o trgovcu, pametno je prebrati pogoje in roke, jasno označena cena in jasen postopek naročila sta zelo pomembna podatka.
+Zaupnost in varnost sta zahtevi, ki omogočata največjo možnost naraščanja plačevanja v internetu.
+Trg interneta je v Sloveniji manjši kot v tujini.
+Postopek raziskave Diplomsko delo na temo uporabe plačilnih kartic v internetu je mikroekonomska raziskava.
+Raziskava temelji na podatkih o izdanih karticah v Sloveniji od leta 1996 do 2002, ki jih zbira Banka Slovenije.
+V poglavju E-trgovanje v Sloveniji raziskava sloni na podatkih zbranih preko anket, ki so jih izvedli na spletni strani Raba interneta v Sloveniji (RIS).
+Povzetek raziskave V Sloveniji smo začeli uporabljati plačilne kartice v 60-ih letih prejšnjega stoletja, v zadnjem desetletju njihova uporaba strmo narašča.
+Glede na izdajatelje ločimo bančne, podjetniške, partnerske in licenčne kartice.
+Glede na funkcijo, ki jo plačilne kartice opravljajo pa ločimo: predplačilne, debetne, kreditne kartice oz. kartice z odloženim plačilom in posojilne kartice.
+Plačilne kartice, izdane pri nas, omogočajo odloženo poravnavo obveznosti, nekatere tudi okvirnega posojila (posojilne kartice), od leta 1997  lahko uporabljamo tudi debetne kartice, pri katerih je plačilo vezano na takojšnjo poravnavo s tekočega računa imetnika.
+Najpogostejši razlogi, ki odvračajo ljudi od e-nakupovanja in hkrati uporabe elektronskih plačilnih sistemov so: nevarnost zlorabe kreditne kartice, zloraba osebnih podatkov in nezaupljivost do e-trgovcev.
+Z razvojem tehnologije narašča zaščita in varnost zasebnosti na internetu.
+Zelo pomembno je, da kupci v e-trgovinah varujejo svoje podatke in jih ne posredujejo preko nezavarovanih mehanizmov, saj tako sami pripomorejo k zlorabam.
+K varnemu nakupovanju veliko pripomore tudi SET – Secure Electronic Transaction (varna elektronska transakcija).
+SET zagotovi vmesna vrata med nezavarovanim delom interneta in varnim omrežjem bank, prek katerega se opravljajo elektronske denarne transakcije.
+3  Pravna ureditev elektronskega poslovanja pri nas zajema Zakon o elektronskem poslovanju, ki omogoča enostavno medsebojno priznavanje elektronskih podpisov znotraj Evropske unije.
+Mednarodna ureditev na področju varstva in zaščite potrošnikov je pomembna z vidika obsežnosti e-trgovine.
+Odnos do interneta pri nas se odraža tudi v raziskavi, kjer je 80% anketirancev ocenilo njihov odnos do interneta zelo pozitiven ali pozitiven.
+Po junijskih podatkih je leta 2002 v anketi RIS na vprašanje: » Ali ste v preteklih 12 mesecih prek interneta opravili kak nakup?« pritrdilno odgovorilo 21% uporabnikov interneta.
+Iz vprašalnika EU, junij 2002, je razvidno podobno vprašanje in za EU navajajo 36%.
+Po Eurostatovem sklopu vprašanj z junija 2002 je v Sloveniji 8% uporabnikov interneta v zadnjih 3 mesecih opravilo nakup prek interneta za osebne potrebe.
+V primerjavi z EU  je nakup opravilo 35%.
+Pri nas je nakupovanje v e-trgovinah zaenkrat še za povprečjem EU.
+Trgovci si bodo morali pridobiti večje zaupanje potrošnikov in povečati kredibilnost svojih trgovin.
+Vendar pa lahko glede na sedanjo varnostno tehnologijo pričakujemo porast e-nakupovanja v Sloveniji.
+Pametne kartice predstavljajo vrh varnega elektronskega poslovanja.
+V primerjavi s karticami z magnetnim zapisom imajo pametne kartice kar nekaj prednosti: nanje je moč shraniti od desetkrat do celo stokrat več informacij, omogočajo precej večjo varnost pri njihovi uporabi, omogočajo procesiranje in izvajanje zapletenih algoritmov.
+Problemi Na tujih internetnih straneh je težko priti do podatkov o uporabi spleta in plačevanju v njem.
+Večinoma je potrebno za zbrane podatke dosti plačati.
+Varnost pri plačevanju preko interneta je v Sloveniji glede na sedanjo varnostno tehnologijo na visoki ravni.
+V prihodnosti lahko pričakujemo porast uporabe plačilnih kartic v internetu.
+Povečanje e-prodaje je odvisno tudi od spletnih trgovcev, ki bodo morali več vložiti v predstavitev varnosti in prednosti takšnega nakupa.
+4  1 UVOD ......................................................................................................................................................5 2 PLAČILNE KARTICE..........................................................................................................................8  2.1 POJAV KARTIC .................................................................................................................................8 2.2 VRSTE PLAČILNIH KARTIC................................................................................................................8 2.3 PLAČILNE KARTICE V SLOVENIJI......................................................................................................9 2.4 VARNOST POSLOVANJA S PLAČILNIMI KARTICAMI .........................................................................14  2.4.1 Zagotavljanje varnosti..............................................................................................................14 2.4.2 Previdnost pri uporabi plačilne kartice ...................................................................................16  3 PAMETNE KARTICE ........................................................................................................................18 3.1 ZGODOVINSKI RAZVOJ ...................................................................................................................18 3.2 TEHNIČNI PODATKI ........................................................................................................................18 3.3 VARNOST PAMETNIH KARTIC .........................................................................................................19  4 ZGODOVINA INTERNETA ..............................................................................................................21 5 SPLETNA TRGOVINA.......................................................................................................................22  5.1 DEFINICIJA SPLETNE TRGOVINE .....................................................................................................22 5.2 VARNI ELEKTRONSKI PLAČILNI SISTEMI.........................................................................................23 5.3 GROŽNJE VARNOSTI.......................................................................................................................23 5.4 MOŽNI NAČINI PLAČILA NA INTERNETU .........................................................................................24 5.5 VARNO NAKUPOVANJE NA SPLETNIH STRANEH..............................................................................25  5.5.1 Sistem SET................................................................................................................................26 5.5.2 Potek SET transakcije ..............................................................................................................27 5.5.3 Cybercash in  protokol SSL (Secure Socket Layer)..................................................................28 5.5.4 Digitalni podpis........................................................................................................................29 5.5.5 Nasveti za varno nakupovanje preko spleta .............................................................................29 5.5.6 Kraje plačilnih kartic z interneta .............................................................................................32  6 PREDNOSTI IN POMANJKLJIVOSTI TRGOVANJA PREK INTERNETA.............................34 6.1 PREDNOSTI TRGOVANJA PREK INTERNETA ZA KUPCA ....................................................................34 6.2 GLAVNE PREDNOSTI ZA TRGOVCA .................................................................................................34 6.3 TEŽAVE TRGOVANJA PREK INTERNETA ..........................................................................................35 6.4 DEJAVNIKI, KI VPLIVAJO NA TRGOVANJE PREK INTERNETA ...........................................................37 6.5 OVIRE V INTERNETNEM NAKUPOVANJU IN PLAČEVANJU................................................................37 6.6 ZAHTEVE E-KUPCEV IN E-TRGOVCEV PRI ELEKTRONSKEM PLAČEVANJU........................................38  7 E-TRGOVANJE V SLOVENIJI.........................................................................................................39 7.1 SIM – SLOVENSKI INTERNET MONITOR .........................................................................................39 7.2 MODEL DEJAVNIKOV ZAUPANJA V PLAČEVANJE PREK INTERNETA.................................................40 7.3 Z MIŠKO PO NAKUPIH .....................................................................................................................41 7.4 RABA INTERNETA V SLOVENIJI .....................................................................................................42  7.4.1 ZPS v projektu RIS ...................................................................................................................42 7.4.2 Odnos do interneta v Sloveniji .................................................................................................42 7.4.3 E-nakupovanje 2001 (spletna anketa) ......................................................................................43 7.4.4 Primerjava Slovenija – EU ......................................................................................................46  8 VARSTVO PODATKOV NA INTERNETU .....................................................................................50 8.1 PRAVNA UREDITEV ELEKTRONSKEGA POSLOVANJA.......................................................................50 8.2 VARNOST ZASEBNOSTI POTROŠNIKOV V SLOVENIJI .......................................................................51 8.3 MEDNARODNA UREDITEV NA PODROČJU VARSTVA IN ZAŠČITE POTROŠNIKOV ..............................51 8.4 ZAKON O ELEKTRONSKEM POSLOVANJU IN ELEKTRONSKEM PODPISU ...........................................52 8.5 ZAKON O SPREMEMBAH IN DOPOLNITVAH ZAKONA O VARSTVU POTROŠNIKOV – DECEMBER 200254  9 SKLEP...................................................................................................................................................55 10 POVZETEK..........................................................................................................................................56 11 ABSTRACT ..........................................................................................................................................56 12 KLJUČNE BESEDE / KEY WORDS.................................................................................................56 13 VIRI .......................................................................................................................................................57     5  1 UVOD  Plačilne kratice so sodoben način poslovanja in uporabnikom omogočajo enostavnejši ter preprostejši način opravljanja poslovno finančnih storitev.
+Prednost plačilnih kartic je predvsem v tem, da se uporabniki izognejo gotovinskemu poslovanju.
+Poslovanje preko interneta močno narašča iz leta v leto.
+Za trgovce se odpirajo nove možnosti za prodajo njihovih izdelkov in storitev.
+Za potrošnike pa je hitrejše, cenejše in udobnejše tako iskanje kot kupovanje.
+Uporabniki imamo v večini pomembnejših spletnih trgovin možnost plačila naročenih izdelkov s plačilno kartico.
+Povezava mora biti obvezno zavarovana, da ne pride do zlorab.
+Najbolj pomembno za spletnega kupca je, kako so zaščiteni podatki o njegovi kartici.
+Pomembno je, da številka kreditne kartice pride po omrežju direktno do trgovca.
+Za vsako trgovino je pomembno, da omogoča svojim kupcem varno in enostavno plačevanje blaga in storitev.
+Že od začetka  uporabe plačilnih kartic na internetu se pojavlja vprašanje o njihovi varni uporabi, saj je možnost zlorabe sistema elektronskega plačevanja še vedno prisotna.
+Osnovni način plačevanja pri spletnem nakupu je plačilo s kreditno kartico, kjer moramo nekemu neznanemu prodajalcu zaupati svoje osebne podatke in podatke o plačilni kartici.
+Lahko pride do različnih oblik zlorab.
+Zavedati se moramo, da lahko do naših podatkov pridejo računalniški »hekerji«, ki se s tem vse bolj ukvarjajo, kot tudi vsak, nam neznani prodajalec, pri katerem hočemo opraviti nakup.
+Področje obravnave mojega diplomskega dela so plačilne kartice in njihova uporaba v internetu.
+V diplomskem delu želim predstaviti razvoj in vrste plačilnih kartic ter plačevanje z njimi v internetu.
+Namen analize je raziskava uporabe plačilnih kartic v internetu.
+Tema se mi zdi zanimiva, ker se v sedanjem času pojavlja vedno več spletnih trgovin, ki omogočajo plačevanje naročenega blaga s kreditnimi karticami.
+Postavlja se vprašanje, kako se lahko kot kupec v takšnih trgovinah zavarujemo pred zlorabami.
+Kaj moramo vedeti, preden se odločimo za takšen nakup?
+Cilji analize so: ? analizirati vzroke nezaupanja kupcev, ? ugotavljati napake oz. pomanjkljivosti spletnih trgovcev, ? ugotavljati prednosti in slabosti uporabe plačilnih kartic na internetu, ? analizirati ovire, ki onemogočajo večjo uporabo takšnega načina plačevanja.
+V diplomskem delu želim dokazati naslednje hipoteze:  Hipoteza 1: Brezgotovinsko poslovanje se povečuje.
+Vedno več ljudi se poslužuje uporabe plačilnih kartic.
+Hipoteza 2: Glavnina izdanih plačilnih kartic v Sloveniji je izdana fizičnim osebam.
+Hipoteza 3: Bodoči kupci na internetu so obremenjeni z možnimi zlorabami.
+Zato se velikokrat sploh ne odločajo za nakup, saj so v javnosti znani primeri, ko je prišlo do obremenitve kreditnih kartic za blago, ki ga kupci sploh niso naročili in tudi ne prejeli.
+6  Hipoteza 4: Potrošnike k nakupu najbolj pritegnejo: ? dostop do spletnih trgovin skoraj povsod po svetu, ? skoraj neomejena izbira, ? neodvisnost od obratovalnega časa, ? nižje cene artiklov kot v klasičnih trgovinah, ? dostava na dom oziroma možnost takojšnjega prenosa posameznih artiklov s spletne  strani (računalniški programi, fotografije, internetni časopisi).
+Hipoteza 5: Kupci pri nakupovanju preko spleta se ne odločajo za dražje in večje proizvode.
+Nakupovanju takšnih proizvodov preko spleta ne zaupajo tudi zato, ker jih skrbi, da bi se blago na poti poškodovalo, da ne bi bilo takšno, kot je videti na fotografiji, ali kako drugače ne bi ustrezalo njihovim željam.
+V diplomskem delu se bom osredotočila na analizo uporabe plačilnih kartic v internetu, zato so pomembne naslednje predpostavke: ? trg interneta v Sloveniji je manjši kot v tujini, ? obseg uporabe plačilnih kartic pri plačevanju na internetu se bo povečal, ? prav tako se bo povečala ponudba plačilnih kartic, ? povečevanje je predvsem odvisno od spletnih trgovcev, ki  bodo morali več vložiti v  predstavitev varnosti in tudi prednosti takšnega nakupa.
+Omejitve, ki lahko onemogočajo povečanje uporabe plačilnih kartic v internetu: ? nepripravljenost na nakupovanje v internetu, ? nakup preko spleta ne omogoča takšnega zadovoljstva kot obisk običajne trgovine, ? pri nakupu v internetu ne pride do osebnega in pristnega stika med kupcem in  prodajalcem, ? strah pred zlorabami plačilnih kartic, ? omejen je dostop do podatkov o raziskavah, ki so predstavljene samo v skrajšani  verziji na internetu.
+Diplomsko delo na temo uporabe plačilnih kartic v internetu je mikroekonomska raziskava (obravnava obnašanje in delovanje temeljnih ekonomskih subjektov).
+Prav tako je dinamična ekonomska raziskava, saj proučuje proces uporabe plačilnih kartic v internetu in povečevanje uporabe, ki jo lahko povzroči sprememba določenih spremenljivk.
+V okviru deskriptivnega pristopa bom uporabila naslednje metode raziskovanja: ? metodo deskripcije, s katero bom uporabo plačilnih kartic v internetu predstavila na  temelju podatkov, pridobljenih iz strokovne literature raznih avtorjev, člankov, anket, knjig in zakonov;  ? metodo klasifikacije, s katero bom definirala ključne pojme, kot so plačilne kartice, brezgotovinsko plačevanje, internet, plačevanje v internetu;  ? komparativno metodo, s katero bom v diplomskem delu poskusila narediti primerjave med uporabo plačilnih kartic v internetu v Sloveniji in v tujini;  ? zgodovinsko metodo, s katero bom predstavila razvoj plačilnih kartic in interneta; ? metodo kompilacije, s katero bom povzela opazovanja, sklepe in rezultate drugih  avtorjev ter   na njihovi osnovi prišla do novih, samostojnih sklepov.
+7  V okviru analitičnega pristopa bom uporabila deduktivno sklepanje, saj bom na podlagi trditev in hipotez poskušala ugotoviti ukrepe, ki bi jih morali izvesti spletni trgovci, da bi se uporaba plačilnih kartic povečala.
+8  2 PLAČILNE KARTICE  2.1 Pojav kartic Plačilne kartice segajo že v začetek prejšnjega stoletja.
+Leta 1914  je Western Union dal nekaterim svojim prominentnim strankam kovinsko kartico za uporabo pri  nakupih z odloženim plačilom (brez obresti).
+Ta kartica je postala znana kot kovinski denar.
+S časom so se plačilne kartice spreminjale.
+Do začetka 2. svetovne vojne so trgovine, potovalne agencije in naftne družbe omogočile uporabo teh storitev  svojim najboljšim strankam.
+Te plačilne kartice, ki so bile vezane na podjetja, so bile omejene z uporabo samo preko izdajateljskega podjetja.
+Ta podjetja so izdala kartice, izvedla transakcije in prejemala plačila za dolgove od strank.
+Med 2. svetovno vojno je bila uporaba kreditnih in plačilnih kartic prepovedana.
+Po 2. svetovni vojni so kreditne kartice postale bolj dostopne vsem ljudem.
+Zaradi trenda naraščanja potovanj in porabe s strani uporabnikov kreditnih kartic so le-te postale zanimive za  banke, ki so videle možni dobiček ob zaračunavanju obresti pri karticah.
+Ko so šle banke prvič v posel s kreditnimi karticami, so jih izdajale samo bližnjim potrošnikom.
+Leta 1951 je Frenklin National Bank v New Yorku izdala »Charge it« kartico.
+Kartica je omogočala strankam nakupe v lokalnih trgovskih podjetjih.
+Sistem plačilne kartice je deloval podobno kot sistem kreditnih kartic danes.
+Potrošnik je opravil nakup s kartico, trgovec je prejel avtorizacijo s strani banke in opravil posel.
+Banka je povrnila stroške trgovcu in kasneje prejela potrošnikovo plačilo.
+Ostale banke so bile navdušene nad uspehom »Charge it« kartice, zato so tudi same ponudile strankam podobne usluge za plačilo v lokalnih trgovskih podjetjih.
+Leta 1950 sta Diners klub in American Express izdala svoje prve plačilne kartice – prvi plastični denar.
+Leta 1951 je Diners klub izdal prvo kreditno kartico 200 strankam, ki so jo lahko uporabljale v 27 restavracijah v New Yorku.
+Šele z odobritvijo standardov za magnetni trak leta 1970  pa so kreditne kartice postale del informacijske dobe.
+Plačilne kartice danes predstavljajo enostavnejši in preprostejši način opravljanja poslovno-finančnih storitev in se zato hitro širijo, nove funkcije uporabe pa jim koristnost le še povečujejo.
+2.2 Vrste plačilnih kartic Plačilnih kartic je več vrst, ločiti pa se jih da po različnih kriterijih.
+Glede na to, da pri razvrstitvi in predstavitvah posameznih plačilnih kartic uporabljamo različne termine, jih lahko ločimo:  Glede na izdajatelje: ? bančne kartice (izdajajo jih banke – v Sloveniji: večina bank); ? podjetniške kartice (izdajajo jih podjetja – v Sloveniji: večja trgovska  podjetja); ? partnerske kartice (izdajajo jih podjetja v sodelovanju z bankami – v Sloveniji:  Merkur, Adria Airways, Delo in druge);    9  ? licenčne kartice (izdajajo jih banke ali podjetja v sodelovanju s podjetji v tujini, ki so nosilci kartic – v Sloveniji: kartice Eurocard/Mastercard, Visa, Diners, American Express).
+Glede na funkcijo, ki jo plačilne kartice opravljajo:  predplačilne kartice (lahko jih vnaprej kupimo in po izrabi zavržemo – telefonske kartice – ali pa jih vnaprej napolnimo in jih nato uporabimo za plačevanje različnih storitev – telefon, parkirnina, cestnina, avtobusni prevoz);  debetne kartice (kartice, vezane na tekoči račun, kjer nas izdajatelj kartice za nakup blaga oz.  storitve oz. za dvig gotovine obremeni takoj – npr. BA in Maestro);  kreditne kartice oz. kartice z odloženim plačilom (izdajatelj kartice nas obremeni s stroški nakupov oz. z dvigi gotovine samo enkrat v mesecu, do plačila pa nas izdajatelj kreditira – primeri kartic: Activa, Visa, EC/MC, Diners club);  posojilne kartice (izdajatelji – banke oz. podjetja – nam z njimi omogočajo nakupe ali porabo gotovine na obročno odplačevanje – npr. posojilna Karanta, posojilna Visa).
+Če uporabnik redno poravnava svoje obveznosti, so transakcije normalno odobrene.
+Kljub temu pa se lahko zgodi, da med izvajanjem transakcije pride do napake, na primer zaradi razmagnetene kartice ali nepovezave terminala POS z avtorizacijskim centrom, kar pa še ne pomeni avtomatično zavrnitve plačila.
+Pred potovanjem v tujino je dobro, če uporabnik najavi večje stroške, za katere pričakuje, da bo do njih prišlo, ter da si zapomni svojo PIN1 kodo za dvig gotovine.
+Nekatere kartice omogočajo obročno odplačevanje obveznosti.
+Zlate kartice s posebnimi ugodnostmi so namenjene najboljšim strankam, za partnerske kartice pa je značilno, da združujejo lastnosti oziroma ugodnosti obeh izdajateljev.
+2.3 Plačilne kartice v Sloveniji V Sloveniji smo začeli uporabljati kreditne kartice v 60-ih letih prejšnjega stoletja.
+Močan razvoj poslovanja s karticami se je začel pred dobrim desetletjem, ko je Banka Koper razvila slovensko plačilno kartico Activa in k projektu privabila nekatere slovenske banke.
+Imetniki osebnih kartic sistema Activa lahko uporabljajo brezobrestni zamik plačila in prekoračijo sredstva na tekočem računu do višine petkratnika osebnih dohodkov ali drugih mesečnih prilivov.
+Zelo kmalu za Activo se je pojavila LB kartica, ki so jo začele izdajati NLB, LB Domžale, Banka VIPA, LB Koroška banka, LB Zasavje, LB Pomurska banka, LB Velenje in Probanka.
+Kasneje sta se jim pridružili še SKB banka in Abanka. (Podjed 2003, 78).
+Med tujimi karticami ima v Sloveniji največji tržni delež kartica Visa.
+Na našem trgu so prisotne še Eurocard/MasterCard, American Express, Diners Card in druge.
+1 PIN – personal identification number.
+10  Plastične kartice, izdane v Sloveniji, omogočajo odloženo poravnavo obveznosti, nekatere tudi okvirnega posojila (posojilne kartice), od leta 1997 pa lahko uporabljamo tudi debetne kartice, pri katerih je plačilo vezano na takojšnjo poravnavo s tekočega računa imetnika.
+Največji delež izdanih kartic pripada domačim karticam, izdanim s strani domačih bank (bančne kartice) fizičnim osebam (osebne kartice).
+Poleg domačih kartic poznamo tudi licenčne kartice.
+Izdajatelji kartic so poleg bank tudi podjetja (podjetniške kartice), prav tako se kartice izdajajo podjetjem (poslovne kartice).
+Plačilne kartice je mogoče uporabljati tudi na bančnih avtomatih.
+Vendar izdajatelji kartic spodbujajo predvsem plačilno funkcijo kartic, in ne toliko gotovinske, zato je slednja običajno povezana z višjimi provizijami.
+Najnovejše plačilne kartice, ki so se pojavile v Sloveniji, so debetne kartice in jih je tudi največ.
+Njihova značilnost je, da omogočajo takojšnjo obremenitev imetnika in deloma zamenjujejo gotovinsko plačevanje.
+To so kartice tekočih računov, ki jih uporabljamo tudi za dvigovanje gotovine na bankomatih in imajo oznako Cirrus Maestro ali Visa Electronic.
+V zadnjem času je mogoče s temi karticami plačevati tudi v tujini, v trgovinah z oznako Maestro ali Visa Electronic.
+Poleg bančnih kartic poznamo tudi podjetniške kartice.
+Najstarejša mednarodna plačilna kartica, ki je v Sloveniji prisotna že dvajset let, je Diners Club, ki je v Sloveniji za partnerstvo pridobil veliko večjih slovenskih podjetij (Nama, Adria Airways, Merkur, Mobitel, Generali, Delo, Slovenske železnice).
+Poleg Diners Cluba pa je v Sloveniji še nekaj domačih podjetniških plačilnih kartic.
+Prvo podjetje je bil Petrol, ki je izdal kartico Magna za plačevanje na svojih bencinskih črpalkah.
+Svojo kartico je izdalo tudi podjetje Istrabenz.
+Mercator pa je ponudil prvo »pametno« kartico, ki na čip zapisuje število točk, ki se kasneje uporabljajo za določene ugodnosti.
+Med kreditne plačilne kartice štejemo kartice na odloženo plačilo in prave posojilne kartice, pri katerih lahko imetniki poleg odloga plačila koristijo še posojilo banke izdajateljice.
+Glavnino izdanih kreditnih plačilnih kartic predstavljajo kartice z odloženo poravnavo obveznosti (Šteblaj 1999, 47).
+11  TABELA 1: ŠTEVILO IZDANIH PLAČILNIH KARTIC V SLOVENIJI OD LETA 1996 DO 2002  Vir: www.bsi.si   TABELA 2: UPORABA PLAČILNIH KARTIC GLEDE NA ŠTEVILO PLAČIL V  SLOVENIJI OD LETA 1996 DO 2002  Vir: www.bsi.si   TABELA 3: VREDNOST PLAČIL S PLAČILNIMI KARTICAMI V SLOVENIJI  OD LETA 1996 DO 2002  Vir: www.bsi.si  Domače Licenčne Bančne Podjetniške Osebne Poslovne Skupaj kartice kartice kartice  Leto 1 2 3 4 5 6 7=1+2,3+4,5+6 8 1996 309.259 159.653 343.521 125.391 404.456 64.456 468.912  1997 382.150 212.567 421.228 173.489 515.261 79.456 594.717 289.301 1998 350.567 243.296 415.666 178.197 510.145 83.718 593.863 775.032 1999 374.929 272.887 438.823 208.993 551.645 96.171 647.816 961.982 2000 418.565 323.506 498.670 243.401 629.879 112.192 742.071 1.392.379 2001 443.541 344.238 512.994 274.785 676.018 111.761 787.779 1.495.660 2002 477.072 370.378 539.853 307.597 733.119 114.331 847.450 1.707.668  Kreditne kartice Število izdanih kartic - izdane v Sloveniji  Debetne  v tisočih  Domače Licenčne Bančne Podjetniške Osebne Poslovne Skupaj kartice kartice kartice  Leto 1 2 3 4 5 6 7=1+2,3+4,5+6 8 9 10 1996 18.543 5.717 18.419 5.841 21.315 2.945 24.260  - 1.212 725 1997 21.981 9.017 23.114 7.884 27.106 3.892 30.998 45 1.755 948 1998 25.993 12.245 28.147 10.091 33.231 5.006 38.238 1.216 2.278 1.278 1999 28.396 15.798 33.050 11.144 38.704 5.490 44.194 5.264 2.925 1.433 2000 31.794 20.139 38.426 13.506 44.209 7.724 51.933 13.933 3.745 1.558 2001 33.366 21.697 40.218 14.846 47.777 7.286 55.063 26.388 4.585 1.623 2002 31.877 23.117 40.599 14.394 49.138 5.856 54.994 31.988 4.752 1.788  Število plačil v Sloveniji Kartice, izdane v Sloveniji  Kreditne kartice Kartice,  izdane v tujini  Število plačil v tujiniDebetne  v mio SIT Vrednost plačil v Sloveniji  Domače Licenčne Bančne Podjetniške Osebne Poslovne Skupaj kartice kartice kartice  Leto 1 2 3 4 5 6 7=1+2,3+4,5+6 8 9 10 1996 73.407 32.737 81.075 25.070 88.826 17.319 106.144  - 17.142 11.897 1997 90.417 52.743 108.890 34.270 120.033 23.127 143.160 239 25.565 17.162 1998 111.565 73.086 138.320 46.332 152.454 32.198 184.651 6.890 33.552 22.638 1999 127.134 97.561 167.751 56.944 185.451 39.244 224.695 30.034 42.727 27.284 2000 178.771 143.089 218.963 102.897 245.942 75.918 321.860 92.982 58.499 28.552 2001 186.422 170.049 251.098 105.373 287.814 68.657 356.471 162.896 77.047 32.158 2002 193.263 189.545 266.733 116.076 314.342 68.466 382.809 209.688 86.323 35.523  Debetne  Kartice, izdane v tujini  Število plačil v tujini  Kartice, izdane v Sloveniji Kreditne kartice    12  Za bolj nazorno predstavitev sem tabele razdelila po vsebini:  TABELA 4: KREDITNE PLAČILNE KARTICE IN NJIHOVA UPORABA V SLOVENIJI  Vir: www.bsi.si  S kreditnimi karticami, izdanimi v Sloveniji, je bilo v letu 2002 opravljenih preko 54 milijonov plačil v skupni vrednosti 383 milijard tolarjev.
+V obravnavanem letu se je uporaba kartic glede na leto 2001 zmanjšala za 0,1%.
+TABELA 5: DOMAČE IN LICENČNE KARTICE – UPORABA V SLOVENIJI   Vir:  www.bsi.si  Izdaje domačih kartic v Sloveniji presegajo izdaje licenčnih, vendar se v zadnjem obdobju pojavlja enakomerna rast tako domačih kot licenčnih kartic.
+Število izdanih domačih kartic v letu 2002 se je povečalo za 7,56%, število licenčnih pa za 7,59%.
+Z domačimi plačilnimi karticami je bilo v letu 2002 v Sloveniji opravljenih preko 31 milijonov plačil, kar je 58% celotnega prometa s plačilnimi karticami, izdanimi v Sloveniji.
+Ta promet je bil za 0,1% nižji kot v predhodnem letu.
+V letu 2002 je  za 6,5% porasel promet s karticami, izdanimi na podlagi licence, ki prestavlja sicer manjši delež.
+Število izdanih Število Vrednost kartic v letu plačil v tisočih plačil v mio SIT  1996 468.912 24.260 106.144 1997 594.717 30.998 143.160 1998 593.863 38.238 184.651 1999 647.816 44.194 224.695 2000 742.071 51.933 321.860 2001 787.779 55.063 356.471 2002 847.450 54.994 382.809  Leto  Leto domače licenčne domače licenčne domače licenčne  1996 309.259 159.653 18.543 5.717 73.407 32.737 1997 382.150 212.567 21.981 9.017 90.417 52.743 1998 350.567 243.296 25.993 12.245 111.565 73.086 1999 374.929 272.887 28.396 15.798 127.134 97.561 2000 418.565 323.506 31.794 20.139 178.771 143.089 2001 443.541 344.238 33.366 21.697 186.422 170.049 2002 477.072 370.378 31.877 23.117 193.263 189.545  Vrednost plačil v mio SITv tisočihv letu  Število izdanih kartic Število plačil    13  TABELA 6: UPORABA LICENČNIH PLAČILNIH KARTIC V TUJINI  Vir: www.bsi.si  Imetniki licenčnih plačilnih kartic lahko z njimi poslujejo tudi v tujini.
+V letu 2002 so v tujini opravili 1,79 milijona plačil, kar je za 10% več kot v predhodnem letu.
+Skupna vrednost opravljenih plačil je znašala po zbranih podatkih 35 milijard tolarjev.
+TABELA 7: IZDAJA IN UPORABA BANČNIH IN PODJETNIŠKIH KREDITNIH PLAČILNIH KARTIC  Vir: www.bsi.si  Večino, skoraj 64% izdanih kreditnih plačilnih kartic v Sloveniji so izdale banke; z njimi je bilo v letu 2002 opravljeno 70% celotnega prometa s kreditnimi karticami.
+TABELA 8: OSEBNE IN POSLOVNE KARTICE – UPORABA V SLOVENIJI  Vir:  www.bsi.si  Število plačil Vrednost plačil v v tujini v tisočih tujini v mio SIT  1996 725 11.897 1997 948 17.162 1998 1.278 22.638 1999 1.433 27.284 2000 1.558 28.552 2001 1.623 32.158 2002 1.788 35.523  Leto  Leto skupaj bančne podj. skupaj bančne podj. skupaj bančne podj.
+1996 468.912 343.521 125.391 24.260 18.419 5.841 106.144 81.075 25.070 1997 594.717 421.228 173.489 30.998 23.114 7.884 143.160 108.890 34.270 1998 593.863 415.666 178.197 38.238 28.147 10.091 184.652 138.320 46.332 1999 647.816 438.823 208.993 44.194 33.050 11.144 224.695 167.751 56.944 2000 742.071 498.670 243.401 51.932 38.426 13.506 321.860 218.963 102.897 2001 787.779 512.994 274.785 55.064 40.218 14.846 356.471 251.098 105.373 2002 847.450 539.853 307.597 54.993 40.599 14.394 382.809 266.733 116.076  Število izdanih kartic v letu Število plačil v tisočih  Uporaba v Sloveniji Vrednost plačil v mio SIT  Leto osebne poslovne osebne poslovne osebne poslovne  1996 404.456 64.456 21.315 2.945 88.826 17.319 1997 515.261 79.456 27.106 3.892 120.033 23.127 1998 510.145 83.718 33.231 5.006 152.454 32.198 1999 551.645 96.171 38.704 5.490 185.451 39.244 2000 629.879 112.192 44.209 7.724 245.942 75.918 2001 676.018 111.761 47.777 7.286 287.814 68.657 2002 733.119 114.331 49.138 5.856 314.342 68.466  Število izdanih kartic v letu  Število plačil Vrednost plačil v mio SITv tisočih    14  Po podatkih za konec leta 2002 je največ, 87% izdanih kreditnih kartic, osebnih, prav tako opravijo fizične osebe glavnino prometa s kreditnimi karticami.
+TABELA 9: UPORABA DEBETNIH KARTIC V SLOVENIJI  Vir:  www.bsi.si  Uporaba debetnih kartic narašča.
+Konec leta je bilo v Sloveniji 1,7 milijona debetnih kartic, kar je za 14% več kot v predhodnem letu.
+TABELA 10: TUJE PLAČILNE KARTICE  Vir:  www.bsi.si  V letu 2002 je bilo v Sloveniji s tujimi plačilnimi karticami opravljenih 4,75 milijona plačil (za 3% več kot v predhodnem letu) v skupni vrednosti 86,3 milijarde tolarjev.
+2.4 Varnost poslovanja s plačilnimi karticami  2.4.1 Zagotavljanje varnosti Varnost poslovanja s karticami je zelo pomembna, saj so zlorabe plačilnih kartic v svetu močno razširjene.
+Za zagotavljanje varnosti poslovanja s plačilnimi karticami se uporabljajo metode za zagotavljanje avtentičnosti kartic, za ugotavljanje identitete imetnika kartice, pomembno vlogo ima tudi proces avtorizacije transakcij in obveščanje imetnikov kartic in trgovcev.  a) Avtentičnost kartic  Za zagotavljanje avtentičnosti kartic se pri njihovi izdelavi uporabljajo različni varnostni elementi, ki jih mora vsebovati kartica: mikrotisk, podpisni trakovi, magnetni trakovi,  Število Število plačil Vredn.plačil kartic v tisočih v mio SIT  1996 -  -  1997 289.301 45 239 1998 775.032 1.216 6.890 1999 961.982 5.264 30.034 2000 1.392.379 13.933 92.982 2001 1.495.660 26.388 162.896 2002 1.707.668 31.988 209.688  Leto  Število plačil Vrednost plačil v tisočih v mio SIT  1996 1.212 17.142 1997 1.755 25.565 1998 2.278 33.552 1999 2.925 42.727 2000 3.745 58.499 2001 4.585 77.047 2002 4.752 86.323  Leto    15  ultravijolični tisk, številka kartice in koda na podpisnem traku, hologrami, embosirni znaki.2 Primer dveh najbolj prevladujočih kreditnih kartic:  Visa: Na sprednji strani teh kartic je hologram, ki pri menjavanju smeri pogleda kaže zamah golobjega krila.
+Številka kartic ima bodisi 13 ali 16 številk in se vedno začne s številko 4. Pod ultravijolično svetlobo se v sredini kartice na sprednji strani prikaže leteči golob.
+Logo Vise na sprednji strani obkrožajo mikročrke.
+Pri manipuliranju na polju za podpis se pojavi napis VOID.
+Eurocard: Kreditne kartice Eurocard/Mastercard imajo na sprednji strani hologram z globusom, ki iz določenega kota kaže celino.
+Številka kartice se začne s številko 5. Polje za podpis vsebuje številko kartice in trimestno kodo, ki ni na vseh karticah (Ivanovič 1995, 43).  b) Identifikacija imetnika kartice  Identiteta imetnika kartice se ugotavlja na podlagi primerjave podpisa imetnika kartice na podpisnem traku kartice s podpisom na potrdilu o nakupu.
+Ta oblika varnostnega mehanizma je s časom izgubila pomen, saj so trgovci prenehali preverjati istovetnost podpisov.
+Nekateri prodajalci zaradi doseganja večjega prometa velikokrat namenoma ne zahtevajo podpisa oziroma identifikacijskih dokumentov, čeprav obstajajo razlogi za sum zlorabe plačilne kartice.
+Za ugotavljanje identitete imetnika kartice se uporablja tudi osebna identifikacijska številka PIN, ki nudi višjo stopnjo zaščite, ne pa popolne, saj se PIN lahko pozabi, ukrade, sposodi ali izgubi.
+Za varnejšo in učinkovitejšo identifikacijo imetnika kartice so nekateri izdajatelji začeli uvajati kartice s fotografijo imetnika, kar je znižalo število zlorab pri izgubljenih in ukradenih karticah.
+Vendar pa obstaja bolj varen način identifikacije – biometrična identifikacija lastnika kartice.
+Za identifikacijo se uporablja prstni odtis, geometrija roke, slikovni vzorec očesne šarenice, glas ali podpis.
+Gre za fizične lastnosti lastnika kartice, ki so znane kot edinstvene vsakemu človeku in enakih ni možno najti pri nobeni drugi osebi.
+To pomeni, da so biometrične tehnike danes edino sredstvo za varno in resnično osebno identifikacijo.
+Današnje metode identifikacije so nezadostne, saj povzročajo bankam ogromno škodo v primeru kraje kreditnih in debetnih kartic.
+Pri biometrični identifikaciji naprava preveri identiteto lastnika in tako breme preverjanja ni več na strani trgovcev, ki so pri opravljanju identifikacije še vedno podvrženi napakam.
+Biometrija bo nedvomno zagotovila zelo varno uporabo kartic.  c) Avtorizacijski proces  Avtorizacija pomeni privolitev za izvedbo zahtevane finančne transakcije s strani izdajatelja plačilne kartice.
+Z avtorizacijskim procesom se preverja, ali je znesek, za katerega se zahteva avtorizacija, v skladu z limiti porabe določene kartice (poraba preko višine določenega limita opozarja na možnost neporavnave obveznosti ali da je bila kartica ukradena, ponarejena, ne da bi se imetnik tega zavedal) in ali je kartica na stop listi, seznamu kartic, katerih imetnikom jih  izdajatelj ne dovoljuje več uporabljati.
+2 Imborsirni znaki so reliefno izbočeni znaki številke kartice, veljavnosti ter imena in priimka imetnika kartice.
+16  Poslovanje preko on-line POS3 terminalov zagotavlja visoko stopnjo varnosti in zanesljivosti.
+Avtorizacija se izvede avtomatsko za vsako transakcijo ne glede na znesek nakupa ter omogoča avtomatsko preverjanje, ali je kartica na stop listi.
+Vsaka blokacija kartice se takoj uvrsti na elektronsko stop listo, tako da je onemogočena možnost njene zlorabe.
+Avtorizacijski proces kljub opremljenosti prodajnih mest s POS terminali ne zagotavlja varnosti v primeru zlorab, ki so izvršene, še preden izdajatelji kartic prejmejo obvestilo o zlorabi kartice.
+Največja verjetnost nastanka zlorabe je ravno v času pred prijavo izgube ali kraje kartice ali druge vrste zlorabe, ko izdajatelj še nima možnosti ukrepati z blokacijo kartice.
+Zato izdajatelji kartic izvajajo kontrolo porabe imetnikov, ki odkriva neobičajne vzorce potrošnje posamezne kartice.
+Temu sledi preverjanje, ali gre za aktivnosti samega imetnika kartice ali za zlorabo.
+Avtorizacijski proces je učinkovit v primeru zlorab, ko povzročitelji poskušajo kartico uporabiti po blokaciji.
+Zato vsi mednarodni izdajatelji za zagotovitev pravočasne blokacije kartice uvajajo dežurne telefone, ki delujejo vse dni v letu in 24 ur na dan za prijave izgubljenih, ukradenih kartic, saj le-te povzročajo kartični industriji največje izgube.  d) Obveščanje imetnikov kartic in trgovcev  Seznanjanje imetnikov plačilnih kartic s strani izdajateljev preko osebne pošte ali brošur z napotki o varnem poslovanju s kartico (o pravilnem ravnanju s kartico, o varovanju osebne številke, o ravnanju ob izgubi ali kraji kartice) vpliva na zmanjševanje števila zlorab zaradi izgube ali kraje kartic.
+Za izobraževanje trgovcev pa so izdajatelji kartic poskrbeli tako, da izdajajo priročnike za delo s plastičnimi karticami.
+Od prodajnih mest se zahteva vrsta varnostnih pravil, in sicer, da ugotovijo ponaredek, opravijo identifikacijski postopek, preverijo avtorizacijo nad mejnim zneskom, zadržijo kartico, obvestijo izdajatelja ali policijo.
+Zato je pomembno, da imajo trgovci ustrezno znanje, ki bo zagotavljalo večjo varnost poslovanja s karticami.
+2.4.2 Previdnost pri uporabi plačilne kartice Uporabniki kreditnih in plačilnih kartic morajo biti pri poslovanju s karticami pozorni predvsem na naslednje stvari: ? pri plačevanju s karticami je potrebno imeti kartico vedno v vidnem polju; to velja  predvsem pri plačevanju  v restavracijah; ? potrebno si je voditi evidenco plačil, ki jo je treba primerjati z izpiskom prometa  banke; trgovci lahko kartice uporabijo večkrat in vpisujejo na slip poljuben, največkrat manjši znesek, zato je potrebno pri preverjanju prometa biti pozoren tudi na manjše zneske;  ? na kartice je potrebno paziti, saj v primerih izgube, tatvine ali izposoje nepošteni najditelji kartico hitro uporabijo in lastniku povzročijo veliko škodo;  ? v primeru izgube ali tatvine je potrebno nemudoma obvestiti izdajatelja kartice ali kartico blokirati.
+3 POS – Point of sale – prodajno mesto.
+17  V času POS  terminalov je zmeraj težje izkoristiti ukradeno ali najdeno kartico, saj je ni mogoče več  uporabiti od takrat, ko jo prekličemo.
+Vendar pa se že pojavlja nov način zlorab kartic.
+V tujini  uporabljajo čitalnike, na katere je mogoče shraniti vse podatke, ki so na magnetnem zapisu vsake kartice.
+Pozneje te zapise shranijo na ponarejene kartice in z njimi opravljajo nakupe.
+Banke ukrepajo tako, da ustavijo takšno sumljivo transakcijo (npr. v roku ene ure se z enakega zapisa opravita dve transakciji na dveh različnih koncih sveta).
+V sistemu kartičnega poslovanja poznamo tri sklope prevar, znotraj njih pa obstaja še nadaljnje ločevanje: ? prevare glede na to, kdo je storilec prevare in kako je plačilno kartico pridobil.
+Prva v  tej vrsti je prevara, pri kateri plačilno kartico zlorabi kar lastnik sam, ko prekorači kritje na računu.
+To odkrijejo banke same in obvestijo policijo ali pa proti storilcu kar same vložijo kazensko ovadbo.
+Naslednje so zlorabe, kjer storilec ni lastnik plačilne kartice in jo je pridobil nezakonito – najdena kartica, kraja, ponarejanje, nakup od storilcev prej navedenih kaznivih dejanj;  ? prevare glede na oškodovanca in območje oziroma državo, kjer je bila storjena zloraba;  ? prevare glede na način zlorabe (zlorabe, storjene na prodajnih mestih in pri nakupih prek interneta, ter zlorabe, storjene na bankomatih).
+18  3 PAMETNE KARTICE  3.1 Zgodovinski razvoj V prvo generacijo plačilnih kartic sodijo »papirnate kartice«.
+Kmalu potem so jih zamenjale plastične kartice z reliefno izpisanimi številkami, kar je pomenilo že prvo stopnjo avtomatizacije.
+Naslednja generacija plačilnih kartic so bile magnetne kartice, na katere je že možno elektronsko shraniti določene podatke in so v uporabi še danes.
+Z razvojem magnetnih kartic se je zvišal nivo avtomatizacije in varnosti.
+Leta 1974 so v Franciji magnetni kartici dodali še čip in tako je nastala prva pametna kartica4.
+Do prve masovne uporabe pametnih kartic je prišlo leta 1985, ko so francoske banke poslale na trg 16 milijonov pametnih telefonskih kartic.
+V Evropi je bila ta vrsta kartic zaradi visokih stroškov telekomunikacij pri on-line verifikaciji transakcij hitro vsesplošno sprejeta.
+Pametne kartice omogočajo verifikacijo tudi off-line, kar močno zniža stroške pri enaki stopnji varnosti.
+V ZDA, kjer so stroški telekomunikacij majhni, so se pametne kartice uveljavile nekoliko kasneje.
+Trenutno je po ocenah strokovnjakov v uporabi že 3,6 milijarde pametnih kartic po vsem svetu.
+3.2 Tehnični podatki Pametna kartica je plastična kartica z vgrajenim mikročipom, ki lahko sprejema, shranjuje in procesira podatke ter omogoča uporabo različnih aplikacij.
+Pametne kartice se poleg plačevanja uporabljajo tudi v mobilnih telefonih GSM (SIM kartica5), predplačilnem telefoniranju, nadomeščajo zdravstvene izkaznice, osebne izkaznice, na njih shranjujemo digitalne certifikate itd.
+V primerjavi s karticami z magnetnim zapisom imajo pametne kartice kar nekaj prednosti: ? nanje je moč shraniti od desetkrat do celo stokrat več informacij, ? omogočajo precej večjo varnost pri uporabi, ? omogočajo procesiranje in izvajanje zapletenih algoritmov.
+Za prenos podatkov s kartice ali nanjo potrebujemo čitalnike pametnih kartic.
+Kartico vstavimo v napravo in že se lahko začne komunikacija med čipom in terminalom.
+Pred tem je potrebno še vtipkati identifikacijsko številko PIN, ki je skrita v čipu in preko katere čitalnik prepozna lastnika kartice.
+Nekateri izmed možnih načinov uporabe čip kartice na finančnem področju so (Šteblaj 1999, 71): ? kot plačilno sredstvo; pri zamenjavi z običajnimi plačilnimi sredstvi se čip kartica  pojavlja kot elektronska čekovna knjižica, elektronski potovalni ček, elektronska denarnica in podobno,  ? za dvig gotovine na bančnih avtomatih, ? za plačevanje obveznosti, ? za prenos sredstev od zunanjega vira na kartico (prenos sredstev s tekočega računa v  elektronsko denarnico),  4 Smart card – pametna kartica.
+5 SIM – subscriber identity module.
+19  ? za avtorizacijo dostopov, ? kot elektronski podpis za preverjanje identitete, verodostojnosti in pooblastil  prejemnika in pošiljatelja v sistemu elektronske izmenjave podatkov.
+Trije kartični operaterji (Europay, Mastercard, Visa) so v letu 1995 začeli uvajati plačilne kartice s čipom.
+Za to so se odločili, ker se  magnetni trak na plačilnih karticah  uporablja že približno 30 let in omogoča hranjenje le nekaj številk in besed, pa še te je možno zbrisati in spreminjati.
+Informacije na magnetni kartici so slabo zaščitene pred zlorabami, saj je možno enostavno prekopirati zapis s kartice na drugo kartico.
+Zlorabe so zlasti razširjene v Aziji in ZDA, kjer so organizirani kriminalci osvojili tehnologijo proizvodnje magnetnih kartic in so ponarejene kartice mnogokrat boljše od originalnih ter jih prepoznajo samo strokovnjaki.
+Čip kartice so pred zlorabami bolje zaščitene, lahko zberejo več informacij ter omogočajo varnejše poslovanje bankam in uporabnikom.
+Pametna kartica uporabniku omogoča združitev več različnih aplikacij na eni sami kartici.
+Ta posebnost je za lastnika takšne kartice zelo dobrodošla, saj zmanjšuje število kartic v njegovi denarnici.
+Tako lahko eno samo pametno kartico uporabljamo kot kombinacijo kreditne kartice in elektronske denarnice.
+Podobno tudi SIM kartica v mobilnem telefonu lahko združuje vrsto različnih aplikacij (komunikacijo, shranjevanje podatkov, določitev lokacije …).
+3.3 Varnost pametnih kartic Za izdajatelja in uporabnika pametnih kartic je zelo pomembna zaščita podatkov na njej.
+Zlorabe preprečuje trojni sistem preverjanja.
+Prvi je ta, da kartica preveri, ali je terminal, prek katerega poteka plačilo, originalen.
+Drugi je, da terminal preveri pravilnost kartice.
+Nazadnje se preveri identifikacija imetnika kartice (ali je imetnik kartice tudi njen lastnik), in sicer z uporabo PIN kode.
+Z uporabo biometričnih tehnik čitalna naprava preveri, če je biometrični podatek na kartici enak temu, kar pokaže uporabnik.
+Na področju varnosti plačevanja s kreditnimi karticami pomeni razvoj pametne kartice velik napredek.
+Njena visoka stopnja varnosti temelji na tem, da kartica: ? onemogoča  poneverjanje – s kartice je nemogoče fizično prekopirati zasebni ključ, ? omogoča izkazovanje verodostojnosti in procesiranje kriptografskih algoritmov.
+Izkazovanje verodostojnosti uporabnika je ena najpomembnejših komponent zagotavljanja varnosti.
+Pri pametnih karticah izkazujemo verodostojnost s številko PIN ali pa z uporabo biometričnih metod.
+Za uporabo kartice moramo poznati PIN.
+V primeru kraje kartice ima tat le nekaj poizkusov uganitve pravilnega PIN-a, nato pa se kartica sama trajno zaklene.
+Prav tako lahko kartico ob prijavi izgube zaklene tudi njen izdajatelj.
+Še večjo varnost nam omogočajo biometrične metode, ki za izkazovanje verodostojnosti lastnika zahtevajo preverjanje prstnega odtisa ali očesne šarenice, katerih podatki so shranjeni v čipu na kartici.
+Pametne kartice omogočajo tudi različne kriptografske tehnike, kot so šifriranje, dešifriranje podatkov ter procesiranje kriptografskih algoritmov in šifrirnih ključev.
+Vsi ti varnostni ukrepi postavljajo pametne kartice v sam vrh varnega elektronskega poslovanja.
+Pomembno pa se je tudi zavedati, da napadi na varnostne sisteme niso danes    20  nič novega in nenavadnega, zato nam pametne kartice ob vsej tej varnostni tehnologiji ne morejo zagotavljati stoodstotne varnosti (The Smart Card 2002).
+Plačilne kartice ob podpori sodobne tehnologije postajajo temelj poslovanja v prihodnosti in tako je nastala najnovejša plačilna kartica Mastercard M/chip.
+Vgrajen ima čip z zmogljivostjo 32 kB, ki jo bodo prihodnje leto še povečali.
+Bistvo te pametne kartice z vgrajenim čipom je vrhunsko izboljšana varnost, ki omogoča še številne druge ugodnosti.
+Čip na pametni kartici postaja posebna podatkovna banka, ki jo bo uporabnik po svojih željah in potrebah lahko napolnil z vsem tistim, kar potrebuje pri vsakdanjem plačevanju s plačilnimi karticami.
+Mastercardova čipna kartica, ki je postala ob tem tudi svetovni EMV standard plačilnih kartic, v nadaljevanju razvoja sistema zagotavlja uporabnikom še večjo varnost.
+Z metodo Clientless bo omogočen nadzor nad transakcijami s postopkom brez stranke, inteligentni nadzor transakcij Risk explorer pa bo osnova tehnologije Ariston, ki zagotavlja skoraj popolno zaščito pred zlorabami.
+Seveda je popolna varnost pri plačevanju z novimi čipnimi karticami mogoča le v poenotenem sistemu, ki mora biti dokončan do leta 2005.
+Do takrat morajo vsi partnerji oziroma partnerski sistemi v svojih bankah poskrbeti za zamenjavo današnjih klasičnih kartic.
+Pri tem ne gre samo za zamenjavo kartic, temveč kar celotnih sistemov, ki temeljijo na plačilnih karticah, med katerimi so terminali in optični bralniki.
+Ker je v celotni svetovni sistem vključena tudi Slovenija, bodo morale tudi vse slovenske banke do leta 2005 zamenjati plačilne kartice Mastercard, Eurocard in Visa.
+Popoln varnostni sistem bo namreč omogočen šele od trenutka, ko bodo po vsem svetu zamenjane vse kartice in vsi terminali na plačilnih mestih (Šalamon 2002, 86).
+21  4 ZGODOVINA INTERNETA  Začetki interneta segajo v šestdeseta leta prejšnjega stoletja.
+Sprva so bili ti sistemi prekompleksni in zato dostopni le ozki množici strokovnjakov.
+Prvo dejanje v razvoju interneta predstavlja ustanovitev agencije ARPA, ki so jo Američani ustanovili leta 1957 zaradi izstrelitve prvega ruskega satelita.
+Ideja je bila povezati računalnike brez neke sredinske točke.
+Tako je nastala mreža ARPANET, ki je povezovala računalnike univerz v Los Angelesu, Santa Barbari, Standfordu in Utahu.
+Prvič so to povezavo vzpostavili 29. oktobra 1969.
+Z leti so se v to mrežo vključevala še druga univerzitetna središča.
+Prvo neameriško vozlišče, ki se je povezalo v ARPANET, je bilo leta 1973 v Londonu.
+V tem času so postavili že standard za danes nepogrešljivo elektronsko pošto.
+Prav tako so že postavljali zasnove za protokol za prenos datotek.
+V sedemdesetih letih so se pojavili prvi zaprti omrežni medbančni sistemi.
+V prvi polovici osemdesetih let se je do konca razvijal tudi TCP/IP6 protokol.
+V zgodnjih osemdesetih letih so prva podjetja že uvedla elektronsko poslovanje, saj so prek omrežij izvajala prenos datotek, računalniško izmenjavo podatkov ter elektronske pošte.
+Prva registrirana domena je bila Symbolics.com, ki je bila registrirana leta 1985.
+Takrat so tudi vzpostavili krovne domene .com, .net, .org, .edu ter .uk.
+V tem času se je pojavila tudi storitev klepetalnic (IRC)7. Devetdeseta leta so prinesla dokončno uveljavitev interneta s pojavom svetovnega spleta, saj je leta 1991 Tim Barners Lee izumil protokol za svetovni splet (WWW)8, na katerem temeljita internet in protokol za prenos teksta in slik (http)9. Od takrat naprej se internet samo še širi.
+Z razvojem komunikacijskih sredstev se je večalo število uporabnikov, prav tako pa tudi hitrost prenosov, vsebina in ponudba.
+V Sloveniji je Ministrstvo za znanost in tehnologijo maja 1992 ustanovilo ARNES (Academic and Research Network of Slovenia) s ciljem vzpostaviti in upravljati nacionalno komunikacijsko hrbtenico za potrebe akademskih in raziskovalnih ustanov Slovenije.
+Ena od pomembnih nalog ARNES-a je tudi upravljanje z naslovnim prostorom v okviru javnih računalniških omrežij v Sloveniji.
+6 TCP/IP – Transmission Control  Protocol / Internet Protocol (Protokol za krmiljenje prenosa).
+7 IRC – Internet Relay Chat (spletna klepetalnica).
+8 WWW – world wide web (spletne strani).
+9 http – hyper text transport protocol (protokol za prenos hiperteksta).
+22  5 SPLETNA TRGOVINA  5.1 Definicija spletne trgovine Spletna trgovina je prodajno mesto kakršnega koli blaga ali storitve, ki obstoja v elektronski, sprogramirani obliki v internetu.
+V najširšem smislu so to lahko tudi enostavne predstavitvene strani pravnih in fizičnih oseb, kjer lahko omenjeno blago ali storitev naročimo po navodilih s te strani.
+Naslednji korak so predstavitvene strani z jasno definiranim katalogom, s pogoji dostave in plačila, vendar naročila še vedno potekajo preko avtomatiziranega obrazca, e-pošte, naročilnice ali telefona.
+Prave e-trgovine so popolnoma avtomatizirane.
+Katalog nadomesti baza izdelkov in iskalnik, da lahko želen artikel najdemo in ga pošljemo v elektronsko košarico.
+Celoten nakup lahko opravimo z miško.
+E-trgovine so lahko vezane na manufakturno prodajo, lahko pa so popolnoma samostojne (Štrancar 2001, 10).
+Za veliko ljudi je nakupovanje pomembna sociološka in osebna aktivnost.
+Dejavnik izkušnje z nakupovanjem prek interneta  ima pomemben vpliv na obnašanje kupcev.
+Vsako nakupovanje mora strankam omogočati udobnost predvsem tako, da zmanjša čas, ki ga stranka potrebuje za nakup, in prihrani fizični napor.
+Kupcem je potrebno omogočiti, da si lahko prilagajajo čas, ko želijo nakupovati.
+Zmanjšati je potrebno možnosti nesporazumov med strankami in trgovci.
+Zelo pomembna je tudi »klima« v trgovini.
+Zgoraj omenjeni dejavniki so značilni za klasično trgovanje in jih je potrebno preslikati tudi v virtualno ter s tem omogočiti strankam pridobivanje pozitivnih izkušenj s takim načinom trgovanja.
+Pri nakupovanju prek interneta lahko dejavnik izkušnje z nakupovanjem prek interneta razdelimo na lokacijsko udobnost, usklajenost  z navadami kupcev, zabavnost in družabnost.
+Na internetu ni več fizičnih trgovin in tako je o lokacijski udobnosti nekoliko težje govoriti.
+Kljub temu pa se lokacijska udobnost odraža na trudu, ki ga mora kupec vložiti v nakupovanje,  predvsem z vidika časa, fizičnega napora in možnih nesporazumov.
+Stranke želijo nakupovanje, ki bo čim bolj udobno in bo zahtevalo čim manj napora.
+Naslednji vidik, ki vpliva na izkušnje z nakupovanjem prek interneta, je usklajenost z navadami in življenjskim slogom stranke.
+Vidik usklajenosti je zelo vezan na osvojitev novosti, v tem primeru še posebej tehnologije, ki je potrebna za virtualno nakupovanje.
+Nekateri kupci ne marajo nakupovanja in želijo čim bolj zmanjšati svojo vključenost v proces nakupovanja.
+Poleg tega trgovci na internetu lahko posvetijo posebno pozornost tistim strankam, ki živijo v oddaljenih krajih, in tistim, ki zaradi različnih fizičnih razlogov, npr. starosti ali invalidnosti, ne morejo ali zelo težko nakupujejo po klasičnem načinu.
+Kakorkoli že, nova razvijajoča se tehnologija ima še posebej pri takih ciljnih skupinah poseben pomen.
+Pri nakupovanju je zelo pomemben vidik socializacije in trgovanje prek interneta bo zaživelo le v primeru, da bodo trgovci postavili takšne virtualne trgovine, ki bodo svojim strankam omogočale navezavo stikov z drugimi strankami.
+Zasebnost, ki je tudi eden ključnih dejavnikov, ki vplivajo na izkušnje z nakupovanjem, je pogojena z uporabo računalnika.
+Stranke, ki kupujejo prek interneta, dobijo drugačne izkušnje, saj je takšna    23  oblika nakupovanja bolj privlačna, nova in zabavna izkušnja, kot je neposredno trženje po televiziji.
+5.2 Varni elektronski plačilni sistemi Za uspešno elektronsko trgovanje je potrebna primerna infrastruktura, predvsem strežniško-programska oprema, ki omogoča povezavo med kupcem in internim informacijskim sistemom podjetja.
+Kupcu je na ta način omogočeno brskanje po prodajnem katalogu, naročanje izdelkov ter plačevanje.
+Ko kupec odda naročilo, pripravi strežnik posredovane podatke za nadaljnjo obdelavo v podjetju (sprejem naročil, verifikacija plačil, odprema itd.) (Skrt 2000).
+Plačevanje preko interneta poteka na osnovi izmenjave elektronskih sporočil.
+Da izmenjavanje lahko poteka, mora biti vzpostavljena komunikacija vsaj med dvema – v internet povezanima – računalnikoma.
+Komunikacija med dvema računalnikoma običajno ne poteka direktno od pošiljatelja do prejemnika, ampak preko mnogo vmesnih računalnikov.
+Sporočila po omrežju ne potujejo v celoti.
+Računalnik pošiljatelja sporočilo razdeli v manjše paketke ter jih pošlje v omrežje.
+Ti paketi potem potujejo od računalnika do računalnika proti svojemu cilju, kjer se spet sestavijo v celotno sporočilo.
+Ker ni nujno, da vsi paketi potujejo po isti poti, so razvili programe, ki te pakete pregledujejo in usmerjajo k cilju.
+Takšno komunikacijo imenujemo usmerjanje (routing) (Bajec 1997, 207).
+Vsak računalnik v verigi med pošiljateljem in prejemnikom ima dostop do podatkov, ki so v paketku.
+Programe za pregledovanje in usmerjanje lahko zlorabimo tako, da z njimi vohunimo, oziroma prestrežemo posamezne pakete sporočila in iz njih poskušamo ugotoviti uporabniška imena, gesla, spreminjamo zneske in številke računov pomembnih transakcij, spreminjamo cela sporočila, prekopiramo vsebino in jo uporabimo v nelegalne namene.
+Varnost take komunikacije je seveda zelo vprašljiva.
+5.3 Grožnje varnosti Najpomembnejše grožnje varnosti elektronskega trgovanja po omrežju internet so naslednje (Hudoklin 1997, 288): ? dostop nepooblaščenih oseb do strežnika, ? posredovanje podatkov, shranjenih v strežnikih, nepooblaščenim osebam, ? prestrezanje sporočil med njihovim prenosom, ? zanikanje udeležbe v kakem delu transakcije, ? podvojitev sporočila z namenom okoriščanja.
+Definicije varovalnih funkcij, ki onemogočajo uresničitev navedenih groženj, so naslednje (Hudoklin 1997, 288; povz. po Longley 1992): ? funkcija zaupnost podatka/sporočila preprečuje njegovo nepooblaščeno razkritje; ? funkcija celovitost podatka/sporočila preprečuje njegovo nepooblaščeno spremembo  ali uničenje; ? funkcija preverjanje verodostojnosti pošiljatelja sporočila preprečuje pošiljanje  sporočila v tujem imenu;    24  ? funkcija nezanikanje preprečuje nepriznavanje katerega izmed udeležencev komunikacije, da je sodeloval v celotni komunikaciji ali kakem njenem delu;  ? funkcija nepodvajanje sporočila preprečuje prilastitev sporočila z namenom, da se ga kasneje ponovno nepooblaščeno pošlje.
+TABELA 11: VAROVALNI MEHANIZMI, KI ZAGOTAVLJAJO POSAMEZNE VAROVALNE FUNKCIJE MODELA VARNEGA ELEKTRONSKEGA TRGOVANJA S STALIŠČA KUPCA  Vir: Hudoklin 1997, 292  5.4 Možni načini plačila na internetu Kreditne in debetne kartice so brez dvoma najpomembnejše plačilno sredstvo na internetu, saj njihov delež med vsemi plačilnimi sistemi zavzema okoli 85% (Kerr 2001).
+Vodilni podjetji na tem področju sta Visa in MasterCard.
+Pri plačevanju s karticami poznamo več vrst izvedbe plačila: ? naročilo po pošti/telefonu (MO/TO)10, ? nevarovana plačila po omrežju, ? varni plačilni sistemi.
+Naročilo po pošti/telefonu  MO/TO način kupovanja in plačevanja s karticami na internetu uvrščamo med začetne oblike trgovanja na spletu.
+Kupec svoje naročilo, podatke o kartici in naslovu pošlje trgovcu po pošti ali pa jih sporoči po telefonu.
+Pomanjkljivost te oblike plačevanja je vprašljiva varnost.
+Kupec nima zagotovila, da je  podatke o kartici poslal pravemu trgovcu, in ne lažnemu.
+Na drugi strani pa trgovec nima zagotovila, da bo kupec naročeno blago plačal, saj nima njegovega podpisa.
+Kljub tem pomanjkljivostim se ta način plačevanja marsikje uporablja še danes.
+10 MO/TO – mail order/telephone order.  različica 1 različica 2 različica 3 verodostojnost bančnega vmesnika digitalni podpis digitalni podpis digitalni podpis nezanikanje odobritve trgovske transakcije digitalni podpis digitalni podpis digitalni podpis verodostojnost kupca pri komunikaciji z bančnim osebna bančna osebna bančna osebna bančna vmesnikom številka številka številka  simetrično simetrično simetrično šifriranje šifriranje šifriranje  celovitost podatkov o naročilu in plačilu  - nadzor niz nadzor niz verodostojnost trgovca pri komuniciranju s kupcem   - digitalni podpis digitalni podpis nezanikanje in celovitost pomembnih sporočil, ki jih pošilja trgovec kupcu ali bančnemu vmesniku nepodvajanje zahteve za plačilo, ki jo trgovec pošlje banki  - časovna oznaka časovna oznaka  simetrično šifriranje  Varovalni mehanizmiVarovalne funkcije  zaupnost podatkov o naročilu in plačilu  digitalni podpis digitalni podpis  -   zaupnost podatkov s kupčeve kreditne kartice    25  Nevarovana plačila po omrežju  Nevarovana plačila po omrežju se srečujejo s podobnimi problemi kot MO/TO.
+Napadalci lahko s posebnimi programi prestrežejo podatke o karticah, jih shranijo na svoj računalnik ter jih nato zlorabijo.
+Zaradi elektronskega načina potekajo vsi postopki hitreje in preden je kraja ugotovljena, je povzročena škoda lahko že velikanska (O'Mahony, Peirce, Tewari, 2001, 63).
+Prav zaradi takšnih pomanjkljivosti so različna podjetja razvila varne načine plačevanja s karticami na internetu.
+Podjetje CyberCash je leta 1994 med prvimi razvilo in ponudilo varno plačevanje prek interneta.
+Danes pa sodi med najbolj dovršene varne sisteme plačevanja s karticami SET11 in njegova novejša različica 3D-SET.
+5.5 Varno nakupovanje na spletnih straneh Ko  želimo v navadni trgovini plačati s plačilno kartico, jo prodajalec vstavi v POS terminal, ki s čitalcem za magnetni zapis prebere podatke o lastniku kartice.
+POS terminal se z vgrajenim modemom poveže s procesnim centrom, ki ugotovi izvor kartice.
+Če je kartica tuja, se podatki posredujejo v tujino, če kartica pripada izdajateljem, za katere procesni center obdeluje podatke, jih obdela center, če pa kartica pripada izdajateljem drugih procesnih centrov, se podatki posredujejo njim.
+Procesni center nato ugotovi, ali je transakcija dovoljena, in s tem seznani POS terminal.
+Komunikacija pri tem postopku poteka po navadnih klicnih telefonskih linijah, ki se uporabljajo tudi za prenos govornih in telefaks sporočil.
+Prodajalčeva dolžnost je, da s pomočjo podpisa prinesitelja  kartice in podpisa na njej preveri, če je prinesitelj zares lastnik kartice, saj večina kartic ni prenosljivih.
+Zaradi večje varnosti so se v trgovinah pojavili POS terminali, v katere prinesitelj kartice vtipka osebno geslo, ki ga za razliko od podpisa ni mogoče ponarediti in ga je praktično nemogoče ugotoviti brez dodatnih informacij.
+Pri nakupu s plačilno kartico moramo najprej iz seznama kartic, ki jih sprejema e-trgovina določiti kartico, s katero želimo plačati izbrane izdelke.
+Nato vnesemo številko svoje plačilne kartice ter datum poteka, ki je označen na plačilni kartici.
+Spletne trgovine uporabljajo on-line avtorizacijo plačila zato, da se v varnem in zakodiranem finančnem okolju lahko takoj preveri kupčeva plačilna sposobnost in veljavnost njegovega računa pri izdajatelju plačilne oziroma kreditne kartice.
+Tako sta zavarovana trgovec in izdajatelj kartice, kupcu pa je onemogočeno, da bi kupoval prek svojih možnosti ali celo goljufal.
+Takoj, ko kupec izpolni naročilo z vsemi potrebnimi podatki, vključno s številko plačilne kartice, se preko spletne trgovine pošlje zahtevek za plačilo na transakcijskem serverju.
+Ta shrani zahtevek v bazo in izvrši kontrolo veljavnosti kartice.
+Če je kartica uspešno avtorizirana, transakcijski server obvesti trgovca o naročilu in mu dostavi vse podatke o naročilu, izvzemši številko kreditne kartice; kupcu pa posreduje povratno informacijo o rezultatu kontrole kartice (odobritev ali zavrnitev) in na podlagi tega tudi potrdilo o prejemu oziroma zavrnitvi naročila.
+Po prejemu naročila trgovec pregleda elemente naročila in takoj po odpremi blaga potrdi dobavo transakcijskemu serverju.
+Šele takrat prenese transakcijski server banki zahtevek za prenos sredstev s kupčevega na trgovčev račun.
+11 SET – Secure Electronic Transaction (varna elektronska transakcija).
+26  5.5.1 Sistem SET Na internetu ni mogoče preveriti, če je oseba, ki kupuje blago ali storitev, res lastnik kartice, s katero namerava plačati.
+Zato je zelo pomembno, da svoje številke kreditne kartice ne pošiljamo nezaščitene po spletu.
+Najbolj znan sistem za elektronsko plačevanje s kreditno kartico je protokol za varno transakcijo ali SET.
+Ta protokol predvideva udeležbo treh strank: kupca, trgovca in vmesnega sistema oziroma banke, ki izpelje denarno transakcijo.
+SET zagotovi vmesna vrata med nezavarovanim delom interneta in varnim omrežjem bank, prek katerega se opravljajo elektronske denarne transakcije.
+Vse tri stranke v postopku so opremljene s parom asimetričnih ključev,  z zasebnim in javnim.
+Pari ključev se uporabljajo za avtorizacijo, preverjanje identitete, preprečitev zanikanja transakcije in zagotovitev tajnosti.
+Kupec pošlje informacijo o kreditni kartici na varni del omrežja skozi prodajalčev sistem, ki mu transakcijsko omrežje odgovori z avtorizacijo plačila.
+Identiteta kupca je delno zaščitena tako, da so podatki o nakupu in kupčevi kreditni kartici porazdeljeni med prodajalca in banko, ki opravi transakcijo.
+Ko kupec izbere blago in kartico, s katero bo plačal (Master, Visa ali Eurocard), naročilo in način plačila podpiše s svojim zasebnim ključem in to pošlje prodajalcu.
+V naročilu je številka kreditne kartice, ki je zašifrirana tako, da jo lahko prebere le vmesni sistem.
+Informacije o kreditni kartici skupaj z vrednostjo naročenega blaga vmesniku SET pošlje prodajalčev sistem, ki te informacije podpiše s svojim zasebnim ključem.
+Vmesni sistem preveri veljavnost kreditne kartice, hkrati pa še identiteto trgovca.
+Po opravljeni avtorizaciji pošlje informacijo trgovcu, da je plačilo avtorizirano, ta pa sporoči kupcu, da sprejema plačilo.
+To sporočilo vmesni sistem digitalno podpiše.
+Kasneje bo prodajalec zahteval od vmesnega sistema prenos denarja na njegov račun.
+Avtorizacijo plačila za posamezni  nakup se zahteva pri vsakem nakupu posebej, prenos denarja na trgovčev račun pa se opravi za več opravljenih avtorizacij v različnih časovnih obdobjih.
+Identiteta kupca je delno skrita,  ker trgovec lahko razbere le naročilo, ne pa tudi identitete kupca.
+Vmesni sistem dobi informacijo o identiteti kupca z informacijo o kreditni kartici, ne dobi pa podatkov o vsebini naročila, ker je ta informacija skrita s pomočjo tehnike, znane kot dvojni podpis.
+Kupec pošlje prodajalcu sporočilo, ki vsebuje dva dela: specifikacijo načina plačevanja, ki vsebuje identifikacijsko številko kupca in informacijo o kreditni kartici, ter drugi del, ki vsebuje informacijo o vsebini naročila.
+Ta dva dela sta dvojno podpisana tako, da je za vsakega izdelan ločen 'prstni odtis', 'prstna odtisa' pa sta podpisana skupaj.
+En sprejemnik dobi čistopis prvega dela in 'prstni odtis' drugega dela, drug sprejemnik pa ravno obratno, 'prstni odtis' prvega dela in čistopis drugega dela.
+Oba 'prstna odtisa' sta skupaj povezana z zasebnim ključem kupca in sta neločljivo povezana.
+Tako lahko vsak sprejemnik preveri neokrnjenost podatkov celotnega sporočila, prebere pa le tisti del sporočila, ki mu je namenjen.
+SET protokol združuje močno šifriranje in celo vrsto postopkov za overjanje, zagotavljanje zaupnosti, zasebnosti in zanesljivosti v vseh korakih elektronskega plačevanja.
+Pomembne sestavine so (Hribar 2000,  282): ?
+Zaupnost (confidentiality) naročila in podatkov o plačilu, ki se prenašajo pri  elektronskem plačevanju preko interneta.
+Ne prodajalci in ne kupci ne želijo, da bi se razkrili kateri od podatkov o naročilih ali plačilnih karticah.
+Med SET procesom prodajalec lahko dostopa le do podatkov o naročilu, medtem ko do podatkov o plačilu lahko dostopa le banka.
+SET zagotavlja zaupnost s kodiranjem podatkov.
+27  ?
+Celovitost (integrity) ali neokrnjenost neposrednih (on-line) podatkov in zagotovilo, da je prejeto sporočilo identično poslanemu.
+Plačilna transakcija je sestavljena iz podatkov o naročilu, osebnih podatkov in podatkov o plačilu.
+Če se katerikoli del podatkov spremeni med transakcijo, se plačilo ne bo izvedlo.
+SET za zagotovitev celovitosti transakcije uporablja digitalni podpis.  ?
+Overjanje (authentication) ali dokazovanje pristnosti.
+Prodajalec, kupec, kupčeva banka, prodajalčeva banka morajo biti prepričani o identiteti vsakega udeleženca v transakciji.
+Prodajalec mora preveriti, ali je kupec legitimni uporabnik veljavne plačilne kartice.
+Po drugi strani pa mora tudi kupec vedeti, da je prodajalec pooblaščen za poslovanje z določeno plačilno kartico.
+Vedeti želi tudi, da je prodajalec tisti, za kogar se predstavlja, ne pa da se je nekdo zamaskiral pod prodajalčevim imenom.
+V SET sistemu je imetnik plačilne kartice povezan s točno določenim računom in overitvenim potrdilom.
+Overjanje je zagotovljeno z digitalnim podpisom in digitalnim certifikatom.  ?
+Interoperabilnost (interoperability) med drugačnimi platformami in programsko ter strojno opremo, ki zagotavlja kompatibilnost.
+Bilo bi zelo nepraktično, če bi morali imeti na računalniku nameščenih več verzij programske opreme, ki zagotavlja varnost plačevanja.
+Zato je potrebno, da je protokol standardiziran, da ga lahko uporabljamo na različnih operacijskih sistemih.
+5.5.2 Potek SET transakcije Elektronsko plačevanje preko SET protokola  poteka po naslednjih korakih: ?
+Kupec se odloči, da bo izbrano blago ali storitev plačal preko SET-a.
+Ko kupec klikne  gumb »plačaj s SET«, pošlje »pay-wakeup« sporočilo, zahtevo za začetek plačevanja prodajalčevemu strežniku.  ?
+Prodajalčev strežnik odgovori kupčevemu brskalniku z »wakeup« sporočilom, le-to pa pomeni začetek plačevalnega procesa.
+To sporočilo zažene tudi kupčevo elektronsko denarnico.  ?
+Elektronska denarnica pošlje zahtevo za plačevanje (Payment Initialization Request) prodajalcu.  ?
+Prodajalčev strežnik kreira odgovor na zahtevo (Payment Initialization Response) in jo pošlje nazaj.  ?
+Denarnica kupcu ponudi izbiro »preveri prodajalca«.
+Ko izbere »OK«, denarnica pošlje zahtevo za nakup (Purchase Request) prodajalcu.
+Ta zahteva vsebuje informacije o naročilu, plačilnih karticah, kupčevo overitev, vse to pa je kodirano in digitalno podpisano.  ?
+Prodajalčev strežnik preveri, ali lahko izvede overjanje.
+Če ga lahko, pošlje zahtevo za overjanje (Authorization Request) prevzemniku in počaka na odgovor.  ?
+Prevzemnik sprejme zahtevo in preko zaprtega omrežja vzpostavi komunikacijski kanal s kupčevim izdajateljem ter potrdi ali zavrne avtorizacijo (preveri, ali je plačilna kartica veljavna in ali ima kupec dovolj kredita, da opravi nakup).  ?
+Izdajatelj vrne odgovor na zahtevo za overjanje (Authorization Response). ?
+Prevzemnik posreduje odgovor prodajalcu. ?
+Prodajalčev strežnik sprejeti odgovor obdela in shrani v bazo podatkov za arhiv in  nadaljnjo izpolnitev naročila.
+Kreira tudi odgovor na zahtevo po nakupu (Purchase Response) in jo pošlje kupčevi elektronski denarnici.  ?
+Če je bila avtorizacija potrjena, prodajalec lahko izpolni naročilo.
+S tem, ko prodajalec pošlje zahtevo za zajemanje (Capture Request) prevzemniku, se začne proces    28  zajemanja.
+Zajemanje je prenos denarja s kupčevega računa pri izdajatelju do prodajalčevega računa pri prevzemniku in do prodajalca.  ?
+Prevzemnik sprejme zahtevo po zajemanju, uporabi zaprto omrežje za komunikacijo s kupčevim izdajateljem in mu pošlje zahtevo za prenos plačila (Payment Request).  ?
+Izdajatelj zahtevo obdela in z denarnim nakazilom pošlje tudi odgovor na zahtevo (Payment Response).  ?
+Prevzemnik še obvesti prodajalca o plačilu (Capture Response) (Hribar 2000, 284 povz. po Rubin 1997).
+5.5.3 Cybercash in  protokol SSL (Secure Socket Layer) Podjetje CyberCash12 je bilo eno izmed prvih podjetij, ki je ponudilo varno elektronsko plačevanje prek interneta z različnimi kreditnimi karticami ali z uporabo bančnega računa.
+CC centralni strežnik se postavi v vlogo vmesnega sistema, ki mu kupci plačujejo s kreditnimi karticami.
+Po prejetju denarja od kupčeve banke CC na klasičen način nakaže denar banki prodajalca in za to uslugo obdrži nekaj odstotkov.
+Pred uporabo sistema si mora kupec naložiti programsko opremo, ki jo prenese s  strežnika CC in ki mu omogoča generiranje parov ključev.
+Nato podpiše pogodbo, ki ureja pravice in odgovornosti kupca ter CC  in vsebuje številko kreditne kartice ali bančnega računa kupca.
+Uporabnik digitalno podpiše in zašifrira pogodbo ter jo pošlje CC po internetu.
+Od tu naprej lahko uporabnik kupuje ali prodaja po internetu.
+Ko najde ugodno ponudbo in prodajalca, ki sprejema plačilo prek CC, prenese z mreže ponudbo prodajalca.
+Kupec potrdi, da sprejema prodajalčevo ponudbo tako, da digitalno podpiše ponudbo in doda svojo številko kreditne kartice,  ki jo zašifrira s CC javnim ključem.
+To sporočilo prodajalec digitalno podpiše in ga pošlje CC strežniku.
+Strežnik vzpostavi povezavo z ustrezno banko ali organizacijo, ki je izdajatelj kreditne kartice kupca, in sproži denarno transakcijo, če je kartica veljavna.
+Prodajalec dobi informacijo o opravljeni transakciji, kupec pa potrdilo od prodajalca o tem, da je bilo blago plačano.
+Podjetje CyberCash je prevzelo podjetje Verisign, eno od največjih podjetij, ki nudijo storitve za varno elektronsko poslovanje.
+Protokol SSL se pogosto uporablja v elektronskem bančništvu.
+Uporabnik se najprej prepriča, ali komunicira s pravim bančnim strežnikom, hkrati pa lahko tudi strežnik preveri identiteto stranke.
+Po vzajemnem preverjanju SSL zagotovi neokrnjenost izmenjanih podatkov in zaupnost informacij.
+Protokol SSL je sestavljen iz dveh delov.
+SSL Handshake protocol omogoča usklajevanje algoritmov, overjanje strežnika in odjemalca, prenos digitalnih certifikatov in določitev skupnega ključa za simetrični kriptoalgoritem.
+Drugi del je SSL Record protocol, ki definira format izmenjanih podatkov in zagotavlja neokrnjenost ter šifriranje.
+Uporabo protokolov SSL in TLS v svetovnem spletu poznamo po predponi https namesto http.
+Prav tako se je SSL zaradi zapletenosti sistemov, ki uporabljajo storitve vmesnega sistema, uveljavil tudi za elektronsko plačevanje blaga in storitev na internetu.
+Z uporabo SSL sistema zagotovimo, da oseba, ki morda nadzira promet s trgovčevim računalnikom, ne pride do vsebine podatkov, saj se pri vzpostavitvi povezave med strežnikom prodajalca in kupčevim brskalnikom vzpostavi varen kanal, ki onemogoča prisluškovanje podatkom.
+12 V nadaljevanju CC.    29  Vendar pa to ne pomeni, da so preneseni podatki varni pred zlorabo s strani trgovca, saj jih SSL zaščiti le med prenosom med odjemalcem in strežnikom.
+Zato je izredno pomembno, da uporabnik zaupa trgovcu in se prepriča  o njegovem poslovanju, preden se odloči za nakup preko spleta.
+Preveriti mora, ali je spletna trgovina označena z znakom, ki potrjuje, da je trgovina varna.
+Najbolj znano in uveljavljeno podjetje, ki skrbi za varnost spletnih trgovcev, je podjetje Verisign.
+Dodatna pojasnila o varnem  poslovanju si  kot kupec lahko preberemo na spletnih straneh vsake e-trgovine.
+Potrebno jih je skrbno prebrati in se tako še dodatno prepričati, kako spletni trgovec skrbi za varnost kupčevega in svojega poslovanja.
+Ko trgovec prejme podatke o kupčevi kartici, jih preko sistema, ki je povezan v varno bančno omrežje, preveri, in če je kartica veljavna ter organizacija ali banka, ki jo je izdala, avtorizira plačilo, javi kupcu, da sprejme plačilo.
+Tako se lahko nakup izpelje do konca.
+5.5.4 Digitalni podpis Elektronsko poslovanje zaradi vseh možnosti, razširjenosti in dostopnosti zelo pogosto vzbuja nezaupanje glede zagotavljanja zasebnosti in varnosti.
+Iznajdba asimetričnega postopka šifriranja je omogočila uvedbo digitalnega podpisa, s katerim lahko zagotavljamo verodostojnost elektronskih dokumentov.
+Asimetrična kriptografija uporablja za šifriranje in dešifriranje para ključev, ki sta neenaka, a neločljivo povezana, poleg tega pa se iz poznavanja samo enega ključa ne da generirati drugega.
+En ključ se imenuje zasebni in je namenjen dešifiranju podatkov, drugi ključ je javni in je namenjen šifriranju podatkov.
+Da lahko nekdo elektronski dokument prebere, ga mora najprej dešifrirati, obenem s tem pa dobi tudi potrdilo o njegovi verodostojnosti oziroma z drugimi besedami, preveri naš digitalni podpis.
+Ustanova, ki skrbi za upravljanje (izdajanje, preklicevanje, podaljšanje itd.) z javnimi ključi, je overitelj (angl.: Certification Authority – CA ali Trusted Third Party – TTP).
+Leta je nekakšen posrednik med partnerji pri izmenjavi javnih ključev.
+Vse občutljive informacije, na primer podatki o plačilih in kupcih, se shranjujejo za dvema »požarnima zidovoma«, vsi potrošnikovi podatki o plačilu so individualno kodirani, poleg tega pa je zagotovljena tudi podpora za vse najvarnejše svetovne plačilne protokole, vključno s standardom SET.
+Šifriranje je postopek, s katerim zaščitimo vsebino sporočila pred vpogledi s strani neavtoriziranih oseb.
+Kako varna so zaščitena sporočila, je odvisno od vrste uporabljenega šifrirnega postopka, predvsem pa od velikosti šifrirnega ključa (merjeno v bitih).
+Čimdaljši je ključ, tem težje je zaščito zlomiti in prebrati vsebino sporočila.
+Bistvena razlika med 40in 128-bitno zaščito, ki sta največkrat uporabljeni, je v številu možnih ključev, s katerimi je »zaklenjeno« sporočilo (Skrt 2000).
+5.5.5 Nasveti za varno nakupovanje preko spleta Naslednje informacije morajo biti dostopne na spletni strani solidnega trgovca:  a) Podatki o trgovcu  Naslov internetne strani pogosto ni enak imenu trgovca, zato morajo biti jasno zapisani polno ime (firma) in sedež trgovca, številka telefona in elektronski naslov.
+Dobro je, če je    30  na spletni strani tudi podatek o tem, kje je podjetje registrirano, tako da lahko kupci sami preverijo legitimnost prodajalca.
+Preden se dokončno odločimo za nakup, je pomembno tudi izvedeti, kdo je v resnici trgovec.
+Če gre kaj narobe, lahko klasičnega trgovca vedno poiščemo v trgovini iz opeke in cementa, pri trgovanju na daljavo pa se lahko kaj hitro zgodi, da trgovec v primeru težav »izpuhti«.  b) Informacija, v katere države pošiljajo blago  Na spletni strani mora biti jasno označeno, v katere države trgovec pošlje naročeno blago.
+Zaželeno je, da so informacije o tem že na prvi strani, saj tako potrošnik takoj ve, če je ta spletna trgovina sploh primerna zanj.  c) Jasno označena cena  Potrošnik mora biti seznanjen s ceno izdelka in z vsemi drugimi stroški (poštnina, pakiranje, morebitni drugi stroški), preden dejansko potrdi nakup.  d) Pogoji in roki  Informacije o pogojih in rokih so med najpomembnejšimi.
+Potrošnik mora biti seznanjen: ? kako je z odpovedjo že naročenega izdelka, ? kakšen je rok, v katerem se lahko premisli, ? kakšen je način plačila, ? kakšen je rok za dostavo kupljenega izdelka.
+Strani spletne trgovine morajo biti oblikovane tako, da je potrošnik seznanjen s temi pomembnimi informacijami, še preden opravi nakup.
+Če so opisani pogoji in roki navedeni, je to pravzaprav kar zanesljiv znak, da spletni trgovec obravnava kupca kot enakopravnega partnerja in mu ne želi prikriti tistih podatkov, ki pravno obvezujejo tako njega kot potrošnika.
+Potrošniku mora biti omogočeno, da si pogoje in roke natisne in shrani.  e) Podatek o tem, katera zakonodaja je veljavna v primeru spora  Potrošniške organizacije po svetu se zavzemajo, da bi se morebitni spori med spletnim trgovcem in kupcem reševali po določilih zakonodaje iz države kupca.
+Takšno pravilo je zaenkrat v veljavi le v državah EU, večina trgovcev izven EU pa se v praksi sklicuje na zakonodajo države, v kateri so registrirani.
+To mora biti na spletni strani jasno napisano.
+Čeprav za kupca ne velja »domača« zakonodaja, pa njegove pravice ne bi smele biti omejene (obseg pravic mora biti tolikšen, kot ga zagotavlja zakonodaja države, katere državljan je).  f) Jasen postopek naročila  Spletne strani morajo biti oblikovane tako, da potrošnik izbrano blago kupi v treh korakih: izrazi željo, da bi kupil določeno blago (»položi ga v košarico«), ima možnost, da svoje naročilo prekliče ali potrdi, in končno, ko potrdi, da bo nakup opravil, sporoči prodajalcu še svoje podatke.
+Pred tem zadnjim korakom mu morajo biti dostopni vsi pogoji in roki nakupa.
+Po opravljenem nakupu mora trgovec kupcu potrditi, da je njegovo naročilo prejel.
+31  g) Zaupnost  To je ena od pomembnejših zahtev pri spletnem nakupovanju.
+Trgovec ne sme zahtevati od kupca več podatkov, kot je nujno potrebno, pri tem pa mora biti kupec obveščen, za kaj trgovec potrebuje njegove podatke in kako jih bo uporabil.
+Potrošnik mora imeti možnost, da se odloči, ali želi v prihodnje sprejemati informacije, ki jih pošilja prodajalec svojim kupcem (npr.: ugodnosti pri nakupu, novi izdelki v ponudbi ...).
+Potrošnik mora biti tudi zavarovan pred tem, da bi prodajalec odstopil njegove podatke tretji osebi brez njegove vednosti oz., ne da bi to dovolil.  h) Varnost  Potrošnik mora biti seznanjen, kako je z varnostjo pri nakupih.
+Informacije morajo biti jasne in lahko razumljive.
+Potrošnik  mora biti seznanjen, ali so njegovi osebni podatki v »varnem okolju« in o zanesljivosti, če pride do zlorabe podatkov.  i) »Cookies« - piškotki  Piškotek je informacija ali poseben (enkraten) identifikator v računalniku, ki ga spletni prodajalec pošlje kupcu in omogoča spletni strani, da si zapomni informacije o kupčevih prejšnjih naročilih.
+Lahko je uporabljen tudi za to, da kupcu pri ponovnem nakupu ni treba znova posredovati njegovih osebnih podatkov ali vpisovati gesla.
+Nekateri ga uporabljajo tudi za to, da sledijo kupcu po različnih spletnih straneh in na ta način pridobivajo informacije o tem, kaj kupca zanima, in tako lažje usmerjeno oglašujejo.
+Nekateri takšnega ravnanja ne marajo, drugi ga imajo radi, ker na ta način prihranijo čas.
+Vsekakor pa mora biti potrošnik obveščen, kakšna je poslovna politika podjetja v takšnem primeru.
+Potrošnik mora imeti možnost, da spletna trgovina piškotkov ne uporabi, obveščen pa mora biti tudi o tem, kako ravna podjetje v primeru, če kupec noče, da bi uporabili piškotke.  j) Vračilo blaga  Potrošniki morajo imeti pravico do vračila blaga v določenem časovnem roku.
+Spletne strani morajo vsebovati informacijo o roku, v katerem mora potrošnik blago vrniti, o tem, na kakšen način lahko to stori in ali je možno blago brezplačno poslati prodajalcu.  k) Pritožbe  Zapisani morajo biti podatki o tem, kako in komu se lahko kupec pritoži.
+Prodajalec ga mora opozoriti tudi na to, kaj lahko potrošnik še stori, če reklamacija ni ugodno rešena.  l) Informacije o naročilu  Kupec mora biti seznanjen z vsemi fazami naročila.
+Vedeti mora, ali je blago na zalogi.
+Če ga ni, mora biti obveščen, kdaj bo ponovno na voljo.
+Prodajalec mora naročilo potrditi in obvestiti kupca o tem, kdaj mu je poslal blago.  m) Dostava  Potrošnik mora že ob naročilu vedeti, kdaj lahko pričakuje naročeno blago.
+Prav je, da podjetje obvesti kupca, kdaj je bilo blago odposlano.
+Tako si lahko potrošnik sam izračuna,    32  kdaj bo blago pri njem doma.
+Seznanjen mora biti z morebitnimi težavami pri dostavi.
+Prodajalec ne bi smel potrošniku zaračunati naročenega blaga prej, preden ga odpošlje.  n) Vračilo blaga in denarja  Potrošnik mora biti prek spletne strani obveščen o postopku vračila blaga (biti mora enostaven).
+Informacije o tem morajo biti lahko dostopne, jasno morajo biti označeni stroški, ki jih poravna kupec, če blago vrne (ali mora plačati poštnino).
+Če podjetje vrača denar, mora potrošnika obvestiti, kdaj bo denar na potrošnikovem računu in kaj lahko stori, če svojega denarja ni dobil (VIP 2000,30).
+Najvarnejše so ponavadi tiste trgovine, ki so v svetovnem spletu že dodobra uveljavljene.
+Pred nakupom v spletni trgovini je dobro, da si ogledamo, kako je poskrbljeno za varnost podatkov v tej trgovini (angl. Privacy policy).
+Posebno moramo biti pozorni na drobni tisk.
+Pri HPshopping.com na svoji strani o varnem nakupovanju zagotavljajo stoodstotno varnost pri prenosu podatkov.
+Pravijo, da pri morebitni zlorabi kartice, ki bi bila posledica nakupa pri njih, kupec ne nosi nikakršnih stroškov.
+Vendar v drobnem besedilu na dnu strani piše, da HPshopping.com krije stroške do višine 50 dolarjev, in še to samo v primeru, da do zlorabe ni prišlo zaradi naše napake.
+Pri izdajatelju naše kartice se moramo pozanimati, kako je s kritjem stroškov, ki bi nastali ob morebitni zlorabi.
+Izdajatelji plačilnih kartic imajo ponavadi tudi tako imenovano črno listo podjetij, pri katerih zaradi kupčeve varnosti nikakor ni priporočljivo nakupovati.
+Če ugotovimo zlorabo svoje kreditne kartice, je potrebno takoj poklicati servisni center izdajatelja kreditne kartice, saj stroške zlorabe do prijave ter nadaljnjih 24 ur krije uporabnik kartice, kasneje pa izdajatelj.
+Izjema je American express, ki krije le določen znesek zlorabe.
+Za e-nakupovanje je pametno uporabljati debetno kartico, ki se napolni po potrebi in ne omogoča negativnega stanja.
+Smiselno je tudi kdaj zamenjati kartico ali vsaj številko kartice, ki jo uporabljamo za spletno nakupovanje.
+5.5.6 Kraje plačilnih kartic z interneta Vrednost vsake ukradene plačilne kartice je v višini dovoljenega poslovanja z njo, s tem da moramo odšteti že porabljena sredstva.
+Ukradene kartice oz. njene številke ne bo mogel nihče uporabljati več kot mesec ali dva, ker bo lastnik kaj kmalu opazil nepravilnosti, ko bo dobil mesečni izpisek oz. obvestilo o poslovanju s kartico, in jo bo preklical.
+Ker je uporabna vrednost kartic pri zlorabah kratkotrajna, mora biti način njene pridobitve enostaven, da se jo splača ukrasti.
+Kraja kartic z interneta ni lahko in enostavno opravilo.
+Tat bi za to, da bi odkril in razbil varnostno kodo spletne naročilnice, moral naslednje: ? poznati dostop do varnega in zaščitenega omrežja ali telefonske centrale, ? poznati delovanje omrežniških usmerjevalnikov in protokolov, ? znati najti podatke o tem, kdaj smo poslali naročilnico, ? znati najti podatke o tem, po kateri »poti« je potovalo naše naročilo, saj obstaja več  tisoč omrežnih poti med našim računalnikom in naročniško službo,    33  ? znati pregledati milijone svežnjev in najti pravega – takega, ki vsebuje delne podatke iz naše naročilnice,  ? znati te delne podatke iz svežnjev sestaviti v prvotno, z varnostno kodo zaščiteno naročilnico.
+Prestopnik se je moral do te točke pošteno potruditi, da je prestregel našo spletno naročilnico, a je ne more prebrati, ker je zakodirana.
+Šele sedaj se začnejo pravi problemi, kajti imeti mora: ? neomejen dostop, ki ga ni moč izslediti, do računalniške strojne opreme, ki zmore  poganjati programsko opremo za razbijanje kod; ? ogromno časa.
+Za uspešno dekodiranje in pridobitev številke naše plačilne kartice bo  potrebno veliko časa.
+34  6 PREDNOSTI IN POMANJKLJIVOSTI TRGOVANJA PREK INTERNETA  6.1 Prednosti trgovanja prek interneta za kupca Trgovanje prek interneta prinaša za kupce in trgovce veliko prednosti, vendar obenem tudi nekaj težav.
+Udobnost (priročnost) in ugodnejše cene.
+Stranke lahko naročajo izdelke ali storitve od kjerkoli, in to 24 ur na dan.
+Ni jim treba čakati v avtu v gostem prometu, iskati parkirnega prostora, hoditi mimo številnih polic in čakati v vrstah pred blagajnami, da bi kupili iskano blago.
+Ni se jim treba peljati v prodajalno zgolj zato, da bi ugotovili, ali je blago še na zalogi.
+Izdelki in storitve na internetu so ponavadi cenovno bolj ugodni, kar je za stranke pomemben dejavnik.
+Cene izdelkov in storitev so ponavadi ugodnejše, ker informacij o ponujenem blagu ni potrebno natiskati in razposlati po pošti potencialnim strankam, ampak so enostavno na vpogled v virtualni trgovini.
+Pomoč strankam je enostavnejša, ponavadi kar v obliki najbolj pogosto zastavljenih vprašanj, ki jih stranke posredujejo prek interneta, in tako odpadejo stroški telefonskih pogovorov.
+Pridobivanje podatkov.
+Stranke lahko dobijo veliko primerljivih podatkov o podjetjih, njihovih izdelkih ali storitvah tekmecev, ne da bi jim bilo treba oditi iz pisarne ali od doma.
+Lahko se osredotočijo na objektne kriterije, kot so cena, kakovost, delovanje in razpoložljivost.
+Manj vznemirjanja.
+Pri nakupovanju prek interneta se strankam ni treba srečevati s prodajalci ali se izpostavljati prepričevanju in čustvenim dejavnikom in se tako odločijo o nakupu bolj objektivno.
+Hitrejši nakup.
+Velikokrat je razlog za nakup v virtualnih trgovinah hitrost samega nakupa.
+Tak primer so trgovine, ki ponujajo osnovne življenjske potrebščine, kot so na primer hrana, pijača ali celo darila.
+6.2 Glavne prednosti za trgovca Hitro in učinkovito prilagajanje tržnim razmeram.
+Podjetja lahko dodajajo izdelke ali storitve svoji ponudbi ter spreminjajo cene in opise.
+Predstavitev proizvodov ali storitev lahko izboljšajo s sliko, z zvokom, video odlomkom in tako lahko z razmeroma malo besedila izrazijo veliko.
+Nižji stroški.
+Pri prodaji prek interneta ni potrebno vzdrževati prodajaln in imeti stroškov z najemnino, zavarovanjem in s komunalnimi storitvami prostorov, potrebnih pri klasični prodaji.
+V bistvu gre za virtualne kataloge, ki jih trgovci lahko pripravijo z veliko nižjimi stroški, kot so tiskanje in pošiljanje katalogov po pošti.
+Trgovci so avtomatično prisotni na celotnem svetovnem trgu in zato ne potrebujejo zelo veliko denarja.
+Ko je ponudba objavljena v njihovi virtualni trgovini, je za trgovce potrebno le, da se odločijo, kako in ali bodo obravnavali povpraševanje in naročila tudi iz oddaljenih krajev preko meje države.
+Razvijanje odnosov.
+Trgovci lahko komunicirajo s strankami in se od njih naučijo marsikaj.
+V svoje virtualne trgovine lahko vključijo poročila, brezplačno demonstracijo novih programov ali brezplačen izvod svojega glasila.
+Stranke pa lahko nato shranijo    35  sporočila na trde diske svojih računalnikov.
+Stiki s strankami iz sosednje ulice niso nič drugačni od stikov s strankami z drugega konca sveta, razlika je samo v poštnih stroških pošiljanja izdelkov.
+Prav tako vsi tisti, ki so v podjetju zadolženi za komunikacijo s strankami, vedo, da v večini primerov pojasnjujejo iste stvari, zato ponavadi najdemo v virtualnih trgovinah strani z najbolj pogosto zastavljenimi vprašanji.
+Na ta način podjetje razbremeni prodajne referente in odstrani še eno oviro med strankami in podjetjem.
+Vprašanja, ki jih postavljajo različne potencialne stranke, so del nakupovalnega procesa, brez odgovorov na ta vprašanja pa prodajni proces ne more funkcionirati, saj trgovec kmalu začne veljati za neresnega in mimogrede pride na slab glas.
+Zajem podatkov o strankah.
+Trgovci lahko izvedo, koliko ljudi je obiskalo njihovo virtualno trgovino, na katerih straneh so se potencialne stranke največ zadrževale in še mnogo več.
+S pomočjo teh podatkov jim ni treba plačevati dragih tržnih raziskav, ki jim pomagajo pri izboljšanju poslovanja.
+Razširjanje trga na zahtevne in premožne stranke.
+Vsak trgovec si želi pridobiti premožne potrošnike.
+Velika večina kupcev prek interneta je univerzitetno izobražena, dobro zasluži ali jih v prihodnosti čaka dobra služba in s tem visoka kupna moč ter pomanjkanje časa za nakupe, zato je to tudi eden izmed razlogov za nakupovanje po internetu.
+Ohranjanje obstoječih strank in pridobivanje novih.
+Vsako podjetje mora v prodajne aktivnosti vložiti veliko časa in spoznati čim več ljudi, preden je kupčija sklenjena.
+Stara modrost pravi, da ni tako pomembno, kaj vemo, ampak, koga poznamo.
+Velikokrat se zgodi, da se bežno srečanje, med katerim smo si izmenjali vizitke, spremeni v začetek dolgoročnega sodelovanja.
+Če bo podjetje imelo svojo virtualno trgovino, v kateri bodo objavljeni njeni podatki, izdelki ali storitve z možnostjo nakupa, jo bodo bodoče potencialne stranke lahko tudi našle.
+V nasprotnem primeru pa to ne bo mogoče in s tem bo podjetje lahko izgubljalo obstoječe in še velik del potencialnih strank.
+6.3 Težave trgovanja prek interneta Nezaupljivost in odpor strank.
+Nekatere stranke so nezaupljive do uporabe računalnikov pri poslovnem komuniciranju.
+Pojavi se odpor do novosti, ki posegajo v ustaljeni način življenja strank.
+Ljudje nimajo radi sprememb, še posebej ne tistih, ki posegajo v najbolj običajna vsakodnevna opravila.
+Prevare in goljufije.
+Pojavijo se lahko trgovci, ki se nepošteno okoriščajo s tistimi kupci, ki se prenaglo in nepremišljeno odločijo o nakupu.
+Trgovci na prefinjen način predstavijo izdelke ali storitve in trdijo, da ponujajo znatne popuste.
+Postavljajo časovne omejitve do razprodaje zalog, ponujajo nedosegljivo lahkoto nakupa, storijo vse, da »ujamejo« stranke, ki se takim ponudbam težko uprejo.
+Nekateri izdelki ali storitve se šele po nakupu izkažejo za nekvalitetne ali cenene, kar je posledica slabše in nerealne predstavitve blaga, ki kupce zavede.
+Trgovci utegnejo pretiravati v zvezi z velikostjo proizvoda, njegovim delovanjem ali ceno na drobno.
+V skrajnih primerih kupci svojih izdelkov ali storitev sploh ne dobijo.
+Počasen prenos podatkov.
+Največja slabost nakupovanj preko interneta je majhna hitrost prenosa podatkov po telefonskem omrežju, ki ga uporablja večina potencialnih strank, vendar se te hitrosti počasi izboljšujejo (ISDN, prenos preko kabelskih omrežij, linije T1 v podjetjih potencialnih strank).
+Zaradi premajhne hitrosti prenosa se čas sprehoda skozi    36  virtualno trgovino poveča in s tem se povečajo tudi stroški priklopa.
+Večina strank ni pripravljena prav dolgo čakati, preden se spletna stran v celoti naloži, zato je pri izgradnji virtualne trgovine potrebno nameniti veliko pozornost temu problemu in ga tudi upoštevati.
+Banalen razlog za počasnost je lahko na primer v veliki količini nezanimivih in morda celo nepomembnih slik, ki zelo upočasnijo sprejemanje podatkov na odjemalčevi strani.
+Neosveščenost uporabnikov o nakupovanju prek interneta.
+Vse več je virtualnih trgovin, vendar veliko trgovcev o svojih trgovinah slabo obvešča potencialne stranke preko javnih občil ter se bolj posvečajo oglaševanju preko interneta, drugi zanemarjajo oglaševanje preko interneta, nekateri pa oba načina oglaševanja.
+Na žalost se nekateri trgovci ne zavedajo, da nakupovanje preko interneta omogoča v svetu že na tisoče podjetij in da se tu bije boj za stranke, ki jih je treba pritegniti za nakup na čim bolj učinkovit način.
+Vdor v zasebnost.
+Vdor v zasebnost je morda najtrše vprašanje.
+Zdi se, da skoraj vsakič, ko stranke naročijo izdelke ali storitve na elektronski način, pridejo njihova imena, naslovi in nakupovalne navade v bazo podatkov določenega podjetja.
+Na podlagi teh podatkov pa neposredni tržniki osredotočijo svoje napore.
+Neposrednim tržnikom je težko korakati po ozki črti med željo, da bi dosegli natančno opredeljene ciljne stranke, in pravico strank do zasebnosti.
+Mnogi kritiki so zaskrbljeni, da tržniki vedo preveč o življenju svojih strank ter da se z vedenjem nepošteno okoriščajo.
+Dejavnost neposrednega trženja bi se morala lotevati vprašanja etike in javne politike.
+Tržniki vedo, da bo to pripeljalo do skrajno negativnega odnosa strank, nižjih odzivnih stopenj in zahtev po strožji zakonodaji ter omejitev neposrednega trženja, če se s temi vprašanji ne bodo ukvarjali.
+Zadnja leta še pomembno vlogo pri tem problemu igra neprofitno podjetje za varstvo zaupnih podatkov, posvečeno utrditvi zaupanja kupcev in njihove varnosti na internetu TRUSTe (http://www.etrust.org).
+TRUSTe je razvilo program varovanja zaupnih podatkov, ki je premostil prepad med skrbjo kupcev zaradi varnosti in željo podjetij, ki poslujejo po internetu, po prilagodljivih standardih pošiljanja podatkov po internetu.
+Slaba varnost in zaščita podatkov.
+Zaskrbljenost zaradi zaščite podatkov je največkrat neutemeljen vzrok za slabe virtualne trgovine.
+Veliki podjetji MasterCard in Visa se s tem problemom varnosti ukvarjata že vrsto let in stalno izpopolnjujeta stopnjo varnosti.
+Na njuno pobudo je bil razvit odprt in vsem dostopen standard, imenovan Secure Electronic Transaction ali krajše SET13.
+Namenjen je predvsem varnemu poslovanju s plačilnimi karticami preko odprtih omrežij.
+Njegova osnovna prednost je v tem, da je dostopen vsakomur, ki bi želel razvijati infrastrukturo na njegovi osnovi.
+Uporabimo ga lahko za večino plačilnih transakcij, ki niso nujno temelječe le na plačilnih karticah.
+Nepoznavanje in omejitve pri nakupovanju v tujini.
+Pri nakupovanju v tujini je potrebno preveriti, ali virtualna trgovina sploh omogoča pošiljanje izdelkov v našo državo.
+Če ga, je potrebno preveriti, kakšni so stroški pošiljanja, carinske dajatve in čas dostave.
+Dostava proizvodov praviloma poteka po pošti, zato trgovci ponavadi sklenejo pogodbo z dostavno službo, ki izdelek dostavi stranki.
+Skriti stroški niso redkost.
+Nekatere e-trgovine prištejejo davek šele pri blagajni, druge zaračunavajo nekakšne manipulativne stroške in pretirano ali dodatno poštnino.
+Vse to je   13 O njem je več napisano v poglavju 5.5.1.    37  razvidno šele pri blagajni, ko je marsikdaj že prepozno, saj zaradi naše nepazljivosti, drobnega tiska  plačamo za artikel več, kot smo bili pripravljeni zanj dati.
+6.4 Dejavniki, ki vplivajo na trgovanje prek interneta Stranke bodo glede na različne dejavnike izbrale virtualno trgovino, v kateri bodo želele nakupovati.
+Na podlagi literature, ki obravnava izbiro ponudbe trgovca, lahko te dejavnike delimo glede na trgovce in izdelke ali storitve, ki jih ponujajo, v štiri skupine: ? vrednost izdelka ali storitve (cena, kakovost, raznolikost in vrsta proizvoda ali  storitve), ? izkušnje z nakupovanjem prek interneta (udobnost, usklajenost z navadami strank,  zabavnost), ? ustreznost virtualne trgovine, ? tveganje stranke.
+Ti dejavniki naj bi bili najpomembnejši pri procesu izbiranja ustreznega trgovca in tudi zelo pomembni za trgovanje prek interneta.
+Odločitev o nakupu novega izdelka ali storitve je odvisna tudi od prodajnih navad in tveganja strank, ki pri tem procesu nastane.
+Dejavniki, ki vplivajo na stranke, so različni glede na različne oblike nakupovanja, okoliščine trga in kulture.
+Zelo pomembno je njihovo natančno razumevanje in vpliv na obnašanje v naraščajočem internetnem prodajnem trgu.
+Na primer, elektronski distribucijski kanal, kot je internet, je lahko zelo primeren z vidika cene, možnosti elektronskega iskanja, primerjanja dveh virtualnih trgovin, lahko pa ni primeren z vidika drugih dejavnikov, kot je na primer prijaznost do strank.
+6.5 Ovire v internetnem nakupovanju in plačevanju Trije najpogostejši razlogi, ki odvračajo ljudi od e-nakupovanja in hkrati uporabe elektronskih plačilnih sistemov, so: nevarnost zlorabe kreditne kartice, zloraba osebnih podatkov in nezaupljivost do e-trgovcev.
+Skupni imenovalec vseh treh razlogov je vprašljiva varnost.
+Pomanjkanje zaupanja in varnosti predstavlja tako največjo oviro za še hitrejši razvoj elektronskega poslovanja.
+V klasični trgovini med kupcem in trgovcem obstaja vrsta varnostnih mehanizmov, ki zagotavljajo zaupanje in občutek varnosti.
+Kupec lahko izdelke vidi, jih prime, preizkusi, je v neposrednem stiku s trgovcem.
+Znesek lahko plača z gotovino, s čekom ali kreditno/bančno kartico.
+Pri plačilu s kreditno/bančno kartico račun potrdi z lastnoročnim podpisom ali pa v posebno napravo vnese PIN kodo.
+Kupec ima tako ves čas celoten pregled nad nakupom in plačilom, česar za e-nakupovanje in e-plačevanje, kjer je vse virtualnega – navideznega značaja, ne moremo trditi.
+Zadovoljivo varnost in zaupanje pri internetnem trgovanju lahko dosežemo ne le z zamenjavo klasičnih varnostnih mehanizmov z novimi digitalnimi, temveč tudi z razvijanjem novih orodij (digitalnih, pravnih in proceduralnih).
+S tem zmanjšamo tveganje, ki je prisotno pri elektronskem poslovanju na internetu.
+38  6.6 Zahteve e-kupcev in e-trgovcev pri elektronskem plačevanju Elektronski plačilni sistemi morajo tako kot klasični načini izpolnjevati določene varnostne zahteve, ki so bistvenega pomena za uspešno e-poslovanje.
+Varnostne zahteve e-trgovcev in e-kupcev pri elektronskem plačevanju na internetu se nanašajo na zaupanje med strankama, neokrnjenost podatkov, verodostojnost, odgovornost in preprečitev tajenja komunikacij.
+TABELA 12: ZAHTEVE E-KUPCEV IN E-TRGOVCEV PRI ELEKTRONSKEM PLAČEVANJU  Vir: Centeno 2001  Med zahtevami e-kupcev in e-trgovcev je opaziti določeno simetrijo, vendar pa prihaja tudi do razlik predvsem v povezavi z verodostojnostjo in preprečitvijo tajenja komunikacije.
+Poleg že naštetih zahtev e-kupec pogosto izrazi željo po tajnosti posla.
+Anonimnost je potrebna predvsem pri medorganizacijskih nakupih, kjer ne želimo, da za nakup izve konkurenca, nakupih na internetnih straneh, namenjenih samo za odrasle itd.
+Plačilo z gotovino zagotovi potrebno anonimnost.
+Za plačnikom se izgubi sled.
+Račun, ki ga prejmemo ob plačilu, je le potrdilo, da je bila neka stvar kupljena, ne vemo pa, kdo je kupec (Centeno 2001).
+Vse te osnovne zahteve, ki zagotavljajo varno elektronsko plačevanje, podobno klasičnemu, so z današnjo tehnologijo in obstoječo infrastrukturo tehnično izvedljive.
+E-kupec E-trgovec Moji osebni podatki in podatki o plačilu Moji poslovni podatki morajo biti zaščimorajo biti zaščiteni pred zlorabo (med teni pred zlorabo. samo transakcijo in tudi po njej v trgovčevi bazi podatkov).
+Podatki o plačilu se med samo transak- Podatki o plačilu se med samo transakcijo ne smejo spreminjati brez moje cijo ne smejo spreminjati brez moje vednosti. vednosti.
+Želim preveriti, ali je e-trgovec res tisti, Želim preveriti, ali je e-kupec res tista za katerega se izdaja, je vreden zaupa- oseba, za katero se izdaja, je upravičen nja. do uporabe plačilnega instrumenta (npr.:  je kreditna kartica res njegova), je plačilno sposoben.
+V primeru kraje denarja zaradi tuje kriv- V primeru kraje denarja ne želim nikakrde ne želim nikakršne odgovornosti in le šne odgovornosti. omejeno, če je krivda moja.
+Imam možnost odstopa od plačila v pri- Imam zagotovilo, da kupec ne bo prekinil meru, da: plačila po prejetju izdelka ali storitve. * trgovec ni opravil dogovorjenega, * izdelek/storitev ne ustreza opisu, * se premislim.
+Preprečitev tajenja  komunikacije  Zaupanje  Neokrnjenost  Verodostojnost  Odgovornost    39  7 E-TRGOVANJE V SLOVENIJI  7.1 SIM – Slovenski Internet monitor  Povzetek značilnosti slovenskih uporabnikov interneta14: ?
+Manj kot petina uporabnikov interneta je že opravila nakup prek interneta.
+Med kupci  prevladujejo pogosti uporabniki interneta in tisti, ki dostopajo do interneta od doma.
+V letu 2000 so prek interneta realizirali po tri nakupe ali več.
+Največkrat so kupili knjige, CD-plošče in računalniško opremo, programe.
+Za vse nakupe skupaj so v letu 2000 največkrat porabili od 10.000 SIT do 50.000 SIT.
+Stroške nakupa so v največji meri poravnavali s kreditno-plačilno kartico Eurocard.  ?
+Slaba tretjina kupcev prek interneta ni bila pripravljena nakupovati izdelkov vsakodnevne potrošnje.
+Dostava (način, hitrost, cena), cena in kvaliteta izdelka ter varnost sodijo med najpogosteje omenjene prednosti elektronskega nakupovanja.
+V očeh uporabnikov je problem nezmožnost fizičnega otipa izdelka in možnost zlorabe bančnih kartic in osebnih podatkov.
+Prav tako si uporabniki interneta ne želijo biti prikrajšani za užitek, ki ga imajo ob fizičnem obisku trgovine.
+Po sociodemografskih kriterijih razen po spolu ni statistično pomembnih razlik med uporabniki interneta, ki so že opravili nakup prek interneta, in tistimi, ki ga še niso.
+Moški v večji meri nakupujejo prek interneta.
+Kupci prek interneta v primerjavi z nekupci bolj pogosto uporabljajo internet.
+Tako ga kupci v večji meri uporabljajo vsak oziroma skoraj vsak dan, nekupci pa dva- do trikrat na teden.
+Tisti uporabniki interneta, ki so že opravili nakup prek interneta, v primerjavi s tistimi, ki ga še niso, pogosteje dostopajo do interneta od doma in iz službe.
+Kupci prek interneta so v enaki meri kupovali na straneh slovenskih kakor na straneh tujih ponudnikov, le dobra desetina je uporabila spletne strani domačih in tujih ponudnikov.
+Kaže se, da so kupci domačih ponudnikov pogosteje mladi, stari do 25 let, in nižje izobraženi uporabniki (z osnovno, s poklicno ali srednjo šolo), medtem ko je med kupci, ki so realizirali nakupe na tujih spletnih straneh, največji delež uporabnikov interneta srednjih let, starih od 26 do 35 let, in takih z višjo stopnjo izobrazbe (višjo, visoko, magisterijem ali doktoratom).
+Polovica uporabnikov interneta, ki je že nakupovala prek interneta, je v letu 2000 opravila tri nakupe in več.
+Med slednjimi je bilo več žensk.
+Več kot tretjina kupcev v letu 2000 je za nakupe prek interneta porabila do 10.000 SIT, slaba polovica od 10.000 SIT do 50.000 SIT, poraba ostalih pa je presegla znesek 50.000 SIT.
+Do 10.000 SIT so v večji meri porabili kupci, ki so v letu 2000 opravili dva nakupa, in kupci, ki so nakupovali na domačih spletnih straneh.
+14 Povzetek poročila raziskave SIM, marec 2001.    40  Najpogosteje uporabljen način plačila prek interneta je plačilo s kreditno-plačilno kartico, saj ga je uporabilo 60% tistih, ki so že kupovali na spletnih straneh.
+Za ta način plačila so se večinoma odločali predvsem kupci srednjih let, v starosti od 36 do 50 let, in z višjo izobrazbo.
+Pri elektronskem nakupovanju je bila največkrat uporabljena plačilna kartica Eurocard, in sicer največkrat Eurocard NLB.
+Sledi ji Eurocard SKB, Eurocard Activa in Eurocard drugih bank.
+Uporabi Eurocarda sledita American Express in Activa.
+Med plačilne kartice, ki jih je uporabila slaba desetina kupcev prek interneta, sodijo: VISA, Diners Club in Karanta.
+7.2 Model dejavnikov zaupanja v plačevanje prek interneta  Pomembna spoznanja iz raziskave (Bračun 2001):  Pomembno spoznanje je, da ima zaupanje v plačevanje prek interneta močan vpliv na pripravljenost nakupovalca plačati in prodajalca sprejeti plačilo prek interneta.
+V primeru plačevanja prek interneta je raziskava potrdila, da je potrebno razčleniti dejavnik zaznanega tveganja na dve razsežnosti, in sicer na negotovost in negativne posledice.
+Ker pa je pri plačevanju prek interneta negotovost pogojena z delovanjem druge strani v menjavi in delovanjem tretje nepooblaščene osebe, ki lahko izrabi podatke v svojo korist, če ti med  prenosom niso na ustrezen način zavarovani, je potrebno razločevati med negotovostjo glede možne goljufije druge strani v menjavi in negotovost glede možne zlorabe s strani tretje nepooblaščene osebe.
+Skladno s tem so ugotovitve pokazale, da je zaznano tveganje pomemben dejavnik, ki vpliva na zaupanje v plačevanje prek interneta.
+Prav tako je vpliv zaznanega nadzora na plačevanje prek interneta velik.
+Zaznani nadzor kaže na prepričanje socialnega dejavnika, da obstajajo popolni, natančno opredeljeni in trdno  uveljavljeni postopki za uveljavljanje socialnih pravil.
+Gre torej za to, ali oseba, ki zaupa, verjame, da obstajajo ustrezni in učinkoviti ukrepi kaznovanja za zlorabo zaupanja.
+Pomembno je spoznanje, da je vpliv zaupanja na ravni sistema in vpliv osebnostnega značaja (zaupljivost in nagnjenje k tveganju) na pripravljenost nakupovalca in prodajalca mnogo večji od vpliva medsebojnega zaupanja med nakupovalcem in prodajalcem.
+Pri tem sta nagnjenje k tveganju in zaupljivost sredstvi za premostitev negotovosti in zmanjšujeta zapletenost socialnih pojavov in trenutnih razmer na način, da povečujeta dopustno negotovost.
+Za uspešnost internet plačilnih sistemov je potrebno zagotoviti ustrezna tehnična in socialna merila, ki zagotavljajo varnost plačevanja prek interneta.
+Predvsem je pomembno, kdo zagotavlja tehnične rešitve in izvaja ukrepe v primeru zlorabe zaupanja, saj je vpliv zaupanja v banko na zaznano varnost in zaznani nadzor zelo velik tako v primeru nakupovalca kakor tudi v primeru prodajalca.
+Ker ima zaupanje v banko v primeru prodajalca zelo velik vpliv tudi na negotovost glede zlorab, je potrebno veliko pozornosti posvetiti predvsem ustanovam, ki nudijo storitve plačevanja prek interneta.
+To pa nenazadnje pomeni, da je za uspešnost elektronskega poslovanja potrebno poskrbeti za trdnost internetnega plačilnega sistema.
+Da bo z vidika uporabnikov interneta plačevanje prek interneta za nakupe v spletnih trgovinah splošno sprejemljivo in sprejeto, je potrebno    41  zagotoviti trdnost internetnega plačilnega sistema, tega pa je mogoče zagotoviti le na način, da uporabniki interneta zaupajo ustanovi, ki odgovarja za njegovo varnost in zanesljivost.
+7.3 Z miško po nakupih15 Akcija je bila izvedena leta 2001 in je vključevala 14 spletnih trgovcev v Sloveniji.
+Le-ti niso vedeli, da gre za akcijo ZPS.
+Večina trgovin ponuja možnost plačila s karticami in plačilo po povzetju.
+Pomembno je, da ima kupec pred nakupom možnost preveriti vse stroške in natisniti račun.
+V primeru raziskave ZPS je bilo ugotovljeno, da so trgovci na račun izpisali vse stroške, ki jih mora kupec plačati trgovcu, največkrat pa tudi vse dodatne stroške, ki jih potrošnik ne plača trgovcu, ampak npr. dostavi.
+Skoraj vse trgovine so takoj po opravljenem nakupu poslale potrdilo o nakupu.
+9 trgovin je potrdilo poslalo tudi po elektronski pošti – le-to je vsebovalo tudi podatke, ki so pomembni za potrošnika: vrednost in količino naročenega blaga, stroške ...
+Dostava naročenega blaga je bila izvedena v roku, ki so ga trgovci določili.
+Najkrajši dobavni rok je bil 1 dan, najdaljši 3 dni.
+Blago je bilo vedno nepoškodovano in tisto, ki so ga pri ZPS naročili.
+Pri nekaterih trgovcih je brezplačna dostava naročenega blaga za nakupe, ki so vredni nad 10.000 SIT.
+V nekaterih spletnih trgovinah kupca ne opozorijo na provizijo, ki jo zaračuna pošta, ko nam dostavi paket.
+Kupec lahko brez obveznosti vrne kupljeno blago, če ni takšno, kot je pričakoval pred nakupom.
+To pravico mu zagotavlja tudi zakon.
+Vračanje blaga slovenskim spletnim trgovcem ni enostavno.
+Lahko se zgodi, da zaradi popolnega pomanjkanja informacij kupec enostavno ne izkoristi svoje pravice, ker zamudi zakonsko predpisane roke (na katere ga nihče ni opozoril).
+Informacij o politiki varovanja osebnih podatkov in varnosti posredovanja podatkov je na slovenskih spletnih straneh dovolj.
+Nekatere spletne strani imajo tudi certifikat (Verisign), ki dokazuje, da izpolnjujejo stroge zahteve glede varovanja podatkov.
+Če med pokazatelje, ali neka spletna stran varuje osebne podatke svojih obiskovalcev, uvrščamo prejemanje neželene e-pošte (t. i. »spam«), slovenske spletne trgovine z varovanjem osebnih podatkov mislijo resno.
+Tudi v EU se zavedajo, da je neželena e-pošta resničen problem.
+Evropska komisija je že pripravila predlog, ki predvideva, da bi moral ponudnik internetnih storitev svojega naročnika – potrošnika vprašati, če želi prejemati tako pošto ali ne, preden bi mu jo začel pošiljati.
+Prejemanje takih elektronskih sporočil namreč ni samo nadležno, ampak tudi stane.
+15 Akcija Zveze potrošnikov Slovenije – ZPS.
+42  7.4 Raba interneta v Sloveniji 16  7.4.1 ZPS v projektu RIS Po podatkih, ki so bili zbrani v okviru projekta RIS, internet mesečno uporablja 426.000 Slovencev.
+12% aktivnih uporabnikov uporablja internet tudi za nakupovanje in več kot polovica e-kupcev kupuje tudi v slovenskih spletnih trgovinah.
+ZPS predvsem zanimajo težave, na katere naletijo potrošniki v spletnih trgovinah.
+Po rezultatih ankete sodeč, so potrošniki s spletnim nakupovanjem razmeroma zadovoljni – zadovoljstvo so ocenili s šolsko oceno 3,5.
+Na lestvici nezadovoljstva sta najvišje »spam« in dejstvo, da naročenega izdelka ne pošljejo, čeprav je bil nakup potrjen.
+Manj jih motijo nejasno specificirani računi in slaba preglednost, ki jo ponujajo potrošniku nekatere spletne trgovine pri sprehajanju po njihovih straneh.
+7.4.2 Odnos do interneta v Sloveniji V raziskavi SJM17 2000 so anketiranci ocenjevali različne pojme in pojave.
+Mednje je bil uvrščen tudi internet, vprašanje pa se je glasilo: »Našteli vam bomo nekaj besed ali pojmov, vi pa na hitro, po prvem vtisu, brez predolgega razmišljanja, ocenite, ali imate do njih zelo pozitiven, pozitiven, negativen ali zelo negativen odnos.«  Med tistimi, ki so odgovorili na vprašanje (12% vseh anketiranih ni odgovorilo na to vprašanje), se je večina anketirancev pozivno opredelilo do interneta.
+Skoraj 80% anketirancev je namreč izbralo oceno zelo pozitiven ali pozitiven.
+SLIKA 1: SJM 2000: KAKŠEN JE VAŠ ODNOS DO INTERNETA?
+Največ anketiranih, slaba četrtina, internet redno uporablja za poslovne potrebe.
+Četrtina uporabnikov internet pogosto uporablja za raziskovalno delo in izobraževanje, polovica uporabnikov pa občasno uporablja internet za iskanje informacij o proizvodih in storitvah ter za zabavo.
+Tri četrtine uporabnikov nikoli ne uporablja interneta za nakupovanje.
+16 Raba interneta v Sloveniji – RIS.
+17 SJM – Slovensko javno mnenje.
+31%  46%  18% 4% 1% zelo pozitiven  pozitiven  niti-niti  negativen  zelo negativen    43  SLIKA 2: PODROČJA UPORABE INTERNETA – JUNIJ 2001  Vir: RIS, 2001  7.4.3 E-nakupovanje 2001 (spletna anketa) Ugotovitve v poročilu temeljijo na podatkih, zbranih s spletno anketo RIS 2001, ki je potekala v času julij–september 2001 in je pritegnila skoraj 15.000 odgovorov na skupno več kot 2.000 vprašanj.
+Osnovne ugotovitve: ?
+Okrog 40% respondentov je v preteklih 12 mesecih opravilo e-nakup, od tega  približno 30% samo na slovenskih spletnih straneh, 40% samo na tujih strežnikih, 30% respondentov pa je e-nakupovalo v Sloveniji in tujini.  ?
+V Sloveniji je bila opravljena tretjina celotne vrednosti nakupov prek interneta. ?
+V Sloveniji je največ respondentov opravilo e-nakup v e-trgovinah Neckerman, Big  Bang in eMKa.
+Na slovenskih strežnikih so respondenti v preteklih 12 mesecih povprečno opravili dobre 3 nakupe, potrošili pa približno 60.000 SIT.
+Plačilo so največkrat izvedli po povzetju.  ?
+Dve tretjini respondentov, ki sta v preteklih 12 mesecih e-nakupovali v tujini, sta nakupovali tudi na Amazon.com.
+Respondenti so bolj zadovoljni z e-nakupovanjem v tujini kot v Sloveniji.  ?
+Respondentom se zdi največja prednost e-nakupovanja to, da je bolj enostavno in da prihranijo.
+Največja ovira pa se jim zdi dejstvo, da pri e-nakupovanju proizvoda ne vidijo v živo.  ?
+Informacije, ki so jih v preteklih 12 mesecih respondeti pridobili na slovenskih spletnih straneh, so posredno še vplivale na off-line nakupe pri 50 % respondentov.  ?
+Manj kot desetina respondentov prejema SMS-sporočila o nakupnih informacijah preko mobilnega telefona in uporablja mobilni (WAP18) dostop do informacij o nakupih.
+Nadaljnjo četrtino respondentov pa take storitve zanimajo.  ?
+Največ e-nakupovalcev pride do e-trgovin tako, da imajo naslove shranjene v Priljubljenih/Favorites/Bookmarks, pomembni pa so tudi drugi kanali (iskalnik ...)   18 WAP – Wireless Application Protocol – sprejet industrijski standard, ki omogoča brezžičnim napravam dostop do interneta.
+0% 20% 40% 60% 80% 100%  poslovne potrebe  iskanje informacij o produktih, storitvah  raziskovalno delo in izobraževanje  zabava  nakupovanje  nikoli včasih pogosto redno    44  ?
+Lastnosti kvalitetne e-trgovine so predvsem naslednje: zagotovilo, da osebe nakupujejo preko varne povezave, preprosto sprehajanje po spletni trgovini in tajnost podatkov kupca.  ?
+Leta 2001 so se respondenti najbolj zanimali za rezervacije pri potovanjih, medtem ko so se v letih 1997 in 1998 najbolj zanimali za e-nakupovanje CD-plošč.  ?
+Podrobna analiza 10 največjih slovenskih e-trgovin pokaže velike razlike v dostopu, obiskanosti, lojalnosti, všečnosti, deležu nakupovalcev, izbiri in zadovoljstvu z nakupi.
+Navedeni dejavniki tudi pojasnjujejo, zakaj se v Sloveniji srečujemo s specifičnimi razmerami, ko e-trgovine z glasbo in s knjigami niso na vrhu prodajnih polic.
+Na vprašanja o e-nakupovanju je odgovarjalo 2.000 respondentov, med njimi 300 oseb, ki so že opravile e-nakup. ?
+Uporabniki interneta v Sloveniji se dokaj zanimajo za elektronsko nakupovanje –  skoraj polovica (45%) anketirancev v WWW-anketi izraža tovrstno zanimanje, kar pa je še vedno razmeroma malo v primerjavi z zanimanjem za bančno poslovanje preko interneta (75%).
+V letu 2001 se je zanimanje za elektronsko nakupovanje nekoliko povečalo (leta 1998 le tretjina), ne pa tudi poznavanje, ki je še vedno relativno slabo, saj skoraj 40% sodelujočih ne pozna dobro tovrstne ponudbe.  ?
+Anketirancem se prodaja preko interneta v splošnem ne zdi bistveno boljša v primerjavi z drugimi načini prodaje (le 20% meni, da je boljša), predvsem pa jih moti možnost zlorabe kreditnih kartic (75%), podobno kot leta 1998 pa skoraj polovica (45%) pogreša veliko trgovino na internetu v Sloveniji.  ?
+V pregledu prednosti e-nakupovanja največ respondentov (75%) navaja prihranek v času, sledi nakup od doma/iz službe ter izogibanje gneči.
+Nekoliko manjši pomen pripisujejo prihranku denarja, enostavnosti e-nakupovanja, večji izbiri in dejstvu, da se določenega blaga ne da drugače kupiti.  ?
+Najpogostejša ovira e-nakupovanja – navaja jo več kot četrtina respondentov – je pomanjkanje ponudbe v Sloveniji.
+Pomembna ovira je tudi dejstvo, da pri e-nakupih ne vidimo proizvoda v živo.
+Nekateri respondenti navajajo tudi, da je celoten postopek e-nakupa v resnici zapleten, da e-nakup sploh ni nič cenejši ter zamudno dostavo preko pošte.
+Večina pa ne pripisuje večjega pomena dejstvom, da doma nimajo računalnika, da nimajo kreditnih kartic in da jih to ne zanima.  ?
+Delež uporabnikov interneta, ki so v letu 2001 opravili e-nakup, se je v primerjavi z letom 1998 bistveno povečal.
+Nakup v Sloveniji je opravilo 24% (leta 1998 samo 14%), v tujini pa 21% (leta 1998 pa 24%), kar seveda ne govori o zmanjšanem obsegu v tujini, ampak o spremenjeni strukturi uporabnikov interneta.
+V obdobju 2000/2001 je več uporabnikov kupovalo v Sloveniji kot v tujini – kar potrjujejo tudi telefonske ankete reprezentativnih uporabnikov – vendar pa je velika večina porabljenih sredstev še vedno odtekla v tujino (več kot tri četrtine), saj je velika večina kupovalcev v Sloveniji opravila le en nakup ali dva.  ?
+Pri tujih in domačih e-nakupih je bila skoraj polovica opravljenih nakupov v vrednosti med 10.000 in 50.000 SIT, s to razliko, da je bilo v tujini za petino več višjih nakupov (nad 50.000 SIT) kot v Sloveniji.  ?
+Pri načinu plačila za izvršen nakup v Sloveniji prevladuje plačilo po povzetju (dve tretjini e-nakupovalcev), tretjina (32%) pa uporablja kreditno kartico.
+Za nakupovanje v tujini pa skoraj vsi (92%) uporabljajo kreditno kartico.
+Številke kreditnih kartic pri obeh vrstah nakupa tri četrtine e-kupcev posreduje po WWW s secure serverjem.
+Pri    45  nakupih v Sloveniji kar petina (20%) e-kupcev ne ve, na kakšen način je po WWW poslala številko kreditne kartice, pri tujih nakupih je le-teh pol manj (10%).  ?
+V celoti gledano so anketiranci bolj zadovoljni z nakupovanjem na tujih spletnih straneh kot na domačih, s katerimi je nezadovoljna kar petina e-kupcev.
+Največja težava kupovanja preko interneta v Sloveniji je po mnenju tretjine e-kupcev nenehno pošiljanje reklamnih materialov potem, ko je kupec že obiskal trgovčevo spletno stran.
+Četrtino tudi moti, ker spletna stran on-line trgovine ni prijazna do uporabnika, ker stroški dostave in nabave niso jasno določeni in ker je možno plačilo le s kreditno kartico.  ?
+SMS-nakupne informacije in WAP-dostop do informacij o nakupu uporablja le po  5% e-kupcev v tujini in Sloveniji, kar dve tretjini pa storitvi ne zanimata.  ?
+Informacije, pridobljene na slovenskih spletnih straneh, imajo za polovico (52%) ekupcev posreden vpliv na nakup kakšnega izdelka oziroma storitve, ne samo na internetu.
+Največji vpliv imajo na nakup CD-plošč, knjig, računalniških delov, programske opreme, računalnikov, rezervacij pri potovanjih in zabavne elektronike.  ?
+Dve tretjini e-kupcev je zaskrbljenih glede uporabe kartice na internetu, prav toliko pa jih tudi želi videti, kar kupujejo.
+Večina tudi meni, da je kupovanje preko interneta pripravno, da je blago, ki se prodaja preko interneta iste kvalitete kot blago pri tradicionalni prodaji.
+Manj se e-kupci strinjajo z izjavami, da bi jim bilo nerodno vrniti stvari, ki so jih kupili preko interneta, da bi jim ob obstoju digitalnega podpisa ne bi bilo treba več skrbeti za varnost, da lahko pri nakupovanju preko interneta dobijo boljšo ceno in da je težko dobiti informacije pri stvareh, ki se prodajajo preko interneta.
+Le desetina jih kupuje preko katalogov po pošti.  ?
+V celoti gledano je tri četrtine (71%) e-kupcev, ki kupujejo v tujini, zadovoljnih z nakupovanjem.
+Dve tretjini (68%) le-teh je že opravilo nakup na Amazon.com.
+Po mnenju četrtine je na Amazon.com opravljenih 10 do 50% vseh tujih nakupov.  ?
+Skoraj polovica (45%) e-kupcev ima pri iskanju spletnih trgovin naslove le-teh vedno shranjene.
+Dobra tretjina vedno direktno vtipka URL-naslov, četrtina pa si pomaga s spletnim iskalnikom.
+Desetina vedno uporablja portale in druge spletne predstavitve ter klike na pasico (banner).  ?
+Tretjina e-kupcev je kupila v zadnjem mesecu, dobra četrtina (28%) v zadnjih treh mesecih in desetina v zadnjem tednu, še nekoliko manj pa jih je kupilo v zadnjega pol leta.  ?
+Po mnenju treh četrtin e-kupcev so glavni dejavniki nakupa, ki so pripomogli k njihovi odločitvi za nakup, prihranek časa, ugodje pri nakupu od doma/iz službe in izogibanje gneči.
+Manjši vpliv imajo prihranek denarja oz. nižje cene, velika izbira in enostavnost nakupa.
+Radovednost in zabava pri nakupu nimata pomembnejšega vpliva.  ?
+Lastnosti dobre e-trgovine so po mnenju velike večine (okrog 90%) vseh e-kupcev varna povezava, preprosto sprehajanje po spletni trgovini, tajnost podatkov kupcev, hitrost nalaganja spletne strani, možnost vračanja izdelkov in malo klikov do iskanega artikla.
+Nekoliko manj so pomembni možnost kontakta s prodajalcem preko e-pošte, navodila za potek nakupa in možnost telefonskega kontakta s prodajalcem.  ?
+Pri predstavitvi izdelkov kar 90% e-kupcev najbolj upošteva navedbo plačilnih pogojev, dobro slikovno predstavitev izdelka, podrobne podatke o izdelku, prisotnost cene že pri prvi predstavitvi izdelka in podatke o dobavljivosti posameznega izdelka.
+Nekoliko manj upoštevajo primerjavo cen s cenami drugih spletnih trgovin, primerjavo cene na internetu s ceno v klasični trgovini, povezavo do mnenj in kritik strokovnjakov in možnost izmenjave mnenj z ostalimi potrošniki.
+46  ?
+Po mnenju večine (80%) vseh e-kupcev nove tehnologije olajšujejo življenje, a je ponudba na internetu še premajhna.
+Dvem tretjinam je tovrstno nakupovanje všeč in interneta ne uporabljajo le za primerjanje cen izdelkov.
+Več kot polovica ne čaka do razprodaje, če jim je nek izdelek všeč, ne kupuje stvari, ki jih ne namerava, ne nakupuje rada v majhnih trgovinah, nakupovanje ji ni v zabavo, ne kupuje rada preko kataloga in ne porablja več denarja samo zato, da dobi določeno blagovno znamko.  ?
+Od sodelujočih v anketi se zdi četrtini (25%) verjetno, da bo v naslednjega pol leta opravilo e-nakup v Sloveniji, in dobri četrtini (27%), da bo opravila e-nakup v tujini.
+Več kot polovici se zdi malo verjetno, da bo opravila kakšen e-nakup v tujini ali Sloveniji.
+SLIKA 3:  KOLIKO VAS ZANIMA E-NAKUPOVANJE OZIROMA ISKANJE NAKUPNIH INFORMACIJ NA NASLEDNJIH PODROČJIH?
+Vir: RIS 2001  7.4.4 Primerjava Slovenija – EU Kljub temu, da gre pri uporabi interneta za nakupovanje za pogojno primerjavo, lahko navedemo, da je po junijskih podatkih za leto 2002 ankete RIS (standardni RIS) na vprašanje: »Ali ste v preteklih 12 mesecih prek interneta opravili kak nakup?« pritrdilno odgovorilo (odgovor »da«) 21% uporabnikov interneta.
+Iz vprašalnika EU (Flash Eurobarometer 125, junij 2002 – kjer za EU navajajo odstotek 36%) je razvidno podobno vprašanje, zato lahko rečemo, da gre za sprejemljivo primerjavo med Slovenijo in EU.
+Omeniti velja, da se v standardnem RIS vprašanje nanaša na preteklih 12 mesecev, medtem ko v EU-vprašalniku ni časovne omejitve.
+Prav tako se je pojavila razlika v odgovorih, saj so v RIS-ovem vprašalniku odgovarjali z »da« ali »ne«, medtem ko so v  0% 20% 40% 60% 80% 100%  programska oprema (software) računalniki (hardware)  računalniški deli mobilna  CD-plošče knjige  videokasete vstopnice za prireditve  zdravila rezervacije pri potovanjih  zabavna elektronika tekstil in obutev  hrana (živila) avtomobili  nepremičnine čistila, kozmetika  drugo  Koliko vas zanima e-nakupovanje oziroma iskanje nakupnih informacij na naslednjih področjih?
+1 sploh me ne zanima 2 3 4 5 zelo me zanima    47  EU-vprašalniku odgovarjali s »pogosto«, z »včasih«, »redko« ali »nikoli«.
+Rezultati EUvprašalnika zato zajemajo tiste, ki so odgovorili, da so vsaj redko uporabljali internet za nakup kakšnih izdelkov ali storitev, in jih primerjamo s tistimi, ki so v standardnem RISovem vprašalniku odgovorili z »da«.
+Prav tako se je pojavilo vprašanje glede uporabe interneta za nakupovanje v Eurostatovem sklopu vprašanj, in sicer: »Ali ste v zadnjih 3 mesecih opravili nakup kakšnih izdelkov ali storitev prek interneta za osebne potrebe?« Možna odgovora sta bila »da« ali »ne«.
+Izkaže se, da je le 8% uporabnikov interneta v zadnjih treh mesecih opravilo nakup prek interneta za osebne potrebe.
+SLIKA 4: DELEŽ UPORABNIKOV INTERNETA ZA NAKUPOVANJE –  PRIMERJAVA SLO – EU Vir: RIS, junij 2002.
+Slovenija na področju internetnega nakupovanja zaostaja za povprečjem EU, saj razmerje na podlagi RIS-S znaša 21% : 35%, na podlagi ES-S pa 8% : 35%.
+Velika Britanija, Nemčija in Švedska dosegajo največje deleže na področju internetnega nakupovanja.
+0 20 40 60 80 100  Velika Britanija Nemčija  Švedska Luxemburg  Danska Nizozemska  EU 15 Avstrija Finska  Francija Irska  Belgija Slovenija (RIS-S)*  Portugalska Španija  Italija Grčija  Slovenija (ES-S)    48    SLIKA 5: PROBLEMI PRI NAKUPOVANJU PREKO INTERNETA –  PRIMERJAVA SLO – EU (DECEMBER, 2002)  Vir: RIS, Primerjava SLO – EU 2002/2    V Sloveniji je vsaj na enega izmed problemov pri nakupovanju prek interneta naletelo že 44% nakupovalcev prek interneta, v EU pa v povprečju že kar 63% nakupovalcev.
+Ker Slovenija po samem nakupovanju preko interneta zaostaja za EU, lahko logično sklepamo, da razširjenost problemov nakupovanja prek interneta sorazmerno narašča z množičnostjo nakupovanja.
+Med vsemi različnimi problemi in ovirami, s katerimi se lahko soočijo nakupovalci prek interneta, je v EU najbolj razširjena težava pri navigaciji po spletnih straneh (kar 29% evropskih nakupovalcev prek interneta navaja problem z navigacijo spletne strani kot oviro za nakupovanje prek interneta), v Sloveniji pa najpogostejši problem predstavlja zavajajoče oglaševanje (23% slovenskih nakupovalcev navaja to kot problem pri nakupovanju prek interneta).
+Za dvig rasti nakupovanja prek interneta bi bilo v državah EU torej potrebno najprej izboljšati kakovost uporabniške izkušnje pri nakupovanju, v Sloveniji pa dvigniti kredibilnost ponudnikov elektronske prodaje prek interneta.
+V EU pomembno oviro za nakupovanje prek interneta predstavlja tudi nepooblaščena uporaba osebnih podatkov, ki jo navaja 21% evropskih nakupovalcev prek interneta (v Sloveniji le 8%).
+Po podatkih Statističnega urada Republike Slovenije je v letu 2001 internet uporabljalo 23% prebivalstva (Statistični letopis RS 2002, 380).
+Od tega jih je 12% (Statistični letopis  0 10 20 30 40 50 60  problemi pri navigaciji na spletni strani zavajajoče oglaševanje  nepooblaščena uporaba osebnih podatkov prepozna dostava  nezadostna poprodajna pomoč nejasna cena izdelka/storitve  kupljeni izdelki niso bili dostavljeni ni bilo možnosti vračila blaga  problemi pri plačilu (napačen znesek) nobenega problema  EU SLO    49  RS 2002, str. 380) opravljalo elektronske nakupe.
+Letopis sicer ne navaja, kje so bili ti nakupi opravljeni, v tujini ali v Sloveniji.
+SLIKA 6: ODSTOTEK UPORABNIKOV INTERNETA, KI SO V ZADNJEM MESECU NAKUPOVALI PREKO INTERNETA  Vir: Taylor Nelson Sofres Interactive, 2002  Največji delež nakupovalcev na internetu imajo ZDA (32%).
+0 1 2 3 3 3 3 3 3  4 4 6 7 7 7 7 7 7  8 9 101010  12 1414  16 18  191920 2223  2526  3132  0  5  10  15  20  25  30  35 od  st ot  ek u  po ra  bn ik  ov in  te rn  et a  B ol  ga rij  a U  kr aj  in a  R om  un ija  A rg  en tin  a M  ad ža  rs ka  Li tv  a M  al ez  ija Ta  js ka  Tu rč  ija In  di ja  La tv  ija In  do ne  zi ja  Č eš  ka re  pu bl  ik a  E st  on ija  Ita lij  a P  ol js  ka S  lo va  šk a  re pu  bl ik  a M  eh ik  a H  on g  K on  g S  in ga  pu r  Š pa  ni ja  B el  gi ja  S rb  ija Ta  jv an  A vs  tra lij  a Fi  ns ka  K an  ad a  Iz ra  el Fr  an ci  ja Irs  ka N  iz oz  em sk  a D  an sk  a V  el ik  a B  rit an  ija N  or ve  šk a  N em  či ja  K or  ej a  ZD A    50  8 VARSTVO PODATKOV NA INTERNETU  Po slovenski ustavi ima vsakdo pravico do varstva osebnih podatkov, torej, da sam odloča, kdaj, komu in v kakšni obliki bodo sporočeni podatki, ki se nanašajo nanj.
+Ta pravica pa z vstopom na internet nekako zbledi.
+Poslovanje po internetu namreč prinaša s seboj tveganje, da bo en udeleženec pričel brez vednosti drugega zbirati podatke o drugem (Jerman-Blažič 2001, 182).
+Pravna praksa na tem področju med EU in ZDA se precej razlikuje.
+V ZDA je skrb za podatke prepuščena posameznikom, v EU pa so za podatke odgovorni zbiralci le-teh.
+EU prepoveduje izvoz arhiva podatkov o državljanih EU v države z nižjo stopnjo zaščite, torej tudi v ZDA.
+8.1 Pravna ureditev elektronskega poslovanja Živimo v času, ki ga zaznamujejo številne hitre spremembe na vseh področjih.
+Tako je tudi uporaba informacijske tehnologije in z njo povezano elektronsko izmenjevanje sporočil ter hranjenje pomembnih dokumentov v digitalni obliki v vsakodnevnem gospodarskem in upravnem poslovanju vse pogostejša in z vedno širšo dostopnostjo interneta še pridobiva na pomenu.
+Odprta omrežja, kot je internet, imajo vedno večji pomen na področju svetovne komunikacije.
+Pravice potrošnika pri nakupovanju prek interneta so relativno dobro urejene.
+Ureja jih Zakon o varstvu potrošnikov pa tudi druga zakonodaja, na primer Obligacijski zakonik.
+Pravice potrošnika pri pogodbah, sklenjenih na daljavo, so: ?
+Potrošnik mora biti pred sklenitvijo pogodbe seznanjen s firmo in sedežem podjetja; z  bistvenimi lastnostmi blaga ali storitve; s ceno, vključno z davki in drugimi dajatvami; z morebitnimi stroški dostave; s podrobnejšo ureditvijo plačila in načina dobave; z rokom veljavnosti ponudbe, še posebej cene.  ?
+Najkasneje ob dostavi blaga ali na začetku opravljanja storitev mora biti potrošnik pisno obveščen tudi o pravici do odstopa; o naslovu, na katerega lahko posreduje svoje ugovore in zahtevke; o podatkih o servisni službi in o drugem.  ?
+Potrošnik ima po prejemu blaga petnajst dni časa, da pisno sporoči prodajalcu, da odstopa od pogodbe.
+Razlogov mu ni potrebno navesti.
+Prodajalec mora potrošniku najkasneje v petnajstih dneh po sprejemu sporočila vrniti vsa opravljena plačila.
+Prodajalec pa je dolžan ob zamudi plačati zamudne obresti in desetino prejetih plačil za vsak trideseti dan zamude.
+Potrošnik mora blago vrniti v petnajstih dneh potem, ko je poslal sporočilo o odstopu.
+V nekaterih primerih pa potrošnik pravice do odstopa nima, razen, če se je o njej s prodajalcem posebej dogovoril.
+Gre predvsem za igre na srečo, za pogodbe o dobavi periodičnih publikacij in podobno.  ?
+Če podjetje v zvezi s pogodbo zlorabi potrošnikovo kreditno ali plačilno kartico, ima potrošnik pravico zahtevati preklic plačila ali vračilo zneska, plačanega z zlorabo kartice.
+51  8.2 Varnost zasebnosti potrošnikov v Sloveniji Pravico do varstva in zaščite osebnih podatkov v Sloveniji opredeljuje 35. člen Ustave RS, poleg tega pa je varovanje zasebnosti opredeljeno še v nekaterih ratificiranih mednarodnih dokumentih, kot so npr.: ?
+Konvencija o varstvu človekovih pravic in temeljnih svoboščin19 (8. člen), ?
+Splošna deklaracija o človekovih pravicah20 (12. člen) ter ?
+Mednarodni sporazum o državljanskih in političnih pravicah21 (7. člen).
+Organizirano varstvo potrošnikov v Sloveniji se je pričelo z ustanovitvijo Zveze potrošnikov Slovenije leta 1990.
+Ta neprofitna in nevladna organizacija sodeluje pri oblikovanju politike in pravnega varstva potrošnikov.
+Pravno varstvo potrošnikov ureja Zakon o varstvu potrošnikov iz leta 1998, ki ureja razmerja med ponudniki blaga in storitev ter potrošniki.
+8.3 Mednarodna ureditev na področju varstva in zaščite potrošnikov S tem področjem se ukvarjajo vse pomembnejše mednarodne inštitucije, Evropska komisija (EC), Organizacija združenih narodov (UNO), Organizacija za gospodarsko sodelovanje in razvoj (OECD).
+Sprejete mednarodne regulative vsebujejo med drugim:  1. OECD  ?
+Smernice za varstvo potrošnikov pri elektronskem poslovanju22 (1999)  Namen smernic je zagotoviti takšno stopnjo varnosti potrošnikov pri elektronskem poslovanju, kot je pri tradicionalnih načinih poslovanja, kar je v interesu tako potrošnikov kot ponudnikov blaga in storitev.  ?
+Smernice za varstvo zasebnosti in prekomejni prenos osebnih podatkov23 (1980)  Te smernice določajo osnovna načela za ravnanje s podatki v odprtih omrežjih.
+Za zbiranje osebnih podatkov morajo obstajati določene omejitve, podatki se morajo zbirati na veljaven in korekten način, z vednostjo in dovoljenjem osebe, o kateri se podatki zbirajo.  ?
+Izjavo o varstvu zasebnosti na svetovnih omrežjih24 (1998)  2. Evropska unija  ?
+Direktivo EU o varstvu oseb pri obdelovanju osebnih podatkov (1995)  Direktiva zagotavlja visoko varnost osebnih podatkov in zasebnosti, pri čemer je poudarek na odpravljanju ovir za prost pretok osebnih podatkov znotraj EU.
+Ostale države morajo   19 Convention for the Protection of Human Rights nad Fundamental Freedoms.
+20 Universal declaration of Human Rights.
+21 International Covenant on Civil and Political Rights.
+22 Guidelines for Consumer Protection in the Context of Electronic Commerce.
+23 Guidelines for the protection of Privacy and Transborder Flows of Personal Data.
+24 Declaration on the protection of Privacy on Global Networks.
+52  pri izmenjavi podatkov za Evropsko unijo zagotoviti vsaj takšno stopnjo varnosti in zaščite kot velja v EU.  ?
+Direktivo EU o varstvu potrošnikov pri poslovanju na daljavo25 (1997)  Direktiva ureja posamezne aktivnosti naročanja in nakupovanja preko interneta.
+Vzpostavlja minimalne standarde zaščite na področju EU pri nakupovanju potrošnikov v drugih državah znotraj Unije.
+Pomembne aktivnosti za učinkovito in varno nakupovanje so: pridobitev predkupnih informacij, potrjevanje, izvrševanje naročila, plačevanje, storniranje, pritožbene možnosti za učinkovito reševanje sporov.
+8.4 Zakon o elektronskem poslovanju in elektronskem podpisu Zakon je razdeljen v pet poglavij.
+V prvem poglavju zakon najprej opredeli področje, ki ga ureja: elektronsko poslovanje ter uporabo podatkov v elektronski obliki in elektronskega podpisa v pravnem prometu ter določi pomen posameznih pojmov, uporabljenih v zakonu.
+V drugem poglavju zakon ureja elektronsko poslovanje.
+Podrobneje je urejeno poslovanje z elektronskimi sporočili.
+Temu sledijo določbe, ki urejajo uporabo podatkov v elektronski obliki oziroma njihovo veljavnost in dokazno vrednost.
+V tretjem poglavju zakon širše ureja elektronski podpis in delovanje overiteljev, ki so nujen pogoj za uporabo elektronskih podpisov.
+Vse overitelje in njihovo ponudbo storitev nadzoruje pristojni inšpektorat.
+Ker gre za pomembno področje, kjer kršitev posameznih norm lahko resneje ogrozi zanesljivost elektronskega poslovanja in poseže v pravice drugih, so v četrtem poglavju določeni prekrški in kazni zanje.
+Zadnje poglavje zakona vsebuje prehodne in končne določbe.
+Za izvajanje zakona, ki je v celoti usklajen z določili primarne evropske zakonodaje, je v največji meri odgovorno Ministrstvo za gospodarske dejavnosti.
+Nekaj zanimivih izvlečkov iz  zakona o elektronskem poslovanju in elektronskem podpisu: ?
+Zakon zagotavlja elektronski obliki in elektronskemu podpisu enake možnosti kot  dosedanji papirnati obliki. ?
+Za hranjenje podatkov v elektronski obliki je zelo pomemben tudi »časovni žig«, ki  potrjuje, da so elektronski podatki resnično ostali celoviti in nespremenjeni od trenutka, ko so bili shranjeni, do trenutka uporabe.  ?
+Zakon  omogoča enostavno medsebojno priznavanje elektronskih podpisov znotraj Evropske unije ter širše priznavanje ob pogojih vzajemnosti oziroma s tem povezane podobnosti področne zakonodaje.  ?
+Če ni drugače dogovorjeno, se za kraj, od koder je bilo elektronsko sporočilo poslano, šteje kraj, kjer ima pošiljatelj svoj sedež oziroma stalno prebivališče v času pošiljanja, za kraj prejema elektronskega sporočila pa kraj, kjer ima prejemnik sedež oziroma stalno prebivališče v času pošiljanja.
+25 Directive on the Protection of Consumers in respect of Distance Contracts.
+53  ?
+Varen elektronski podpis, overjen s kvalificiranim potrdilom, je glede podatkov v elektronski obliki enakovreden lastnoročnemu podpisu glede podatkov v papirni obliki ter ima zato enako veljavnost in dokazno vrednost.
+V današnjem času je možno sklepanje pogodb preko interneta, ne da bi se stranki sploh videli.
+Zato je potrebno zakonsko urediti veljavnost elektronskega sporočila oziroma podpisa, ki se mu zaradi nematerialne oblike v sodnih, upravnih in drugih postopkih ne sme odreči veljavnosti.
+Okvir za pravno ureditev elektronskega poslovanja mora zato biti zakonsko opredeljen.
+V večini držav pravno ureditev določa Zakon o elektronskem poslovanju in elektronskem podpisu.
+Prvi zakon o elektronskih podpisih je bil sprejet že leta 1995 v ZDA, prvi evropski zakon o elektronskih podpisih pa je sprejela Nemčija leta 1997, nakar so ji sledile še nekatere druge države.
+Z namenom poenotenja zakonodaj članic je Evropska unija za področje urejanja elektronskega poslovanja in elektronskih podpisov leta 1999 sprejela direktivo z naslovom Okvir Unije za elektronske podpise, ki jo morajo izpolnjevati vse članice (Jerman-Blažič 2001, 114).
+Zakonodajno urejanje elektronskega poslovanja posega tudi v druge zakone in podzakonske predpise.
+Zaradi značilnosti elektronskega poslovanja, ki je dematerializiralo obliko papirja in uvedlo nove načine nakupovanja in plačevanja, so pomembna tudi zakonodajno opredeljena področja, ki pokrivajo varstvo in zaščito zasebnosti ter osebnih podatkov, intelektualne lastnine in varstva potrošnikov.
+Poleg zaščite intelektualne lastnine nastaja z razvojem informacijske tehnologije tudi težnja po večjem varstvu osebnih podatkov in zasebnosti.
+Glavni namen oziroma cilj zakona o varstvu osebnih podatkov je omogočiti ustrezno zbiranje osebnih podatkov, ki lahko koristno služijo za najrazličnejše namene, in hkrati onemogočiti kakršnokoli nedopustno uporabo in razpolaganje s temi podatki in tako zavarovati temeljno ustavno pravico posameznika, na katerega se ti podatki nanašajo.
+Zakon o varstvu osebnih podatkov mora temeljiti na načelih, ki so vsebovana v smernicah OECD iz leta 1980, v omenjeni Konvenciji o varstvu posameznikov glede na avtomatsko obdelavo osebnih podatkov pa tudi na načelih iz predloga direktive EU o varstvu posameznika z vidika osebnih podatkov.
+Gre za načela (Cerar 2001, 60): ? zakonitosti pri vzpostavljanju zbirk podatkov in pri zbiranju ter uporabi osebnih  podatkov, ? neposrednega zbiranja osebnih podatkov, ? predhodne določitve namena zbiranja, obdelovanja, shranjevanja, posredovanja in  uporabe osebnih podatkov, ? restriktivnosti pri povezovanju osebnih podatkov, vsebovanih v različnih zbirkah, ? restriktivnosti pri določanju izjem od načel varstva osebnih podatkov, ? relevantnosti osebnih podatkov, ? kvalitete podatkov, ? omejene uporabe osebnih podatkov, ? zavarovanja podatkov, ? odprtosti in sodelovanja ljudi, ? odgovornosti, ? svobodnega pretoka osebnih podatkov preko državnih meja.
+Zakon o varstvu osebnih podatkov načelno določa, da se z varstvom teh podatkov preprečujejo nezakoniti in neupravičeni posegi v zasebnost posameznika pri obdelavi    54  osebnih podatkov, pri varovanju zbirk osebnih podatkov ter njihovi uporabi (Cerar 2001, 60).
+Temeljni razlogi za varovanje potrošnika pri elektronskem poslovanju so enaki kot pri vsakem poslovanju.
+Gre za udeleženca, ki je praviloma v slabšem položaju.
+Zaradi želje po čim lažjem zaslužku podjetij se pri elektronskem poslovanju vključuje še tveganje zaradi tehnološkega okolja: okvare naprav, vdori v informacijske sisteme in podobno (Toplišek 1998, 253).
+Kljub tveganju lahko novi načini poslovanja prinesejo potrošnikom velike koristi in nove priložnosti.
+Kupci lahko kupujejo brez posrednikov, kar ob večji izbiri in konkurenci praviloma pomeni nakup po nižjih cenah, s ponudbami se lahko kupec seznani od doma in ima možnost oblikovanja ter nakupa proizvoda ali storitev po individualnih željah.
+Načeloma torej elektronsko nakupovanje omogoča potrošniku številne koristi in ugodnosti, vendar pa mora biti potrošnik seznanjen s pogoji in potekom nakupovanja, ki vključuje informacije o (VIP 2000, 31): ? postopku naročila, ? načinu plačila, ? zaupnosti podatkov, ? varnosti transakcij, ? možnosti vračila že naročenega blaga in povrnitev denarja, ? načinu in časovni dostavi blaga.
+Ker popolna varnost ni možna, je pri upravljanju s tveganji potrebno opredeliti vse pomembne grožnje, nevarnosti in ranljivosti.
+Same dejavnosti v odprtem elektronskem okolju ne moremo opredeliti kot nekaj, kar se dogaja znotraj ali zunaj državnih meja, temveč kot dejavnost, ki se ne glede na državno mejo dogaja hkrati po celem svetu.
+Zato je potrebno tudi na novo definirati pojem pristojnosti oziroma izbiro prava.
+Do sedaj se je pristojnost navezovala na fizično opredeljen prostor, kar pri odprtem elektronskem okolju odpade.
+Ureditev državne pristojnosti v odprtem okolju je ena od ključnih nalog držav za mednarodno uskladitev zakonskih predpisov.
+8.5 Zakon o spremembah in dopolnitvah zakona o varstvu potrošnikov – december 2002  1. člen sprememb (7. in 8. odstavek) so storitve informacijske družbe tiste gospodarske dejavnosti, ki se izvajajo prek svetovnega spleta oz. interneta in vključujejo prodajo storitev in blaga na podlagi sklepanja pogodb prek svetovnega spleta oz. interneta, ter brezplačne storitve, kot so posredovanje podatkov in oglasna sporočila.
+Ponudnik storitev informacijske družbe pa je vsako podjetje, ki ponuja storitve iz prejšnjega stavka.
+Pomembno novost prinaša določilo, ki govori o zlorabi kreditne kartice.
+Če se v zvezi s pogodbo, sklenjeno na daljavo, zlorabi potrošnikova plačilna ali kreditna kartica, ima potrošnik v primeru, da transakcija še ni bila opravljena, pravico do preklica plačila pri podjetju, registriranem in pristojnem za opravljanje transakcije (navadno je to izdajatelj kartice).
+V primeru, da je transakcija že bila opravljena, ima potrošnik pravico zahtevati vračilo zneska od podjetja, kateremu je bil znesek nakazan.
+55  9 SKLEP  V Sloveniji smo začeli uporabljati plačilne kartice v 60-ih letih prejšnjega stoletja, v zadnjem desetletju njihova uporaba strmo narašča.
+V letu 2002 je bilo fizičnim osebam izdanih kar 87% kreditnih kartic.
+Internet postaja vse bolj pomembno nakupno mesto in kreditna kartica je najbolj uveljavljeno plačilno sredstvo na njem.
+Najbolj razširjeni in uporabni sta Visa in Eurocard/MasterCard.
+Pred odločitvijo o nakupu v e-trgovini moramo preveriti podatke o trgovcu.
+Da se na koncu ne bi izkazalo, da smo nakupovali pri »namišljenem« trgovcu,  je bolje, da se odločimo za znane in uveljavljene e-trgovine.
+Pozanimati se moramo tudi, kakšno varnostno politiko goji e-trgovec in kakšni so pogoji vračila blaga.
+Z razvojem tehnologije narašča zaščita in varnost zasebnosti na internetu.
+Za  nas, obiskovalce e-trgovin, je pomembno, da varujemo svoje podatke in jih ne posredujemo preko nezavarovanih mehanizmov.
+Moramo tudi skrbeti, da gremo v korak s časom na področju tehnologije varnosti, saj se le tako lahko izognemo možnim zlorabam svojih podatkov (številka kreditne kartice, osebni podatki).
+Pravno ureditev elektronskega poslovanja v Sloveniji zajema Zakon o elektronskem poslovanju.
+Le-ta omogoča enostavno medsebojno priznavanje elektronskih podpisov znotraj Evropske unije ter širše priznavanje ob pogojih vzajemnosti oziroma s tem povezane podobnosti področne zakonodaje.
+Mednarodna ureditev na področju varstva in zaščite potrošnikov je pomembna z vidika obsežnosti e-trgovine.
+Ni nujno, da je kupec iz iste države kot prodajalec.
+Obiskovalec e-trgovine se lahko nahaja na drugem koncu sveta kot prodajalec.
+V Sloveniji je nakupovanje v e-trgovinah zaenkrat še za povprečjem EU.
+Največ bodo morali slovenski e-trgovci narditi na kredibilnosti svojih trgovin in pridobiti si bodo morali večje zaupanje potrošnikov.
+Varnost pri plačevanju preko interneta je glede na sedanjo varnostno tehnologijo na visoki ravni.
+Tako lahko upravičeno pričakujemo porast enakupovanja v Sloveniji.
+56  10  POVZETEK  Internet postaja vse bolj pomembno nakupno mesto in kreditna kartica je najbolj uveljavljeno plačilno sredstvo v njem.
+Najbolj razširjeni sta Visa in Eurocard/Mastercard.
+Najpogostejši razlogi, ki odvračajo ljudi od e-nakupovanja in hkrati uporabe elektronskih plačilnih sistemov so: nevarnost zlorabe kreditne kartice, zloraba osebnih podatkov in nezaupljivost do e-trgovcev.
+Prednosti e-trgovine za kupca so predvsem prihranek v času, izogibanje gneči in nakup od doma.
+Lastnosti kvalitetne spletne trgovine so: zagotovilo, da osebe nakupujejo preko varne povezave, preprosto sprehajanje po spletni trgovini in tajnost podatkov kupca.
+Z razvojem tehnologije narašča zaščita in varnost zasebnosti na internetu.
+K varnemu nakupovanju veliko pripomore tudi SET – Secure Electronic Transaction (varna elektronska transakcija).
+SET zagotovi vmesna vrata med nezavarovanim delom interneta in varnim omrežjem bank, prek katerega se opravljajo elektronske denarne transakcije.
+V prihodnosti bo naraščala e-trgovina prav s pomočjo tehnologije.
+Pomemben korak v tem razvoju bodo pametne kartice, ki vsebujejo vedno več podatkov, ki jih ni mogoče ponarediti.
+11  ABSTRACT  The internet is becoming more and more important trading place and credit cards are its most widely used payment instrument.
+The most spread are Visa and Eurocard/Mastercard.
+The most common reasons  that deterent people from e-shopping and at the same time use electronic payment sistems are: danger of credit card fraud and personal data abuse and distrust towards e-merchants.
+Advantages of e-purchase for consumer are saving time, avoiding crowd and shopping from home.
+Characteristics of a quality internet shop are: guarantee that people are shopping over safe connections, simple navigation through  the eshop and privacy of costumer data.
+With the development of technology rises the protection and security of privacy on the internet.
+SET – Secure Electronic Transaction – contributes a lot to safe shopping.
+SET provides an intermediate door between unsafe parts of the internet and safe network of the bank, through which all the electronic payment transactions are made.
+In future the internet shopping will grow especially with the help of technology.
+An important step in this development will be smart cards which contain more and more data and cannot be forged.
+12  KLJUČNE BESEDE / KEY WORDS  Internet / kreditno – plačilne kartice (credit – payment cards) / e-nakupovanje (e-shopping) / www – world wide web (svetovni splet) / SET – secure electronic transaction (varna elektronska transakcija) / varstvo potrošnikov (protection of consumers) / zloraba (fraud)/ zakonska zaščita (law protection)    57  13 VIRI  1. Ahačič, Nataša in Barbara Kert.
+2001.
+SIM – Slovenski internetni monitor.
+URL:http://www.graliteo.si/2_1_sim.rep.php [03.09.2003].
+2. Bajec, Marko in Rok Rupnik.
+1997.
+Varnost podatkov pri uporabi svetovnega omrežja internet.
+Dnevi Slovenskih  informatikov Portorož 1997.
+Ljubljana: Slovensko društvo informatikov.
+3. Banka Slovenije.
+2003.
+Finančni podatki.
+URL:http://www.bsi.si/html/financni_podatki/hit/sod_plac_ins.html [04.06.2003].
+4. Bračun, Franc.
+Središče za e-poslovanje, [online] URL: ecom.fov.unimb.si/Raziskovanje/Raziskave/e-placevanje.htm, 07.05.2003  5. Centeno, Clara.
+Securing Internet Payments-The potential of PKC, PKI and digital signatures.
+Background Paper No.
+6. [online] URL: http://epso.jrc.es, 10.08.2003  6. Cerar, Miro.
+2001.
+Temelji ustavne ureditve, človekove pravice in temeljne svoboščine, gospodarska in socialna razmerja.
+Ljubljana: Ministrstvo za notranje zadeve RS.
+7. Council of Europe.
+Convention for the Protection of Human Rights and Fundamental Freedoms. [URL:http://conventions.coe.int/treaty/en/Treaties/Html/005.htm] [02.09.2003]  8. Directive on the Protection of Consumers in respect of Distance Contracts. [URL:http://europa.eu.int/comm/consumers/policy/developments/dist_sell/dist01_en.pd f] [02.09.2003]  9. Etrust URL:http://www.etrust.org [16.05.2003].
+10.
+Guidelines for Consumer Protection in the Context of Electronic Commerce.  [URL:http://oecdpublications.gfi-nb.com/cgibin/OECDBookShop.storefront/15…
+/932000023P] [02.09.2003]  11.
+Guidelines on the Protection of Privacy and Transborder Flows of Personal Data. [URL:http:www.oecd.org/docum…
+/0,2744,en_2649_33703_15589524_119820_1_1_,0 0.htm] [02.09.2003]  12.
+Hribar, Uroš.
+2000.
+Varne elektronske transakcije.
+Organizacija 4:  281-285. 13.
+Hudoklin, Alenka, Stadler Alenka.
+1997.
+Varno elektronsko trgovanje s pomočjo  kreditnih kartic.
+Organizacija 5: 288-293. 14.
+Ivanovič, Žarko.1995.
+Preprečevanje zlorab v luči nove zakonodaje.
+Bančni vestnik 4:  41-44 15.
+Jerman, Blažič, Borka s soavtorji.
+2001.
+Elektronsko poslovanje na internetu.
+Ljubljana: GV založba.
+16.
+Kerr, Kenneth, and Kimberly, Harris.
+Retail Payment trends: More growth for e payment cards. [http://www.gl.iit.edu/gartner2/research/101100/101198/101198.html] [07.05.2003]  17.
+Longley, Dennis, and Shain Michael and Caelli William.
+1992.
+Information Security, Dictionary of concepts, Standards and terms.
+New York: Stockton Press.
+18.
+Nakupi preko interneta?
+Da, vendar previdno.
+2000.
+VIP 4: 30-31. 19.
+OECD Ministerial declaration on the protection of Privacy on Global Networks. [URL:  http://appli1.oecd.org/olis1998doc.nsf/4cf568b5b90dad9941125671b004bed59/61c1c8c 0a31f9457c12566de00506c13/$FILE/12E81013.
+ENG][02.09.2003].
+58  20.
+Office of High Commissioner for Human rights; International Covenant on Civil and Political Rights. [URL://http://www.unhchr.ch/html/menu3/b/a_ccpr.htm] [02.09.2003]  21.
+Universal declaration of Human Rights. [URL: http://www.un.org/Overview/rights.html] [02.09.2003].
+22.
+O'Mahony, Donal, and M.A. Peirce, and Hitesh Tewari.
+2001.
+Electronic Payment Systems.
+London/Boston: Artech House.
+23.
+Podjed, Dan.
+2003.
+Mogočen košček plastike.
+Gospodarski vestnik 20:  78-83. 24.
+Raba interneta v Sloveniji.
+2002. [online] URL:  www.ris.org/si/ris2002/20021025.html, www.ris.org/si/ris2002/vip2002_mbb.html, www.ris.org/si/ris2000/novice/20000601.htm, 18.04.2003  25.
+Radoš, Skrt.
+2000.
+Varno internetno nakupovanje v spletnih trgovinah.
+Available: http://saturn.uni-mb.si/~matej/dokumentiranje/varnost.htm [29.08.2003].
+26.
+Rubin, Aviel D.1997.
+Source Book.
+New York: John-Willey˛Sons Inc. 27.
+Statistični letopis Republike Slovenije.
+2002.
+URL:www.stat.si/letopis_n.htm  [04.06.2003].
+28.
+Šalamon,  Brane.
+2002.
+Zanimivosti: Kako da nimate kartice?
+Gospodarski vestnik 48:  86-87. 29.
+Šteblaj, Alenka.1999.
+Uporaba sodobnih plačilnih instrumentov v Sloveniji v letu  1999. [online] URL:www.bsi.si, 04.06.2003 30.
+Štrancar, Matjaž.
+2001.
+Nakupovanje v internetu.
+Izola: Desk.
+31.
+Taylor Nelson Sofres Interactive.
+2003. [online]  URL:www.tnsofres.com/ger2002/onlineshopping/index.cfm, 17.09.2003 32.
+The Smart Card.
+2003.
+URL:http://mastercard.intl.com/newtechnology/smartcards/fag.html, [10.05.2003].
+33.
+Toplišek, Janez.
+1998.
+Elektronsko poslovanje.
+Ljubljana: Založba Atlantis.
+34.
+Zbirke državnega zbora RS.
+2000.
+Sprejet zakon.
+Zakon o elektronskem poslovanju in  elektronskih podpisih (ZEPEP) Zakon o spremembah in dopolnitvah zakona o varstvu potrošnikov. [http://www2.gov.si] [23.05.2003].
+35.
+Zveza potrošnikov Slovenije.
+Nekaj  nasvetov za varno nakupovanje prek spleta.
+URL://http://www.zpszveza.si/ZP.../97B3E41327B3F01AC1256BF100451C90?
+OpenDocumen [22.09.2003].
+1  SEZNAM TABEL  Tabela 1: Število izdanih plačilnih kartic v Sloveniji od leta 1996 do 2002.......................
+11  Tabela 2: Uporaba plačilnih kartic glede na število plačil v Sloveniji od leta 1996 do 2002 11  Tabela 3: Vrednost plačil s plačilnimi karticami v Sloveniji od leta 1996 do 2002............
+11  Tabela 4: Kreditne plačilne kartice in njihova uporaba v Sloveniji ....................................
+12  Tabela 5: Domače in licenčne kartice – uporaba v Sloveniji ..............................................
+12  Tabela 6: Uporaba licenčnih plačilnih kartic v tujini ..........................................................
+13  Tabela 7: Izdaja in uporaba bančnih in podjetniških kreditnih plačilnih kartic ..................
+13  Tabela 8: Osebne in poslovne kartice – uporaba v Sloveniji ..............................................
+13  Tabela 9: Uporaba debetnih kartic v Sloveniji ....................................................................
+14  Tabela 10: Tuje plačilne kartice ..........................................................................................
+14  Tabela 11: Varovalni mehanizmi, ki zagotavljajo posamezne varovalne funkcije modela varnega elektronskega trgovanja s stališča kupca 24  Tabela 12: Zahteve e-kupcev in e-trgovcev pri elektronskem plačevanju ..........................
+38    SEZNAM SLIK  Slika 1: SJM 2000: kakšen je vaš odnos do interneta?........................................................
+42  Slika 2: Področja uporabe interneta – junij 2001 ................................................................
+43  Slika 3:  Koliko vas zanima e-nakupovanje oziroma iskanje nakupnih informacij na naslednjih področjih?.........................................................................................
+46  Slika 4: Delež uporabnikov interneta za nakupovanje – primerjava SLO – EU .................
+47  Slika 5: Problemi pri nakupovanju preko interneta – primerjava SLO – EU (december, 2002).....................................................................................................................
+48  Slika 6: Odstotek uporabnikov interneta, ki so v zadnjem mesecu nakupovali preko interneta ................................................................................................................
+49

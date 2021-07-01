@@ -1,0 +1,1172 @@
+UNIVERZA V MARIBORU EKONOMSKO-POSLOVNA FAKULTETA  MARIBOR            DIPLOMSKO DELO      UVAJANJE SAP /R3 V PODJETJE             Študent: Marko Javornik Naslov: Prečna ulica 27, 2317 Oplotnica Številka indeksa: 81512203 Način študija: Redni študij Program: Visokošolski strokovni Študijska smer: Podjetniška informatika Mentor: prof. dr. Samo Bobek          Oplotnica, januar, 2004    2   PREDGOVOR  V procesu informatizacije poslovanja se v zadnjem času vse bolj uveljavljajo ERP rešitve, medtem ko je bil v preteklosti v ospredju predvsem lasten razvoj.
+Velike spremembe na področju poslovanja zahtevajo nenehno vzdrževanje in dopolnjevanje starih, običajno nepovezanih programskih rešitev.
+Podjetja pogosto prepozno ugotovijo, da so v podaljševanje življenjskega cikla staremu informacijskemu sistemu vložila preveč časa in denarja.
+Veliko bolj smotrno bi bilo čimprej preiti na nov informacijski sistem.
+Poslovna programska oprema  ima zagotovo nekaj prednosti, saj se sicer zanjo ne bi odločalo vedno več podjetij.
+V ospredju je nakup licence komercialnega ponudnika, pri čemer pa je zaradi svoje cene in zapletenosti odločilnega pomena izbira pravega ponudnika.
+Vse večja navezanost slovenskih podjetij na tuje partnerje in druge razmere na trgu zahtevajo dober premislek o izbiri ponudnika paketa poslovne programske opreme in času uvajanja.
+Med pomembnejšimi tujimi ponudniki se je v poslovnem svetu zelo uveljavil poslovno informacijski sistem SAP/R3, ki je  programski paket podjetja SAP iz Nemčije.
+Drugi bolj znani informacijski sistemi, ki v celoti pokrivajo poslovanje podjetij, so še Oracle, J.D.Edwards, PeopleSoft, Baan in Navision, vendar je SAP prvi na tržišču in tehnologiji odjemalec/strežnik aplikacijske programske opreme.
+SAP je na tržišče prišel popolnoma razvit in je bil zaradi svoje kompleksnosti namenjen predvsem večjim podjetjem, sčasoma pa je postal zanimiv tudi za manjša podjetja.
+Podjetja, ki uporabljajo SAP, imajo bistveno prednost pred podjetji, ki tega ne uporabljajo.
+SAP pomeni za podjetja enega od pogojev konkurenčnosti, ne samo na področju poslovne informatike, ampak tudi posredno na celotni ravni poslovanja, kjer se uporablja.
+Zaradi množične uporabe ima zagotovljen tehnološki razvoj in predstavlja varno investicijo za podjetje, saj se zaradi velikega tržnega deleža zanj odloča vedno več podjetij in ustanov.
+Uspešno izvajanje poslovnih procesov je v preteklosti zahtevalo, da se poslovanje najprej prenovi in šele nato izpelje informatizacija.
+Z nakupom celovite rešitve smo dandanes priča obratnemu procesu, saj moramo potek poslovnih procesov prilagoditi programski rešitvi.
+Uvajanje obsega posnetek stanja, zasnovo in konfiguriranje, konstruiranje in testiranje ter uvedbo.
+Ponudniki informacijskih rešitev so izdelali rešitve, ki so posebej prilagojene posameznim panogam.
+SAP je zaradi zmanjšanja stroškov in trajanja uvedbe razvil preko 20 panožno specifičnih rešitev, s pomočjo lastnega programskega jezika ABAP/4 pa je enostavno realizirati tudi dodatne zahteve.
+Večje spremembe oz. predelave programske rešitve niso priporočene, razen pri poslovnih procesih, ki podjetju prinašajo dejansko prednost.
+V primeru, da se za predelavo odločimo, lahko to bistveno vpliva na čas uvajanja, stroške implementacije in na stabilnost sistema.
+Novejši ERP sistemi pokrivajo praktično vse poslovne funkcije podjetja, samo pravilno jih je potrebno nastaviti.
+Kot pomoč pri uvajanju so večji komercialni ponudniki tovrstnih rešitev razvili razne pripomočke in metode uvajanja, kar je pripomoglo k hitrejši implementaciji in znižanju stroškov.
+SAP je v ta namen razvil Accelerated SAP (ASAP), ki je pristop za hitro in učinkovito uvajanje SAP poslovnih rešitev.
+Vendar tudi te rešitve ne morejo rešiti osnovnih problemov pri uvajanju, kot je sprememba poslovanja in organiziranosti v       3  podjetju.
+Tuja in domača praksa je pokazala, da gre za projekte z visoko stopnjo tveganja in relativno nizko uspešnostjo.
+Prenova informacijskega sistema običajno ne pomeni samo posodobitev informacijskega sistema in tehnologije, ki je v uporabi, temveč prenovo in posodobitev celotnega poslovanja, spremembo razmišljanja in največkrat tudi drug način dela, kar pomeni, da morajo podjetja popolnoma spremeniti svoje strategije poslovanja.
+Prenova informacijskega sistema ima velik vpliv na poslovanje podjetja in je orodje, s katerim lahko podjetje pridobi  konkurenčno prednost na trgu.
+Gre za poslovno kritičen projekt, kar nam pove dejstvo, da se veliko projektov uvajanja SAP-ja ni uspešno zaključilo, nekateri so uvajanje popolnoma opustili, drugi pa so uvedli le nekatere poslovne funkcije.
+Strokovnjakov, ki bi se v Sloveniji ukvarjali z uvajanjem SAP v podjetje, je malo, prav tako je tudi malo podjetij, ki bi uspešno premagala vse težave pri uvajanju.
+V diplomskem delu bomo poskušali čim bolje predstaviti SAP, opisati njegovo delovanje in module, s katerimi pokriva področja poslovanja.
+Na osnovi teoretičnih spoznanj bomo podrobneje predstavili postopek uvajanja SAP v podjetje in metode ter orodja, ki se za to uporabljajo.
+Preučili ga bomo na primeru različnih nemških podjetij, ki so uvajali SAP.
+Opisali bomo težave in ovire, na katere lahko naletimo pri uvajanju ERP rešitev in lahko ključno vplivajo na uspeh projekta.
+V raziskavi se bomo omejili na to, na kaj moramo biti pozorni pri uvajanju sistema ERP (enterprise resource planing) v podjetje.
+Glede na izbrano tematiko – uvajanje SAP v podjetje, lahko predpostavljamo, da se v večini podjetij pojavijo enaki problemi z uvajanjem informacijskega sistema.
+Zato bomo v diplomski nalogi poskušali izluščiti probleme, ki se lahko pojavijo nasploh pri uvajanju novih informacijskih rešitev, in jih posebej poudariti.
+Uspeh projekta se meri predvsem po tem ali se je projekt zaključil v predvidenem času in v okviru predvidenih stroškov.
+Ključni dejavniki, ki vplivajo na uspeh uvajanja so: podpora vodstva, predanost bodočih uporabnikov, primerni viri, dovolj časa za šolanje uporabnikov, pravilno prenovljeni poslovni procesi in sposobnost upravljanja sprememb.
+Poleg tehničnega vidika uvajanja moramo pomisliti tudi na psihološki vidik, saj imajo spremembe tudi velik vpliv na zaposlene, ki so se prisiljeni učiti in spremeniti svoje ustaljene načine dela.
+V procesu uvajanja je nujno potrebno uporabiti projektni pristop.
+Pomembna je izbira pravega projektnega vodje, ki bo zmožen uspešno voditi projekt v pravo smer.
+Kot pomoč pri vodenju projekta lahko s pomočjo SAP-jevih pripomočkov za vodenje projektov, ki so zbrani v modulu investicije in projekti, natančno izvedemo členitev projekta na posamezne naloge, določimo vloge in odgovornosti, pripravimo analizo tveganja, sestavimo plan kapacitet in stroškov, uporabimo pa lahko tudi druge pripomočke, kot je npr. Microsoft Project.
+Spremljanje potrebne dokumentacije pa lahko izvedemo s pomočjo SAP-jevega dokumentacijskega sistema.
+4  KAZALO   1 UVOD............................................................................................................................
+5  1.1 Opredelitev področja in opis problema .................................................................
+5 1.2 Namen, cilji in osnovne trditve .............................................................................
+5 1.3 Predpostavke in omejitve raziskave ......................................................................
+6 1.4 Predvidene metode raziskovanja ...........................................................................
+7  2 INFORMACIJSKI SISTEM SAP/R3 ...........................................................................
+8 2.1 ERP rešitve in SAP/R3..........................................................................................
+8 2.2 Vsebinska arhitektura SAP/R3 ............................................................................
+11  2.2.1 Finančno poslovanje (FI,AA,TR,CO) .........................................................
+12 2.2.2 Prodaja in distribucija..................................................................................
+13 2.2.3 Materialno poslovanje .................................................................................
+13 2.2.4 Planiranje in vodenje proizvodnje ...............................................................
+14 2.2.5 Kadrovski informacijski sistem...................................................................
+14 2.2.6 Investicije in projekti ...................................................................................
+15 2.2.7 Modul vzdrževanja ......................................................................................
+15 2.2.8 Rešitve za posamezne panoge .....................................................................
+16  2.3 Tehnologija SAP/R3............................................................................................
+18 2.4 Prednosti in slabosti SAP/R3...............................................................................
+24  3 UVAJANJE KUPLJENIH INFORMACIJSKIH REŠITEV.......................................
+26 3.1 Uvajanje kot projekt ............................................................................................
+27  3.1.1 Vloge in odgovornosti .................................................................................
+27 3.2 Metode in pripomočki uvajanja SAP/R3.............................................................
+30  3.2.1 Faktorji uspeha projekta: .............................................................................
+33 3.3 Proces uvajanja ....................................................................................................
+35  3.3.1 Posnetek stanja v podjetju ...........................................................................
+37 3.3.2 Zasnova in konfiguriranje............................................................................
+40 3.3.3 Konstruiranje in testiranje ...........................................................................
+41 3.3.4 Uvedba.........................................................................................................
+44  3.4 Vzdrževanje sistema............................................................................................
+45 3.4.1 Tehnična podpora ........................................................................................
+45 3.4.2 Podpora uporabnikom .................................................................................
+47  4 PRIMERI UVAJANJA SAP/R3 V PODJETJE ..........................................................
+48 4.1 Analiza primerov uvajanja SAP/R3 ....................................................................
+48 4.2 Primer podjetja Kindlimann AG. ........................................................................
+48 4.3 Primer firme WAP Reinigungssysteme Gmbh & Co..........................................
+53  5 SKLEPNE MISLI........................................................................................................
+57 SEZNAM VIROV ...............................................................................................................
+59         5  1 UVOD    1.1 Opredelitev področja in opis problema  Projekti uvajanja poslovne programske opreme za podporo pri poslovanju podjetij, kot v slovenskem jeziku pojmujemo kratico ERP, sodijo med najbolj zahtevne projekte, izbira pravega paketa ERP pa zaradi svoje cene in zapletenosti pri uvajanju ni preprosta.
+Če zelo posplošimo problem izbire poslovne programske opreme, se lahko odločimo bodisi za lasten razvoj, bodisi za izdelek katerega izmed domačih ponudnikov, ali pa za katerega izmed pomembnejših tujih ponudnikov tovrstnih rešitev .
+Med slednjimi se v poslovnem svetu v zadnjem času vse bolj uveljavlja poslovno informacijski sistem SAP/R3 (v nadaljevanju SAP).
+To je poslovno programski paket podjetja SAP iz Nemčije.
+SAP je prvi na tržišču in tehnologiji odjemalec/strežnik aplikacijske programske opreme za podjetja.
+SAP je na tržišče prišel popolnoma razvit, zato bomo temo načrtovanja in izgradnje izpustili in prešli na uvajanje SAP/R3 informacijskega sistema v podjetje, kar smo tudi izbrali za naslov diplomske naloge.
+Izbira teme ni bila težka, saj se zavedamo pomembnosti informacij za uspešno poslovanje, ki jih mora zagotavljati učinkovit in sodoben informacijski sistem.
+Podjetja so prisiljena spreminjati svoje strategije poslovanja, kar se nanaša tudi na informacijski sistem.
+Prenova informacijskega sistema običajno ne pomeni samo posodobitev informacijskega sistema in tehnologije, ki je v uporabi, temveč prenovo in posodobitev celotnega poslovanja, spremembo razmišljanja in največkrat tudi drug način dela.
+Informacijski sistem ima velik vpliv na poslovanje podjetja in je lahko sredstvo za pridobivanje konkurenčne prednosti na trgu.
+Informacijskih sistemov, ki bi pokrivali celotno poslovanje podjetij je malo.
+V svetu so najbolj poznani SAP, Oracle, J.D.Edwards, PeopleSoft, Baan in Navision.
+Veliko podjetij, ki so se odločili za SAP, projekta ni uspešno zaključilo.
+Nekateri so s SAP-jem podprli samo nekatere poslovne funkcije podjetja, drugi pa so uvajanje SAP popolnoma opustili.
+1.2 Namen, cilji in osnovne trditve  V diplomskem delu bomo poskušali čim bolj predstaviti SAP, opisati njegovo delovanje in module s katerimi pokriva področja poslovanja.
+Na osnovi teoretičnih spoznanj bomo podrobneje predstavili postopek uvajanja SAP v podjetje, in metode ter orodja, ki se za to uporabljajo.
+Gre za poslovno kritičen projekt, za katerega se v zadnjem času odloča vedno več podjetij, ki so k temu prisiljena zaradi hitrega razvoja.
+Trdimo, da je uvajanje ključnega pomena, zato se bomo v diplomski nalogi omejili predvsem na ta del.
+Preučili ga bomo na primeru       6  različnih nemških podjetij, ki so uvajali SAP.
+Opisali bomo težave in ovire, na katere lahko naletimo pri uvajanju ERP rešitev in lahko ključno vplivajo na uspeh projekta.
+Poslovna programska oprema  ima zagotovo nekaj prednosti, saj se sicer zanjo ne bi odločalo čedalje več slovenskih podjetij.
+Vse večja navezanost slovenskih podjetij na tuje partnerje in druge razmere na trgu zahtevajo dober premislek o izbiri ponudnika paketa poslovne programske opreme in času uvajanja.
+Najlažje je tistim podjetjem, ki jim tuj partner predpiše, kateri informacijski sistem naj uporablja, čeprav uvajanje kasneje ni nič lažje kot v tistih podjetjih, ki so morala na začetku sama mučno izbrati pravo rešitev.
+Podjetja, ki uporabljajo SAP imajo bistveno prednost pred podjetji, ki tega ne uporabljajo.
+SAP pomeni za podjetja enega od pogojev konkurenčnosti, ne samo na področju poslovne informatike, ampak tudi posredno na celotni ravni poslovanja, kjer se uporablja.
+Zaradi množične uporabe ima zagotovljen tehnološki razvoj in predstavlja varno investicijo za podjetje, saj se zaradi velikega tržnega deleža zanj odloča vedno več podjetij in ustanov.
+Informacijski sistem se uporablja na vseh področjih človekovega življenja in dela.
+V današnjem  hitrem razvoju na vseh področjih  morajo podjetja hitro reagirati na spremembe v okolju, kar pa lahko storijo le, če v pravem času razpolagajo s kakovostnimi informacijami, na osnovi katerih sprejmejo pravo odločitev.
+Informacijski sistem mora zagotavljati informacije, ključnega pomena pa je tudi varnost podatkov, ki jo moramo zagotoviti z različnimi varnostnimi mehanizmi.
+1.3 Predpostavke in omejitve raziskave  V raziskavi se bomo omejili na to, na kaj moramo biti pozorni pri uvajanju sistema ERP (enterprise resource planing) v podjetje.
+Sistem ERP je zagotovo širši pojem od poslovne programske opreme, kot ga pojmujemo v slovenščini.
+Pomeni pa programsko opremo, ki povezuje vse funkcije in enote v podjetju v isti bazi podatkov.
+Prav skupna baza podatkov zmanjšuje možnost napak, povečuje hitrost in učinkovitost pri dostopu do celovitejših informacij.
+Glede na izbrano tematiko – uvajanje SAP v podjetje, lahko predpostavljamo, da se v večini podjetij pojavijo enaki problemi z uvajanjem informacijskega sistema.
+Zato bomo v diplomski nalogi poskušali izluščiti probleme, ki se lahko pojavijo nasploh pri uvajanju novih informacijskih rešitev, in jih posebej poudariti.
+Ponudniki informacijskih rešitev so izdelali rešitve, ki so posebej prilagojene posameznim panogam, vendar to ne more rešiti osnovnih problemov pri uvajanju, kot je sprememba poslovanja in organiziranosti v podjetju.
+Zaradi hitrega razvoja na področju informatike in komunikacijske tehnologije lahko pričakujemo spremembe v prihodnosti, ki bodo ovrgle nekatere naše ugotovitve in odprle nove teme za nadaljnje raziskave.
+Omejeni smo s svojim znanjem glede implementacije takšnega informacijskega sistema.
+Strokovnjakov, ki se v Sloveniji ukvarjajo z uvajanjem SAP-ja, je malo.
+Tudi v Sloveniji primanjkuje podjetij, ki so uspešno premagala težave pri uvajanju SAP-ja in bi bila       7  pripravljena na sodelovanje pri raziskavi.
+Večina literature na izbrano tematiko je v nemškem oz. angleškem jeziku, domače literature je zelo malo, kar predstavlja še dodatno oviro pri izvedbi raziskave.
+1.4 Predvidene metode raziskovanja  Področje in problem raziskave je osredotočen na uvajanje sodobnega informacijskega sistema v podjetje.
+Temo bomo obdelali teoretično.
+Uporabili bomo novejšo domačo in tujo literaturo, članke v strokovnih revijah in informacije s svetovnega spleta, ki so glede na izbrano temo zelo primerni.
+V diplomskem delu se bosta prepletala deskriptivni kakor tudi analitičen pristop.
+V okviru analitičnega pristopa gre za interakcijo deduktivnega in induktivnega načina sklepanja.
+Pri deskriptivnem pristopu bomo uporabili zgodovinsko metodo in metodo kompilacije.
+Na osnovi spoznanj in stališč drugih avtorjev bomo poskušali pridobiti lastna spoznanja.
+Pri tem bomo seveda strogo upoštevali pravila citiranja drugih avtorjev.
+Diplomsko nalogo bomo zaključili s svojimi ugotovitvami, pripombami in predlogi, do katerih bomo prišli med raziskovanjem uvajanja SAP v podjetje.
+8  2 INFORMACIJSKI SISTEM SAP/R3    2.1 ERP rešitve in SAP/R3  Podjetje SAP je bilo ustanovljeno leta 1972 v Waldorfu v Nemčiji, kot družba z omejeno odgovornostjo s strani petih bivših sodelavcev IBM, s ciljem razvijati in tržiti celovito programsko rešitev.
+Od leta 1988 je podjetje delniška družba, ki kotira na borzi.
+Zaradi visokega letnega prometa in visokim zastopanjem na svetovnih trgih šteje podjetje med največje  ponudnike celovitih programskih rešitev na svetu.
+Oznaka SAP se danes ne uporablja samo za podjetje, ampak tudi za njegov najpomembnejši programski produkt.
+Namen ustanoviteljev je bilo izdelati programsko opremo, ki bo v celoti pokrivala informacijske potrebe podjetja.
+Do sedaj podjetja niso imela take podpore in so si bila prisiljena pomagati sama, npr. z več programskimi rešitvami.
+Probleme, ki jih povzročajo takšne rešitve, kot so visoki stroški razvoja, vzdrževanja, redundanca in konsistentnost podatkov, bi naj rešilo enotno podatkovno okolje z modularno zgradbo.
+Programska rešitev bi naj imela enotno strukturo in uporabniški vmesnik, prav tako pa bi naj bila namenjena različnim panogam in celo različnim jezikovnim področjem.
+Na podlagi teh zahtev, je podjetje leta 1979 razvilo t.i. R2/System, ki se uporablja predvsem na velikih računalnikih.
+Kot razvojno okolje so najprej uporabljali programski jezik Assembler (jezik druge generacije), kasneje pa lastno razvito programsko okolje ABAP/41.
+Danes podjetje ne ponuja samo sistema R2 za velike računalnike, ampak tudi sistem R3 za računalnike z odjemalec/strežnik (ang. client/server) arhitekturo.
+Razvoj sistema R3 se je začel leta 1987.
+Cilj je bil razviti programsko opremo na moderni odjemalec/strežnik tehnologiji, ki bo po vsebini enaka sistemu R2 in ki bo sledila razvoju strojne opreme.
+Od leta 1992, ko so R3 ponudili na tržišče, je svoj položaj na področju tovrstnih  rešitev še okrepil in po obsegu funkcij celo  prehitel sistem R2.
+Podjetje SAP je s tem ponudilo integrirano poslovno - programsko rešitev, ki je zgrajena na osnovi odjemalec/strežnik arhitekture in je neodvisna od podatkovne baze in operacijskega sistema2, ki ga uporablja.
+Ko je SAP pred tridesetimi leti najavil ERP (Enterprise Resource Planning), termin ERP še sploh ni obstajal.
+Ves čas se je omenjala le »standardna«, »integrirana«, »osnovna« programska oprema.
+SAP je razvil nov poslovni programski sistem in nekaj časa je bil ERP celo sinonim za SAP.
+SAP R/2 je bila SAP-jeva prva generacija ERP rešitev in je prinesla dodano vrednost podjetjem s pomočjo integracije in istočasnosti procesov.
+Druga generacija ERP rešitev, SAP R/3, je dodano vrednost podjetjem prinesla s pomočjo standardiziranih poslovnih procesov v okolju »client-server«.
+Nova generacija SAP-jevih  1 ABAP/4 - (Advanced Business Aplication Programming) -  jezik četrte generacije, ki ga je razvil SAP.
+2 To predstavlja veliko prednost, saj lahko uporabnik prosto izbira bazo podatkov in operacijski sistem.
+Kadarkoli pa lahko bazo podatkov ali operacijski sistem zamenja, plačati mora le razliko med sistemom za staro in novo bazo podatkov oz. operacijski sistem.
+9  ERP rešitev, SAP R/3 Enterprise, prinaša dodano vrednost s pomočjo razteznosti v raznolikem spletnem okolju in prinaša nove zmogljivosti vsem zaposlenim v podjetju.
+Sistem je namenjen srednjim in velikim podjetjem po celem svetu.
+Njegova prednost se odraža v naslednjih značilnostih: ? funkcionalnost; ? internacionalnost; ? prilagodljivost; ? integriranost; ? modularna zgradba; ? prijaznost do uporabnika; ? standardna programska rešitev; ? evolucijski pristop.
+Funkcionalnost  Z nakupom sistema R/3 kupec pridobi standardno programsko rešitev, ki zagotavlja podporo vseh večjih funkcijskih področij, kot so npr.: ? na področju financ: glavna knjiga, saldakonti, naložbe, kontroling, ... ? na področju logistike: materialno poslovanje, planiranje proizvodnje, vzdrževanje,  kontrola kakovosti, nabava, prodaja,... ? na področju kadrovskega informacijskega sistema.
+Internacionalnost  Večjezično podporo SAP-gui zagotavlja s tem, da so vsi prikazani jezikovni elementi shranjeni ločeno.
+Uporabnik lahko pri prijavi ali s pomočjo stalnih nastavitev izbere enega izmed jezikov v R/3. Različne jezikovne podpore je potrebno prej instalirati.
+Standardno je v vsakem R/3  sistemu instaliran angleški in nemški jezik.
+Trenutno je možno instalirati podporo za več kot 20 jezikov (Will 1999,32).
+Prilagodljivost  Podjetja se soočajo z zelo različnimi poslovnimi situacijami in ekonomsko krizo, ki je posledica dobe t.i. »nove ekonomije«.
+Konkurenca je prisilila podjetja, da so začela razmišljati v drugo smer in s pomočjo popolnoma integriranih ERP rešitev podprla poslovanje  in s tem izboljšala produktivnost in dobičkonosnost.
+SAP s svojimi rešitvami ponuja pomoč svojim strankam.
+S pomočjo nove tehnološke osnove rešitve zadovoljujejo potrebe strank v današnjem poslovnem okolju.
+Nekaj potreb strank, na osnovi katerih je SAP razvil nove rešitve, so gladke nadgradnje sistemov, povečanje transparentnosti, zniževanje skupne vrednosti lastništva, povezljivost in prožnost ter dodatna zmogljivost zaposlenih.
+Integriranost  Integrirana programska rešitev se odlikuje od drugih v tem, da so vsi delovni procesi med seboj povezani.
+Tudi lokalna opravila zagotavljajo to povezavo, ker vse funkcije v sistemu       10  uporabljajo iste centralne podatke.
+S tem je omogočena integriteta baze in zmanjšana možnost redundance podatkov.
+Modularna zgradba  R/3 je izrazito modularno sestavljen, istočasno pa dovolj integriran.
+Moduli so razdeljeni na posamezne komponente in dele komponent.
+Podjetje se lahko odloči za instalacijo samo ene komponente, pri čemer pa ne sme zanemariti morebitne soodvisnosti.
+Modularna zgradba omogoča enostavno širjenje funkcionalnosti programa z rastočimi potrebami podjetja.
+Prijaznost do uporabnika  Pomen grafičnega vmesnika v praksi pogosto podcenjujemo.
+Z razširitvijo uporabe operacijskega sistema Windows, so se zahteve glede oblike in prikaza podatkov na zaslonu povečale.
+Enoten grafičen zaslon omogoča enostavno uporabo in razmeroma enostaven prehod na drugo delovno področje, saj odpadejo dodatna uvajanja in šolanje.
+Standardna programska rešitev  V primerjavi z individualnimi programskimi rešitvami imajo standardne programske rešitve številne prednosti: ? hitre rešitve problema, saj so že ponujene v paketu standardne funkcionalnosti, ? manjša odvisnost od programerjev rešitve, ? prilagajanje poslovnih procesov programski rešitvi in ne obratno, kar je povezano z  reinženiringom in je edinstvena priložnost za optimizacijo poslovnih procesov, ? možnost prilagajanja posameznim panogam.
+Evolucijski pristop  Stari ERP sistem je odlično delal v ozadju sistema, novi ERP pa omogoča, da prav vsi zaposleni lahko delajo učinkovito.
+ERP je danes dostopen vsem uporabnikom in omogoča, da so informacije dostopne vsem v podjetju, kadarkoli in kjerkoli.
+To dosežemo s spajanjem različnih možnosti, kot so podjetniški portali, samopostrežni sistemi za zaposlene, mobilna infrastruktura in sodelujoče aplikacije.
+Danes je nujno, da so vsi procesi povezani in transparentni.
+SAP R/3 Enterprise je danes najbolj obsežna in integrirana ERP rešitev, ki je na voljo.
+Oblikovana je tako, da lahko podjetja vpeljejo le tiste poslovne funkcionalnosti, ki jih potrebujejo in ko jih potrebujejo, kar poenostavlja nadgradnje in znižuje skupne stroške lastništva (TCO).
+Obstoječe SAP-jeve stranke lahko enostavno migrirajo in po potrebi dodajo katerokoli ali vse poslovne rešitve mySAP Buisiness Suite.
+SAP s svojimi rešitvami ponuja gibljiv in na spremembe prilagodljiv informacijski sistem.
+Podjetja lahko dosegajo boljšo kontrolo nad poslovanjem in povečujejo učinkovitost in dobičkonosnost3.
+3 Vir: SAP (2003).
+SAP vodilni v razvoju ERP-ja. [Online] Available: http://www.sap.com/slovenia/company/press/press_doc/p_2003_SAP_vodilni_v_razvoju_ERP%20.asp [September 17, 2003].
+11  2.2 Vsebinska arhitektura SAP/R3  Poslovno informacijski sistem SAP je proizvod z zelo velikim funkcionalnim obsegom.
+Pokriva praktično vse panoge in vse poslovne funkcije v podjetju.
+Pri uvajanju se vključijo samo tiste funkcije, ki se potrebujejo, ostale funkcije pa lahko aktiviramo kasneje.
+SLIKA 1: MODEL R/3 INTEGRACIJE   Prirejeno po Jacob und Uhink (1998, 5).
+Na sliki 1 je prikazan R/3 integracijski model.
+Spodaj navajamo pregled modulov, najvažnejše izmed njih bomo v nadaljevanju tudi opisali: Finance: ?
+FI – finančno poslovanje (Financial Accounting); ?
+AM – investicijsko knjigovodstvo (Assets Management) ; ?
+CO – kontroling (Controlling); ?
+TR – zakladništvo; ?
+CM – denarno poslovanje; ?
+EC – (EIS); ?
+IM – investicijsko poslovanje.
+Logistika: ?
+PS – projekti (Project System); ?
+IS – rešitve za posamezne panoge; ?
+SD – prodaja in distribucija (Sales and Distribution); ?
+MM – materialno poslovanje (Material Management); ?
+PP – planiranje in vodenje proizvodnje (Production Planning); ?
+QM – management kakovosti (Quality Management); ?
+PM – vzdrževalno in servisno poslovanje (Plant Maintenance).
+WF  IS  SD  MM  PP  FA  CO  AM  QM  PM  HR  PS   R/3  Odjemalec/ strežnik ABAP/4  Poslovni procesi  Prenova poslovnih procesov  Odprti sistemi  Panožna neodvisnost  Multinacionalnost  Odjemalec/ strežnik  arhitektura  Obsežna funkcionalnost       12  Kadrovska: ?
+HR – kadrovska (Human Resources).
+Splošni sistem in posebna orodja: ?
+BC – Osnovni modul (Basic Components); ?
+CCMC – Vodilo sistema (Computer Center Management System); ?
+IS – Modul industrijskih rešitev (Industry Solutions); ?
+WF – Workflow; ?
+Servis in podpora.
+Ena izmed ključnih SAP-jevih prednosti je dejanska povezanost številnih poslovnih okolij, od financ, proizvodnje do komerciale in kadrovskega sistema.
+Ta povezanost pomeni, da se sprememba na enem področju podjetja izraža tudi na drugem področju podjetja.
+Kot primer tega lahko navedemo zneske obračuna plač v kadrovskem sistemu, ki so povezani tudi z zneski v glavni knjigi (Larocca 2002, 9).
+2.2.1 Finančno poslovanje (FI,AA,TR,CO)  Paket finančno poslovanje omogoča planiranje, evidentiranje nadzor in analizo računovodskih podatkov ter vključuje glavno knjigo, saldakonte dobaviteljev, saldakonte kupcev, osnovna sredstva, zakladništvo in medpodjetniško konsolidacijo.
+MySAP Financials podjetjem omogoča4: ?
+Izdelavo izvedenih knjigovodskih dokumentov – ker se podatki vnašajo samo  enkrat se zmanjša obseg ročnega dela in napak. ?
+Izdelave periodičnih poročil (letnih, mesečnih in celo dnevnih). ?
+Povezave z drugimi programi v organizaciji, če obstaja potreba. ?
+Vrednotenje kupcev in dobaviteljev. ?
+Zbiranje in vrednotenje podatkov za več podjetij skupaj. ?
+Zagotavljanje kratkoročne dobičkonosnosti poslovanja. ?
+Vzpostavljanje dolgoročnega upravljanja na osnovi dodane vrednosti. ?
+Integracijo vseh finančnih in poslovnih informacij ter upravljavskih procesov, s tem  pa možnost sprejemanja učinkovitih strateških odločitev. ?
+Izboljšanje komunikacije z investitorji. ?
+Vzpostavljanje finančne oskrbne verige. ?
+Sodelovanje s kupci in dobavitelji pri aktivnostih plačevanja in poravnav. ?
+Zmanjšanje stroškov transakcij. ?
+Povečanje operativne učinkovitosti. ?
+Pretvorbo vseh transakcij v transakcije E-poslovanja.
+Glavni podatki, ki se obdelujejo v financah, so izdani in prejeti računi, podatki o kreditih, podatki o plačilih in seveda matični podatki o kupcih in dobaviteljih.
+Modul FI je tesno povezan z materialnim poslovanjem, kjer se delajo prevzemi, ki vplivajo na saldakonte   4 Vir: SAP (2003).
+SAP vodilni v razvoju ERP-ja. [Online] Available: http://www.sap.com/germany/solutions/financials/index.asp [September 17, 2003].
+13  dobaviteljev, ter prodajo in distribucijo, kjer se izdajajo fakture, ki vplivajo na saldakonte kupcev.
+Omogoča obdelavo podatkov za več podjetij, v več valutah, v več jezikih in z več davčnimi funkcijami za podjetja vseh velikosti.
+Moduli financ in računovodstva so povezani z ostalimi moduli podjetja in omogočajo stalen vpogled v finančno sliko podjetja.
+Značilnost teh modulov je velika fleksibilnost in kratek čas uvajanja.
+Uporabnik sam določi začetek in konec poslovnega leta, na voljo pa ima množico poročil in povpraševanj.
+2.2.2 Prodaja in distribucija  Paket prodaja in distribucija pomaga pri poslovnih procesih prodaje in dostave prodanega blaga in storitev našim kupcem.
+Tesno je povezan s šifrantom artiklov, partnerjev in z materialnim poslovanjem, kamor sporoča podatke o rezerviranih in prodanih artiklih, ter finančnim poslovanjem, kamor pošilja račune in preverja zapadle obveznosti.
+V sistemu, kot je R3, je možno obvladati več prodajnih mest tako, da se prodajo razdeli na več prodajnih kanalov oz. na več prodajnih pisarn.
+Prednosti: ?
+Dopušča različne načine prodaje (veleprodaja, maloprodaja, konsignacija,...). ?
+Cene, rabati in roki plačil se lahko določijo, ko se delajo dokumenti, lahko pa so  vnaprej določeni po pogodbah. ?
+Predvideva potrjevanje naročil, vračila in tudi brezplačne dostave. ?
+Omogoča hiter in varen dostop do podatkov, ki v komerciali pri stiku z ljudmi igra  veliko vlogo.
+Glavni dokumenti, ki se uporabljajo, so naročila, povpraševanja, vračila, dobavnice, fakture, dobropisi, bremepisi.
+Modul prodaje in distribucije spremlja zaloge in omogoča vnos nakupnih in prodajnih aktivnosti.
+Omogoča upravljanje, analiziranje, načrtovanje in kontrolo aktivnosti, ki zadevajo nabavo surovin ali delov ter distribucijo gotovih izdelkov.
+Omogoča nadzor stroškov v celotni preskrbovalni verigi, prav tako pa upravljanje nabave in povpraševanja med distribuiranimi podjetji ali lokacijami.
+2.2.3 Materialno poslovanje  K materialnemu poslovanju štejemo vse procese v zvezi z nabavo, kontrolo kvalitete, prodajo, skladiščenjem materiala, vključno z plačilom dobaviteljem.
+Poznamo pa tudi posebne oblike materialnega poslovanja, kot so npr. konsignacija ipd.
+Materialno poslovanje je močno povezano s prodajo in distribucijo v našem podjetju, pa tudi s prodajo in distribucijo drugih podjetij, od katerih nabavljamo blago.
+Vsebuje tudi       14  MRP- Materials Requirement Planing, ki omogoča generiranje naročil dobaviteljem, na osnovi pretekle prodaje ali na osnovi rezerviranega blaga itd.
+Glavni dokumenti v materialnem poslovanju so potrebe po materialih, naročila dobaviteljem, prenosi robe, normativi,...
+Vsebuje vse potrebne funkcije za avtomatizacijo procesov v zvezi s planiranjem potreb, nabavo, vodenjem zalog in skladiščnim poslovanjem.
+Zraven planiranja potreb lahko sestavimo tudi naročila dobaviteljem ali delovne naloge za proizvodnjo.
+Na začetku nabavnega procesa moramo izbrati pravega dobavitelja, to nam podpira sistem za samodejno ocenjevanje dobaviteljev.
+Za ocenjevanje se poleg rokov dobave in cene uporabljajo tudi podatki o dosedanji kakovosti dobavljenih izdelkov.
+2.2.4 Planiranje in vodenje proizvodnje  Modul proizvodnja regulira vse proizvodne aktivnosti v različnih tipih proizvodnje, od določanja manjkajočih delov do delovnih izkazov.
+Odziva se na razne dogodke in zahteve v proizvodnji, kot so odmiki, spremljanje po saržah in serijskih številkah ter upravljanje kvalitete.
+Daje nam takojšnjo povratno informacijo o stanju proizvodnje, manjkajočih delih ali materialih, težavah s kvaliteto ali drugih vprašanjih.
+Prednosti: ? spremljanje zasedenosti proizvodnih virov; ? podpora serijske in naročniške proizvodnje; ? spremljanje dela pri kooperantih.
+2.2.5 Kadrovski informacijski sistem  Glavne funkcije kadrovskega informacijskega sistema so: ? izračun plač; ? spremljanje potnih stroškov; ? spremljanje prihodov in odhodov na delo; ? vodenje šifranta zaposlenih.
+Modul HR zajema naslednja pod-modula: ?
+PA (administriranje kadrov in plače):  o upravljanje zaposlenih, o ugodnosti, o upravljanje kandidatov, o upravljanje delovnega časa, o stimulacije, o potni stroški, o plače.  ?
+PD (planiranje in razvoj kadrov).
+15    Pri zasnovi kadrovskega informacijskega sistema je temeljnega pomena povezava organizacijske baze podatkov in kadrovske baze podatkov.
+Osnovni predmet organizacijskih podatkov je delovno mesto in posamezna opravila, osnovni predmet kadrovskih podatkov pa je delavec.
+Pomembni so predvsem podatki, ki vključujejo podroben opis posameznega delovnega mesta.
+Te podatke lahko v grobem razdelimo na podatke o delu in na podatke o delavcu (glede na zahteve delovnega mesta in glede na pogoje sklenitve delovnega razmerja oz. napredovanja).
+Poleg podatkov o zaposlenih delavcih je smotrno, da KIS vsebuje tudi podatke o pripravnikih, štipendistih in kandidatih, ki so vložili prošnjo za sklenitev delovnega razmerja.
+Ne hranimo pa samo podatkov o aktivnih kadrih.
+Pogosto zbiramo oziroma hranimo tudi podatke o zunanjih članih upravnih odborov in drugih organov upravljanja organizacije, o družinskih članih oziroma članih gospodinjstva delavca, o upokojenih delavcih in o delavcih, ki so zapustili organizacijo.
+2.2.6 Investicije in projekti  S tem modulom je omogočeno sistemsko spremljanje investicij, strukture projektov, planiranje projektov, proračun projektov, izvajanje in integracija.
+Namenjen je predvsem podjetjem, ki imajo predvsem projektni način dela.
+Zajema vse funkcije za uspešno izpeljavo določenega projekta.
+Prednosti tega modula so predvsem v nadzoru in spremljanju projektov.
+Prednosti: ?
+Na voljo je projektni informacijski sistem, za sprotno spremljanje poteka projekta.
+Vsi podatki se shranjujejo v projektni model.
+Stroške projekta je možno spremljati na več načinov.  ?
+Mogoče je uporabljati SAP/R3 Documentation Management System za spremljanje projektne dokumentacije.  ?
+Možno je načrtovanje kapacitet in stroškov. ?
+Za materiale in druge proizvodne vire se lahko določi zasedenost. ?
+Spremljati je možno tudi delo, ki ga za nas opravljajo kooperanti. ?
+Omogoča nam izdelavo raznih analiz ?
+Omogoča celo izmenjevanje podatkov z Microsoft projectom.
+Pripomočki, s pomočjo katerih se dela v tem modulu, so struktura projektov, gantogram, mrežni diagrami, aktivnosti in računi materialov.
+Projektni informacijski sistem je tesno povezan z materialnim poslovanjem, kjer potrjuje materiale ter proizvodnjo, in planiranjem, kjer preverja proizvodne vire.
+2.2.7 Modul vzdrževanja  Paket vsebuje procese, povezane s servisiranjem in vzdrževanjem tako svojih kot tudi tujih strojev, naprav in proizvodov.
+Modul vzdrževanja omogoča uporabo nalogov za zajem in       16  spremljanje stroškov v povezavi z ostalimi moduli.
+Prednosti uporabe omenjenih nalogov so v uvedbi enotnega načina in postopkov povezav med nalogi in projekti ter avtomatično knjiženje stroškov.
+Glavni sklopi so: ? obvestila (napake na opremi); ? redno vzdrževanje; ? izredno vzdrževanje; ? informacijski sistem.
+Prednosti paketa so v boljšem planiranju in organizaciji dela ter izrabi resursov.
+Omogočeno je integrirano planiranje, obračun stroškov (material, delo) in dostop do enotnih informacij (o opremi, funkcijskih lokacijah, po delovnih mestih, odgovornih osebah,...).
+Paket omogoča tudi podrobno analiziranje preteklosti servisiranja za določen proizvod.
+2.2.8 Rešitve za posamezne panoge  Različne industrije potrebujejo različne poslovne rešitve.
+Zato je SAP v 30-letnem poslovanju in v sodelovanju s svojimi partnerji in strankami, podjetji v različnih panogah oblikoval 23 panožno specifičnih rešitev.
+Te rešitve so popolnoma prilagojene panogi in se razvijajo skupaj z njihovim razvojem in potrebami.
+Pripadnost določeni panogi v veliki meri določa potrebe po logističnih funkcijah.
+R/3 podpira veliko število panožno specifičnih in panožno neodvisnih (osnovnih) funkcij.
+Iz pregleda panog in njihovih najvažnejših funkcij lahko vidimo širok obseg logističnih funkcij, ki jih ponuja R/3. Veliko funkcij se uporablja v različnih panogah, potrebne so samo manjše spremembe osnove.
+V R/3 okolju imamo za vse navedene panoge rešitve in številne primere uporabe v srednje velikih podjetjih.
+V tabeli 1 so prikazane glavne specifike za posamezne panoge.
+17  TABELA 1: REŠITVE ZA POSAMEZNE PANOGE Rešitev Posebnosti Strojegradnja in gradnja objektov  Planiranje prodaje, sestavljiva struktura artiklov, analize naročil kupcev, projekti/mrežni načrti, planiranje, grafični prikazi načrtov.
+Avtomobilska industrija  Naročniška/serijska proizvodnja, sestavljiva struktura artiklov, spremljanje montaže izdelkov, Just in Time / Kanban, načrti dostave, Electronic Data Intercharge.
+High-Tech in elektronika  Time to Market, Product Data, Management, serijska proizvodnja, spremljanje montaže izdelkov, Kanban, spremljanje serijskih številk.
+Kemijska industrija  Planiranje procesov, spremljanje sarž, ravnanje s nevarnimi odpadki, management kakovosti, recepture/normativi, dokumentacija in opisi procesov.
+Farmacevtska industrija  Sarže, serijska proizvodnja, management kakovosti, recepture/normativi, dokumentacija in opisi procesov.
+Prehrambena industrija  Planiranje procesov, spremljanje sarž, planiranje prodaje, serijska proizvodnja, management kakovosti, recepture/normativi, dokumentacija in opisi procesov, planiranje potreb v distribuciji, vzdrževanje.
+Distribucija Struktura artiklov, sortiment, izračun prodajne cene, akcije, klasifikacija artiklov, POS vmesnik (maloprodaja).
+Oskrbovalna podjetja  Infrastruktura, vzdrževanje, spremljanje števcev in obračun, storitve, projekti.
+Prirejeno po Jacob und Uhing (1998, 68-69).
+Gre za rešitve, ki so popolnoma prilagojene specifičnim potrebam poslovanja in združujejo različne funkcionalnosti splošnih SAP-jevih rešitev, kot so mySAP CRM, mySAP SCM, mySAP Financials, mySAP SRM,...
+Ne gre za nove rešitve, ampak za izpopolnjene rešitve in novo imenovanje.
+Nazive omenjenih rešitev je SAP v zadnjem času spremenil.
+Prej je SAP na trg ponujal npr. rešitev za javno upravo, imenovano mySAP Public Sector, danes pa se rešitev imenuje SAP for Public Sector.
+Novo imenovanje enostavneje pove, da gre za rešitev oz. za portfelj rešitev, aplikacij, tehnologij in storitev, ki podpirajo poslovanje javne uprave5.
+Večina majhnih in srednjih podjetij nima časa, denarja ali virov, da bi sama iz nič lahko razvila specializiran informacijski sistem in ga istočasno oblikovala po svojih potrebah poslovanja.
+Zato je SAP združil svoja strokovna znanja in izkušnje o poslovanju različnih panog ter skupaj s partnerji oblikoval specializirane rešitve za taka podjetja, imenovana SAP Best Practices za hitro in varno vpeljavo.
+SAP in njegovi poslovni partnerji so identificirali možne nevarnosti delovanja poslovnih rešitev, zato se lahko napakam sistema izognemo vnaprej.
+Vpeljava s pomočjo novega načina lahko zniža stroške vpeljave tudi do 50 odstotkov glede na klasičen način vpeljave6.
+5 SAP (2003).
+SAP – jeve rešitve za različne panoge. [Online] Available: http://www.sap.com/slovenia/company/press/press_doc/p_2003_sap_resitve.asp [September 17, 2003].
+6 Vir: SAP (2003).
+SAP – jeva nova generacija poslovnih rešitev za hitro vpeljavo. [Online] Available: http://www.sap.com/slovenia/company/press/press_doc/p_2003_SAP-jeva%20nova%20generacija%20.asp [September 17, 2003].
+18  2.3 Tehnologija SAP/R3  SLIKA 2: RAZPOLOŽLJIVE SAP SISTEMSKE OSNOVE   Prirejeno po Jacob und Uhink (1998, 101).
+Iz slike 2 je razvidno, na katerih sistemskih osnovah je možno uporabljati R3, ki je zelo prilagodljiv program, saj ga lahko uporabljamo na vseh standardnih operacijskih sistemih in bazah podatkov.
+To pomeni, da lahko kupec prosto izbira dobavitelje strojne opreme, obenem pa omogoča tudi fleksibilnost v bodoče.
+Kupec si pri nakupu R3 zagotovi, da bo lahko v prihodnosti zamenjal npr. operacijski sistem ali bazo podatkov, ne da bi s tem moral kupiti povsem nov sistem.
+Doplačati bo moral le razliko med starim in novim sistemom, če ta obstaja.
+SLIKA 3: OSNOVNO R/3 OKNO   Prirejeno po Larocca (2002, 22).
+Na sliki 3 vidimo zgradbo osnovnega R/3 okna, ki je sestavljeno iz naslovne vrstice, menijske vrstice, standardne orodne vrstice in aplikacijske orodne vrstice.
+SAP je napisan v grafičnem okolju, katerega pomen pogosto podcenjujemo.
+Grafična okolja omogočajo prikaz več informacij hkrati, kar je pri daljših poslovnih procesih zelo pomembno.
+Na starih črno - belih ali zeleno – črnih terminalih ni bilo mogoče zbrati tako hitro takšen  Strojna oprema  Operacijski sistemi  Podatkovne baze  Pogovorni vmesnki SAP GUI  Jeziki  Bull IBM Digital SNI HP SUN  AIX SINIX Digital UNIX SOLARIS  ADABAS D DB2 for AIX INFORMIX-OnLine 7 ORACLE  Windows 3.11, Windows 95, Windows 98, Windows NT, Windows 2000, Windows XP, DSF/Motil, OS/2-Warp, Macintosh, PM (presentation manager), Java  AT&T General Sequent Bull/Zenith HP(intel) SNI Compaq IBM(intel)  Windows NT  ADABAS D MS SQL Strežnik 2000 ORACLE 7  IBM AS/400  OS/400   DB2/400  ABAP/4, C, C++, HTML, Java, ActiveX-Controls  Menijska vrstica Aplikacijska orodna vrstica  Okno  Naslovna vrstica  Statusna vrstica  Standardna orodna vrstica       19  obseg informacij kot danes, tipičen primer računalniškega vmesnika, ki temelji na besedilu je MS-DOS.
+Nasprotje temu pa je operacijski sistem Windows, ki temelji na grafičnem vmesniku, katerega razvoj temelji na prijaznosti do uporabnika.
+Naslovna vrstica vsebuje ime posameznega okna.
+Menijska vrstica, ki se nahaja pod naslovno vrstico, je namenjena spreminjanju barv in načinov pisav.
+Poleg tega menijska vrstica vedno vsebuje gumba sistem in pomoč.
+Pod gumbom sistem se skrivajo pomembne funkcije za delo s programom, pod gumbom pomoč pa je na voljo R/3 dokumentacija in pomoč.
+Večkrat izvedena opravila se lahko izvedejo preko standardiziranih simbolov, ki se nahajajo v aplikacijski orodni vrstici.
+V tej vrstici se nahaja tudi polje za vnos transakcijskih kod.
+Ker je kompleksnost R/3 funkcij velika, je tudi meni za izbor posameznih funkcij zelo kompleksen.
+Vsem funkcijam v R/3 sistemu pa je dodeljena transakcijska koda, ki omogoča takojšen priklic funkcije z vpisom  kode v polje za vpis transakcijske kode, brez iskanja omenjene funkcije po različnih menijih.
+Zadnja vrstica v R/3 oknu je statusna vrstica, ki vsebuje pomembne informacije o R/3 sistemu, na katerega je uporabnik prijavljen.
+Med zgornjim delom R/3 okna in statusno vrstico je delovni prostor.
+Razpored in funkcionalnost v tem delu je odvisna od posameznih delovnih opravil uporabnika programa (Will 1999, 29-32).
+Microsoftove rešitve, kot so word, excel in druge, zna uporabljati veliko ljudi.
+Zato je pomembno, da je mogoče Microsoftove objekte uporabljati skupaj s SAP-jem.
+Podatke iz SAP-a lahko izvozimo, npr. v tabele, prav tako pa lahko tabele uvozimo nazaj v SAP.
+Takšen sistem, kot je SAP, potrebuje dobro tehnološko podporo7.
+S SAP-jem ne dobimo zgolj programa, temveč tudi vse ostale funkcije in orodja za nemoteno delovanje sistema.
+Če kupimo SAP, kupimo tudi izvorno kodo in programski jezik ABAP/4; s tem ni težko vključiti dodatnih funkcij, če obstaja potreba.
+Cilj pa je SAP uporabljati brez dodatnih funkcij in sprememb.
+SAP je zgrajen na triravenski – odjemalec – strežnik arhitekturi, ki se sestoji iz: ? baze podatkov (podatkovni strežnik); ? aplikacijskega strežnika (poslovna ali programska logika) in ? prezentacijskega strežnika (uporabniški vmesnik).
+Na sliki 4 vidimo prikaz trinivojske arhitekture, na osnovi katere je zgrajen SAP R/3. Vsi trije strežniki so lahko instalirani na enem samem računalniku, lahko pa so tudi porazdeljeni na več sistemov.
+Predvsem pri prezentacijskem strežniku - odjemalcu (ang. client), ki služi kot uporabniški vmesnik, je to običajno.
+Vsak R3 pa ima samo eno bazo podatkov, neodvisno od števila aplikacijskih in prezentacijskih strežnikov.
+Aplikacijski strežnik in baza podatkov morata biti povezana z LAN8 omrežjem (zaradi velikega pretoka podatkov), medtem ko sta lahko aplikacijski strežnik in prezentacijski strežnik povezana   7 Pod pojmom tehnološka podpora razumemo sodobno informacijsko tehnologijo potrebno za normalno delovanje sistema (to so računalniki, mreže,..), in podporo pri vzdrževanju.
+8 LAN (Local Area Network) – lokalna mreža, ki omogoča hiter pretok podatkov na relativno omejenem geografskem prostoru, kot npr. komunikacija znotraj enega podjetja.
+20  tudi preko WAN9.
+Aplikacijski in prezentacijski strežniki se lahko zaradi širjenja poslovanja dodajajo tudi kasneje.
+SLIKA 4: TRIRAVENSKA ARHITEKTURA SAP R/3   Prirejeno po McFarland und Roehrs (2000, 27).
+V zadnjem času se vse bolj uveljavlja izraz večnivojska oz. večravenska arhitektura, saj se je med aplikacijskim in prezentacijskim strežnikom pojavil še internet strežnik (slika 5).
+Po verziji R/3 Release 3.1 je SAP-gui na voljo tudi kot internet varianta.
+Po R/3 Release 3.4 velja to tudi za SAP Session manager.
+Upravljanje in izgled obeh programov je enako, neodvisno od tega ali dela z internetom ali brez.
+To je bilo možno realizirati na osnovi odprte odjemalec-strežnik arhitekture sistema R/3. SAP-gui in SAP Session Manager sta realizirana v JAVI.
+Komunikacija med internet prikazovalnikom (Web-Browser) in sistemom R/3 poteka preko osnovne komponente za internet, kar omogoča, da za sistem R/3 ni razlike med internet-SAP-gui in standardnim SAP-gui (Will 1999, 32).
+9 WAN (Wide Area Network) – uporablja se, kadar je potrebna povezava podjetja z različnimi kraji.
+Ta vrsta povezave je počasnejša od LAN, razlikuje pa se tudi po načinu prenosa podatkov.
+Podatkovni strežnik  Aplikacijski strežnik  Prezentacijski strežnik       21  SLIKA 5: PRIKAZ SAP/R3 OKNA S POMOČJO INTERNETA   Prirejeno po Will (1999, 33).
+Na sliki 6 vidimo prikaz R/3 aplikacije in različnih vrst tabel, ki tvorijo bazo podatkov.
+Baza podatkov ima nalogo hraniti podatke, ki se uporabljajo v sistemu.
+Je množica med seboj povezanih tabel, v katerih so shranjeni podatki na način, ki omogoča hitro iskanje, razvrščanje, filtriranje in druge bolj zapletene oblike obdelave podatkov.
+Medsebojna povezava številnih tabel je poznana kot sistem za upravljanje relacijske podatkovne baze (RDBMS).
+SAP temelji na podatkovni bazi, zato uporablja preizkušene relacijske baze podatkov različnih proizvajalcev, kot so:  • Oracle, • Informix Dynamic Server, • DB2 (DB2/CS, DB2/400, DB2/UDB ) ali • Microsoft SQL – Server.
+Podatkovna baza je zbirka podatkov, ki jo s pomočjo posebnega programa uredimo na računalniku.
+Ponavadi je sestavljena iz več datotek in uporabnikom, katerim je namenjena, omogoča hiter dostop do podatkov.
+Osnovni element podatkovne baze je podatkovno polje.
+Vrednost polja je izražena s črkovnimi, številčnimi ali posebnimi znaki, lahko pa tudi z njihovo kombinacijo (npr.: 30 dni), pomen polja pa je izražen z nazivom polja, v katerem je podatek (npr.: rok plačila).
+Skupino med seboj povezanih podatkovnih polj imenujemo podatkovni zapis (npr.: podatki o kupcu: ime in priimek oz. naziv kupca, naslov, kontakti, plačilni pogoji, način dostave, ...).
+Podatki o posameznem kupcu predstavljajo en zapis v podatkovni bazi.
+Zbirka podatkovnih zapisov enake oblike in podobne vsebine pa imenujemo datoteka.
+Relacijska baza podatkov je zbirka podatkov, v kateri so lahko podatki iz različnih virov med seboj povezani.
+Npr. poročilo lahko sestavimo s podatki o kupcu, ki jih vzamemo iz ene datoteke in s podatki o prodaji, ki jih vzamemo iz druge datoteke.
+Relacijske podatkovne baze oblikujemo in upravljamo s  Aplikacijski strežnik  Baza podatkov  WEB-strežnik  R/3 instanca Osnovna internet komponenta (Internet Bassis Component)  Session Manager v JAVI  Sapgui  Sapgui  Sapgui  Sapgui v JAVI    IIOP  - Internet-Inter-ORB-Protokoll na osnovi Corb-e ORB  - Object Request Broker DIAG - SAP Dialogprotokol       22  posebnimi programskimi orodji.
+Za oblikovanje potrebujemo posebne elemente: tabele, obrazce, poizvedbe, poročila.
+SLIKA 6: PREGLED STRUKTURE TABEL V SAP/R3   Prirejeno po Bancroft (1996, 22).
+Dostop do podatkov se vrši s pomočjo SQL10 jezika.
+V SAP-ju imamo za dostop do podatkov dve možnosti.
+Do podatkov lahko dostopamo preko OpenSQL in NativeSQL jezika (slika 7).
+Prvi je razvit znotraj SAP-a in omogoča neodvisnost od baze podatkov, medtem ko je drugi odvisen od baze podatkov (McFarland Metzger und Roehrs,2000,47).
+SLIKA 7: VMESNIK PODATKOVNE BAZE   Prirejeno po Will (1999, 41).
+10 SQL (Structured Query Language) je jezik za manipulacijo z relacijskimi bazami podatkov.
+System configuaration  tables  Control Tables  Transaction data tables  Master data tables  R/3 Aplications  ABAP - Procesor  SELECT * FROM TABLE  EXEC SQL.
+ANALYZE TABLE ENDEXEC.
+SQL - Vmesnik RDBMS z bazo  podatkov  Native SQL  Open SQL       23  Programska logika se instalira na drugi ravni (aplikacijski strežnik).
+Uporabniški programi so realizirani v objektno orientiranem jeziku ABAP/4. Aplikacijski strežnik je odgovoren za administrativne funkcije sistema, kot je obdelava v ozadju, tiskanje in obvladovanje zahtev procesa (Larocca 2002,7).
+Ločitev standardne programske opreme na nivo aplikacijskega strežnika nima samo prednosti ločitve tehnologije od ekonomske logike programa.
+Vse uporabniške objekte lahko na takšen način izoliramo in jih namenimo vsem uporabnikom, ne da bi jih morali vsakemu posebej instalirati.
+Istočasno skrbijo te komponente za integracijo različnih modulov s tem, da jim zagotavljajo dostop do skupnih podatkov.
+Enostaven primer za to je centralni šifrant partnerjev, dokumentacijski sistem ali elektronska pošta (Jacob und Uhing 1998, 103).
+Kot prezentacijski strežnik se uporablja danes predvsem osebni računalnik z Windows 95, 98, NT, 2000 ali XP.
+Uporabljajo pa se lahko tudi računalniki z drugimi operacijskimi sistemi, kot so npr. OS/2, Apple Macintosh, OSF/Motil ipd.
+Osebni računalnik prevzame nalogo grafičnega oblikovanja informacij s pomočjo SAP-gui – prezentacijske programske opreme SAP-ja.
+SAP je že od vsega začetka zgrajen na triravenski tehnologiji, medtem ko so drugi ponudniki ostali pri dvoravenski arhitekturi.
+Medtem se je triravenska arhitektura izkazala kot boljša.
+Vsi boljši ponudniki programske opreme so razvili programe na takšni arhitekturi ali pa se nahajajo v fazi implementacije.
+Sistem lahko uporabljamo na kateremkoli računalniku, ki ima instaliran SAP-GUI (predstavitveno programsko opremo) in je povezan s SAP-jevo podatkovno bazo.
+To pomeni da lahko delamo tudi na drugem računalniku, ne samo na svojem.
+Program na osnovi dodeljenega uporabniškega imena ugotovi kdo smo in katere naloge lahko opravljamo (Larocca 2002,14).
+SAP-LOGON omogoča zagon SAP-GUI-ja z določenimi parametri, ki si jih lahko uporabnik vnaprej nastavi.
+Tako omogoča vnaprejšnjo definiranje dostopov SAP-gui-jev do R/3 sistemov in enakomernejšo porazdelitev obremenitev na vse pripadajoče sisteme.
+Uporabniki si lahko v njem definirajo tudi lastne programske simbole. kar preprečuje nepreglednost v kompleksnih okoljih (Will 1999, 25).
+SAP Session Manager podpira, v primerjavi s SAPGUI-jem, multi-sistemsko in multiopravilnostno delovno okolje.
+Uporabnik se lahko s tem programom paralelno priklopi na več R/3 sistemov in s temi istočasno dela v več oknih.
+Odpiranje in zapiranje oken (okna so v končni fazi SAP-GUI-ji) opravlja Session Manager.
+Podpira individualno konfiguracijo uporabniškega okolja in tako omogoča izbiro med standardnim menijem, podjetniško specifičnim menijem in uporabniško specifičnim menijem (Will 1999, 25-26).
+Pred začetkom dela v programu je potrebno za vsakega uporabnika pripraviti uporabniško ime in geslo, s katerim se prijavi v program.
+Že pri samem generiranju gesel obstajajo določena pravila kot so npr.(Larocca 2002,14): ? minimalno število znakov, ? prepoved uporabe določenih znakov,       24  ? prvi trije znaki morajo biti unikatni, ? geslo ne sme biti preveč podobno uporabniškemu imenu, ? geslo ne sme biti SAP ali PASS.
+Prav tako mora vsak uporabnik imeti določene privilegije, katere module in funkcije v programu lahko uporablja.
+Uporabnik si praviloma ob prvi prijavi vstavi geslo, katerega lahko kasneje kadarkoli spremeni.
+Če se geslo pozabi lahko sistemski administrator vnese novega.
+Prav tako se pri prijavi v program izbere jezik, v katerem želi uporabnik delati, če se jezik ne izbere so vsi meniji v nemškem jeziku.
+S tem ko se prijavimo v SAP, odpremo sejo, ki je okno, kjer lahko izvedemo določeno nalogo v SAP-GUI (grafičnem uporabniškem) vmesniku.
+Ena od prednosti odpiranja številnih sej je možnost hkratnega izvajanja več delovnih operacij, npr. izdelava poročil med tem ko opravljamo tekoče naloge.
+Hkrati lahko imamo odprtih do devet sej.
+Število sej je možno tudi omejiti, saj vsaka seja pomeni ponovno prijavo v program in s tem več dela za sistem,  kar lahko vpliva na hitrost delovanja.
+Zaradi tega je priporočljivo sejo takoj zapreti, ko je več ne uporabljamo (Larocca 2002,14-19).
+Vsak uporabnik si lahko v programu določene parametre prilagodi svojim potrebam.
+Polja, ki so večinoma napolnjena z istimi vrednostmi, lahko nastavimo vnaprej, tako da nam program vedno predlaga želene vrednosti.
+Te vrednosti so npr. razni datumi, skladišča, prodajne pisarne, načini naročil, načini odprem, ipd (Koersgen 2001, 29).
+Prav tako kot prednastavitev določenih vrednosti, si lahko vsak uporabnik prilagodi tudi izgled zaslona.
+Možnosti, ki so na voljo so (Larocca 2002,37): ? spreminjanje barve številnim elementom (ozadje, pisava,...), ? spreminjanje pisave, ? prilagajati vsebino in velikost oken, ? prikazati ali skriti črte ločnice v seznamih, ? omogočanje ali onemogočanje avtomatičnega preskakovanja med polji za  določanje, kje naj se pojavi kurzor ob kliku na polje.
+2.4 Prednosti in slabosti SAP/R3  Podjetja so zelo skeptična, kar se tiče uporabe (Enterprise Resource Planing) rešitev, kot so SAP/R3, BANN IV, Navision J.D.Edwards in Scala, v podjetjih.
+Vsaka posodobitev prinese nekaj novega, kar je razvidno iz analize doseženih projektnih ciljev, ki smo si jih zadali.
+V nadaljevanju podajamo prednosti in slabosti teh aplikacij v primerjavi z drugimi rešitvami.
+Prednosti pridobitve:  ?
+Uvajanje kupljenih informacijskih rešitev je cenejše kot razvijanje lastne. ?
+Z nakupom znatno skrajšamo čas, ki je potreben za razvoj. ?
+Tveganje o ustreznosti rešitve je manjše.
+25  ?
+Takšen funkcionalni obseg in zrelost programske opreme, kot jo ima npr. SAP, lahko doseže le redko podjetje.
+Poleg tega je uvajanje veliko hitrejše kot razvoj.  ?
+Za razvoj potrebno programiranje in vlaganje v gradnjo lastnih informacijskih kapacitet odpade.  ?
+Standardna programska oprema, kot je npr. SAP, vsebuje veliko organizacijskih krogotokov, ki so se izkazali že v številnih podjetjih.
+Podjetjem ponuja možnost pridobiti morebitna tuja poslovna in tehnološka znanja, ki jih vsebujejo kakovostne celovite rešitve.  ?
+Integrirana standardna programska oprema združuje vse nepovezane/začasne programske rešitve in omogoča celovito vodenje podjetja, tudi v povezavi z računovodstvom.  ?
+Pri uvajanju tovrstnih rešitev izostanejo diskusije, kot so kateri programski jezik ali relacijsko bazo podatkov uporabiti ipd.  ?
+Novo delovno okolje in zmožnosti, ki jih ponuja. ?
+Delo z novimi in naprednimi orodji. ?
+Programski paket ni samo bolj prijazen za uporabnika, temveč tudi za razvoj in  vzdrževanje. ?
+Večja zanesljivost v primerjavi z drugimi sistemi.
+Slabosti pridobitve:  ?
+Glavna slabost je, da postane podjetje, ki vpelje kupljeno programsko rešitev, v  veliki meri odvisno od dobavitelja programske opreme.
+Upoštevati pa moramo, da so tudi pri lastnem razvoju v veliki meri odvisni od programerjev.  ?
+V podjetju , ki uvaja kupljeno programsko rešitev, se morajo sodelavci najprej seznaniti z različnimi krogotoki poslovnih procesov, ki jih program ponuja.
+Nato morajo iz tega izbrati to kar potrebujejo.
+Pri lastnem razvoju pa sodelavci v podjetju dajo zahtevo oddelku za informatiko, kaj naj programira.  ?
+Primerna strojna oprema je predpogoj za uspešno uvajanje kupljenih rešitev. ?
+Razmeroma visoka cena osnovnega paketa. ?
+Stroški prilagajanja, ki so še bolj izraziti če podjetje ni zmožno v zadostni meri  opredeliti svojih potreb, ali v primeru, da uvajalec premalo pozna možnosti rešitve. ?
+Potreben prenos znanja na informatike v podjetju zaradi vzdrževanja. ?
+Premalo ljudi v podjetju. ?
+V projekt je potrebno vložiti precej dela. ?
+Naučiti se je potrebno novih orodij. ?
+Pri uporabnikih se pojavijo potrebe po dodatnih programih. ?
+Nezadostno testiranje programov povzroči slabo voljo pri uporabnikih. ?
+Izvajalno podjetje nima dovolj močne ekipe za izvedbo projekta od začetka do  konca.
+Čeprav poznamo prednosti in slabosti kupljenih informacijskih rešitev, dilema o izboru še vedno obstaja.
+Če ponujena rešitev v veliki meri ustreza potrebam organizacije, je nakup smotrn.
+Ocenjevanje ustreznosti programske rešitve nikakor ni enostavno.
+Organizacija v primeru nakupa rešitve, strategije in postopkov uvajanja ne sme slepo zaupati izbranemu ponudniku.
+Priporočljivo je izdelati lastno strategijo.
+26  3 UVAJANJE KUPLJENIH INFORMACIJSKIH REŠITEV  Prehod na nov informacijski sistem ni enostaven in kratkotrajen proces.
+V nadaljevanju bomo podali nekaj napotkov, kako ta proces čim bolje izpeljati.
+Čeprav so napotki vezani predvsem na uvajanje SAP/R3 v podjetje so dovolj splošni, da jih lahko uporabimo tudi v drugih kontekstih.
+Kot pri vsakem novem projektu, je potrebno znatno pozornost posvetiti strategiji prehoda, kamor spada: ? usposabljanje zaposlenih, ? izbira pravih metod in orodij, ? pridobitev podpore vodstva.
+V literaturi obstaja poleg izraza kupljene informacijske rešitve še več izrazov, kot so npr. povezane, integrirane, celovite in uporabniške programske rešitve.
+Če združimo omenjene izraze in dodamo še izhodišča, na katerih temeljijo in za kaj se uporabljajo tovrstne rešitve, lahko pridemo do splošne definicije kupljenih informacijskih rešitev.
+Kupljene informacijske rešitve lahko opredelimo kot celovite, povezane in na poslovnem modelu organizacije temelječe uporabniške programe, ki ob uporabi sodobne informacijske tehnologije zagotavljajo vsem poslovnim procesom organizacije kot tudi z njo povezanim poslovnim partnerjem, optimalne možnosti načrtovanja, razporejanja virov in ustvarjanja dodane vrednosti.
+Kupimo jo v celoti razvito, zato razvoj ni potreben, toliko bolj pomembno pa je uvajanje in prilagajanje sistema, ki je eden od pomembnih pristopov k poslovni prenovi in informatizaciji poslovanja.
+Uvajanje temelji na konceptu prenove poslovanja, ta pa na prenosu najboljše prakse, zajete v teh rešitvah v posamezno organizacijo (Kovačič 2002, 189).
+Glede na to ali govorimo o podpori poslovanja v podjetju (ERP), ali nadgradnji ERP sistemov (ERPII) ali o sistemih za podpori sodelovanja med podjetji (e-poslovanje), gre za modularno zgrajene sisteme, katerih funkcionalnost podpira poslovanje proizvodnih in storitvenih podjetij (Roblek in Meglič 2001, 15-16).
+Gre za projekte z relativno visokim tveganjem in relativno nizko uspešnostjo, kar nam dokazujeta tuja in domača praksa.
+V svetu je uspešnih le med 9 in 17 odstotkov (različni viri) projektov uvajanja, vsi drugi so bili predčasno prekinjeni ali neuspešni.
+Vzrok za takšen neuspeh je ponavadi nekajkratna prekoračitev stroškov uvajanja.
+Določene študije uvajanja celovitih IS so pokazale, da so visoki stroški uvajajnja velikokrat povezani s kompleksnostjo velikih podjetij, kot pa s kompleksnostjo samih rešitev (Srabotič 2002, 200)  Na sliki 8 prikazujemo strukturo stroškov projekta.
+Stroški uvajanja ponavadi prekoračijo zastavljene okvire pri stroških uvajanja, vzdrževanja in dograjevanja sistema.
+27  SLIKA 8: STROŠKI UVAJANJA   Vir: Kovačič (2002, 189).
+3.1 Uvajanje kot projekt  V prvi fazi je potrebno oblikovati vodstveno skupino projekta, ki bo spremljala pomembne odločitve v zvezi s projektom.
+Pregledati in izbrati je potrebno module, ki bodo vpeljani najprej, če se ne bo zamenjal celoten informacijski sistem hkrati (»big bang« metoda).
+Določiti je potrebno vodjo projekta in formirati projektne skupine, ki ne smejo biti ne prevelike, ne premajhne.
+Ugotovitve posameznih skupin je potrebno združiti in uskladiti, saj bi se lahko razmišljanja posameznih skupin razhajala in bi tako šle posamezne skupine v drugo smer.
+To lahko naredimo s pomočjo posebnih združevalnih mehanizmov.
+Eno izmed zelo pomembnih vprašanj je, zakaj podjetje sploh želi vpeljati SAP.
+Priporočljivo je tudi napisati vizijo in vodilne točke uvajanja SAP v podjetje.
+Glavne zahteve kupcev glede kupljenih informacijskih rešitev so naslednje: ?
+Odprtost, ki pomeni fleksibilno uporabo programa, možnost širitve funkcionalnosti,  spreminjanje programa, povezovanje z drugimi programi.
+Vse to in še več omogoča SAP, vendar je to možno le v podjetjih, ki imajo kader, ki je sposoben uporabljati programsko okolje ABAP/4.  ?
+Enostavno in hitro uvajanje.
+Uvajanje je seveda odvisno od velikosti podjetja.
+V velikih podjetjih se lahko oblikujejo velike projektne skupine, ki skrbijo za uvajanje, v majhnih podjetjih pa uvajanje ne sme predolgo zaposliti pomembnih ljudi v podjetju, saj v tem primeru ne morejo opravljati svojega dela.  ?
+Obvladljivo delovanje po uvedbi.
+Po uvedbi sistema mora stranka v glavnem sama skrbeti za  normalno delovanje sistema.
+V večjih podjetjih se navadno zato posebej zadolži nekaj ljudi.  ?
+Neodvisnost od operacijskega sistema in baz podatkov. ?
+Večjezična podpora.
+3.1.1 Vloge in odgovornosti  Projektna skupina je odločilnega pomena za uspeh implementacije.
+V njej morajo sodelovati ljudje z ustreznim strokovnim in tehničnim znanjem,  z vseh poslovnih področij  50 mio SIT  250 mio SIT  Skupni stroški lastništva  Rešitev    uvajanje    vzdrževanje    dograjevanje  dejanski stroški   pričakovani stroški       28  ki bodo pokrite s R/3 sistemom.
+Pomembno je izbrati prave ljudi, saj morajo ti ljudje imeti tudi vizijo in biti pripravljeni na spremembe in reinženiring tekočih poslovnih procesov, kar je bistvenega pomena za implementacijo.
+Projektna skupina mora biti sestavljena iz posameznikov iz vseh nivojev podjetja, na katere bo implementacija vplivala.
+Še posebej pomembna je podpora s strani vodstva podjetja.
+V praksi imamo malo ljudi, ki bi delajo samo na projektih.
+Običajno morajo v projektih sodelovati ljudje iz že obstoječih organizacijskih enot, ki poleg dela na projektu opravljajo še svoja redna dela.
+Tako je človek v matriki odgovoren na dve strani.
+Za delo na projektu je odgovoren projektnemu vodji, za stalno delo pa svojemu hierarhijskemu vodji.
+Zelo pomembno je, da se odgovornosti razdelijo in da se določi kdo je za kaj odgovoren.
+Na spodnji sliki 9 vidimo strukturo klasične projektne organizacije.
+V zadnjem času je klasično piramidno obliko funkcijske organizacije zamenjala fleksibilna mrežna organizacija.
+Idealno strukturirana projektna skupina bi naj imela pet ključnih značilnosti: ?
+Sposobnost ocenitve, kako bo nov sistem omogočal ali vplival na posamezen ali na  skupne poslovne procese. ?
+Sposobnost ugotovitve vpliva na tekoče poslovne procese. ?
+Sposobnost vključitve zahtev za reinženiring določenih poslovnih procesov z R/3  sistemom. ?
+Posamezniki, ki imajo skupno znanje oblikovanja integracije SAP/R3 strukture,  hierarhij in konfiguracije po celotnem podjetju. ?
+Posamezniki, ki bodo učinkovito prenašali znanje med trajanjem in vzdrževanjem  SAP implementacije.
+SLIKA 9: STRKTURA PROJEKTNE SKUPINE, PRIPOROČENA S STRANI  SAP-ja   Prirejeno po Larocca (2002, 86).
+Vodja projekta  Izvršno-upravni odbor  SAP strokovna  pomoč  SAP pridruženi partnerji  Vodje funkcijskih  skupin  Funkcijski analitik  Vodje tehnične skupine  Tehnični analitik  Sistemski administratorji       29  Skupina za vodenje projekta je navadno sestavljena iz strokovnjakov za podporo SAP sistema in njegovih pridruženih partnerjev, katerih naloga je skupinsko delo in zagotavljanje uspeha implementacije.
+Vodja projekta je odgovoren za celotno vodenje SAP implementacije.
+Ta položaj navadno prevzame svetovalec, ki je že sodeloval v drugih tovrstnih projektih in je odgovoren za uspeh implementacije.
+Biti mora dovolj sposoben za koordiniranje med različnimi člani projektne skupine.
+Izvršno upravni odbor je najvišji nivo znotraj projektne skupine in naj bo sestavljen iz vodij in ljudi, ki bodo sprejemali odločitve.
+Sposobni morajo biti usmerjati projekt v pravo smer, s svojimi izkušnjami in močjo odločanja.
+Odločilne naloge izvršno-upravnega odbora so (Larocca 2002,7): ?
+Potrjevanje obsega projekta. ?
+Postavitev prioritet. ?
+Pomiritev vprašanj in nasprotij. ?
+Dodeljevanje virov projektu. ?
+Spremljanje napredka in vpliva implementacije. ?
+Pooblastitev skupine za sprejemanje odločitev.
+Ključni pomen pri implementaciji je tudi podpora s strani vodstva, ki je drugi najvišji nivo v idealni strukturi projekta.
+SAP-jeva strokovna pomoč je podpora, s strani podjetja SAP in zagotavlja boljšo kontrolo nad projektom in je odločilnega pomena pri pospeševanju učenja projektne skupine.
+SAP-jevi zavezniški partnerji so podjetja, ki sodelujejo z uvajalci in zagotavljajo dodatno pomoč pri uvajanju SAP sistema.
+Vodje skupin sodelujejo pri planiranju in vodenju projekta z vodjo projekta.
+So odgovorni za oblikovanje integracije SAP sistema v vse poslovne procese podjetja.
+Svoji skupini morajo biti vzor, saj skrbijo za prenos znanja med člani skupine, svetovalci in drugimi skupinami.
+Skrbeti morajo za strategijo in usposabljanje svoje skupine na vseh nivojih projektne skupine.
+Naloga funkcijski analitikov je predvideti vpliv, ki ga bo imela implementacija na zaposlene in poslovne procese podjetja.
+To so navadno strokovnjaki ne-tehnične stroke, kot so npr. vodja finančnega knjigovodstva, vodja kadrovske službe, vodja nabave ali prodaje.
+Tehnični analitiki so v nasprotju z funkcijskimi analitiki izurjeni strokovnjaki informacijske tehnologije, ki bodo tehnični vodje za podporo skupine in bodo odgovorni za konfiguracijo SAP sistema.
+Poleg tega so odgovorni tudi za izdelavo vmesnikov in prilagoditev, ki bodo mogoče potrebna, za zagotavljanje poslovnih procesov, ki niso pokriti s SAP sistemom in za prenos podatkov iz starega sistema v SAP.
+30  Sistemski administratorji vzdržujejo SAP podatke, strojno opremo in SAP instalacijo.
+Odgovorni so za planiranje nadgradenj, vzdrževanje sistema tiskanja in pripravo rezervnih urnikov.
+3.2 Metode in pripomočki uvajanja SAP/R3  Pravilna izbira uvajalne strategije je za uspeh projekta centralnega pomena.
+Možni sta dve strategiji uvajanja: ?
+BIG BANG strategija (kjer zamenjamo ves obstoječ star sistem z novim) in ?
+POSTOPNA strategija.
+Prednost big bang strategije pred postopno je v tem, da se vsi stari sistemi zamenjajo z novim naenkrat.
+To zmanjša stroške vzdrževanja in licenc starih programov.
+Poleg tega ni potrebno vzpostaviti nobenih povezav med starim in novim sistemom.
+S tem se zmanjša čas in stroški uvajanja novega sistema.
+Postopno uvajanje je priporočljivo uporabiti v podjetjih, kjer je poslovanje razdeljeno na več lokacij z veliko uporabniki.
+S postopnim uvajanjem si lahko projektna skupina, ki uvaja SAP, pridobi veliko izkušenj za uvajanje drugih modulov.
+Slabost te metode je potrebna realizacija povezav s starim sistemom.
+Če se podjetje odloči za postopno metodo, je priporočljiv vrstni red zamenjave: ? najprej se zamenja finančne programe, ? nato komercialo, materialno poslovanje in proizvodnjo, ? šele nato, če želijo, kadrovski informacijski sistem.
+Uspeh uvajanja kupljenih informacijskih rešitev v podjetje je odvisen od metode uvajanja.
+SAP v ta namen nudi naslednje pripomočke: ?
+Poslovni navigator (ang. Business Engineer) in ?
+Pospešeni SAP (ang. Accelerated SAP - ASAP).
+Poslovni navigator  Poslovni navigator skrbi za konfiguracijo specifičnih potreb nekega podjetja.
+Sestavljen je iz faz in aktivnosti SAP uvajalnega projekta, popolnih opisov funkcij, procesov in poslovnih objektov SAP, orodja za konfiguracijo in orodja za avtomatizacijo poslovnih procesov (ang. SAP Business Workflow).
+Pospešeni SAP  Pospešeni SAP je standardiziran11 model za uvajanje SAP R/3. Njegova naloga je skrajšati proces uvajanja s pomočjo izkušenj, uvajalnih referenc in informacij.
+Cilj je učinkovita optimizacija časa, kakovost in učinkovita izraba virov.
+Vsebuje med drugim tudi bazo vprašanj in odgovorov, ki je orodje za izdelavo poslovnega načrta.
+Oblika vprašanj in   11 Standardi nastanejo zaradi množične uporabe ali načrtnega normiranja.
+31  odgovorov je standardna za vse aplikacije, kar projektni skupini zagotavlja preprostejšo uporabo (Magjar 2001, 10-12)..
+ARIS  Uvedba rešitve SAP /R3 je zelo kompleksna.
+ARIS for mSAP.com je procesno orientirano orodje, s katerim kakovostno in hitreje vpeljemo sistem.
+Razvilo ga je podjetje IDS Scheer iz Nemčije.
+Orodje je namenjeno uporabnikom, svetovalcem in zaposlenim, katerih naloga je planirati in dokumentirati procese, ki bodo predmet vpeljave procesa novega informacijskega sistema12.
+Baza spornih vprašanj  Pri izdelavi poslovnega načrta si lahko pomagamo tudi z bazo spornih vprašanj, ki hrani odprta in nerešena vprašanja v zvezi z implementacijo SAP/R3 sistema.
+Tako se v procesu implementacije ne more pozabiti na nerešena vprašanja in se jih lahko dodeli članom skupine ter jih tudi ustrezno posodablja.
+Referenčni model  Referenčni model je vizualno orodje, do katerega je mogoče dostopati s pomočjo poslovnega navigatorja.
+Je praktično orodje za konfiguriranje sistema, ki vsebuje množico orodij za modeliranje podatkov.
+Povezuje procesne modele podjetja z dejanskimi procesi v R/3 sistemu in zagotavlja doslednost in podporo SAP projektom.
+Referenčni model je razdeljen na (McFarland Metzger und Roehrs 2000,41): ?
+R/3 procesni model, ? podatkovni in objektni model, ? organizacijski model, ? razdelitveni model.
+R/3 referenčni model in njegovi različni grafični pripomočki predstavljajo vez med vsakodnevnimi poslovnimi potrebami nekega podjetja in dejansko implementacijo R/3 sistema.
+Uporaba referenčnega modela za modeliranje in določevanje obsega uvedbe R/3 olajša prilagajanje z uporabo SAP vodnika po implementaciji (IMG).
+12 Vir: Ids-Scheer (2003).
+ARIS Process Platform. [Online] Available: http://www.ids-scheer.de [Oktober 10, 2003].
+32  Vodnik uvajanja  SLIKA 10 : SAP – VODNIK PO IMPLEMENTACIJI (IMG)   Vir: SAP dokumentacija na CD-ju.
+SAP vodnik po implementaciji (ang. IMG – Implementation Guide – slika 10) je še eno orodje, ki nam pomaga pri postopni konfiguraciji sistema in pri konfiguriranju sistema zaradi specifičnih potreb podjetja.
+V njem so prikazane vse točke, ki so potrebne za implementacijo sistema, pomaga pa tudi pri zbiranju in hranjenju projektne dokumentacije.
+Vsebuje vse korake za vpeljavo R/3 sistema, vse standardne nastavitve in aktivnosti za konfiguracijo, drevesno strukturo, ki odraža uporabniške komponente R/3 sistema in spisek vse dokumentacije, ki je pomembna za uvajanje R/3. Vozli v drevesni strukturi predstavljajo različne module, kot so npr. finance, materialno poslovanje ali vzdrževanje.
+Znotraj posameznih modulov pa so navedene aktivnosti, ki bi jih naj pri uvedbi, točno v tem vrstnem redu, izvršili.
+Poznamo več različnih izgledov vodnikov po implementaciji (Larocca 2002,104): ?
+SAP referenčni IMG, ?
+SAP IMG podjetja, ?
+SAP IMG projekta, ?
+SAP IMG za prilagajanje nadgradenj.
+SAP referenčni IMG vsebuje dokumentacijo za vse komponente poslovnih aplikacij.
+K predpripravam uvajanja spada izločevanje delov SAP referenčnega IMG-ja, ki jih ne bomo potrebovali in shranjevanje delov, ki jih bomo potrebovali pri uvajanju, kot SAP IMG podjetja.
+Za vsak R/3 sistem lahko generiramo svoj IMG podjetja.
+Če moramo kasneje uvesti še dodatne komponente, lahko IMG podjetja na novo generiramo, ne da bi izgubili obstoječo dokumentacijo.
+V novejših različicah R/3 (po R/3 Release 4.6), se IMG podjetja več ne uporablja.
+SAP v novejših verzijah dobavlja referenčni IMG, iz katerega lahko neposredno oblikujemo projektne IMG-je.
+Za njih je značilno, da so to podkompleti IMG podjetja in vsebujejo le       33  dokumentacijo za tiste komponente, ki jih uvajamo v določenih projektih uvajanja.
+Omogočajo organizacijo uvajanja po različnih področjih in v različnih projektnih skupinah, saj so za uvajanje potrebna specifična znanja z različnih področij.
+Za koordiniranje različnih uvajalnih skupin SAP priporoča izvajanje vseh uvajalnih aktivnosti v okviru projektnih IMG-jev.
+Do projektnega IMG oz. IMG podjetja lahko dostopa katerikoli odjemalec v SAP sistemu, kar pomeni, da je IMG neodvisen od odjemalca (McFarland Metzger, Roehrs, 2000,44).
+Projektne IMG-je lahko, zaradi boljše izrabe časa razvrstimo po pomembnosti.
+To nam pomaga pri ugotavljanju, katere aktivnosti so kritične in jih je potrebno izvršiti prej in katere lahko preložimo.
+SAP IMG za prilagajanje nadgradenj vsebuje vse dokumente, ki so povezani z informacijami za dano nadgradnjo različice in temelji na IMG-ju podjetja ali na določenem IMG-ju projekta.
+Poslovni navigator in pospešeni SAP sta dragocena pomagala pri uvajalnem projektu.
+Z njima je mogoče zmanjšati čas trajanja uvajalnega procesa.
+Obe metodi pa zahtevata določena predznanja (npr. projektni management).
+3.2.1 Faktorji uspeha projekta:  Bistvena faktorja za uspeh in hitro uvajanje novega informacijskega sistema sta pravilna izbira strategije prehoda in prepričanost, da bo nov informacijski sistem tudi v našem okolju pripeljal do določenih izboljšav in pridobitev.
+Bancroft opisuje devet kritičnih faktorjev uspeha, ki niso specifični samo za SAP, ampak za vse projekte (Bancroft 1996, 67-73): ?
+Tako razumevanje delovanja podjetja, kot tudi pripravljenost ter zmožnost za  spremembe mora biti prisotno za uspešno dokončanje projekta.
+Ni dovolj, če je samo vodstvo pripravljeno na spremembe, tudi posamezni oddelki morajo biti.  ?
+Dokončanje vseh sprememb poslovnega procesa je potrebno opraviti pred implementacijo.
+Podjetja so pripravljena spremeniti poslovne procese, vendar pogosto ne razumejo, kaj to za njih pomeni.
+Težke odločitve je potrebno sprejeti in izpeljati.  ?
+Nepretrgano komuniciranje z uporabniki na vseh ravneh poslovnega procesa je odločilnega pomena na tej ravni.
+Postavljanje pametnih pričakovanj in ponovno komuniciranje je nujno potrebno.  ?
+Vodje morajo zagotoviti neformalno podporo projektni skupini, ne pa skupini samo »poveljevati«.
+Ljudje, ki sodelujejo v projektu, morajo biti osebno zainteresirani za uspeh projekta.  ?
+Projektni vodja mora biti zmožen za pogajanja med tehničnim in poslovnim managementom glede sprememb.
+Potrebno je najti rešitev za vse strani, ne samo za eno.  ?
+Sestaviti je potrebno uravnovešeno skupino in posameznike seznaniti o pravilih in njihovih vlogah v skupini.  ?
+Izbrati je potrebno dobro projektno metodologijo in narediti načrt.
+34  ?
+Nov sistem pomeni nov način dela, zato je zelo pomembno uvajanje uporabnikov in zagotavljanje njihove podpore pri zamenjavi delovnih mest.  ?
+Računati je potrebno, da se bodo pojavili problemi in pripravljeni moramo biti na spremembe.
+Faktorje uspeha navaja tudi Draeger (Draeger 1998,2-3), ki v svojem delu opisuje splošne faktorje uspeha pri projektnem managementu: ?
+Projektna skupina je najvažnejši faktor uspeha.
+Napake v projektni strukturi in  izbira napačnih metod imata za posledico težje doseganje ciljev.
+Napačna izbira ljudi v projektu pa lahko izniči vsako možnost uspeha projekta.  ?
+Metode so odločilnega pomena za doseganje želenih ciljev.
+Metode bi naj vodile projekt v pravo smer.  ?
+Projektna organizacija se mora orientirati glede na zahteve projekta in usmerjati cilje v skupno smer.  ?
+Celoten sistem, v katerega spadajo programska oprema, strojna oprema in druge vrste komunikacijske opreme, ki je največkrat nepovezan.
+Problem uspešnosti uvajanja je potrebno jemati zelo resno.
+Ne glede na to, da je področje celovitih rešitev in projektov relativno mlado, je praksa že zelo obširna.
+V tabeli 2 so prikazane aktivnosti in nekateri dejavniki uspeha v skladu z metodologijo 'Goal Directed Project Management' (GDPM), ki prikazuje ključne dejavnike uspeha, ki so splošne za projektno vodenje, so pa pomembni tudi pri uvajanju celovitih rešitev.
+TABELA 2: PROJEKTNE AKTIVNOSTI IN DEJAVNIKI NJIHOVEGA USPEHA Aktivnost Dejavniki Zasnova projekta  - Podpora vodstva; - jasnost ciljev projekta; - usklajenost znanja in sposobnosti organizacije teh tehnoloških rešitev, v IS.
+Načrtovanje projekta  - Nivo podrobnosti načrtov; - strukturiranost načrtov; - realnost načrtov in ocene razpoložljivosti virov.
+Organiziranje projekta  - Razdelitev odgovornosti; - motivacija udeležencev; - reševanje konfliktov projektne in linijske organizacije.
+Nadzor nad potekom projekta  - Formalizirana komunikacija; - povezava med načrti in poročili o napredku; - pooblastila vodje projekta.
+Izvedba projekta  - Nadzor nad spremembami ciljev; - obvladovanje razlik v organizacijski kulturi udeležencev.
+Vir: Kovačič in Es 2002, 227.
+Iz zgornje preglednice je razvidno, da je za zasnovo projekta v veliki meri potrebna podpora vodstva, pravilno zastavljeni cilji ter usklajenost znanja in sposobnost organizacije.
+Ostale aktivnosti pa so v veliki meri odvisne od vodje projekta.
+Obstajajo pa tudi dejavniki, ki so specifični za projekte uvajanja celovitih rešitev.
+Če te dejavnike razdelimo glede na izvor, od koder posamezen dejavnik vpliva na projekt, poznamo (Kovačič in Es 2002, 227-229): ? dejavnike celovite rešitve, ? dejavnike dobavitelja in uvajalca,       35  ? dejavnike organizacije, ? dejavnike projekta samega.
+Dejavniki celovite rešitve: ? funkcionalnost, ? ugled proizvajalca rešitve, ? zanesljivost delovanja rešitve, ? možnost uporabe referenčnih modelov, ? tehnološka dovršenost, ? prilagojenost rešitve lokalni zakonodaji in lokalni poslovni praksi.
+Dejavniki dobavitelja oz. uvajalca: ? izkušnje uvajalca pri podobnih projektih, ? kadrovska zasedba, ? partnerski odnos med podjetjem in dobaviteljem (uvajalcem) rešitve, ? zaupanje uporabnikov v usposobljenost izvajalca.
+Dejavniki organizacije: ? podpora vrhovnega managementa, ? usklajenost informatike in projekta s strategijo podjetja, ? transparentnost podatkov in postopkov v organizaciji, ? široka podpora projektu na različnih nivojih organizacije, ? stabilnost poslovanja organizacije, ? opremljenost z informacijsko tehnologijo in njeno obvladovanje, ? uporaba sodobnih načinov komunikacije in skupinskega dela, ? način vodenja in organizacijska kultura.
+Dejavniki projekta: ? nivo obvladovanja tehnik projektnega vodenja, ? obseg in kakovost usposabljanja, ? usklajenost rešitve s poslovnimi potrebami, ? obseg (stopnja) sprememb v organizaciji, ? obseg (stopnja) sprememb rešitve, ? tip prehoda (postopen ali vse-naenkrat), ? čas (na voljo za projekt).
+3.3 Proces uvajanja  R/3 je sistem, ki ponuja zelo širok funkcionalni obseg, da lahko zadovolji potrebe vseh podjetij.
+Ravno zaradi tega, ker vsebuje toliko komponent, ga je potrebno pri uvajanju namestiti tako, da bo lahko zadovoljil potrebe posameznega podjetja.
+Za ta postopek, ki ga imenujemo konfiguriranje (ang. Customizing), imamo v R/3 na voljo različna orodja.
+Kljub širokemu funkcionalnemu obsegu sistema ni nujno, da ta izpolni vse potrebe nekega podjetja.
+V tem primeru lahko proces uvajanja zahteva tudi razvoj.
+To pomeni da se morajo v sistem vključiti nove funkcije, narejene s pomočjo programskega jezika ABAP/4.        36  Uvajanje R/3 je podoben proces kot uvajanje drugih poslovno - programskih rešitev in zahteva (McFarland Metzger und Roehrs 2000,19): ? konfiguracijo in/ali razvoj, ? umestitev poslovnih procesov v programski paket, ? zagotovitev primerne tehnične infrastrukture, ? projektno vodstvo, ki določi cilje uvajanja in definira odgovornosti, ? temeljito testiranje in potrjevanje narejenih sprememb pri konfiguraciji oz. razvoju, ? šolanje uporabnikov, ? načrtovanje bodočih nadgradenj prvotno vpeljanega sistema.
+SLIKA 11: PRIPOROČENA SISTEMSKA OKOLJA   Prirejeno po McFarland und Roehrs 2000, 102.
+SAP priporoča uvajanje na treh med seboj ločenih okoljih (slika 11): ?
+Razvojno okolje – za prilagajanje in razvijanje novih funkcij. ?
+Testno okolje oz. okolje za zagotavljanje kakovosti – za testiranje in preverjanje  kvalitete novih funkcij. ?
+Proizvodno okolje – za normalne poslovne procese, ki so tako dolgo zaščiteni pred  spremembami, dokler niso v ostalih okoljih atestirane in odobrene.
+Glavni cilj uvajanja je pokriti vse poslovne procese v podjetju, kar lahko dosežemo samo s stabilnostjo sistema in dobro načrtovanimi nadgradnjami, to pa lahko zagotovimo le z ustreznim sistemskim okoljem.
+Sistemsko okolje tvorijo različni R/3 sistemi in odjemalci13, pri katerem so slednji logične razdelitve znotraj R/3 sistema, ki imajo ločene podatke znotraj ene tabele.
+Prilagajanja in razvoj se vršijo v razvojnem okolju.
+Vse spremembe, narejene v tem okolju se po posebnem postopku prenesejo v okolje za zagotavljanje kakovosti, kjer se testirajo in odobrijo.
+Šele odobrene spremembe se lahko prenesejo v proizvodno okolje.
+Manjša podjetja se lahko zadovoljijo tudi z manjšim sistemskim okoljem, ki obsega samo razvojni sistem in produkcijski sistem.
+Nikakor pa ni priporočljivo imeti samo proizvodni sistem, kajti v tem primeru moramo vse potrebne spremembe delati neposredno na njem in tako ne moremo zagotoviti potrebne stabilnosti sistema.
+Večja podjetja, ki morajo pokriti poslovanje več svojih hčerinskih podjetij, pa lahko imajo tudi več sistemov, tako razvojnih, testnih in proizvodnih.
+Prilagoditve, ki jih naredimo v R/3 sistemu so lahko neodvisne od odjemalcev in veljajo za vse odjemalce v sistemu (npr. decimalna mesta,...), druge pa so lahko odvisne od odjemalcev in se med seboj razlikujejo (npr. dostop do različnih modulov).
+V R/3 sistemu   13 Odjemalci (ang. client) – Pod tem pojmom razumemo grupiranje uporabnikov znotraj SAP-ja glede na pravne, organizacijske in administracijske namene.
+Omogoča nam dostop različnih firm, neodvisno druga od druge, do ene baze podatkov.
+Najlažje si ta pojem razložimo na primeru podjetja z več hčerinskimi podjetji.
+Razvojni sistem  Zagotavljanje kakovosti  Produkcijski sistem  CTS CTS       37  imamo lahko največ 1000 odjemalcev, pri tem pa moramo upoštevati, da vsak odjemalec zahteva tudi nekaj več pomnilnika.
+Proces uvajanja SAP je zelo zahteven projekt, ki ga lahko razdelim na več faz.
+Prav tako pomemben kot izdelek je tudi projektna skupina, ki sistem uvaja, zato smo jo v prejšnjih poglavjih obširneje predstavili.
+V nadaljevanju pa bomo opisali faze, ki se nanašajo na sam proces uvajanja.
+3.3.1 Posnetek stanja v podjetju  Posnetek stanja je nujen in zelo pomemben sestavni del vsakega informacijskega projekta, saj je od kakovosti pripravljenih uporabniških zahtev v veliki meri odvisen uspeh celotnega projekta.
+Uporabniške zahteve so osnova za nadaljevanje projekta, saj so od njih odvisne vse nadaljnje faze projekta.
+Iz izkušenj vemo, da je mnogo ceneje odpravljati nepravilnosti v začetnih fazah projekta kakor v kasnejših.
+Pod pojmom posnetek stanja razumemo analizo sedanjih poslovnih procesov v podjetju in poskus umeščanja teh procesov v SAP.
+Ugotoviti je potrebno tudi, ali se bodo procesi z uvedbo spremenili ali bodo ostali enaki.
+Šele nato lahko vidimo, kateri poslovni procesi bodo pokriti in za katere bo potrebno vključiti dodatne funkcije.
+Nadalje moramo zagotoviti vse podatke, ki jih potrebuje SAP, pregledati obstoječo programsko in strojno opremo in ugotoviti, kaj je še uporabno za bodoči informacijski sistem.
+Uporabniki v grobem vedo, kaj bi naj programska rešitev počela, to pa še ne predstavlja uporabniških zahtev, saj te zahteve niso dovolj natančno definirane.
+Že na začetku je potrebno predvideti (Flere 2000, 195-200):  ? podrobnosti delovanja, ? spreminjanje okoliščin, v katerih bo deloval program, ? način uporabe, ? razpoložljivost in dostopnost sistema, ? kriterije za sprejetje ali zavrnitev kasneje posredovanih sprememb, ? odzivne čase in časovne omejitve, do kdaj je še možno spreminjati zahteve in ? način dokumentiranja sprememb, saj so z njimi običajno povezani dodatni stroški.
+V prvi fazi želimo s pridobivanjem in dokumentiranjem uporabniških zahtev ugotoviti, kaj uporabniki hočejo, kaj pravzaprav potrebujejo in kaj si želijo.
+Pri tem je potrebno uporabnikom pomagati, saj včasih zelo težko povedo kaj pravzaprav hočejo, ker ne znajo pojasniti svojih zahtev v računalniško razumljivem jeziku, ali pa res ne vedo, kaj hočejo.
+Najznačilnejši način pridobivanja informacij je pogovor z uporabniki ali intervju, v katerem uporabniki (Flere 2000, 195-200): ? posamično razložijo njihove zahteve in kaj potrebujejo, ? opišejo njihovo sedanjo rešitev, ? opišejo katere podobne rešitve so že videli in ? povedo kako si predstavljajo svojo rešitev na osnovi vsega tega.
+38   Druga oblika pa je sestanek večjega števila ljudi, pri čemer se s skupnimi močmi ugotovi kaj potrebujejo in kakšne so rešitve.
+Pri tem ni nujno, da imajo vsi uporabniki enake zahteve, pričakovanja in rešitve za isti problem, saj prihajajo iz različnih delovnih okolij in nimajo enakih ciljev, saj so že po naravi eni ljudje bolj zahtevni kot drugi in zato niso usklajeni glede zahtev.
+Zato je potrebno take sestanke skrbno načrtovati in voditi, saj le tako lahko pridemo do želenega cilja – to je do soglasne odločitve o zahtevah bodočega informacijskega sistema.
+Po pogovorih z uporabniki, ki bodo ali pa tudi ne bodo kasneje uporabljali sistem in vedo kaj bi naj sistem počel, je potrebno zbrane ugotovitve ustrezno dokumentirati.
+Od izbrane metodologije je odvisno kako bomo to naredili.
+Za  urejanje lahko uporabimo katerega izmed urejevalnikov besedil, zapisi so lahko tudi v obliki grafov, diagramov poteka in zato narejeni v katerem drugem orodju namenjenim za ta opravila (npr. Micrsoft Project).
+Velikokrat koristi, če se narišejo diagrami potekov za procese, ki so vprašljivi.
+Poleg diagramov poteka je dobro razdeliti tudi odgovornost, saj je potrebno natančno vedeti, kdo sodeluje v procesu.
+Ko imamo zahteve zbrane, je potrebno izvesti analizo in pregledati njihovo smiselnost in izvedljivost.
+Zelo pomembno je ločiti bistvene zahteve od nebistvenih.
+Nerealistična pričakovanja so lahko odraz uporabnikove nevednosti ali pretiranih želja po zadostitvi vseh podrobnosti.
+Ugotoviti je potrebno, katere zahteve so bistvene za nadaljevanje, zato jih je najbolje klasificirati po pomembnosti in jih med celotnim potekom informacijskega projekta dopolnjevati oz. brisati, včasih pa pustiti tudi kakšno zahtevo odprto in jo reševati šele v prihodnosti.
+Seveda pa je to mogoče le če ta zahteva bistveno ne vpliva na potek projekta.
+Zavedati pa se moramo, da odlaganje odprtih rešitev ne vodi v uspešno nadaljevanja projekta, zato mora biti odprta zahteva takšna, da se lahko pričakuje, da bo v prihodnosti rešljiva.
+Po zapisu, usklajevanju in klasificiranju zahtev mora uporabnik te zahteve pregledati in potrditi, preden nadaljujemo z naslednjimi fazami.
+Uporabnik bi naj zahteve pregledal in ugotovil, ali mogoče katera zahteva manjka oz. je odvečna, ali je katera zahteva pomanjkljiva, napačna ali nerazumljiva in predlagal spremembe in dopolnitve.
+Dokončno je potrebno razčistiti nejasnosti in odpraviti konflikte, do katerih je prišlo, če je pri zbiranju informacij sodelovalo več uporabnikov, saj projekta z nasprotujočimi zahtevami ni mogoče nadaljevati.
+Lahko se zgodi, da bodo zahteve in priporočila definirana takoj, toda verjetno se bo potrebno spoprijeti še z mnogimi podrobnostmi, ki se bodo reševale v kontinuiranih fazah, saj lahko le tako bistveno spremenimo poslovanje podjetja.
+Pogost problem, na katerega naletimo, je izbira pravih sogovornikov, ki bi znali in želeli sodelovati pri pridobivanju zahtev.
+Vedno vsi uporabniki niso navdušeni nad novim sistemom, saj to za njih pomeni nek nov izziv, opravila, odgovornosti in dodatno delo.
+Čeprav se v takih primerih nadaljuje z delom, saj je nov sistem naročil nekdo drug, ki se ni posvetoval z uporabniki, obstaja velika verjetnost, da take rešitve uporabniki ne bodo želeli uporabljati in ne bo zadostila pričakovanjem.
+Kljub vsem previdnostim pri zbiranju uporabniških zahtev pa lahko pride do tega, da rešitev ne bo zadostila naročnikovim zahtevam še iz drugih najrazličnejših vzrokov, saj na primer naročnik ni vpeljal rešitve v       39  uporabo, ker je prišlo do nesporazumov med naročnikom in izvajalcem ali ker naročnik ni imel realnih pričakovanj glede rešitve (Flere 2000, 195-200).
+V računalništvu je še vedno veliko odprtih vprašanj, zato je vsak informacijski projekt povezan z določenim tveganjem.
+Sodobne integrirane rešitve morajo zadostiti mnogim zahtevam in so zato bolj kompleksne in težje za uvedbo.
+Po drugi strani pa morajo biti podobno preproste za uporabo kot npr. urejevalniki besedil, s katerimi večina uporabnikov zna delati.
+Prav tako je razumljivo, da uporabnik od bodoče programske rešitve pričakuje združljivost s takimi orodji.
+Skupina mora že na začetku oceniti tveganja in raziskati priložnosti, ki lahko sprožijo navdušenje med uporabniki.
+Ne samo priložnosti, ampak tudi problemi, ki so ovirali in razočarali uporabnike, lahko motivirajo skupino.
+Pri uporabi novejših tehnologij lahko naletimo na nestabilnost sistema, napake in težave pri uporabi, pri starejših tehnologijah pa v zameno za stabilnost in zanesljivost izgubimo na modernosti, privlačnosti, včasih pa tudi na preprostosti uporabe.
+Bistvenega pomena je, da izberemo takšno informacijsko rešitev, ki bo sledila novim tehnologijam, ki ni odvisna ne od baze podatkov, ne od operacijskih sistemov, na katerih se lahko uporablja, in ne od strojne opreme (Flere 2000,195-200).
+Spremembe poslovnih procesov je bolje opraviti pred implementacijo.
+Vse predloge za spremembe je potrebno dokumentirati in iz njih izbrati tiste, ki se bodo dejansko spremenili.
+Te je potrebno predati SAP-jevi projektni skupini, ki je zadolžen začrtati vse poslovne procese v SAP/R3.
+Tako se definirajo moduli, ki se bodo uvedli in moduli, ki jih na začetku ne bodo implementirali.
+Prav tako mora skupina poskrbeti tudi za vse potrebne vmesnike, kadar se ne uvedejo vsi moduli naenkrat.
+Če se npr. uvaja samo komerciala, ne pa tudi glavna knjiga, je potrebno poskrbeti za povezavo med komercialo in staro glavno knjigo.
+Kadar SAP ne pokriva določenih funkcij, lahko to seveda rešimo tudi z zunanjimi nepovezanimi rešitvami, če bi prilagajanje tega v SAP-ju povzročilo težave in tveganja, s tem da je tudi v tem primeru potrebno poskrbeti za ustrezne povezave, ki omogočajo nemoten pretok podatkov v obeh smereh in s tem zagotoviti uporabnikom vse potrebne podatke (Bancroft 1996,102).
+Pomemben del je pregled in popis obstoječe strojne in programske opreme, ki se trenutno uporablja.
+S pregledom strojne opreme pridobimo pomembne informacije o računalnikih in omrežnih povezavah, ki se trenutno uporabljajo.
+Iz tega lahko ugotovimo, ali lahko staro strojno opremo uporabimo tudi v novem sistemu, kaj je potrebno zamenjati oz. dodati.
+S pregledom programske opreme lahko ugotovimo, ali bo kasneje možen avtomatičen prenos podatkov iz starega sistema v novega, ali bo potrebno podatke v nov sistem vnašati ročno.
+Kot specifikacije oz. zahteve za SAP/R3 se  podajo smernice v smislu minimalne konfiguracije za delovne postaje in strežnike.
+Podjetja pa ponavadi sama poskrbijo za nakup (Bancroft 1996,105).
+Nekateri pomembni mejniki, ki jih je potrebno vključiti v prvi fazi so (Larocca 2002,94):  ? podpora s strani vodstva, ? jasno zastavljeni cilji projekta, ? učinkovit proces odločanja, ? ustrezno okolje za spremembo in reinženiring,       40  ? predstavnik in usposobljena skupina.
+3.3.2 Zasnova in konfiguriranje14  Za začetek faze je potrebno zagotoviti instanco za razvoj.
+Na začetku projekta imamo idejo o tem kako bolje poslovati v prihodnosti in med zasnovo se nam ponudi kar nekaj možnih rešitev.
+Skozi faze projekta postaja vedno bolj jasno, katere zamisli bomo razvijali naprej in katere bomo opustili.
+Pri vsaki implementaciji R/3 lahko pričakujemo, da bomo prejšnje zastarele odločitve zamenjali z novimi, saj bomo sproti ugotavljali vedno nove podrobnosti, ki bodo imele vpliv na strukturo podjetja.
+V procesu lahko predlagamo nekaj bistvenih sprememb, za katere pa moramo pridobiti odobritev vodstva, preden nadaljujemo.
+Projektna skupina mora pripraviti nazorne opise designa in procesa.
+Zaradi sprememb v strukturi podjetja ali poslovnih procesov z uvedbo R/3 lahko pride tudi do preplaha v podjetju.
+Da bi se temu izognili, morajo zaposleni dobiti širšo sliko in zato so potrebne komunikacije, ki poudarjajo potrebo po spremembah.
+Pri ustvarjanju želene vizije moramo v prvih korakih definirati hierarhijo podjetja.
+Pri tem moramo razmišljati dolgoročno in biti precej dosledni ter vnaprej definirati čimveč podrobnosti, da  bo kasneje v procesu manj težav.
+Čeprav SAP implementira ena sama poslovna enota, je potrebno upoštevati potrebe celotnega podjetja, da preprečimo presenečenja v primeru širitve.
+Postaviti moramo številne tabele, s katerimi identificiramo osnovne nivoje v podjetju (kupci, izdelki, poslovne enote,...).
+Uporabnike je z novim sistemom bolje seznaniti prej, ne pa tik pred implementacijo, zato je najbolje, da se to naredi na enem ali več informativnih sestankih, na katerih bo vodja projekta predstavil vizijo o tem, kako bo podjetje poslovalo v prihodnje.
+Drugi del sestanka pa je namenjen vprašanjem zaposlenih, katerim moramo posvetiti dovolj časa, saj gre za težaven prehod za tiste, ki so vajeni starega načina.
+Razvoj podrobnega designa je naslednji pomemben korak, ki ga je najbolje narediti kar na razvojnem strežniku, ne pa na papirju.
+Z delom na papirju tvegamo, da bomo razvili design, ki ni popolnoma združljiv s SAP-jem in v vsakem primeru moramo kasneje to storiti še za računalnikom.
+Izkušeni svetovalci predlagajo, da se na papirju razvije le scenarij, za računalnikom pa je najbolj učinkovit vnos v tabele in razvoj skript na strežniku.
+Scenariji so opisi procesov, zaostankov v procesih in možnih izboljšav teh procesov.
+Najbolje je začeti pri najlažjih primerih, s katerih lahko kasneje preidemo na bolj zapletene.
+Skripte, ki opozarjajo zaposlene na njihove točke odločitev, lahko sestavimo, ko imamo izdelane scenarije.
+Skripte razvijamo na razvojni instanci, tako da gremo skozi vsako transakcijo in  natisnemo zaslone ter opišemo vsak element.
+Pomembno je, da ima vsako polje eno samo definicijo.
+Številna podjetja imajo sisteme z različnimi definicijami za polja.
+Razlika jim omogoča, da delujejo na različnih trgih in lokacijah.
+14 Povzeto po Bancroft (1996, 109-123).
+41  Ko so skripte definirane, morajo člani skupine izdelati prototip.
+Prototip je ponavljajoč se proces, v katerem je sistem R/3 postavljen tako, da deluje kot želimo.
+Zahtevna naloga v implementaciji R/3 je upravljanje s tabelami.
+Mnoge od njih so namenjene delovanju sistema in se z njimi ni potrebno obremenjevati, druge bomo morali podrobno oblikovati, da bomo dosegli želene cilje.
+Za izvedbo iste naloge lahko obstaja več načinov, pomembno je, da pri izdelavi prototipa testiramo vse možnosti in da na osnovi pozitivnih in negativnih učinkov sprejmemo končno odločitev.
+Nekateri izkušeni svetovalci navajajo, da je najboljši način do dobrega designa večfazni pristop, pri katerem najprej določimo funkcionalnost, kasneje dodajamo vse več podatkov, dokler sistem ni popolnoma učinkovit.
+Tako pridemo do sistema, ki je popolnoma delujoč v razvojnem in testnem smislu, ne pa v produkcijskem, saj ga moramo prej še testirat.
+Ves čas trajanja projekta moramo skrbeti za dobro komunikacijo z namenom seznaniti uporabnike na vseh nivojih s spremembami, ki jih bomo uvedli.
+Najbolj uspešna podjetja za to uporabljajo številne komunikacijske metode, saj so uporabniki pogosto obremenjeni s svojim delom in se nočejo obremenjevati o spremembah v prihodnosti, ampak so nanje pozorni šele takrat ko so neizbežne.
+Na koncu, ko postane podrobni design bolj stabilen, mora projektna skupina analizirati njegov vpliv na organizacijo, ljudi, politiko podjetja, postopke, procese in standarde ter ugotovitve predstaviti na sejah formalnega pregleda designa.
+Če ima projektna skupina podporo vodstva in se je spoprijela z reševanjem vprašanj pravočasno, potem si je zagotovila končno odobritev in nekih večjih nesoglasij in pripomb ne bi smela pričakovati.
+3.3.3 Konstruiranje in testiranje  Večino svojega dela opravimo pri implementaciji sistema že v prvih fazah.
+Kljub temu se moramo še naprej, med testiranjem in dejansko uvedbo, zavzemati za redni zagon sistema, kjer bomo morali zagotoviti pravilno delovanje sistema.
+Ko imamo odobren prototip podrobnega designa, lahko prenesemo dele iz razvojne instance v testno instanco, kjer prvič razvijemo obsežno konfiguracijo.
+Ta bi morala vsebovati testne podatke, ki zajemajo vse možnosti, za testiranje vseh kombinacij, kar je odločilnega pomena.
+Prav tako je odločilnega pomena testiranje sistema pod polno obremenitvijo.
+V tej fazi mora sistemski administrator ustanoviti arhiv, oblikovati postopke vodstva in pripraviti vse potrebno za dejanski zagon sistema kasneje na produkcijski instanci.
+V številnih podjetjih menijo, da je dejanski zagon manjši del projekta, izkušnje pa pripomorejo k hitrejši implementaciji.
+Za celotno testiranje sistema je potrebno v testni sistem vnesti prave podatke.
+Obstajata dva tipa podatkov, ki jih moramo vnesti.
+Prvi so razmeroma stalni podatki, kot so npr. tabele za rabat, drugo pa so transakcijski podatki, kot je npr. proizvodno stanje ali terjatve.
+Preden se začne s testiranjem, morajo biti v sistem vneseni tudi šifranti kupcev, izdelkov in podobno.
+Določevanje teh podatkov se navadno vrši s pomočjo začasnih programov, ki prenašajo podatke iz starega informacijskega sistema v R/3. Pred kasnejšim dejanskim prenosom podatkov v R/3 sistem je priporočljivo, da uporabniki obstoječe podatke uredijo in sicer tako, da odstranijo nepotrebne podatke in popravijo nepravilnosti, saj lahko v nasprotnem primeru ogrozimo nov sistem (Bancroft 1996, 127-128).
+42  V tej fazi mora skupina za izdelavo vmesnikov raziskati potrebe po vseh vmesnikih, ki jih bomo potrebovali in tudi končati s programiranjem.
+Nekateri vmesniki bodo delovali samo tako dolgo, dokler ne bomo uvedli dodatne R/3 module, nekateri bodo ostali za zmeraj in bodo trajno služili za prenos podatkov med zunanjimi sistemi in R/3. Ne glede na to moramo vse vmesnike testirati v vseh situacijah.
+Prav tako moramo napisati večino poročil, ki jih potrebujejo uporabniki in smo jih definirali v prejšnjih fazah implementacije.
+Na osnovi razgovorov z uporabniki lahko projektna skupina predlaga tudi nova poročila, katera je potrebno razvrstiti po pomembnosti (Bancroft 1996, 131).
+Naslednja precej zahtevna točka, ki je odločilna za uspeh implementacije, je testiranje sistema, kateremu v glavnem posvetimo premalo pozornosti, saj želimo začet sistem čimprej uporabljati.
+Sistem moramo najprej testirati po enotah in kasneje kot celoto.
+Pri testiranju enot moramo testirati vse primere, kar nam ne bo predstavljalo težav, saj smo dele testirali že med njihovo konstrukcijo.
+Za testiranje celote moramo poskrbeti, da bodo vsi programi pravilno obdelovali podatke, zaradi tega je testiranje celote bolj zapleteno.
+Prav tako moramo sistem testirati pod polno obremenitvijo, kar pomeni, da morajo biti podatkovne datoteke v celoti napolnjene, s sistemom mora delati čimveč uporabnikov.
+Ljudi za vnos podatkov in testnih nalog pa  je težko dobiti, saj morajo opravljati svoja vsakodnevna opravila v podjetju, zato obremenitveni test velikokrat izpustimo, čeprav je nadvse koristen predvsem pri obsežnih implementacijah.
+SAP lahko zagotovi tudi skupino, imenovani »Early Watch group«, ki pregleda sistem, predlaga izboljšave v bazi podatkov, oceni mehanizme za kopiranje, obnovo, administracijo podatkovne baze in predlaga potrebno izobraževanje zaposlenih.
+Tudi kasneje lahko sistemu dodamo strežnike in tako zmanjšamo zastoje pri obdelavi podatkov, ki se navadno pojavijo šele v produkcijskem sistemu zaradi nezadovoljivega testiranja obremenitev.
+Uporabniki so bistveni pri testiranju obremenitev in zato jih moramo vseskozi vzpodbujati k preizkušanju sistema.
+Če to ni možno na njihovih delovnih mestih, moramo zagotoviti demonstracijsko sobo, kjer se občasno pregleda program in razloži sprva manjšim skupinam zaposlenih, kasneje vsem, ki bodo sistem uporabljali (Bancroft 1996, 132-133).
+Razvoj  R3 sistem je sestavljen iz R3 repozitorija15, ki vsebuje definicije objektov uporabniškega okolja in poslovnih krogotokov.
+Ti objekti se pri uvajanju "konfigurirajo" oz. nastavijo tako, da v večini primerov zadostijo vsem poslovnim potrebam.
+V kolikor tega ne moremo zagotoviti z konfiguracijo, je potreben razvoj.
+Poznamo naslednje vrste razvoja (McFarland Metzger, Roehrs, 2000,46): ? izgradnja novih objektov, ? razširitve sistema, ? spreminjanje SAP standardnih objektov.
+Pod izgradnjo novih objektov razumemo pripravo novih poročil, ekranskih slik in preglednic.
+15 Repozitorij – vsebuje strukture podatkov, slovar ukazov za spreminjanje in izdelavo novih programov in zaslonskih slik.
+43  Razširitve sistema so novi objekti na katere je SAP standard pripravljen in se zato sklicujejo nanje.
+Tovrstne razširitve v bistvu ne spremenijo standardnih objektov ampak jih le razširijo.
+Veliko SAP tabel je zgrajenih tako, da lahko polja dodajamo, ne da bi jih spremenili.
+Veliko SAP programov vsebuje možnost sklicevanja na morebitne uporabniške programe.
+Spremembe na SAP standardnih objektih so spremembe, ki se naredijo pri določeni stranki s pomočjo ABAP »Workbench«, ki vsebuje vsa potrebna orodja za razvoj.
+ABAP »Workbench« prikličemo s transakcijo S001 in vsebuje  naslednja orodja (Metzger und Roehrs 1999, 47-48): ?
+ABAP Dictionary (za razširitve in opise tabel). ?
+ABAP Editor (za spreminjanje in pisanje programov). ?
+Function Builder (za spreminjanje, pisanje, vzdrževanje in testiranje funkcijskih  modulov in vsebuje funkcijsko knjižnico, ki služi kot centralno skladišče vseh funkcij).  ?
+Menu Painter (za pripravo in spreminjanje menijev). ?
+Screen painter (za pripravo in spreminjanje vnosnih mask).
+Pred spreminjanjem oz. izgradnjo novih objektov s pomočjo ABAP, se moramo v SAPNet-u registrirati kot razvijalec-SSCR, kjer dobimo ključ za dostop do R/3-sistema.
+V SAP je potrebno ta ključ vpisati samo enkrat, pri naslednjih poskusih spreminjanja R/3-sistema ponovni vpis ni več potreben.
+Testiranje sistema  Dobro definiran proces prilagajanja pomaga pri zagotavljanju uspeha uvajanja R3.
+Temeljito testiranje delovanja sistema je kljub temu potrebno za zagotavljanje pravilnosti delovanja novih funkcij programa.
+V sistemu za zagotavljanje kakovosti je potrebno izvesti dve vrsti testov: ? vsebinski pregled poslovnih procesov in scenarijev in ? tehnični pregled.
+Za uspeh uvajanja je ključnega pomena vsebinski pregled poslovnih procesov in scenarijev, ki se osredotoči na preverjanje: ? novih poslovnih procesov in scenarijev, ? obstoječih temeljnih procesov, ? na novo razvite programe in R3 razširitve.
+Tako kot vsi drugi procesi uvajanja R3 zahteva tudi  testiranje natančno določen postopek z vnaprej definiranimi odgovornostmi posameznikov.
+Načrt testiranja bi naj določal naslednje: ? poslovne procese in scenarije, ki se morajo testirati, ? metode in orodja, ki se bodo uporabljala za testiranje, ? sodelavce, ki so odgovorni za testiranje.
+Idealno testiranje bi se naj izvajalo tako, da bi vsi zaposleni v podjetju dva dni opravljali svoje naloge s pomočjo SAP-a.
+Ker pa je ta procedura zelo draga in precej nepraktična, se mora vodja projekta odločiti za eno izmed naslednjih metod testiranja:       44  ? pravi uporabniki (samo predstavniki iz različnih oddelkov) opravljajo različne naloge v R3 sistemu,  ? skripte za simuliranje R3 transakcij.
+Pri testiranju s pravimi uporabniki se lahko pojavijo težave, saj so lahko uporabniki npr. porazdeljeni po celem svetu ali pa niso vedno na voljo, ko jih potrebujemo za testiranje.
+Prednost te metode pa je v tem, da lahko tako na več načinov testiramo sistem in ga pripravimo za uporabo.
+Skripte pa predstavljajo fleksibilno metodo za testiranje določene skupine transakcij v sistemu.
+Takšni testi so enostavnejši za kontrolo v primerjavi s testiranjem s pravimi uporabniki.
+Za takšne namene vsebuje SAP posebno orodje, imenovano Test Workbench, ki vsebuje razna orodja in pripomočke za lažje testiranje.
+Šolanje uporabnikov  Šolanja uporabnikov se lahko organizirajo v podjetju, ki uvaja SAP, lahko pa tudi v SAP izobraževalnem centru.
+Šolanje v podjetju ima številne prednosti pred šolanjem pri SAPju, saj se lahko izvaja paralelno z dnevnimi opravili zaposlenih, pa tudi bolj specifično je za vsako podjetje.
+Šolanja v SAP izobraževalnem centru so navadno bolj splošna, v podjetju pa se lahko uvajajo tudi posebnosti, ki so bile narejene posebej za podjetje.
+Usposabljanje mora poleg branja osnovne literature vključevati tudi tečaje, seminarje, pridobiti pa je potrebno tudi nekaj neposrednih praktičnih izkušenj.
+3.3.4 Uvedba  Zadnja faza je faza dejanske implementacije informacijskega sistema, kamor štejemo postavitev mrež, instalacij osebnih računalnikov, uvajanje uporabnikov, polnjenje sistema s pravimi podatki,...
+Tehnična skupina  mora opraviti naslednje naloge (Bancroft 1996,134): ? izgraditi omrežja , ? instalirati bližnjice na namizja, ? usposabljanje in pomoč uporabnikom, ? komunikacija, ? vnesti prave podatke v produkcijski sistem, ? zagon sistema.
+Člani skupine morajo vzpodbujati uporabnike, da imajo na voljo vsaj minimalno konfiguracijo računalniške opreme, ki je potrebna za nemoteno delo.
+Prav tako morajo poskrbeti za prezentacijske strežnike, instalirati bližnjice in poskrbeti za ustrezno mrežno povezavo, primerno pričakovani obremenitvi sistema.
+S tem je veliko dela, še posebej če je uporabnikov veliko, zato je bolje, da je strojna oprema zagotovljena že pred dejanskim začetkom dela.
+Prav tako mora biti zagotovljena stabilnost instalirane podatkovne baze in s tem tudi podatkovnega strežnika ter aplikacijskega strežnika, na katerem je instaliran program.
+45   Usposabljanja morajo biti organizirana tik pred implementacijo sistema, saj uporabniki kmalu pozabijo podrobnosti, če jih ne uporabljajo.
+Od števila uporabnikov in obsežnosti sistema je odvisno, kolikokrat bo potrebno organizirati uvajanja.
+Uporabniki morajo imeti v vsakem trenutku zagotovljeno pomoč v obliki navodil, on-line pomoč na internetu, telefonsko pomoč in podporo na delovnem mestu.
+Poleg formalnega izobraževanja se mora krepiti tudi komunikacija, v kateri se večkrat ponavlja namen novega sistema in kaj lahko uporabniki pričakujejo.
+Po začetnem usposabljanju in pripravi računalniške infrastrukture je v sistem potrebno vnesti  podatke, ki se nanašajo na poslovne funkcije v podjetju in module, ki jih uvajamo ter uporabnike usmeriti v nov sistem.
+Izkušnje z implementacijo kažejo, da lahko pri tem nastanejo težave, zato mora skupina ostati v pripravljenosti, da bo lahko morebitne težave obvladovala.
+V pripravljenosti mora ostati dalj časa po uvedbi, saj se nekatere težave pojavijo šele kasneje.
+Nekatere težave so poslovnega, druge tehničnega značaja (Bancroft 1996, 134).
+V večini primerov je dejanska implementacija razmeroma preprost korak, saj je posledica skrbnega načrtovanja iz prejšnjih faz, zato zahteva tudi manj časa kot ostale faze.
+Vsekakor lahko pričakujejo manjše težave, ki jih je potrebno s skupnimi močni odpraviti.
+Nato se lahko člani skupine dokaj hitro vrnejo na svoja stara delovna mesta in naprej opravljajo svoje stare naloge ali pa se posvetijo novemu projektu.
+3.4 Vzdrževanje sistema  Po implementaciji preidemo v fazo vzdrževanja, pri čemer moramo nameniti pozornost predvsem tehnični podpori sistema in podpori uporabnikom.
+Skupina za tehnično podporo mora nenehno izboljševati uporabo sistema, kar pomeni obvladovanje revizije, nadgradenj in novih različic.
+Skupina za podporo uporabnikom je zadolžena usposabljati novo zaposlene in pomagati uporabnikom pri njihovih dnevnih opravilih.
+Izkušeni člani projektne skupine R/3 bodo potrebni še vrsto let.
+Zelo verjetno je, da bomo izgubili enega ali več ljudi, zato moramo v vsakem podjetju razviti svoj načrt in zagotoviti napredovanje, višje plače in druge ugodnosti za zaposlene.
+3.4.1 Tehnična podpora16  Med uporabo SAP R/3 se le ta razvija in s tem prilagaja novim ekonomskim izzivom.
+Po uvajanju in po določenem času, v katerem se sistem ustali, je potrebno misliti na popravilo napak, ki smo jih ugotovili in na dodajanje novih funkcij v sistem.
+V idealnem primeru bi naj te popravke opravljali samo za res nujne popravke v sistemu.
+Razvojni proces obsega poleg rednega vzdrževanja še:   16 Povzeto po Metzger und Roehrs (1999, 541-544).
+46  ? instalacijo popravkov (Suport Packages17), ki jih dobimo s pomočjo »on-line« pomoči (OCS – On-line Correction Supports),  ? zamenjave oz. instalacije novih verzij R/3, ? varovanje in zaščita podatkov.
+Pri zamenjavi verzij ima SAP razviti dve strategiji: ? menjava verzije zaradi novih funkcij (nem. Funktionale R/3-Releases), ? menjava verzije zaradi napak (nem. R/3-Korrektur-Releases).
+Funkcijska R/3 verzija vsebuje najnovejše razširitve poslovnih procesov in najnovejšo tehnologijo SAP-ja.
+Takšna verzija se imenuje CA-Release (CA – ang. »Contrlolled Availability«) in jo SAP ponudi samo omejeni skupini kupcev, ki jo naročijo.
+Kupci, ki delajo s funkcijsko verzijo, jo testirajo in sporočajo napake na SAP in tako pomagajo pri nastajanju nove korekcijske verzije, ki sledi funkcijski verziji.
+Za funkcijske verzije dobimo preko OCS le malo podpore.
+V nasprotju z funkcijsko verzijo je korekcijska verzija programa na voljo vsem uporabnikom.
+Takšno verzijo imenujemo tudi GA-Release (GA – ang. »General Availability«).
+Za korekcijske verzije je na voljo obsežna podpora preko OCS.
+Razen funkcijskih in korekcijskih menjav verzij ima SAP na voljo še t.i. Kernel-Patches.
+To je programska oprema, ki je združljiva tudi z starejšimi verzijami R/3, zato lahko instaliramo popravke in nove funkcije brez celotne menjave verzije.
+On-line Correction Support obsega različna orodja, ki podpirajo delovanje programa med začetkom dela in prvo zamenjavo verzije ali med dvema zamenjavama verzij.
+Je SAP-jeva pomoč, ki je na voljo vsem kupcem SAP-jevih produktov in nudi vse, kar je potrebno za instalacijo popravkov.
+Popravki omogočajo korekcijo napak v SAP standardnih objektih, pred naslednjo menjavo verzije.
+Vsaka naslednja verzija pa že vsebuje te popravke.
+Varovanje in zaščita podatkov  Zaradi napake v strojni ali programski opremi, napačnega ali neodgovornega ravnanja ter številnih drugih razlogov se lahko zgodi, da se podatkovna baza poškoduje tako, da se podatki izgubijo ali uničijo.
+Z ustreznimi varnostnimi ukrepi lahko število takih nesreč zmanjšamo, ne moremo jih pa popolnoma izključiti.
+Iz varnostnih razlogov je nujno, da zagotavljamo stalno arhiviranje podatkovne baze.
+Posamezne arhive je smotrno hraniti na različnih krajih.
+Podatkovna baza vsebuje številne zaupne podatke, zato imajo lahko dostop do njih samo pooblaščene osebe.
+Najpogostejši način dostopanja do zaupnih podatkov je, da računalniku damo seznam vseh oseb, ki ga smejo uporabljati in vsakemu dodelimo geslo.
+Če je nekomu omogočen dostop do računalnika še to ne pomeni nujno, da ima tudi pravico dostopa do vseh podatkov.
+Tudi za dostop do podatkov se uporabnikom dodelijo gesla preko katerih lahko dostopajo do posameznih podatkov.
+17 V slovenskem jeziku se največkrat uporablja kar tujka »Support Package«, prevedemo jo pa lahko kot skupek popravkov.
+47   Dostop do seznama uporabnikov in gesel s pravico spreminjanja ne smejo imeti vsi, ampak ga ima običajno en sam privilegiran uporabnik oz. administrator baze.
+3.4.2 Podpora uporabnikom  Podpora uporabnikom mora biti zagotovljena v obliki »online« pomoči, ki jo zagotavlja SAP in s strani oddelka informatike v podjetju, kjer se sistem uvaja.
+Online pomoč je razdeljena v osnovno pomoč (ang. basic help) in podrobno pomoč (task level help).
+Osnovna pomoč zagotavlja slovarje in osnovna sporočila za pomoč, medtem kot podrobna pomoč vsebuje detajlirane opise posameznih opravil (Sharpe 1999,39-50).
+Priporočljivo je v vsakem oddelku določiti tudi t.i. sap strokovnjaka, kot so ga določili v podjetju Kindlimann (uvajanje opisano v nadaljevanju), ki ima naslednje naloge: ? udeležba na  mesečnih sestankih SAP-strokovnjakov na temo optimizacije  procesov, ? udeležba na internih SAP-jevih izobraževanjih, ? šolanje uporabnikov v posameznih oddelkih, ? zbiranje in posredovanje problemov s SAP/R3, ? priprave na menjavo verzije in kontrola procesov.
+Podpora je še posebej pomembna takoj po uvedbi, saj so uporabniki, poleg svojega rednega dela, obremenjeni še z učenjem uporabe nove informacijske tehnologije.
+Prevelikim problemom s strani uporabnikov se izognemo, če končno uvajanje uporabnikov organiziramo tik pred dejanskim začetkom dela z novim informacijskim sistemom.
+48  4 PRIMERI UVAJANJA SAP/R3 V PODJETJE    4.1 Analiza primerov uvajanja SAP/R3  Analiza primerov bi naj olajšala uvajanje celovite programske rešitve v podjetje.
+Kritika sistema SAP se navezuje predvsem na potrebne resurse pri uvajanju in na potrebo kompleksne reorganizacije poslovanja podjetja.
+Uvajanje je, kljub vsem kritikam v medijih, obvladljiv projekt, če se ga pravilno lotimo.
+V naslednjih primerih bomo podali nekaj smernic, čemu moramo posvečati posebno pozornost, da bi preprečili napake pri uvajanju.
+4.2 Primer podjetja Kindlimann AG18.
+Podjetje Kindlimann je bilo ustanovljeno leta 1946 in je postalo eno izmed najpomembnejših podjetij, ki se ukvarja s proizvodnjo cevi.
+Prodajni sortiment obsegajo cevi iz C-jekla in nerjavečega jekla vseh kvalitet in dimenzij.
+Sčasoma se je podjetje vse bolj osredotočilo na storitve in želje strank, kar mu omogoča moderna strojna oprema in kvalificirana delovna sila.
+Naslednji statistični podatki poudarjajo zmožnosti podjetja: ?
+Promet: ca.
+60 mio.
+CHF. ?
+Zaposleni: 136 (od tega 8 pripravnikov). ?
+Lokacije: Wil SG (Kindlimann AG), Bussigny VD (Nell SA; od leta 1995). ?
+Promet materiala: okrog 250 t/leto. ?
+Skladiščne površine: 21000 m2 v 14 skladiščih (vključno s 4 visokoregalnimi  skladišči). ?
+Vozni park: 18 tovornih vozil. ?
+Strojni park: 25 žag (vključno s 7 sinico-avtomati). ?
+Izhod: 1.2 Mio. razrezov/letno (navadnih) in 17 Mio. razrezov/letno v sinico dodelovalnem centru.
+Njihov star informacijski sistem ni mogel več zadovoljevati vse večjih potreb kupcev.
+Zastarela strojna oprema in različica programske opreme že dalj časa nista dopuščali sprememb.
+Potrebne bi bile prevelike investicije in tudi v tem primeru bi lahko star sistem le delno zadostil potrebam, zato so se odločili za uvedbo novega informacijskega sistema.
+Za izbor programske opreme so si (leta 1987) zastavili naslednje pogoje: ? odjemalec/strežnik tehnologija, ? integrirani programski moduli, ? grafično okolje pri odjemalcih, ? shranjevanje podatkov v RDBMS bazi podatkov, ? neodvisnost od strojne opreme.
+18 Povzeto po Jacob, Uhink 1998, 251 – 274.       49  Na tržišču sprva niso našli nobene primerne rešitve za njihovo panogo, zato so nekaj let kasneje (1993) oblikovali dodatne pogoje za izbor nove programske opreme: ? večjezična podpora, ? standardna programska oprema, ? garancijo za popravke (nove različice), ? zagotovljena pomoč na mestu.
+Na osnovi tega so se odločili za SAP/R3 z podatkovno bazo ORACLE in UNIX ali Winows-NT kot operacijskim sistemom.
+Na njihovo odločitev so vplivali še naslednje prednosti, ki so jih našli pri SAP-ju: ? organizacija in strategija SAP-ja, ? funkcionalnost in procesna orientiranost SAP R/3, ? možnost vključevanja svojih programov (User-Exits), ? oblikovanje uporabniškega okolja, ? sodelovanje z Microsoft-om, ? tržni delež SAP-ja.
+Po odločitvi za SAP so začeli iskati svetovalno podjetje, ki bi naj jamčilo za kvalitetno načrtovanje in uvedbo sistema.
+Projekt so speljali po projektni metodi izbranega svetovalnega podjetja.
+Pri izbiri svetovalnega podjetja so postavili naslednje kriterije na osnovi katerih so izbrali najprimernejšo podjetje: ? reference, ? velikost podjetja in kvalifikacije zaposlenih, ? obstoječa projektna metodologija zaposlenih, ? osebnost in nastop pri pogajanjih.
+Za začrtanje poslovnih funkcij, za potrebe železarstva v SAP-ju, je bilo potrebno celoten projekt razdeliti na delne projekte.
+Za uvajanje prodaje in distribucije ter materialnega poslovanja so zasnovali delni projekt logistika, namesto manjših projektov SD in MM, kar se je v nadaljevanju izkazalo za dobro odločitev.
+Zaradi odličnih orodij za izmenjavo podatkov iz drugih sistemov, ki so sestavni del SAPja, so lahko podatke iz starega sistema hitro prenesli v novega.
+Modul finance in kontroling so lahko začeli uporabljati že tri mesece po začetku projekta.
+Tako so sprostili nekaj sodelavcev, ki so lahko začeli z uvajanjem logistike in kadrovskega informacijskega sistema.
+Stari informacijski sistem je uporabljalo tudi podjetje Blankag.
+Zato je bilo potrebno v informacijski sistem SAP zajeti dva podjetja.
+Prodajni sortiment obsega povsem druge artikle, zato  ni bilo konkurenčnega položaja med obema podjetjema.
+Svetovalno podjetje je s sprejemom naslednjih ukrepov zagotovilo uspeh projekta: ? skladno delovanje vseh zaposlenih iz oddelka informatike in drugih oddelkov, ? na dosego ciljev usmerjeno delovanje, ? enotna sistemska dokumentacija, ? integrirani pripomočki za kontroling projekta.
+50  Na uvodnem sestanku19 so podpisali pogodbo o uvajanju in določili cilje.
+Projekt se je začel januarja 1995 in že 1.5.1995 so začeli uporabljati module FI in CO.
+Z uvajanjem SD in MM se je začelo 1.5.1995, uporabljati so jih začeli 1.1.1996.
+Delni projekt uvajanja HR in AM se je izvedel od septembra do decembra 1995.
+TABELA 3: CILJI PROJEKTA UVEDBE SPA/R3 V PODJETJU KINDLIMANN AG Projekt/ podprojekti  Cilji  Projekt SAP R/3    Zamenjava sistema z očitnim izboljšanjem: - v vseh procesih, - številk.
+1. Podprojekt FI/CO   Vpeljava po treh mesecih.
+Sprva še brez nekaterih funkcij (možne šele po vpeljavi SD/MM)  2. Podprojekt predštudije logistike (pilot)  Definiranje procesov, ki v SAP standardu niso podprte in iskanje možnih rešitev.
+3. Podprojekt logistika   Prilagajanje SAP R/3 s pomočjo »customizing-a« in programiranjem specifičnih potreb v železarstvu.
+4. Podprojekt HR/AM  Zamenjava starih modulov.
+Nobenih posebnih potreb.
+Prirejeno po Jacob und Uhing (1998, 256).
+Projekt so v celoti izvedli po metodi izbranega svetovalnega podjetja, ki je projekt razdelilo v štiri faze: ? predpregled, ? izdelava koncepta, ? realizacija, ? uvedba.
+V prvi fazi so analizirali in dokumentirali sedanje stanje in zbrali predloge za posebne probleme, ki niso pokriti s standardno instalacijo SAP R/3. Prav tako so zagotovili potrebno strojno opremo in prostore za sestanke, šolanje projektne skupine, kar je potrebno za nadaljevanje projekta.
+Začrtali so tudi vse potrebne zunanje vmesnike20, s katerimi bodo zagotovili specifike, ki niso pokrite s sistemom SAP R/3.  Pri izdelavi koncepta so se osredotočili na začrtanje vseh poslovnih procesov v SAPsistemu, pa tudi na poslovne procese, ki v SAP-ju brez prilagajanj niso pokriti.
+Zato so na začetku te faze pripravili testni sistem, v katerem so podrobno začrtali  vse procese v sistemu.
+Tako so preprečili, da bi po nepotrebnem testirali na podatkih, ki so jih potrebovali v fazi predpriprave.
+Prav tako so testni sistem lahko povezali z že delujočim finančnim informacijskim sistemom, ki je že deloval, da bi tako izločili morebitne kasnejše konflikte zaradi povezovanja.
+V tej fazi so procese v testnem sistemu še izboljšali in na   19 Uvodni sestanek v literaturi pojmujejo z izrazom Projekt-Kickoff.
+20 zunanji vmesniki  -  (ang. User-Exits) funkcije in programi, ki niso del SAP-ja.
+Uporabljajo se za prenos podatkov med različnimi sistemi in za pokrivanje potreb, ki niso predvidene v SAP-ju.
+51  osnovi posnetka stanja začeli tudi s programiranjem rešitev za specifične probleme.
+Ugotovili so, da bodo za avtomatiziran izračun lastne cene proizvodov porabili še veliko časa.
+Naslednje pomembno opravilo v tej fazi  je bila izdelava poročil.
+Izkazalo se je, da je za začetek dovolj, če se dodatno izdelajo samo tista poročila, ki so res nujno potrebna za redno delo, saj SAP R/3 že v standardni različici pokriva skoraj vse, zato je bilo potrebno izdelati poročila samo za poslovne procese, ki so se spremenili oz. dodali.
+V fazi realizacije je bilo v ospredju konfiguriranje sistema specifičnim potrebam podjetja in programiranje posebnih poslovnih funkcij, ki jih v SAP-ju ni bilo.
+Prav tako so v tej fazi zagotovili programe za prenos podatkov iz starih sistemov in šolanje uporabnikov.
+Šolanje uporabnikov so izvedli v podjetju, paralelno z rednim delom.
+Zato so morali zagotoviti 17 delovnih postaj, projektor in primeren prostor.
+Šolanje pri SAP-ju bi bilo bolj splošno in ne bi obsegalo uvajanja v dodelave, ki so nastale v okviru projekta.
+V zadnji fazi so prenesli vse  nastavitve in programe iz testnega sistema v proizvodni sistem, zatem pa še podatke.
+Uporabnikom v prodaji so zagotovili še star sistem, v katerem so lahko gledali podatke, zaradi lažjega prehoda na nov sistem.
+Ker se pa ti podatki niso ažurirali so bili kmalu zastareli in neuporabni.
+Kljub temu pa je to pripomoglo k lažjemu prehodu na nov sistem.
+Prenosa tekočih podatkov iz starega sistema niso izvedli, saj v stari sistem že nekaj časa niso vnašali naročil, zato so naročila in delovne naloge v nov sistem vnesli kar ročno.
+Faza uvedbe se je pri projektu izkazala kot posebej težka, saj se morajo zaposleni najprej naučiti novega načina dela in sprejeti sistem.
+Pri tem moramo upoštevati, da kupci ne bodo imeli razumevanja za interne spremembe in bodo zelo ostro reagirali na napake.
+V skladu s pričakovanji so se tudi pri tem projektu pojavili določeni problemi, kot so premalo usposobljeni sodelavci in specifike železarske industrije, ki niso pokrite v SAP-ju.
+Glede specifik so se odločili postopati po pravilu 80:20.
+To pomeni, da so se osredotočili na 80% potreb, saj bi preostalih 20% potreb zahtevalo 80% celotnega dela na projektu, kar bi trajanje in stroške projekta precej zvišalo.
+Drug problem so predstavljali tudi člani projektne skupine, ki so poleg nalog pri uvajanju sistema morali opravljati še svoje redno delo, zato niso imeli dovolj časa, da bi se posvetili projektu.
+V takem primeru imamo možnost za projekt uvajanja zaposliti zunanje svetovalce, kar pa ima tudi nekaj negativnih posledic, ki se odražajo v dodatnih stroških, predvsem pa v manjkajočem znanju, ki bi si ga naj podjetje pridobilo v času uvajanja.
+Na pod-projektu uvajanja financ sta sodelovala dva sodelavca iz oddelka financ in eden zunanji svetovalec.
+Na naslednjem pod-projektu uvedbe logistike so sodelovali po eden ali dva zaposlena iz oddelkov prodaje, skladišča/špedicije, nabave in administracije.
+Ker tudi podjetje Blankag uporablja špedicijo, je moral pri projektu sodelovati tudi sodelavec iz tega podjetja, ki je bil zadolžen predvsem za to, da bodo pri uvajanju upoštevali tudi potrebe njihovega podjetja.
+Po potrebi so jim pri uvajanju pomagali tudi ljudje iz informatike in dva zunanja svetovalca.
+Za vodenje projekta so ustanovili projektni svet, ki je bil sestavljen iz naročnika projekta, direktorja, vodje projekta, vodje oddelkov.
+Njihova naloga je bila nadzorovati projekt, zato       52  so na vsakem sestanku predstavili poročila o zaključenih fazah projekta in pripravili dokumentacijo za naslednje faze projekta.
+Takšen način nadziranja se je izkazal kot dober, saj se na takšen način natančneje vodi dokumentacija projekta.
+Oddelek informatike v podjetju sestavljajo štirje ljudje.
+Pri tem moramo upoštevati, da predstavljajo podporo za tri podjetja z več kot sto uporabniki.
+Sodelavci si delijo naslednje naloge: ? vzdrževanje omrežja, strojne opreme in strežnika, ? organizacija, ? komunikacijska oprema v pisarni, ? šolanje, ? vzdrževanje posameznih modulov in kontroliranje procesov.
+V vsakem oddelku podjetja so določili enega SAP-strokovnjaka, ki je povezan v SAP skupino in ima naslednje naloge: ? udeležba na  mesečnih sestankih SAP-strokovnjakov na temo optimizacije  procesov, ? udeležba na internih SAP-jevih izobraževanjih, ? šolanje uporabnikov v posameznih oddelkih, ? zbiranje in posredovanje problemov s SAP/R3, ? priprave na menjavo verzije in kontrola procesov.
+Pozitivne posledice in uporabnost so v prvi vrsti vidne v kakovosti podatkov, ki nastanejo s pomočjo načrtovanja poslovnih procesov in ki se s pomočjo integracije različnih modulov še bolj utrdijo.
+Z vidika celotnega podjetja je uporabnost vidna predvsem v: ? aktualnosti in fleksibilnosti analiz, ? izboljšani podlogi za odločitve managementa, s pomočjo določitve in spremljanja  določenih kazalcev.
+Na področju prodaje so prednosti predvsem v tem, da je omogočen dostop do želenih podatkov o kupcih ali artiklih.
+Zaradi dobro načrtovanih možnosti kopiranja dokumentov in osnovnih podatkov postanejo večkratni vnosi enakih podatkov nepotrebni.
+Nadaljne prednosti so vidne tudi pri avtomatiziranem sistemu določanja cen.
+V nabavi so prednosti vidne predvsem v povečani možnosti dobave artiklov, kljub znižanju zalog v skladišču.
+V računovodstvu so prednosti vidne v možnosti odlične kontrole, saj se vsi podatki kontirajo po podrobnem kontnem načrtu.
+Kot podpora pri kontroli, lahko vknjižbe postopno pregledamo tudi na ekranu.
+Kakovost zalog se je zaradi avtomatiziranega razknjiževanja odpadnih količin in ostankov zaradi razreza bistveno zvišala.
+Uporabnosti sistema R/3 je posledica reorganizacije poslovnih procesov med projektom uvajanja.
+Večin poslovnih procesov lahko podpremo z informacijskim sistemom in tako       53  zmanjšamo »ročno delo« uporabnikov.
+Rezultat teh procesov so krajši krogotoki, večja fleksibilnost pri naročilih in možnost večjega obsega naročil z enakim številom zaposlenih.
+Gospodarnost naložbe se je izkazala predvsem iz naslednjih razlogov: ? v prodaji se giblje prihranek med 15-20%, kar omogoča uporaba raznih pogodb in  avtomatizacija izračuna prodajne cene, ? izognili so se dva do pet dnevnemu zamiku pri knjiženju prevzemov in s tem  pripomogli k povečanju posredovanja podatkov v prodaji za 30%, ? v nabavi privarčujejo do 30%.
+Privarčevan čas porabijo za druga opravila, s  katerimi bi naj izboljšali storitve do kupcev, ? pri fakturiranju privarčujejo 30%, pri pregledu plačil (v nabavi) pa 20%, ? zagotavljanje oskrbe se je povečalo za 30%, kljub znižanju zalog, ? že tako kratki tokokrogi so se zmanjšali za ca.
+10%, pri dobavi celo za 25%.
+Izkušnje kažejo, da je pri uvajanju R/3 potrebno paziti predvsem na naslednje: ? podporo s strani vodstva, ? strukturiran način po metodi projektnega managementa (zagotoviti, da bo projekt  ustrezno načrtovan, voden in kontroliran), ? interna skupina  s širokim obsegom poslovnega znanja (skrbna izbira), ? kompetentni zunanji svetovalci (skrbna izbira, poleg strokovnosti mora biti  zagotovljena tudi pozitivna osebnost sodelujočih v projektu) ? prilagajanje poslovnih procesov, namesto prilagajanja SAP standarda, ? organizacijo je potrebno zbirati centralno in v okviru oddelkov, ? tekoče obveščanje uporabnikov o napredovanju projekta in sprotna šolanja.
+Premalo pozornosti je bilo namenjeno naslednjim opravilom: ? šolanju projektne skupine v začetnih fazah projekta, ? pravočasnemu prevzemu podatkov iz starih sistemov v novega, ? podporo za vpeljavo zahtevati tudi od srednjega kadra, ne samo od vodstva, ? posredovanju procesnega razmišljanja.
+4.3 Primer firme WAP Reinigungssysteme Gmbh & Co.21  Firma WAP iz mesta Belnberg v Nemčiji se je v zadnjih 40-ih letih razvila iz majhnega družinskega podjetja v svetovno znanega proizvajalca čistilne tehnike.
+Obstoječ informacijski sistem je bil sestavljen iz več programov različnih proizvajalcev in že dalj časa ni zagotavljal zadostne podpore poslovanju.
+Samostojne rešitve, ki so zahtevale nenehno vzdrževanje zunanjih sodelavcev, so postale nesprejemljive.
+Manjkajoča integriranost je pripeljala do različne strukture podatkov in razlik v podatkih, kar je onemogočalo izdelavo analiz in jim ni bilo v pomoč pri planiranju za vnaprej.
+Operacijski sistemi v podjetju so bili VM/VSE, OS400, Novel, pa tudi Windows na nekaterih računalnikih.
+Tudi strojna oprema ni bila več primerna za bodoče izzive in je v nekaterih pogledih že dosegla svojo zgornjo mejo kapacitet.
+Zato je postala velika investicija v posodobitev informacijskega sistema neizbežna.
+Ko je firmo leta 1994 prevzel koncern   21 Povzeto po Jacob und Uhink (1998, 333 – 357).
+54  Jung Heinrich AG iz Nemčije, se je v podjetju marsikaj spremenilo, tudi glede informacijskega sistema.
+Temeljna pričakovanja glede bodoče programske opreme niso bila nič posebnega oz. specifičnega: ? večje zadovoljstvo kupcev, zaradi zmanjšanja trajanja poslovnih procesov, ? homogena in v prihodnost usmerjena informacijska struktura, ? zmanjšanje stroškov zaposlenih v informatiki, ? zmanjšanje ročnih posegov v poslovne procese in tako zmanjšanje prehodnih  časov, ? boljša fleksibilnost in spremenljivost za bodoče spremembe, ? neodvisnost od strojne opreme, operacijskega sistema in baz podatkov, ? enotna, On-line dostopna in varna podatkovna podlaga.
+Zgornja pričakovanja so dopuščala le nakup standardne programske opreme enega izmed vodilnih proizvajalcev.
+SAP/R2 je bil standard v podjetju Jung Heinrich AG, imeli pa so že prve izkušnje s SAP/R3.
+Prve instalacije na Windows NT so pokazale dobre rezultate glede stabilnosti, varnosti in zmožnosti.
+Zaradi kritičnega stanja strojne in programske opreme v podjetju so se odločili za kompletno menjavo strojne in programske opreme (metoda big bang) s 1.1.1995.
+Nekaj podatkov o projektu: Prelomne točke: ? začetek projekta: maj 1994, ? groba obdelava, ? temeljne odločitve, ? uvajanje uporabnikov, ? inventura in prenos podatkov, ? začetek uporabe: drugi teden v januarju 1995.
+SLIKA 12: STRUKTURA PROJEKTA   Vir: Jacob und Uhing (1998, 342).
+Priprava  Načrt v grobem  Podroben načrt  Realiza -cija  Uvedba      K  V  P   PRILAGAJANJE – postopno prilagajanje programske opreme na poslovnim in organizacijskim potrebe  ORGANIZACIJA – načrtovanje in realizacija organizacijskih struktur v povezavi z funkcijami programske opreme  DRUGI CILJI – Rezultati, ki niso vezani na organizacijsko oz. tehnično oblikovanje sistema       55  Zagotoviti je bilo potrebno: ? petindvajset sodelavcev za projektno skupino, ? dva sodelavca za  tehnologijo strežnika, SAP – podlago, bazo podatkov in prenos  podatkov, ? intenzivna brezplačna podpora v zvezi s tehnologijo strežnika s strani Compaq-a in  SAP-ja, zaradi pilotskega značaja projekta, ? sedem zunanjih svetovalcev, ki so poleg uvajanja SAP opravili reorganizacijo  poslovanja, šolanje zaposlenih in programiranje posebnih funkcij.
+Sistemsko okolje: ?
+V podjetju uporabljeni SAP-jevi moduli so SD (komerciala), MM (materialno  poslovanje), MM-WM (materialno poslovanje s skladiščnim poslovanjem), PP (planiranje proizvodnje), FI (finance), CO (kontroling), AM (investicijsko knjigovodstvo).  ?
+SAP Release 2.1.
+Operacijski sistem Windows NT. ?
+Baza podatkov: ORACLE 7.0.15. ?
+System: 1DB-Strežnik in 2 aplikacijska strežnika (Compaq proliant 2000). ?
+Ca.
+120 istočasno aktivnih uporabnikov.
+Pri uvajanju SAP ni nujno instalirati vseh modulov.
+Prav primer podjetja WAP nam dokaže, kako se SAP prilagodi posameznemu podjetju.
+Ostale funkcije se lahko postopno dodajajo.
+Pri podjetju WAP ni instalirano veliko funkcij, kot so arhiviranje podatkov, klasificiranje artiklov, terminiranje, kadrovski informacijski sistem itd.
+Podjetja si tako sama določijo kompleksnost uvajalnega projekta in nadaljnjo uporabo programa.
+Posledice uvedbe: ?
+Pri veliko opravilih je nujno razmišljati bolj celovito, da se ne motijo drugi procesi  v podjetju. ?
+Večja odgovornost posameznika za celoten proces. ?
+Nekatere funkcije so pridobile na pomenu (npr. urejanje šifranta). ?
+Veliko nepravilno izvršenih postopkov sedaj ni mogoče opraviti.
+Vnaprej  programirani postopki zahtevajo določeno disciplino. ?
+Potrebno je drugačno razmišljanje v managementu.
+Brez upoštevanja SAP-jevega  okolja skorajda ni mogoče sprejemati odločitev.
+TABELA 4: POSLEDICE UVEDBE SAP/R3 V ODDELKU INFORMATIKE Naloga 1 Operativa ↓ 2 Sistemska administracija ↓ 3 Pomoč uporabnikom ↑ 4 Omrežje ↑ 5 SAP – razvoj ↑ Vir: Jacob und Uhing (1998, 352).
+56  Iz tabele je razvidno, da so se po uvedbi opravila v informatiki bistveno spremenila.
+Zmanjšala so se operativna opravila in administracija sistema, ki je bila prej potrebna predvsem zaradi dotrajane strojne opreme.
+Povečale so se pa zahteve glede pomoči uporabnikom, vzdrževanju omrežja in naloge na področju razvoja dodatnih funkcij v SAPju.
+Prednosti uvedbe: ?
+Skrajšal se je čas poslovnih procesov, saj ni več potrebno dodatno popravljanje in  kontroliranje. ?
+Organizacijske spremembe je mogoče enostavneje sprejeti kot prej. ?
+Povečana je varnost poslovnih procesov zaradi večje discipline, ki jo zahteva SAP. ?
+Ni potrebno več toliko obrazcev in zapiskov, saj je vse dokumentirano v  informacijskem sistemu. ?
+Zaradi integriranega planiranja se je izboljšala kvaliteta internih postopkov. ?
+SAP kot odprt sistem nudi zelo veliko povezav. ?
+Zelo preprosta hramba podatkov in enostavni programski jezik ABAP/4 povečuje  fleksibilnost, brez odvisnosti od strokovnjakov. ?
+Enostavna povezava z Microsoftovimi programi.
+V nadaljevanju bomo navedli kritične faktorje, ki so se pojavili v podjetju WAP, lahko pa pričakujemo, da se bodo tudi v drugih.
+Premalo časa so namenili naslednjim točkam: ? čas za prilagajanje zaposlenih, ? priprava uporabnikov za integracijo procesov, ? sprememba preskrbe z materialom (procesov preskrbe), ? prenos podatkov iz starega sistema, ? obremenitev ključnih oseb, ki so sodelovali v projektu (dnevna opravila + projekt).
+Premajhna pozornost je bila namenjena sledečim aktivnostim: ? statistiki in poročilom pred začetkom projekta (naknadno uvajanje pa je  problematično), ? določanju prioritet uporabnikov, ? tehnologiji osebnega računalnika in mrežne povezave v povezavi z delovnim  mestom, ? učenju posameznih poslovnih procesov in učenju razumevanja SAP-ja kot celote, ? pritisku na zaposlene pri dodatno uvedenih funkcijah, ? tiskanju v odjemalec-strežnik-SAP okolju.
+57  5 SKLEPNE MISLI  Priča smo velikim spremembam na področju informacijske tehnologije.
+Obstoječi, večinoma nepovezani informacijski sistemi, zahtevajo preveč vlaganj v vzdrževanje in prilagoditve sistema.
+Podjetja večinoma prepozno ugotovijo, da so v podaljšanje življenjskega cikla staremu informacijskemu sistemu vložila preveč časa in denarja.
+Natančni izračuni bi pokazali, da je bolj smotrno čimprej preiti na nov informacijski sistem, tako z ekonomskega kot tudi strateškega stališča.
+Seveda pa je pri tem odločilnega pomena izbira pravega IS.
+V preteklosti so prevladovali IS, ustvarjeni z lastnim razvojem, medtem ko imamo danes možnost lastnega razvoja ali nakup licence komercialnega ponudnika.
+Uspešno izvajanje poslovnih procesov je v preteklosti zahtevalo, da se poslovanje najprej prenovi in šele nato izpelje informatizacija.
+Z nakupom celovite rešitve smo dandanes priča obratnemu procesu, saj moramo potek poslovnih procesov prilagoditi programski rešitvi.
+Za večje spremembe oz. predelave programske rešitve se odločamo samo pri poslovnih procesih, ki podjetju prinašajo dejansko prednost.
+Novejši ERP sistemi pokrivajo praktično vse poslovne funkcije podjetja, samo pravilno jih je potrebno nastaviti.
+Vendar pa je specifičnost tista, ki podjetju omogoča konkurenčno prednost.
+SAP je zato, kakor tudi zaradi zmanjšanja stroškov ter trajanja uvedbe, razvil preko 20 panožno specifičnih rešitev, s pomočjo lastnega programskega jezika ABAP/4 pa je enostavno realizirati tudi dodatne zahteve.
+Projekti uvajanja celovitih rešitev sodijo po svoji kompleksnosti med najzahtevnejše projekte, ki se odvijajo v sodobnih organizacijah.
+Uspeh projekta se meri predvsem po tem, ali se je projekt zaključil v predvidenem času in v okviru predvidenih stroškov.
+Zaradi kompleksnosti uvajanja ERP sistemov so večji komercialni ponudniki razvili posebne metodologije za uvajanje tovrstnih sistemov.
+SAP je v ta namen razvil Accelerated SAP (ASAP) ki je pristop za hitro in učinkovito uvajanje SAP poslovnih rešitev.
+Ključni dejavniki, ki bistveno vplivajo na uspeh uvajanja so: podpora vodstva, predanost bodočih uporabnikov, primerni viri, dovolj časa za šolanje uporabnikov, pravilno prenovljeni poslovni procesi in sposobnost upravljanja sprememb.
+Poleg tehničnega vidika uvajanja moramo pomisliti tudi na psihološki vidik, saj imajo spremembe tudi velik vpliv na zaposlene, ki so se prisiljeni učiti in spremeniti njihove ustaljene načine dela.
+Ob upoštevanju omenjenih vidikov moramo v procesu uvajanja uporabiti projektni pristop.
+Natančno moramo izvesti členitev projekta na posamezne naloge, določiti vloge in odgovornosti, pripraviti analizo tveganja, sestaviti plan kapacitet in stroškov.
+V SAP-ju imamo pripomočke, namenjene opisanim nalogam, združene v modulu investicije in projekti, uporabimo pa lahko tudi druge pripomočke, kot je npr. Microsoft Project.
+Spremljanje potrebne dokumentacije pa lahko izvedemo s pomočjo SAP-jevega dokumentacijskega sistema.
+Ob ustreznem načrtovanju projekta, pravilni izbiri ljudi za projektno skupino, pravilni izbiri uvajalnih metod in pripomočkov, skrbnem oblikovanju organizacijske strukture in podpori vodstva, večjih težav pri izvedbi projekta ne bi smeli pričakovati.
+58  POVZETEK  V diplomskem delu smo predstavili projekt uvajanja poslovno informacijskega sistema SAP R3 v podjetje.
+V prvem delu smo predstavili vsebinsko in tehnično arhitekturo sistema SAP R3 ter prednosti in slabosti rešitve v primerjavi z drugimi.
+V drugem delu smo podrobneje predstavili projekt uvajanja, v katerem smo prikazali strukturo projekta, raziskali vloge in odgovornosti članov projektne skupine in analizirali faktorje uspeha projekta.
+V zadnjem delu smo analizirali dva primera uvajalnih projektov, s čimer smo skušali podati nekaj smernic, čemu moramo posvečati posebno pozornost, da bi preprečili napake pri uvajanju.
+Obenem smo v delu predstavili, kaj so kupljeni informacijski sistemi, katerim podjetjem in ustanovam so namenjeni in kaj so njihove prednosti.
+KLJUČNE BESEDE  SAP /R3, poslovno informacijska rešitev, projekt implementacije ERP rešitve, metodologija uvajanja, ASAP Roadmap, ARIS, Business Engineer, IMG (Implementation Guide), ABAP/4, odjemalec/strežnik tehnologija.
+ZUSAMMENFASSUNG  In der Diplomarbeit haben wir das Projekt der einfuerung von SAP /R3 in ein Unternehmen dargestelt.
+Im ersten Kapitel haben wir die tehnische und die funktionele Arhitektur dargestelt, und auch die Vor- und Nachteile der Loesung, im vergleich mit anderen Loesungen.
+Im zweiten Teil haben wir detailiert das Projekt der einfuerung dargestelt, im welchen wir die Projektstruktur erklaert haben, die Rollen und die Verpflichtungen der einzelnen Mitglieder definiert und die Fakteren fuer den Erfolg des Projektes analisiert haben.
+Im letzten teil haben wir einige Tips, fuer welche Aufgaben wir mehr Aufwand aufbringen sollen, damit wir Fehler bei der einfuerung vermeiden.
+Auserdem haben wir in der Arbeit, erklaert was Gekaufte Loesungen eigentlich sind, welchen Unternehmen Sie gewidmet sind und was Ihre Vorteile sind.
+STICH-WOERTER  SAP /R3, IT Loesung, Projekt der implementierung von ERP Loesungen, Einfuerungsmetodologie, ASAP Roadmap, ARIS, Business Engineer, IMG (Implementation Guide), ABAP/4, Client/Server Tehnologie.
+59  SEZNAM VIROV    1. Ahlin Tomaž in Zupančič Jože.
+2001.
+Uvajanje celovitih programskih paketov.
+Organizacija, letnik 34, številka 5:283-289.   2. Bancroft H. Nancy.
+1996.
+Implementing SAP/R3: how to introduce a large system  into a large organization.
+Greenwich, Manning Publications Co.  3. Danielle Larocca.
+1999.
+Naučite se sami SAP/R3 v 24 urah.
+Sams publishing.
+4. Draeger Erich.
+1998.
+Project management with SAP R/3. Addison Wesley.
+5. Ferle Maja.
+2000.
+Priprava uporabniških zahtev za sodobni informacijski projekt.
+DSI – zbornik posvetovanja 19. - 22. april: stran: 195 – 200.   6.  Ids-Scheer (2003).
+ARIS Process Platform. [Online] Available: http://www.idsscheer.de [Oktober 10, 2003].
+7. Jacob Olaf und Hans-Juergen Uhing (Hrsg.).
+1998.
+SAP/R3 im Mittelstand:  Grundlagen, Nutzen und prixisberichte zm branchengerechten Einsatz.
+Braunschweig, Wiesbaden, Friedr.
+Vieweg & Sohn.
+8. Koersgen Frank.
+2001.
+Fallstudien SAP: Anwendung und Customizing.
+Berlin:  Erich Schmidt Verlag Gmbh & Co.   9. Kovačič Andrej.
+2002.
+Celovite rešitve.
+Uporabna informatika 2002, letnik 10, številka 4.   10.
+Kovačič Matic in Es Zvone.
+Ključni dejavniki uspeha projekta ERP v teoriji in  praksi – primer ELAN.
+Uporabna informatika, 2002, letnik X, številka 4.   11.
+Magjar Alenka.
+Predstavitev metodološkega pristopa k uvajanju SAP poslovnih rešitev.
+Projektna mreža Slovenije, letnik 4, številka 3.   12.
+McFarland Metzger Sue und Roehrs Susanne.
+2000.
+SAP R/3 Aenderungs- und  Transportmanagement.
+SAP PRESS.
+13.
+Roblek Matjaž in Jure Meglič.
+2001.
+Strokovni prispevek nadgradnje ERP sistemov.
+Projektna mreža slovenije, 2001, letnik 4, številka 4.   14.
+SAP (2003).
+SAP vodilni v razvoju ERP-ja. [Online] Available:  http://www.sap.com/slovenia/company/press/press_doc/p_2003_SAP_vodilni_v_ra zvoju_ERP%20.asp [September 17, 2003].
+60  15.
+SAP (2003).
+SAP – jeve rešitve za različne panoge. [Online] Available: http://www.sap.com/slovenia/company/press/press_doc/p_2003_sap_resitve.asp [September 17, 2003].
+16.
+SAP (2003).
+SAP – jeva nova generacija poslovnih rešitev za hitro vpeljavo.  [Online] Available: http://www.sap.com/slovenia/company/press/press_doc/p_2003_SAPjeva%20nova%20generacija%20.asp [September 17, 2003].
+17.
+SAP (2003).
+SAP vodilni v razvoju ERP-ja. [Online] Available:  http://www.sap.com/germany/solutions/financials/index.asp [September 17, 2003].
+18.
+Sharpe Simon.
+1999.
+SAP R/3 in 10 minutes.
+Sams publishing.
+19.
+Srabotič Robert.
+Strateško načrtovanje in uvajanje celovitih informacijskih sistemov v slovenskih majhnih in srednje velikih podjetjih.
+Uporabna informatika, 2002, letnik X, številka 4.   20.
+Will Liane.
+1999.
+SAP/R3 Systemadministration.
+SAP PRESS.

@@ -1,0 +1,2320 @@
+univerza
+fakulteta
+šport
+značilnosti
+ravnotežnega položaja
+disertacija
+mentor
+doktorska disertacija
+telesnih značilnosti
+nogah
+znanstvenoraziskovalnega dela
+somentorstvom
+dodiplomskem študiju
+raziskovanje
+doktorski študij
+znanja
+meritvah
+biomehaničnem
+strokovne
+merilcem
+in
+meritev
+meritve
+slike
+literatura
+povzetek
+doktorskega dela
+simetrija telesa
+ravnotežja
+čutila
+sluhom
+ravnotežnega organa
+urinega kazalca
+nogo
+raziskavi
+merjencev
+telesne sestave
+napravo
+telesnih
+podplata
+pritiskovnih senzorjev
+pedarx
+kinematike
+optitrack
+merjenci
+ravnotežje
+simetrije
+stopala
+nog
+asimetrije
+nadlahti
+pusta
+na
+simetrije telesa
+človek
+asimetrije telesa
+telo
+športnika
+besede
+vid
+sluh
+spremenljivke
+kratice
+opis
+spremenljivka
+kratica
+ms
+masno
+sp
+pritiska
+prijemališče sile reakcije podlage
+pp
+podporna površina
+su
+nsu
+r_ld_pustamasa_rok
+pusto maso
+r_ld_pustamasa_nog
+r_ld_v_ramen
+rame
+komolca
+podlahti
+r_ld_o_zapestja
+r_ld_o_kolen
+r_ld_o_meč
+r_ld_d_stopal
+r_ld_k_stopal
+stopalom
+metodi
+r_ld_p_stopal
+l_pustamasa_rok
+roke
+noge
+leve nadlahti
+leve podlahti
+l_o_stegen
+l_o_kolen
+levega meča
+l_š_stopal
+l_d_stopal
+l_k_stopal
+odtisa
+r_os1_ld
+snožno
+r_os2_ld
+r_os3_ld
+stoje
+r_ossu1_ld
+sili
+r_ossu2_ld
+r_ossu3_ld
+r_osnsu1_ld
+r_osg1_ld
+r_osg3_ld
+r_vs1_ld
+r_vs2_ld
+r_vs3_ld
+r_vsv1_ld
+r_vsv2_ld
+r_vsv3_ld
+r_vsg1_ld
+r_vsg2_ld
+r_vsg3_ld
+r_vssu1_ld
+r_vssu2_ld
+r_vssu3_ld
+absolutna vrednost razlike sil
+absolutna vrednost
+ra_vs1_ld
+ra_vs2_ld
+ra_vs3_ld
+ra_vsv1_ld
+ra_vsv2_ld
+ra_vsv3_ld
+ra_vsg1_ld
+ra_vsg2_ld
+ra_vsg3_ld
+ra_vssu1_ld
+os1d_m
+os2d_m
+os3d_m
+osv1d_m
+osv2d_m
+osv3d_m
+osg1d_m
+osg2d_m
+osg3d_m
+ossu1d_m
+ossu2d_m
+ossu3d_m
+os1d_a
+os2d_a
+os3d_a
+osv1d_a
+osv2d_a
+osv3d_a
+osg1d_a
+osg2d_a
+osg3d_a
+ossu1d_a
+ossu2d_a
+ossu3d_a
+osnsu1d_a
+osnsu2d_a
+osnsu3d_a
+vssu1d_m
+vssu2d_m
+vssu3d_m
+vs2d_a
+vs3d_a
+vsv1d_a
+vsv2d_a
+vsv3d_a
+vsg1d_a
+vsg2d_a
+vsg3d_a
+vssu1d_a
+vssu2d_a
+vssu3d_a
+regr_r_os
+dejavnik
+regr_r_osv
+regr_r_osg
+regr_r_ossu
+regr_r_osnsu
+regr_r_vs
+regr_r_vsv
+regr_r_vsg
+regr_r_vssu
+regr_r_vsnsu
+regr_ra_os
+absolutne vrednosti
+regr_ra_osv
+regr_ra_osg
+absolutne vrednosti razlike sil
+regr_ra_ossu
+regr_ra_osnsu
+regr_ra_vs
+regr_ra_vsv
+regr_ra_vsg
+regr_ra_vssu
+regr_ra_vsnsu
+regr_os_dm
+l
+dejavnik poti
+regr_osv_dm
+regr_osg_dm
+regr_ossu_dm
+regr_osnsu_dm
+regr_vs_dm
+dejavnik poti sp
+regr_vsv_dm
+regr_vsg_dm
+regr_vssu_dm
+regr_vsnsu_dm
+regr_os_da
+regr_osv_da
+regr_osg_da
+regr_ossu_da
+regr_osnsu_da
+regr_vs_da
+regr_vsv_da
+regr_vsg_da
+regr_vssu_da
+regr_vsnsu_da
+uvod
+vzdrževanje ravnotežja
+postopek
+telesnih podsistemov
+živčno
+mišično
+skeletne sestavine
+gibalno delo
+čutni sistem
+ravnotežnih
+telesno
+čutnih
+težnost
+okolje
+centralnega živčnega sistema
+konativni
+merjenja ravnotežja
+testov
+definicijo ravnotežja
+gibalna sposobnost
+testa
+pojem
+gibanje telesne drže
+vztrajnostnimi silami
+vztrajnostnimi značilnostmi
+razlaga
+masnega središča
+podporne površine
+nihanjem
+trdnostjo
+ljudje
+bitja
+da
+noga
+nogi
+tek
+pojmov
+kotna mera
+telesnega dela
+vektor
+orodni telovadbi
+izraz
+sila
+teles
+sile
+ravnotežnem
+stabilnega položaja telesa
+optimalna
+kompenzacijskih
+dopolnilnih
+stabilnem položaju
+kompenzacijskih gibov
+spretnosti
+telesu
+ravnotežni položaj
+upravljanjem objekta
+težišče telesa
+podporno
+težišča telesa
+telesa
+mas
+nadzorni sistem
+enote
+podporne
+podporno ploščo
+podporna plošča
+direkten
+mišic gležnja
+podporno površino
+propriocepcija
+čutno zaznavanje
+čutno
+udov
+proprioceptorji
+aferentnih živčnih vlaknih
+centralni živčni sistem
+model
+mehaniki
+definicijo
+ravnovesju
+premoenakomerno
+rezultanta
+navorov
+newtonov zakon
+stabilni
+stalni
+labilni
+nestalni
+indiferentni
+nestalno
+t
+težišče
+o
+enciklopedija
+vir
+ravnotežje telesa
+izhodiščnega položaja
+ravnotežnem položaju
+energijo
+nestalen
+nestabilno
+stoja
+nestalne položaje
+in ravnotežja
+biomehaniki
+statični sistem
+telesno držo
+mehanskem ravnovesju
+model nihala
+sklepa
+sub
+astragalian
+po
+nihala
+koeficient
+pospeški
+mehanskega
+nihalo
+sil
+silo
+navor
+razdalja
+od
+navpičnico
+prijemališča
+pospešek
+nestalnem
+centralnega težišča telesa
+stalen
+telesne mase
+ledvenega
+podporna ploskev
+težišča
+mirni
+ms telesa
+ravnovesje
+podporna
+zunanji motnji
+notranji motnji
+ravnotežja telesa
+cžs
+mišične aktivnosti
+človeka
+stopali
+masno središče
+skočnega sklepa
+dorzalnega fleksorja
+stopal
+ravnovesju sil
+podporni
+trdnostni
+mehanizmi za
+nadzorni
+podatke
+gibalni sistem
+gibalne
+nadzorni sistem ravnotežja
+mehki podlagi
+obremenitev
+čutilnega
+podplatov
+pritisk
+podplate
+gibalnim sistemom
+organom
+koordinacijo
+mišičnim
+osrednje živčevje
+mišicam
+sklepih
+boleznijo
+telesne drže
+sistem zaznave položaja
+gibalni
+čutil
+ravnotežni
+napake
+signalov
+podporno podlago
+zdrave
+telesnočutni sistem
+čutni
+somatosenzorični
+tipal
+kožni
+mišični
+kitni
+sprejemniki
+telesnih delov
+orientacijo
+gravitacijske sile
+kinestezija
+težo
+sklepov
+drže
+sprejemnikov
+mehano
+signale
+propriocepcije
+centralno
+ukazi
+organov
+mišično vreteno
+organ
+meissnerjeva telesca
+rufinijevi končiči
+pacinijeva telesca
+golgijevi končiči
+živčni končiči
+tipalo
+mišičnega vlakna
+golgijev
+kiti
+tipala
+obsklepnih sestav
+signali
+možganov
+slika
+refleksne
+gibalne dejavnosti
+gibalnega nadzora gibanja
+čutnega
+mišičnega sistema
+mišičnega
+nateg
+recipročna inhibicija
+rekurentna inhibicija
+predsinaptična inhibicija
+koaktivacija
+koaktivacija mišic
+žiroskop
+linearnih
+notranjega ušesa
+slušnim organom
+polžem
+otolitna organa
+urtrikul
+sakula
+polkrožni kanali
+kotne
+organoma
+linearnega pospeška
+vestibular
+ampularni greben
+vezivnega tkiva
+žil
+živčnih vlaken
+ampuli
+polkrožnih kanalov
+tanke
+celic
+dlačnic
+celice
+endolimfna tekočina
+povrhnjice
+sinaptične mešičke
+endolimfe
+polkrožnih kanalih
+neuroanatomy online
+spletni vir
+makula
+oporne
+dlačnice
+receptorji
+makule
+urtrikulu
+sprejemnih celic
+živčna vlakna
+sprejemne celice
+želatinaste snovi
+otolitna membrana
+kalcijevega karbonata
+otoliti
+neuroanatomy
+glava
+vztrajnostna sila tekočino
+dovodnih živcev
+kanalov
+dražljaje
+možgane
+oči
+glave
+trupa
+merjencu
+glavo
+endolimfne tekočine
+dlačice
+sprejemnike
+kanalih
+merjenec
+telesnočutne
+sistem
+oviram
+centralne
+vadeči
+ravnotežnega organa v
+proprioreceptorjev
+tipnih
+raziskava
+vidni podatki
+popolne
+čutne informacije
+ustreznost
+centralnih
+skorji
+motonevronov
+fizioloških
+mišične aktivacije
+zaprto zanko
+zanko
+efektorjev
+centralnemu sistemu
+odprte zanke
+povratnih
+motenj
+odgovor
+uravnavanju drže in gibanja
+zaprti zanki
+gibalnem programu
+zaprte zanke
+okončin
+živčnomišičnega sistema
+zanke
+izboljševalne
+mišičnemu aparatu
+fazičnim
+toničnim
+možganih
+gibalno skorjo
+korteks
+mišic
+gibalne skorje
+impulzi
+gibalnih živcev
+gradnik
+skelet
+mišice
+energije
+kosti
+ročice
+zunanje
+sklepi
+gibljivost
+bruto
+neto
+zunanji
+kit
+kite
+tetive
+mišicami
+sklepe
+kolagenskih vlaken
+beljakovinska vlakna
+mišico
+mišicah
+tkivo
+mišica
+vezivnim tkivom
+mišičnih vlaken
+sarkomera
+krčljivih
+miozinska
+aktinska vlakna
+uravnalnih
+tropozin
+tropomionin
+strukturnih
+z
+miozinska vlakna
+glavico
+polipeptidni verigi
+sarkomere
+miozina
+proteinom
+miozinskih nitk
+prečni mostički
+debelo vlakno
+tankimi
+aktinska nitka
+aktina
+nitki
+miozinom
+mišično krčenje
+aktinskih nitk
+miozinskimi
+krčenje
+aktinski nitki
+aktinsko nitko
+aktinom
+mišična sila
+tankih vlaken
+strukturno
+premik
+prečnih
+prečnih mostičev
+akcijski potencial
+živca
+vzdraženosti
+kanali
+celico
+celici
+na+
+k+
+repolarizacijo
+membranskega potenciala
+hiperporalizacijo
+mirovanju
+mišičnih celic
+motonevroni
+subkortikalnih jedrih
+retikularni informaciji
+ravnotežnih jedrih
+mišični sistem
+uravnalni center
+efektorji
+aferentne
+eferentne poti
+eferentna
+žlez
+aferenta živčna vlakna
+napetost
+elastične
+tonus
+gravitacijske mišice
+gastrocnemius
+skočni sklep
+anterior
+fascie latae
+iliopsoas
+toracic erector spinae
+notranje
+motnje ravnotežja
+motnje
+monosinaptičnega refleksa
+ravnotežnostne strategije
+ravnotežjem
+sinergiste
+gibalne vzorce
+navore
+reakcijske sile podlage
+gležnja
+klasičnega refleksa
+nadomestnih gibanj
+stojna površina
+kolena
+sklep
+gleženj
+hrbtenice
+medialne motnje
+kolka
+bokih
+trupu
+mišičnih skupin
+navora
+poskoka
+in kolka
+nihanja
+oseba
+moči
+ravnotežne strategije
+študije
+dinamičnem ravnotežju
+parametrov
+ponovljivost
+sp telesa
+vzorec
+ravnotežne
+enonožno stojo
+motnje čutnega sistema
+intraklasne korelacije
+parametri
+ponovitve
+ponovljivostjo
+ravnotežnih nalog
+le
+odvzem vida
+klinični
+nihanje telesa
+bokov
+stojo
+statičnega
+statični
+bitij
+dvostranska»bilateralna
+živa
+dvostranske
+anatomske zgradbe
+orientacijskimi ravninami
+orientacijske ravnine
+čelna
+frontalna
+čelom
+koordinatnem sistemu
+dolžinska
+navpična
+temena
+globinska
+sagitalna
+trebuha
+hrbta
+dolžinsko os
+vodoravna ravnina
+prečna
+transverzalna
+globinska os
+bočna ravnina
+sredinska
+sredinska ravnina
+asimetrija
+asimetriji telesa
+funkcionalne
+obremenitve
+funkcionalnih
+športne vadbe
+biti
+gibljivosti
+športne panoge
+mišične skupine
+izravnalne
+kompenzatorne
+antagoniste
+popravljalne
+športnikovega telesa
+stopalo
+enota
+anatomskih delov
+tetiv
+ligamentov
+hojo
+prečni
+sredinski lok
+sredinski
+klinične
+nožni
+loki
+podplat
+ploskost stopala
+everzije
+oslabljeno
+aktivni
+sredinskega stopalnega loka
+in gležnja
+uravnoteženju
+funkcionalnim sposobnostim
+študiji
+lateralizacija
+funkcije
+možgansko
+dominantnost
+okončine
+dominantnosti
+raziskave
+znanstveniki
+polovica
+hemisfer
+tekočnost
+mišljenja
+prednostna stran
+zarodek
+vzorce
+možganske polovice
+posameznik
+prednostna
+analizo
+navpični osi
+analiza
+športnikih
+umetnostno
+gimnastika
+kajakaštvo
+spol
+težavnost vaj
+roko
+spontanim
+profesionalne
+plesalke
+kinematiko
+prevezo
+normalnim vidom
+kinestetično zaznavanje
+vprašalnikov živahnosti
+vmiq
+vidno
+vprašalnikom
+plesalci
+plesalcih
+piruete
+mešano zaznavanje
+kinestetično
+plesalce
+selektivni
+vidnega zaznavanja
+mešan
+rezultati
+učenju gibanj
+telovadne prvine
+ravnotežno
+hrbtenjačna
+spinalna
+telovadca
+gibalnimi spretnostmi
+prednostno smerjo obračanja
+asimetrijo
+nestrokovnjakov
+vprašalnik
+prednostni
+testu
+skorajstrokovnjaki
+strokovnjaki
+telovadci
+strukture
+telovadnih
+klasičnega baleta
+gibanja
+učeno
+spontanih
+predpubertetni dobi
+baletnih
+plesalka
+plesalkah
+biomehaničnih lastnosti
+študij
+zdravih
+golenico
+asimetrijo telesa
+merjencih
+prednostne smeri
+ročni
+golenice
+golenica
+prednostne
+amputirancev
+prednostno
+telesne
+mišična moč
+indeks
+itm
+maščoba
+intenzivna vadba
+epifizne širine
+maščobe
+simetričen razvoj telesa
+simetrija gibanja
+športniku
+tehnične
+taktične
+asimetrija telesa
+asimetričnosti telesa
+preobremenitev
+poškodb
+meta
+raziskav
+kronični nestabilnosti
+dvostransko
+zvinu gležnja
+zvin gležnja
+oslabitve
+telesne simetrije
+natančnosti
+športni vadbi
+vezivnega aparata
+asimetrične
+asimetričnih športih
+kopja
+igralci
+rokometa
+testiranj
+kegljanju
+asimetrična
+maščob
+telesnih značilnostih
+izokinetičnega navora
+ravnovesja
+vadbene enote
+oslabelost
+poškodbe
+poškodba
+napovednik
+asimetrijam telesa
+spodnjih udov
+okončina
+pogonski
+obrate telesa
+konvencionali športi
+orodna telovadba
+ritmika
+ples
+drsanje
+kotalkanje
+atletiki
+diska
+obračanja telesa
+polistrukturnih
+športniki
+nasprotnika
+ritmičarkami
+ritmičark
+semicirkularnih kanalov
+statičnega ravnotežja
+test
+dinamičnega ravnotežja
+teste
+ritmičarke
+košarkaric
+čelni
+dolžinski osi
+košarkarice
+avtorji
+vadba
+baletnike
+skupina
+spoznavne sposobnosti
+učenju
+ponovitve vaj
+izkušnjami
+moč
+športnikov
+gibalne prvine
+testiranje
+telovadcev
+telovadnih športov
+ravnotežne plošče
+proprioceptivno
+čutnih informacij
+testih ravnotežja
+testih koordinacije
+oko
+globinski vid
+reakcijski časi
+kinestetični občutek
+športnic
+rezultate
+telovadkami
+telovadke
+starostnih kategorij
+asimetričnosti
+treniranje
+asimetrij
+mišične mase
+cilji
+hipoteze
+telesne značilnosti
+metode dela
+študentje
+starost
+meritvam
+poskus
+etični komite
+naprava
+inbody
+ponovljivost rezultatov
+postopki
+podvodnim tehtanjem
+telesni čitalec
+čitalec
+večkratnega odčitavanja
+merjencem
+laboratoriju
+fiziologijo
+kotomerom
+stopalu
+mejnem
+stopalo plosko
+okončino
+pustamasa_nog
+masa
+iso
+normami
+meč
+gležnjem
+komolcem
+kolenom
+bicepsa
+pazduhe
+zapestja
+meritvami
+antropometrija
+novel
+merjenju
+podplatih
+merjenja
+čeveljske vložke
+podplatu
+nogavice
+vložke
+elastičnimi trakovi
+simetričnost
+podatki
+bluetooth modula
+računalnik
+merilni sistem
+certificiran
+medicinski pripomoček
+direktivami
+biomehaniko
+računanje poti
+programske opreme
+infrardečih kamer
+vmesnika
+odsevnih označevalcev
+meritvijo
+merjenca
+odštevanju
+dinamičnem
+doskoku
+dinamičnega stanja
+statično
+študijah
+merilca
+podatkov
+senzorjih
+podatkov naprave
+lesen podstavek
+dinamičnem skoku
+protihrupne slušalke
+plavalna očala
+svetloba
+peltor
+decibelov
+slušalke
+električni motor
+motor
+obratov
+stol
+obrati
+senzorje
+kalibriran
+kameri optitrack
+odsevnega označevalca
+merjence
+motilce
+3d kamere
+motilci
+koordinatni sistem
+označevalca
+prstih
+naprave
+matlab
+podatek
+premike
+absolutno
+vrednost
+standardni odklon
+vrednosti
+statistično
+statistična
+statističnim
+spss
+opisne statistike
+aritmetična sredina
+najmanjša
+test normalnosti porazdelitve
+normalnost porazdelitev
+testi
+smirnovim testom
+telesnimi značilnostmi
+faktorsko analizo
+veljavnost
+faktor
+koeficientom
+regresijsko analizo
+dejavnike
+koeficienti
+multiple
+pretvorbo korelacijskih vrednosti
+fisherjeve transformacije
+zr
+zteor
+telesne spremenljivke
+kolmogorov
+senzorji
+pritiskovnim stopalnim vložkom za
+frekvenco
+skupna sila
+grafikonov
+skupna
+skok
+vrednost sile
+silo teže
+absolutne
+analizi
+neodvisne spremenljivke
+normalne porazdelitve
+mediano
+aritmetično sredino
+normalno porazdelitev
+normalno
+absolutnih vrednosti
+metodo
+vsv1d_m
+vsnsu2d_a
+vsnsu3d_a
+simetrični
+parnega
+ramen
+kolen
+masi
+pustamasa_rok
+zapestij
+aritmetični
+analize
+komponent
+regresije
+regresijski analizi
+faktorskega sklopa
+korelacije spremenljivk po obračanju
+absolutne vrednosti razlik sil
+lastne vrednosti
+korelacije spremenljivk
+faktorsko
+meritve po skoku
+meritev poti sp
+pot
+obračanju
+reakcijo organizma
+korelacije
+raziskavo
+vrednostjo spremenljivosti
+dejavniki
+veljavnosti
+meritev poti
+zanesljivosti
+testih
+merskih postopkov
+meritvi
+korelacija
+ravnotežja po
+koeficienta
+zanesljivost
+meritve poti
+merskega postopka
+koeficiente
+osnsu1d_m
+alfa
+meritve poti sp
+negativen predznak
+regresijska analiza
+odvisne spremenljivke
+regresija
+modeli
+beta
+neodvisni spremenljivki
+negativna
+pozitiven
+neodvisnimi spremenljivkami
+telesnih zančilnosti
+pozornost
+negativen
+absolutnih vrednostih
+neodvisnih spremenljivk
+komolcev
+beta vrednost
+absolutna
+pozitivna
+neodvisno spremenljivko
+rok
+neodvisna spremenljivka
+sig
+analizi poti
+na pot
+procent
+korelacijske vrednosti
+r
+regresijskih modelov
+korelacijske
+korelacij
+korelacijskih vrednosti
+statističnih
+meritvama
+čutna zaznavanja
+rezultate poti sp
+gibalna lastnost
+merilnega postopka
+nihanji
+kotno mero
+navpične drže
+človeško telo
+specializiran
+raziskavami
+starosta
+t - testom
+vprašalniku
+pusto maso rok
+raziskavah
+mehkih tkivih
+okostju
+mehka tkiva
+statistične
+športna vadba
+vadbo
+vseživljenjska
+zgornji
+spodnji
+aritmetične
+m
+in kolena
+ramenskega sklepa
+lopatic
+prsnem košu
+ramena
+skrajšanih dvigovalcev
+elevatorjev
+lopatice
+rama
+ukrivljenosti hrbtenice
+skoliozami
+stranskih krivinah
+reber
+stranske krivine
+medenica
+uda
+skolioza
+skazitev hrbtenice
+prsnem
+prsnega koša
+prečni ravnini
+lopatica
+ud
+manipulativna
+podporno nogo
+telesni drži
+ramo
+enostranskimi športi
+športnike
+rekreativna
+in poti
+osnovne statistike spremenljivk
+predznak
+aritmetičnimi sredinami
+sredine
+sile teže
+organu
+tok
+pozitivnim predznakom
+ri
+standardni
+motivaciji
+meritev ravnotežja
+merjenje
+skoku
+pritiskovni plošči
+dinamičnega
+poostreni
+test s pametno ravnotežno desko
+študijami
+niha
+aritmetični sredini
+aritmetičnih
+referenčne vrednosti
+ponesrečena
+ravnotežnih strategij
+naraven
+naravni
+refleksni gib
+klasičen refleks
+prisun
+normiranih
+težavnost naloge
+absolutnih
+vrednosti poti
+aritmetična
+globinskem skoku
+proprioceptorjev
+tipnega organa
+doskokih
+ravnotežju
+gluhi
+gibalnem razvoju
+meritve po
+varimax
+spremenljivost
+koeficient cronbach
+analiz
+koeficieta
+skupna spremenljivost
+vidom
+vrednost cronbach
+skupen
+analizo ravnotežja
+izpisani
+odsevna označevalca
+upogibalcev
+senzorja
+senzorjev
+vložek
+in stopalne loke
+bosi
+kitnega sistema
+obratih
+vztrajnostna
+čutne
+utrujenost
+podstavka
+regresijske analize
+telesnih spremenljivk
+r_ld_o_nadlahti
+r_ld_š_stopal
+hipotezo
+rezultatov
+hipoteza
+faktorske analize
+asimetričnost
+regresijske
+izguba sluha
+populaciji
+longitudinalno
+gibalne sposobnosti
+gluhih
+telesno spremenljivko
+togosti telesa
+togost sklepov
+opletanja telesa
+rotacije
+slučajnostno
+oporno točko
+mišično maso
+aktivacijo
+r_ld_o_komolca
+r_ld_o_stegna
+raziskovanju
+metodologija
+opisni statistiki
+stegen
+stoje po
+suhom
+motnjo
+omejitve
+nihanje sile teže
+hipotez
+meritve ravnotežja
+merilna sistema
+pritiskovno ploščo
+meritvah po
+metodami
+simetrijo
+gibalnega sistema
+čutnega sistema
+izravnalnimi mehanizmi
+težavnosti
+meritev stoja
+simetrija
+mišična
+mišični masi
+togost telesa
+ravnotežne naloge
+telesom
+trup
+asimetričen
+držo
+odprti zanki
+simetrična
+asimetričnostjo
+simetričnosti
+simetrije nog
+čutne sisteme
+doprinos znanosti
+čute
+doprinos
+praksi
+material
+biomehanika
+učbenik
+študente
+ponatis
+grafični
+elektronski
+mehanski
+fotokopiranje
+avtorskih pravic
+fizike
+gladiatorska
+aktiven
+vrhunskega
+rekreativnega športa
+razumevanje
+strokah
+tehnološkim napredkom
+alpskega smučanja
+veleslalomu
+razklenjenimi
+trenerjev
+smučarje
+razklenjene
+sotekmovalci
+držo smuči
+tekmovalni servisi
+tekmovalci
+tekmovalno smučanje
+rekreativnimi
+klasičnih smučeh
+tekmovalna
+trenerji
+klasičnih smuči
+smučarske tehnike
+smučem
+fizikalnem načelu
+smučarja
+mehanika zavijanja
+mehanska načela
+zareznem smučanju
+klasično
+tehnika
+mehanske pogoje
+varnost smučanja
+poučevanja
+biomehanike smučanja
+športnih panogah
+formuli 1
+gibalnih verig
+biomehanike
+kineziologija
+vedenje o
+ljudi
+beseda
+kinesis
+kinein
+kineziološka znanost
+fiziološke
+mehanske
+psihološke mehanizme
+kineziologije
+anatomijo
+psihologijo
+nevrologijo
+znanost
+organizmov
+mehaniko
+biologijo
+ptic
+insektov
+rib
+funkcionalnega
+makro gibanja
+živali
+mehanske lastnosti
+tkiv
+dihal
+slušnega aparata
+krvnih obtočil
+strokovnjaka
+opazovanje
+strokovnjak
+možgani
+izkušnje
+rezultat
+tečajniku
+tekmovalcu
+tehnologije
+povratno informacijo
+tehnologijo
+izmerki
+merilnih inštrumentov
+računalniku
+obdelave podatkov
+procesiranja
+analiza podatkov
+statistično obdelavo
+parametre
+opazovanja
+objektivne informacije
+biomehanska načela
+progi
+hitrosti
+pospešku
+pospeških
+pospeškom
+zaviranje
+trenja
+uporom
+obtekanje zraka
+tokovnice
+molekul zraka
+drsne obloge
+molekulska slika
+tehniki
+mišičnih sil
+mehanskega sveta
+rekviziti
+bralca
+mehanike
+matematike
+opazovanjem gibanja
+kinematika
+fizikalno
+fiziki
+delcev
+atomov
+galaksij
+dolžine
+časa
+mase
+osnovne
+hitrost
+energija
+neosnovne enote
+makroskopskem svetu
+vektorskem prostoru
+definicija
+maso
+točkastega telesa
+točkastega
+togih teles
+športnik
+rekvizit
+masnih točk
+lopar
+kolenskem
+komolčnem sklepu
+translatornemu gibanju
+vektorjem
+koordinat
+dt
+krivuljo
+kvocient
+drr
+hitrost gibanja
+fizikalna
+definiciji
+velikost
+količnik
+odvod poti
+vektorja
+vektorja hitrosti
+drr=
+rr2
+matematičnega
+definicij
+odvod
+na krivuljo
+diagrama poti
+krivulja
+maksimum
+minimum
+integrala
+integral
+vrednost funkcije
+abscisne osi
+povprečna hitrost
+časovnem intervalu
+atlet
+atletski stezi
+bralec
+enačbe
+enodimenzionalnim gibanjem
+enodimenzionalno
+premočrtnem gibanju
+vektorsko obliko
+skalarni obliki
+enakomerno
+pospešeno gibanje
+pospešenega gibanja
+navpični met
+gravitacijskim pospeškom
+čas
+izmetu
+začetna
+vz1
+izmeta
+pospeška
+zračnega upora
+poglavju
+ravninskem gibanju
+kartezični koordinatni sistem
+absciso
+definiciji hitrosti
+ravninskemu gibanju
+poševni met
+ravninskega
+gravitacijskem polju zemlje
+zračni upor
+pospešeno
+začetno
+izmetni
+začetni
+vektorske oblike
+začetno hitrost
+izhodiščno točko gibanja
+navpičnim metom
+tirnice gibanja
+parabole
+poševnem metu
+paraboli
+tangencialna
+domet
+ravna
+enačba
+predpostavk
+opazovanjem
+predpostavka
+odvodom funkcije
+dometa
+enačbo
+optimalni met
+optimizacijo enačbe
+kotih
+maksimum enačbe
+odvod funkcije
+računanje
+optimalni
+metoda
+optimalnega kota
+matematičnih
+lokostrelec
+tarčo
+tarča
+kroženje
+ravninsko gibanje
+polmerom
+rr
+tirnico gibanja
+produkt
+pravokotna
+kroženju
+polmera
+kotno
+radianih
+časovne
+s2
+produktom
+radialni
+tangencialni pospešek
+količnikom
+radialnemu
+enakomernem kroženju
+kotna
+polarnih koordinatah
+radij kroženja
+odmik
+kotno hitrost
+pospešenem kroženju
+tangencialnega
+radialnega pospeška
+polarnih
+kartezičnih koordinatah
+polarnem sistemu
+linearnimi enačbami
+kartezičnem koordinatnem sistemu
+premočrtno gibanje
+polarne koordinate
+enačbah
+metalec
+mirovanja
+kladivo
+in kladiva
+radij
+metalec kladiva
+αt
+dinamika
+zakone o
+dinamiki
+fizikalna količina
+koncept
+prijemališče
+vektorje
+paralelogramskem pravilu
+fr
+premiki
+vsota
+akciji
+vzajemnem učinku
+makroskopski mehaniki športa
+zemlja
+gravitacijskega polja
+gravitacijska sila
+gravitacijskega pospeška
+telesi
+masi teles
+gravitacijska konstanta
+težiščema teles
+konstanta
+športnikoma
+planeti
+mzemlje
+rzemlje
+enačb
+težišči
+naklonina klančine
+dinamično
+fp
+reakcija
+statičnim
+sila teže
+reakcija podlage
+normalna sila
+fn
+newtonovemu zakonu
+reakcijo
+komponenti sile teže
+komponenti
+reakcijo podlage
+normalna
+komponento
+reakcije podlage
+trenje
+statično trenje
+relativna hitrost
+lepenje
+kinetično trenje
+lepenja
+kl
+sila trenja
+koeficient trenja
+amontonov
+kontaktne površine
+neelastičnimi telesi
+kotalno
+deformacije telesa
+kotalno trenje
+kotalnega trenja
+normalne sile
+globina
+togega kolesa
+avtomobilske gume
+železniškega vagona
+športnega kolesa
+deformaciji
+lf
+prožnostni modul
+presek
+prožnosti
+zakon
+deformacije
+raztezka
+elastično
+raztezkih
+plastične
+elastičnih teles
+vzmeti
+prožnih teles
+gibanje
+voda
+plast
+laminaren
+viskozni upor
+viskozne sile
+viskoznost tekočine
+stična površina
+viskoznostjo tekočine
+turbulentni
+sila upora
+kvadratni zakon upora
+koeficient upora
+gostota medija
+zastojnega tlaka
+upor
+relativne
+plavanju
+dlan
+plavalca
+linearna razsežnost telesa
+tok tekočine
+cev
+relativna
+gostota
+viskoznost
+reynoldsovo število
+turbulenten
+ravnovesna
+padalca
+viskoznost zraka
+gostota zraka
+številom
+vzgon
+tokovnic
+dinamičnega vzgona
+magnusov efekt
+projektila
+zrak
+obtekanje
+bernoullijevo enačbo
+tlak
+tlaku
+prečni smeri
+izpodrinjene tekočine
+vodo
+gravitacijski pospešek
+gravitacijskemu pospešku
+težišču
+globinah
+kinematiko kroženja
+radialni pospešek
+newtonovega zakona
+radialni smeri
+fcp
+centripetalni sili
+polmeru
+enakomernem
+inercialnem sistemu
+inercialni
+neinercialnem sistemu
+pospešenem sistemu
+notranjega opazovalca
+neinercialnega sistema
+sistemska
+r sila
+centrifugalna sila
+vsota sile
+centrifugalne sile
+neinercialnem
+pospešenem
+sistemska sila
+mase telesa
+pospeška sistema
+sistemu
+krožečem sistemu
+pospešek sistema
+centrifugalni
+pospešenim kroženjem
+radialnem pospešku
+pospešeno kroženje
+tangencialni
+pogoj
+produktu
+tangencialni smeri
+vozilo
+prečno
+in cestiščem
+gume
+smučar
+radius
+smučišču
+inercialnem
+sistemih
+centripetalna sila
+produktu mase
+odvod hitrosti
+času
+sunek sile
+začetnem času
+izrek
+gibalna
+sunek zunanjih sil
+sunku sile
+gibalne količine
+trkov teles
+trkom
+vr2
+newtonovem zakonu
+trku
+zunanji sili
+teže
+normale
+centrični
+gibalnih
+enačbi
+sunkov sil
+sunek
+zunanje sile
+letal
+relativno hitrost
+vrr
+trkov
+trka
+indeksa
+nadpisano
+trk
+prožnosti trka
+prožni
+plastični trk
+drsalca
+drsalko
+masama
+neprožni
+plastični
+drsalke
+m2v2
+pravila
+odboj
+žogo
+kompenzacije
+sila podlage
+kompenzacijo
+pozitivno
+masnih
+masnih točkah
+vr
+masne točke
+ar
+točkastih teles
+neskončne
+neskončno
+delec telesa
+masno točko
+notranjih
+drri
+rri
+i
+masa sistema
+težišče sistema
+rrt
+mase dm
+dvodimenzionalnem sistemu
+masami
+koordinatami
+koordinato
+točkasto telo
+na telo
+radialno
+vsoto
+ročica
+vektorsko
+velikost navora
+produkta
+produkt sile
+vmesnega kota
+navorom
+kotnim pospeškom
+mr2
+vztrajnostni moment
+kolenskega sklepa
+prečnih sil
+koleno
+stojno
+smučko
+vzdolžna sila
+prečna sila
+m1
+stojne
+smučke
+golen
+relativne spremembe
+vektorjev
+navori sistema
+notranjih sil
+točkasta telesa
+navorov dm
+nepremične
+nepremične osi
+delce
+togega telesa
+kotnega pospeška
+osišča vrtenja
+geometrijskih oblik
+vztrajnostnega tenzorja
+poljudno
+vztrajnostne momente
+telo simetrije
+vztrajnostnih momentov
+valj
+podlaket
+komolcu
+primikanju
+notranji
+rotaciji
+vztrajnostni momenti teles
+aditivni
+drsalka
+masni
+računanju
+kineziologiji
+koordinatnega sistema
+vztrajnostnega momenta
+težiščne točke
+metalec krogle
+rotacijski tehniki
+stalne osi
+vztrajnostni moment krogle
+kotni hitrosti
+sunkov navora
+vrtilne količine
+vrtilna količina
+gibalna količina
+premem gibanju
+količina
+ekscentrične sile
+vrtilna
+navori
+izreka
+prevrata
+mehansko
+odriv
+telovadec
+centričnem
+ekscentrično silo podlage
+rotacijo
+brezoporna
+upor zraka
+brezoporne
+t1
+sunek sile podlage
+navpični
+pritiskovne plošče
+vodoravni
+le sila podlage
+ekscentrična
+centrična
+sunek navora sile podlage
+vztrajnostni moment telesa
+sagitalno ravnino
+navpične hitrosti
+brezoporni fazi
+pristanka
+vztrajnostnim momentom
+prevrat
+valji
+glavni
+roki
+frekvenca kroženja ν
+antropometrijskih
+rt
+mr
+prečne
+valjev
+rokami
+steinerjev izrek
+prečne osi
+časovni
+integralom
+množenju
+mehansko delo
+planinec
+nahrbtnik
+višinsko
+planinca
+produkt sile teže
+višinske razlike
+pozitiven predznak
+kinetične energije
+potencialni energiji
+atleta
+najvišji točki
+višinska razlika
+kinogram
+le sila teže
+atletova
+kinetično
+radialnih sil
+masne
+rotirajočega telesa
+kinetična energija
+translatorno
+rotacijsko
+translacijsko energijo
+vzmet
+ksr
+poglavje
+konzervativne
+nekonzervativne
+nekozervativne
+nekozervativnih
+kinetične
+prožnostne energije telesa
+energij
+veletoč
+drogu
+veletoča
+silo upora zraka
+drogom
+rotacijske
+nekonzervativnih sil
+energiji
+postavljalci
+elastiko
+elastike
+elastika
+točkasto telo brez
+skakalec
+prožnostno
+prožnostna
+mehansko energijo
+raztezek
+analizi gibanja
+watt
+enotah
+joulov
+ωr
+in podlago
+kt
+s
+cu
+ravnovesno
+fizika
+toplotni pojavi
+neuromechanical
+kinesiology
+human kinetics
+biomechanics
+kinetics
+human
+kinezioloških znanosti
+biomehanskih konceptov
+znanj
+biomehanike športa
+avtor
+učbeniku
+mehanskih zakonitosti
+razlage
+učbenika
+opisom gibanja
+dinamiko
+dinamike
+bralce
+študenti
+razlag
+vrhunskih
+predgovoru
+študentom
+pomen
+opazovalec
+športu
+ved
+anatomija
+fiziologija
+kineziologiji športa
+biomehanske
+fizik
+raziskovalec
+tekmovalec
+demonstrator
+trener
+znanstveno
+vprašanja
+strokovni svetovalec
+predavatelj
+količinam
+premočrtnega
+hitrosti gibanja
+zakoni o gibanju
+trenju
+obtekanju tekočine
+tekst
+rotirajoče žoge
+magnusovega efekta
+doskok
+drsalni par
+trka teles
+vsebine
+razlagami
+ekscentričnega
+mehanskega dela
+prožnostne energije
+mehanske energije
+gradivo
+študente športa
+strokovnjake
+fizikalne
+ergonomije
+ortopedije
+kineziolog
+učbenike
+stroko
+strokami
+matematiko
+fiziko
+anihilacije
+viskoelastičnih materialov
+strojništvo
+tekmovalno
+docent
+biomehanika športa
+dodiplomskem
+raziskovalne metode
+doktorskem
+informacijske tehnologije
+znanje o športu
+demonstratorske vrste
+učiteljev
+raziskovalni
+predavanja
+strokovno
+tekmovalcev
+gibalnih sposobnosti
+modela
+medicino in šport
+zvd
+gasilcih
+gasilca
+poklicni
+tehniške
+polnoleten
+kazenskem
+psihofizičnih sposobnosti
+preizkus
+preizkusu
+psihofizičnim sposobnostim
+psihofizičnih
+urjenje
+kondicijsko pripravljenost
+zaščitne
+reševalne opreme
+splošnih
+gasilci
+normative
+specifičnih
+norme
+starostnim kategorijam
+gasilcev
+starostne kategorije
+grs
+norm
+starostno strukturo
+reševalni službi
+specifičnost delovnih
+gasilsko brigado
+bolniški dopust
+testiranja
+gasilsko opremo
+gasilske opreme
+periodična
+poklicne
+zaščitne opreme
+gasilski opremi
+starostne strukture
+starostne
+telesni
+analizi stanja
+baterijo
+gibalnih sposobnostih
+športnimi aktivnostmi
+vadbeno skupino
+model vadbe
+vrednotenje
+merskih
+povprečne
+atv
+att
+indeksa telesne mase
+voluminoznih
+indeks telesne mase
+tt
+gasilec
+indeksu telesne mase
+vzdržljivost
+hrbtne mišice
+nogami
+zgornjim
+skokov
+sprintov
+bremen
+upogibalk kolka
+mit
+izometrična
+drža
+odpovedi
+ledveni del hrbtenice
+izometrične moči hrbtnih mišic
+izometrična moč
+dinamometra
+izometrične moči rok
+mdr
+ramenskega obroča
+križno
+vzdržljivosti
+mdn
+bremenom
+kolenu
+hrbtnih
+stiska rok
+hrbtnih mišic
+izometrične jakosti roke
+miz
+starostni
+moči trebušnih mišic
+vzdržljivosti hrbtnih mišic
+izometrične jakosti
+in rok
+testu vzdržljivosti
+p
+agilnosti
+assb
+testiranje hitrosti
+fotocelic
+test hitrosti teka
+težka
+vt
+hitrosti prenašanja bremen
+fotocelicami
+testu hitrosti
+testiranje vzdržljivosti
+vft
+kisika
+vo2max
+intervalnega tipa
+sekvenco
+izčrpanosti
+tempo
+signal
+trening vzdržljivosti
+vodičar
+test vzdržljivosti
+gasilce
+krivulje
+norm za
+vzdržljivostnem teku
+gasilski
+starostni razred
+starostno kategorijo
+moči hrbtnih mišic
+reševalnih akcijah
+ugotovitve
+strokovna
+objektivnih norm
+starostnih kategorijah
+reševalne službe
+baterije

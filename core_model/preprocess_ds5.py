@@ -8,7 +8,7 @@ import pandas as pd
 from tqdm import tqdm
 
 class KeyTerm():
-    def __init__(self, data_dir = "/Users/andrazrepar/Koda/rsdo/DS5/terminology-extraction/DS5", language = 'sl', nlp = None,term = "linguistics", nes=False):
+    def __init__(self, data_dir = "/Users/andrazrepar/Koda/rsdo/DS5/terminology-hahn/DS5", language = 'sl', nlp = None,term = "linguistics", nes=False):
         data_file = os.path.join(data_dir, language, term, 'annotations')
         if nes:
             data_file = os.path.join(data_file, '{0}_{1}_terms_nes.ann'.format(term, language))
